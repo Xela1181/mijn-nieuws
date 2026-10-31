@@ -1,1 +1,1206 @@
-{"updated":null,"articles":[],"warning":"Nog geen nieuws geladen. Start de GitHub Actions-workflow 'Update Mijn Nieuws RSS' via Run workflow."}
+{
+  "updated": "2026-10-31T15:07:37.773825+00:00",
+  "articles": [
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Rotterdam bouwt brug van grote symbolische waarde voor kankerpatiënten",
+      "url": "https://nos.nl/l/2637453",
+      "summary": "Bij het Erasmus MC in Rotterdam is vandaag een nieuwe voetgangersbrug geplaatst. Het gaat om een markante brug van zo'n honderd meter lang, deels bekleed met hout, die vooral van grote symbolische waarde is. De brug verbindt het Familiehuis Daniel den Hoed rechtstreeks met de kankerafdeling van het Erasmus-ziekenhuis. Dat betekent dat kankerpatiënten en hun familie straks geen drukke verkeersweg meer hoeven over te s",
+      "published": "2026-10-31T15:01:51+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Mexico daagt Panamakanaal uit met spoorlijn over smalste stukje Mexico",
+      "url": "https://nos.nl/l/2637452",
+      "summary": "In Mexico is een nieuwe handelsroute over land bijna af. Een spoorlijn in het zuiden van het land moet als alternatief dienen voor het Panamakanaal, de populairste handelsroute door Latijns-Amerika. Als een enorme bruine slang staat een trein in het zuiden van Mexico langs een kade, terwijl een krachtige zeewind vanaf de Stille Oceaan onafgebroken tegen de coupés beukt. Op de achtergrond wordt een enorme hangar uit d",
+      "published": "2026-10-31T15:00:01+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?",
+      "url": "https://www.marketwatch.com/story/theres-a-lot-of-hurt-between-us-my-fathers-caregiver-is-using-his-debit-card-for-doordash-orders-what-can-i-do-714de7a5?mod=mw_rss_topstories",
+      "summary": "“I suspect the live-in caregiver is benefiting from my parent’s generosity.”",
+      "published": "2026-10-31T15:00:00+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "The S&P 500 isn’t the big winner you may think it is",
+      "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+      "summary": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”",
+      "published": "2026-10-31T14:54:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Evacuees from Russia-occupied city where residents ate weeds arrive in Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Residents left the devastated city on Friday following a ceasefire brokered by US First Lady Melania Trump.",
+      "published": "2026-10-31T14:53:34+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Tien aanhoudingen in Den Haag, maar geen grote demonstraties in de steden",
+      "url": "https://nos.nl/l/2637449",
+      "summary": "In Den Haag zijn zeker tien aanhoudingen verricht op en rond het Malieveld. De mensen zijn aangehouden omdat ze gezichtsbedekking droegen of in het bezit waren van illegaal vuurwerk, zegt een politiewoordvoerder. In de stad is veel politie op de been vanwege mogelijke jongerenprotesten. Op verschillende plekken worden mensen gefouilleerd en moeten ze een identiteitsbewijs tonen. Dat gebeurt onder meer op en rond het ",
+      "published": "2026-10-31T14:43:07+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Social Security’s fate — and your benefits — are in the hands of the candidates elected this year",
+      "url": "https://www.marketwatch.com/story/the-midterms-are-crucial-to-the-future-of-social-security-no-matter-how-old-you-are-0f080a9c?mod=mw_rss_topstories",
+      "summary": "The program is expected to run out of money in the next six years, which is the same amount of time as a senator’s term.",
+      "published": "2026-10-31T14:35:00+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Chelsea bezorgt dolend Manchester United volgende nederlaag, rood voor Martínez",
+      "url": "https://nos.nl/l/2637443",
+      "summary": "Chelsea heeft Manchester United een nieuwe tik bezorgd met een 2-0 zege. Voor de ploeg van trainer Michael Carrick is het de zevende competitiewedstrijd op rij die niet gewonnen wordt. Manchester United blijft op zeven punten staan en mogelijk komt de club dit weekend op een degradatieplek terecht. Alleen in de tweede speelronde werden drie punten gepakt, met een 5-2 zege op Ipswich Town. Chelsea komt door de overwin",
+      "published": "2026-10-31T14:30:14+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Ethiopian PM puts ministers through military training",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+      "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
+      "published": "2026-10-31T14:28:15+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "‘He was heartbroken’: My husband’s kids abandoned him when he was dying. Was he right to leave everything to me?",
+      "url": "https://www.marketwatch.com/story/he-was-heartbroken-my-husbands-kids-never-helped-when-he-was-gravely-ill-was-he-right-to-leave-everything-to-me-1ad0616b?mod=mw_rss_topstories",
+      "summary": "“In the end, he left them a few sentimental mementos, some collectibles and old photographs.”",
+      "published": "2026-10-31T14:26:00+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Groenewoud wint 3.000 meter vol goede tijden, Kok begint seizoen met snelste tijd 500 meter",
+      "url": "https://nos.nl/l/2637440",
+      "summary": "Marijke Groenewoud heeft de lakens uitgedeeld op de 3.000 meter van het kwalificatietoernooi van de wereldbeker. De 27-jarige Groenewoud was 1,81 seconden sneller dan Gioya Lancee, in een wedstrijd met veel snelle tijden. Merel Conijn werd derde. Voor Lancee is het haar tweede wereldbekerticket, na haar derde plek op de 1.500 meter vrijdagavond. Antoinette Rijpma-de Jong, gisteren vierde op de 1.500 meter, haalde het",
+      "published": "2026-10-31T14:11:16+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Your stock portfolio increasingly hinges on the bond market — and the midterm elections",
+      "url": "https://www.marketwatch.com/story/your-stock-portfolio-increasingly-hinges-on-the-bond-market-and-the-midterm-elections-dc1abadb?mod=mw_rss_topstories",
+      "summary": "Tech stocks in late October caught the cold that for months has been a drag on the corporate bond market.",
+      "published": "2026-10-31T14:03:00+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "I took two iPhones on vacation. The Duo won me over.",
+      "url": "https://techcrunch.com/2026/10/31/i-took-two-iphones-on-vacation-the-duo-won-me-over/",
+      "summary": "The iPhone Duo has its frustrations, but it’s also fun and engaging enough that I didn’t want to switch back to my Pro Max.",
+      "published": "2026-10-31T14:00:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Porno op gehackte reclameborden langs snelweg in Egypte",
+      "url": "https://nos.nl/l/2637435",
+      "summary": "Hackers hebben deze week pornografische beelden afgespeeld op digitale reclameborden langs een grote snelweg in de Egyptische stad Gizeh, een voorstad van Caïro. Inmiddels zijn de beelden offline gehaald. Op de billboards waren oorspronkelijk advertenties te zien voor een internationaal bedrijf, schrijft het Egyptische ministerie van Binnenlandse Zaken . De website van dat internationale bedrijf werd echter gehackt, ",
+      "published": "2026-10-31T13:17:51+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Google taught the world how to search. Now it faces a revolution it can’t afford to lose.",
+      "url": "https://www.marketwatch.com/story/google-taught-the-world-how-to-search-now-it-faces-a-revolution-it-cant-afford-to-lose-b7a01394?mod=mw_rss_topstories",
+      "summary": "Wall Street is grappling with a fundamental question: Are Google’s AI Overviews bound to save search — or ruin the whole business?",
+      "published": "2026-10-31T13:15:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Ongekende situatie Polen: president duwt zichzelf naar binnen bij Constitutioneel Hof",
+      "url": "https://nos.nl/l/2637433",
+      "summary": "De president van Polen is vannacht fysiek in aanraking gekomen met rechters van het Constitutioneel Hof. Die ongekende situatie deed zich voor toen president Nawrocki het gebouw van het hof probeerde binnen te komen. Hij werd tegengehouden door onder anderen rechters die onlangs zijn aangesteld door de regering. Uiteindelijk wist hij zichzelf naar binnen te forceren. Daarmee kwam een langlopend conflict over de aanst",
+      "published": "2026-10-31T13:02:30+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "The stock market’s front-runners stumbled in October. Here’s where the smart money is moving now.",
+      "url": "https://www.marketwatch.com/story/the-stock-markets-front-runners-stumbled-in-october-heres-where-the-smart-money-is-moving-now-f901472a?mod=mw_rss_topstories",
+      "summary": "U.S. stocks saw a stronger reversal in fortunes in October, as worries about dwindling free cash flows and rising borrowing costs threw a wrench into the works of the artificial-intelligence trade.",
+      "published": "2026-10-31T13:01:00+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "If you really want to help your adult kids and grandkids, give them money while you’re still alive",
+      "url": "https://www.marketwatch.com/story/if-you-really-want-to-help-your-adult-kids-and-grandkids-give-them-money-while-youre-still-alive-bef6b056?mod=mw_rss_topstories",
+      "summary": "How to manage “giving while living” without endangering your own retirement.",
+      "published": "2026-10-31T13:00:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Watch: Blood donors get a Halloween fright in Thailand",
+      "url": "https://www.bbc.co.uk/news/videos/cmze42el49d9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thai Red Cross workers dressed up as part of a Halloween-themed blood drive in the country's capital Bangkok.",
+      "published": "2026-10-31T12:50:45+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "This Halloween, are full-size candy bars a better deal than fun-sized ones?",
+      "url": "https://www.marketwatch.com/story/this-halloween-are-king-sized-candy-bars-a-better-deal-than-fun-sized-ones-992da0d9?mod=mw_rss_topstories",
+      "summary": "Several TikTokers influencers claim you can save money and be the coolest house on the block with bigger candy this year. Let’s see how that adds up.",
+      "published": "2026-10-31T12:37:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Regenverwachting deel Gelderland onzeker omdat er (misschien) vleermuizen zijn",
+      "url": "https://nos.nl/l/2637429",
+      "summary": "Even snel kijken op de app of het gaat regenen heeft in delen van Gelderland voorlopig weinig zin. De weersverwachting voor het gebied is hoogst onzeker omdat het signaal van de radar van het KNMI in de Betuwe wordt verstoord door een rij populieren. Het is voorlopig niet toegestaan om die bomen te snoeien of te kappen. Eerst moet worden onderzocht of er vleermuizen zitten, meldt Omroep Gelderland . In Nederland staa",
+      "published": "2026-10-31T12:35:00+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Nvidia’s Megaspeed ties show potential blind spots in the U.S. effort to block China from accessing advanced chips",
+      "url": "https://www.marketwatch.com/story/nvidias-megaspeed-ties-show-potential-blind-spots-in-the-u-s-effort-to-block-china-from-accessing-advanced-chips-e75d541a?mod=mw_rss_topstories",
+      "summary": "Nvidia CEO Jensen Huang’s business meetings are routine practice and existing U.S. export controls largely miss the cloud, experts say.",
+      "published": "2026-10-31T12:30:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "US approves sale of 500 Patriot missiles to Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The American-made interceptors are the only effective weapon for downing Russia's ballistic missiles.",
+      "published": "2026-10-31T12:21:25+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Lufthansa-bemanningslid overleden na electrocutie in zwembad India",
+      "url": "https://nos.nl/l/2637427",
+      "summary": "Een 57-jarig bemanningslid van de Duitse luchtvaartmaatschappij Lufthansa is gisteren overleden toen hij in een hotelzwembad in de Indiase stad Bengaluru werd geëlektrocuteerd. Ook een tweede persoon kwam daarbij om het leven. Rond 17.30 uur lokale tijd kwam het zwembad op de derde verdieping van het Conrad Hotel onder stroom te staan. Er wordt nog onderzocht hoe dat precies heeft kunnen gebeuren. Anonieme bronnen ze",
+      "published": "2026-10-31T11:47:15+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Verstandelijk beperkte man ontvoerd en mishandeld na afspraak op datingapp",
+      "url": "https://nos.nl/l/2637423",
+      "summary": "Een groepje twintigers wordt verdacht van het mishandelen en vernederen van ten minste twee mensen die zij benaderden via een datingapp. Een van de slachtoffers is ook ontvoerd. Dit slachtoffer is een 61-jarige man uit Schiedam. Hij werd vorige maand meegenomen uit zijn huis en een nacht vastgehouden in Amsterdam. Daar is hij ook mishandeld. Zijn haar en wenkbrauwen zijn deels afgeschoren. Zijn neef, die het woord do",
+      "published": "2026-10-31T11:00:20+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Politie veegt centrum Zoetermeer schoon, tien mensen opgepakt",
+      "url": "https://nos.nl/l/2637421",
+      "summary": "De politie heeft gisteravond ingegrepen bij vechtpartijen in het centrum van Zoetermeer. De ME veegde het gebied schoon. Tien mensen zijn opgepakt. Volgens Omroep West ontstond er onrust tijdens of na afloop van een Halloweenfeest in het Stadshart. Er waren verschillende vechtpartijen tussen groepen jongeren. Toen de politie wilde ingrijpen, werd vuurwerk naar agenten gegooid. Vervolgens sloegen tientallen jongeren o",
+      "published": "2026-10-31T10:53:34+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Geëvacueerde Oekraïners uit Olesjky via omweg weer terug in Oekraïne",
+      "url": "https://nos.nl/l/2637420",
+      "summary": "De mensen die uit de Zuid-Oekraïense stad Olesjky zijn geëvacueerd, zijn via een omweg weer aangekomen in Oekraïne. Dat meldt president Zelensky op sociale media. De inwoners van Olesjky zaten vast in hun stad. Die werd op de eerste dag van de Russische invasie in 2022 bezet en lag sindsdien zwaar onder vuur. Van de oorspronkelijk 20.000 inwoners waren er naar schatting nog 2000 in de stad. Wegkomen voor hen was nage",
+      "published": "2026-10-31T10:39:30+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "MotoGP-coureur Martín mist ook GP Maleisië: 'Wereldtitel is voor mij verloren'",
+      "url": "https://nos.nl/l/2637416",
+      "summary": "MotoGP-coureur Jorge Martín denkt dat zijn kans op de wereldtitel verkeken is. De Spanjaard heeft zich definitief teruggetrokken uit de Grote Prijs van Maleisië door een polsblessure. De wereldkampioen van 2024 liep vorige week in de sprintrace in Australië een gebroken pols op . Desondanks was hij vastberaden om mee te doen in Maleisië, maar in de trainingssessies bleek hij te veel pijn te hebben. Martín ging voor z",
+      "published": "2026-10-31T10:09:34+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Kabinet spreekt verder met oppositie, deadline nadert snel",
+      "url": "https://nos.nl/l/2637415",
+      "summary": "Het kabinet praat vandaag in het Catshuis verder met de oppositie over het belastingplan. Het is tot nu toe niet gelukt om daar voldoende steun voor te verwerven, terwijl de deadline met rasse schreden nadert. Er is vanochtend een intern overleg geweest tussen premier Jetten, de vicepremiers Yesilgöz en Van den Brink en minister Heinen en staatssecretaris Eerenberg van Financiën. Daarna komen de partijleiders Bikker ",
+      "published": "2026-10-31T09:51:17+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Seedorf pakt eerste zege met Corinthians en doet goede zaken in strijd tegen degradatie",
+      "url": "https://nos.nl/l/2637413",
+      "summary": "Clarence Seedorf heeft zijn eerste zege geboekt als trainer van de Braziliaanse club Corinthians. Zijn ploeg won thuis met 2-0 van directe degradatieconcurrent Mirassol. Door de overwinning in de eigen Neo Química Arena in São Paulo kwam er een einde aan een reeks van negen nederlagen en twee gelijke spelen. Vorige week verloor de Nederlander bij zijn debuut met 2-1 van Vasco da Gama . DIt keer ging het beter voor de",
+      "published": "2026-10-31T09:26:37+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Rubberboot met tientallen migranten van zee gehaald bij Breskens",
+      "url": "https://nos.nl/l/2637412",
+      "summary": "Hulpdiensten hebben vanochtend een rubberboot met 38 mensen van zee gehaald bij Breskens. De boot is naar een jachthaven in Cadzand gesleept, meldt Omroep Zeeland . In Cadzand bleek volgens de Koninklijke Marechaussee dat er 36 migranten aan boord waren en twee vermoedelijke mensensmokkelaars. Die laatste twee zijn opgepakt. De andere opvarenden worden opgevangen. \"Rond 06.00 uur kregen wij melding van een verdachte ",
+      "published": "2026-10-31T09:21:50+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "CCTV and zip ties: How US mail-in votes are secured and counted",
+      "url": "https://www.bbc.co.uk/news/videos/cw4g1vlj4v2jo?at_medium=RSS&at_campaign=rss",
+      "summary": "BBC Verify goes to an election centre to get a behind-the-scenes look at how mail-in ballots for the US midterm elections are processed.",
+      "published": "2026-10-31T09:16:14+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Impasse over VN-vredesmissie Westelijke Sahara: Rusland en VS vetoën elkaars voorstel",
+      "url": "https://nos.nl/l/2637410",
+      "summary": "Rusland en de Verenigde Staten hebben een veto uitgesproken over elkaars resolutie over de verlenging van de VN-vredesmissie in de Westelijke Sahara. Hiermee dreigt een einde te komen aan de aanwezigheid van VN-militairen en waarnemers in het gebied. Het mandaat voor de missie loopt officieel vandaag af. Normaal gesproken werd de missie sinds 1991 vrij routinematig verlengd, maar dit keer verliep de stemming in de VN",
+      "published": "2026-10-31T08:52:10+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Frankrijk zet zich schrap voor 'Halloween'-protesten",
+      "url": "https://nos.nl/l/2637409",
+      "summary": "In Frankrijk zetten de aanhoudende protesten de toch al diepe kloof tussen radicaal-links en radicaal-rechts verder op scherp. Terwijl het land zich vandaag opmaakt voor het derde grote protestweekend op rij, verandert de dynamiek van de demonstraties. Naast de onvrede over het onderwijs en de stijgende levenskosten is er voor een deel van de demonstranten een nieuwe aanleiding om de straat op te gaan: verzet tegen r",
+      "published": "2026-10-31T08:12:07+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Hebron al ruim een week grotendeels afgesloten, duizenden Palestijnen verdreven",
+      "url": "https://nos.nl/l/2637408",
+      "summary": "De stad Hebron op de bezette Westelijke Jordaanoever is al ruim een week grotendeels afgesloten door het Israëlische leger. Duizenden Palestijnen zijn verdreven en het leger sloopt er woningen. Het is een reactie op de schietpartij bij een checkpoint in de buurt van de stad waarbij vorige week twee Israëlische militairen werden gedood. \"Sommige inwoners verblijven bij vrienden of familie, anderen zijn dakloos geworde",
+      "published": "2026-10-31T07:25:13+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "NOS Tech",
+      "title": "Ongeneeslijk zieke hoogleraar Jan Rotmans laat 'AI-tweeling' van zichzelf maken",
+      "url": "https://nos.nl/l/2637407",
+      "summary": "Lezingen geven en vragen beantwoorden, ook als hij er zelf niet meer is. Dat moet een digitale versie van hoogleraar Jan Rotmans (65) straks kunnen. De ongeneeslijk zieke wetenschapper laat met kunstmatige intelligentie zijn \"digitale tweeling\" bouwen. Op die manier moet zijn kennis over maatschappelijke veranderingen worden doorgegeven aan toekomstige generaties. Kritiek is er echter ook. Rotmans zegt de eerste Nede",
+      "published": "2026-10-31T06:52:25+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Wekdienst 31/10: Anti-regeringsdemonstraties in meerdere landen • Vijf Eredivisieduels, waaronder Ajax-AZ",
+      "url": "https://nos.nl/l/2637405",
+      "summary": "Goedemorgen! In meerdere landen wordt vandaag weer gedemonstreerd tegen het beleid van de landelijke regering. Ook in Nederland is daartoe opgeroepen op sociale media. Verder wordt vandaag gevoetbald: in de Eredivisie staan vijf wedstrijden op het programma. Koploper Feyenoord speelt tegen Fortuna Sittard en de nummer 2 Ajax ontvangt nummer 5 AZ. Eerst het weer: bewolkt en wat mist. In het zuiden vanmiddag af en toe ",
+      "published": "2026-10-31T06:10:13+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Podcast De Dag: tonnen subsidie voor film die niet op het witte doek kwam",
+      "url": "https://nos.nl/l/2637403",
+      "summary": "Een sterrencast met Oscarwinnaars Dustin Hoffman en Helen Hunt, prachtige beelden in palazzo's in het Italiaanse stadje Lucca en dat allemaal onder leiding van de gewaardeerde en bekende regisseur Peter Greenaway; de film Lucca Mortis heeft het allemaal. Het Nederlands Filmfonds steekt er ruim vijf ton subsidie in, om Nederlandse makers die bij de film betrokken zijn te helpen. Luister hier: Deze aflevering van De Da",
+      "published": "2026-10-31T06:00:02+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Spain train disaster clouds Sánchez chances of re-election",
+      "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Spanish PM is hit by a succession of crises just weeks before a snap general election.",
+      "published": "2026-10-31T05:44:21+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Britse premier wil excuses slavernij bespreken, maar sluit herstelbetalingen uit",
+      "url": "https://nos.nl/l/2637402",
+      "summary": "De Britse premier Burnham staat open voor een gesprek over excuses voor het slavernijverleden, maar herstelbetalingen ziet hij niet zitten. Dat schrijft hij in een opinieartikel in The Guardian. Het onderwerp staat weer prominent op de agenda tijdens de huidige rondreis van koning Charles door de Cariben. Labour-premier Burnham schrijft dat \"er al jaren wordt gevraagd om een oprecht gesprek over de erfenis van slaver",
+      "published": "2026-10-31T05:34:53+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Amrabat hoopt 'grote broer' te zijn voor ploeggenoten bij Ajax: 'Ik wil kampioen worden'",
+      "url": "https://nos.nl/l/2637400",
+      "summary": "Sofyan Amrabat draait er niet omheen. De Marokkaans international is met maar één doel naar Amsterdam gekomen: met Ajax kampioen worden. Tijdens een gesprek in aanloop naar de belangrijke wedstrijd tegen AZ (vanavond om 21.00 uur) herhaalt hij die woorden vier à vijf keer. Ajax moet weer om de titel strijden. De 30-jarige middenvelder is na acht jaar terug in de eredivisie. Ja, als speler van FC Utrecht en Feyenoord ",
+      "published": "2026-10-31T05:00:02+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Antonelli volgt na 73 jaar Ascari op, de Italiaan om wie een miljoen mensen rouwden",
+      "url": "https://nos.nl/l/2637399",
+      "summary": "Weinig landen hebben zo'n rijke geschiedenis in de autosport als Italië. Wat dat betreft, is het opmerkelijk dat Kimi Antonelli - als hij zondag in Mexico de Formule 1-titel grijpt - pas de derde Italiaanse kampioen wordt in de koningsklasse van de autosport. Alleen Nino Farina (1950) en Alberto Ascari (1952 en 1953) gingen hem voor. Ascari was erbij toen de Formule 1 werd opgericht in 1950 en met de nationale trots ",
+      "published": "2026-10-31T05:00:02+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Suited and booted: How Joseph Kabila went from president to rebel leader",
+      "url": "https://www.bbc.co.uk/news/articles/cr3wv311dwnlo?at_medium=RSS&at_campaign=rss",
+      "summary": "What does Joseph Kabila launching a new rebel movement mean for DR Congo?",
+      "published": "2026-10-31T04:32:07+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Pile-ins, payouts, and pacing pressure: the investors behind the VCs open up",
+      "url": "https://techcrunch.com/2026/10/30/pile-ins-payouts-and-pacing-pressure-the-investors-behind-the-vcs-open-up/",
+      "summary": "The money behind the money is thrilled, mostly.",
+      "published": "2026-10-31T04:16:50+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "The fight to save Canadian town threatened by Trump's tariffs",
+      "url": "https://www.bbc.co.uk/news/articles/cmly016ep243o?at_medium=RSS&at_campaign=rss",
+      "summary": "A century-old paper mill in Témiscaming, Quebec is indefinitely closed after the US imposed 50% tariffs on its products, putting hundreds out of work.",
+      "published": "2026-10-31T02:39:25+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+      "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+      "summary": "If the accusations are true, the record-making heist shows how powerful suspected North Korean hackers have become.",
+      "published": "2026-10-31T02:12:19+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Dodental ebola in Congo opgelopen tot boven de 5000",
+      "url": "https://nos.nl/l/2637398",
+      "summary": "De ebola-uitbraak in Congo heeft inmiddels aan 5000 mensen het leven gekost, melden gezondheidsdiensten in het land. Eerder deze week werd al gemeld dat de ziekte bij ruim 10.000 mensen officieel is vastgesteld. De uitbraak, die in mei voor het eerst werd opgemerkt, is de op een na dodelijkste uitbraak van het virus ooit. Alleen in Guinea, Liberia en Sierra Leona kwamen tussen 2014 en 2016 meer mensen om, zo'n 11.000",
+      "published": "2026-10-31T02:09:02+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "The Indian chef who brought curry to America - then vanished",
+      "url": "https://www.bbc.co.uk/news/articles/crm941n0413o?at_medium=RSS&at_campaign=rss",
+      "summary": "Indian chef Ranji Smile opened America’s first Indian restaurant in 1901 - then became a fake prince.",
+      "published": "2026-10-31T02:02:16+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Responsible or panicked? Meet the people around the world already preparing for crisis",
+      "url": "https://www.bbc.co.uk/news/articles/ckreypn92w49o?at_medium=RSS&at_campaign=rss",
+      "summary": "Filter straws to a disposable toilet - people in the US, Japan, Sweden and Netherlands on what's in their emergency stashes.",
+      "published": "2026-10-31T01:32:33+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Global nature talks reach deal but money remains an issue",
+      "url": "https://www.bbc.co.uk/news/articles/cw1l32qyj8pqo?at_medium=RSS&at_campaign=rss",
+      "summary": "Countries have been trying to get a global agreement to halt nature decline back on track.",
+      "published": "2026-10-31T01:27:05+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "published": "2026-10-31T01:20:05+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Police deployed during stand-off over control of top Poland court",
+      "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+      "summary": "The escalation came after the government suspended two senior justices and moved to bring criminal charges against them.",
+      "published": "2026-10-31T01:11:43+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "'The necktie is dead': How US midterm candidates are dressing for votes",
+      "url": "https://www.bbc.co.uk/news/articles/ckq6nz4286r4o?at_medium=RSS&at_campaign=rss",
+      "summary": "From Alaska to Texas, candidates with an eye on Congress are using their personal style to stand out.",
+      "published": "2026-10-31T00:16:03+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "NOS Tech",
+      "title": "Call of Duty verwijdert echte beelden van Koreaanse ramp uit game",
+      "url": "https://nos.nl/l/2637395",
+      "summary": "Gamemaker Activision haalt beelden van een Koreaanse ramp uit het spel Call of Duty . Nabestaanden waren geschokt dat er voor het spel echte beelden van een dodelijke verdrukking waren gebruikt. Het ging om korte fragmenten over een incident in 2022 in de wijk Itaewon van Seoul. Daar werden toen 160 personen doodgedrukt in een mensenmassa tijdens een halloweenfeest. Na de lange coronalockdowns waren feestvierders daa",
+      "published": "2026-10-30T23:29:44+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "He questioned Thailand's monarchy dressed as Harry Potter. Now he's in jail for 34 years",
+      "url": "https://www.bbc.co.uk/news/articles/cmjwepvd0qq9o?at_medium=RSS&at_campaign=rss",
+      "summary": "Thailand has prosecuted 294 people since 2020 under its lèse majesté law, with sentences going up to 50 years.",
+      "published": "2026-10-30T23:26:16+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Salesforce’s M&A spree continues with a reported $375M deal for defense tech startup Rune",
+      "url": "https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune/",
+      "summary": "The AI logistics startup will bolster the CRM giant's Missionforce defense platform.",
+      "published": "2026-10-30T23:21:23+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "How has the ceasefire in Russian-occupied Oleshky been unfolding?",
+      "url": "https://www.bbc.co.uk/news/videos/cmp3gp2vg078o?at_medium=RSS&at_campaign=rss",
+      "summary": "Ukraine correspondent Dan Johnson explains the temporary ceasefire in the devastated town of Oleshky.",
+      "published": "2026-10-30T23:19:17+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Verstappen en Lawson krijgen gridstraf na botsing in vrije training Mexico",
+      "url": "https://nos.nl/l/2637394",
+      "summary": "Max Verstappen heeft een gridstraf van één plaats gekregen voor de Formule 1 Grand Prix van Mexico na een botsing met Liam Lawson in de tweede vrije training. De Nieuw-Zeelander kreeg dezelfde straf. De twee gingen samen door de bochten in het roemruchte stadiongedeelte van het circuit, maar gaven elkaar daarbij weinig ruimte en raakten elkaar. Verstappen liep daarbij de meeste schade op. Akkefietje De Nederlander, d",
+      "published": "2026-10-30T23:08:19+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+      "published": "2026-10-30T22:56:13+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+      "published": "2026-10-30T22:11:52+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "summary": "Intel is being hurt by PC sales as the AI industry gobbles memory and other components causing PC prices to rise.",
+      "published": "2026-10-30T21:54:34+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+      "published": "2026-10-30T21:52:03+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Applebee’s exposed customers’ personal data after leaving database password in app",
+      "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "summary": "EXCLUSIVE: A security researcher discovered the hardcoded credential in Applebee's app, allowing unrestricted access to customers' personal data.",
+      "published": "2026-10-30T21:48:53+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Almere City en Roda JC handhaven zich in top, foutloze thuisreeks Volendam doorbroken",
+      "url": "https://nos.nl/l/2637379",
+      "summary": "Almere City heeft de bekerzege op Telstar afgelopen dinsdag een vervolg gegeven met een zwaarbevochten zege in Waalwijk op RKC. De club van de Afghaanse trainer Anoush Dastgir won met 2-1 en stijgt naar plek vier in de eerste divisie. Ook Roda JC blijft goed meedoen in de strijd om promotie. De Zuid-Limburgers waren met 2-1 te sterk voor Jong AZ en zijn nu vijfde, met evenveel punten als nummer twee VVV-Venlo. Hamza ",
+      "published": "2026-10-30T21:40:39+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "summary": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
+      "published": "2026-10-30T21:26:59+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+      "published": "2026-10-30T21:17:40+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+      "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+      "summary": "The cyber-attack, which the company describes as complex, is believed to be the largest ever of its kind.",
+      "published": "2026-10-30T21:13:14+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "They strangled us, says founder of Russian newspaper shut under pressure from authorities",
+      "url": "https://www.bbc.co.uk/news/articles/cmewepdr109do?at_medium=RSS&at_campaign=rss",
+      "summary": "Novaya Gazeta has been one of the most high-profile independent news outlets in Russia over the last three decades.",
+      "published": "2026-10-30T20:41:51+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Beune terug aan kop op 1.500 meter, ook olympisch kampioen Rijpma-de Jong naar wereldbeker",
+      "url": "https://nos.nl/l/2637370",
+      "summary": "Joy Beune heeft de orde hersteld op de 1.500 meter op het wereldbekerkwalificatietoernooi in Heerenveen. De 27-jarige Beune was met 1.53,75 meer dan een seconde sneller dan nummer twee Marijke Groenewoud (1.54,88). Beune werd in 2025 wereldkampioen op de 1.500 meter, maar miste haar lievelingsafstand op de Spelen na een mislukte rit op het olympisch kwalificatietoernooi. Regerend olympisch kampioen Antoinette Rijpma-",
+      "published": "2026-10-30T20:37:51+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+      "published": "2026-10-30T20:34:46+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "AI law firm Crosby bids on disintegrating, famed firm Weil Gotshal",
+      "url": "https://techcrunch.com/2026/10/30/ai-law-firm-crosby-bids-on-disintegrating-famed-firm-weil-gotshal/",
+      "summary": "Like a real-life episode of \"Suits,\" the demise of famed white-shoe Wall Street law firm Weil, Gotshal & Manges has been the talk of the legal industry. And now an AI firm has entered the picture.",
+      "published": "2026-10-30T19:55:13+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Krommenhoek verrast toppers op 5.000m, De Boo slaat tweede 500m over na solide seizoensstart",
+      "url": "https://nos.nl/l/2637353",
+      "summary": "Jasper Krommenhoek heeft de toon gezet op de eerste 5.000 meter van het nieuwe schaatsseizoen. Met 6.10,83 was hij 0,27 seconden sneller dan Marcel Bosker op de openingsafstand van het WCKT. Ook Wisse Slendebroek (derde) en Sil van der Veen (vijfde) zijn nieuwe namen op het wereldbekercircuit. Grote namen als Stijn van de Bunt (zesde), Beau Snellink (achtste) en Chris Huizinga (dertiende) grepen naast een plekje op d",
+      "published": "2026-10-30T18:42:28+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Dubbel goud, zilver en brons voor Oranje bij paralympisch WK baanwielrennen",
+      "url": "https://nos.nl/l/2637350",
+      "summary": "Parawielrenster Aniek van den Aarssen is bij de WK in Apeldoorn wereldkampioen geworden op de kilometer tijdrit (C3). De 29-jarige Dreumelse was nu een fractie sneller dan de Canadese Melissa Pemble en landgenote Anne Martha Blok. Hidde Buur prolongeerde later op de avond zijn wereldtitel op de sprint (C2). Hij versloeg de Australiër Gordon Allan en de Zwitser Quirin Lutz in de finale. Tristan Bangma en piloot Patric",
+      "published": "2026-10-30T18:17:50+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Satlyt takes another step toward turning satellites into space data centers",
+      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
+      "summary": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
+      "published": "2026-10-30T18:01:24+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "City of London chief tops UK Black Powerlist",
+      "url": "https://www.bbc.co.uk/news/articles/c98rz4pxm4ymo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ian Thomas, who heads the City of London Corporation, tops the Black Powerlist in its 21st year.",
+      "published": "2026-10-30T18:00:24+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+      "published": "2026-10-30T17:47:12+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+      "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+      "summary": "It is Pike's first public statement since she survived an execution attempt by lethal injection in September.",
+      "published": "2026-10-30T17:07:19+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage",
+      "url": "https://www.bbc.co.uk/news/articles/cwdd8q8e9e9yo?at_medium=RSS&at_campaign=rss",
+      "summary": "A 55-year-old dog rescue programme that has found missing hikers and children in the Canadian wilderness was axed as part of government budget cuts.",
+      "published": "2026-10-30T17:00:32+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "summary": "The first TPU in space is running a Google DeepMind Gemma 4 model and writing cheesy poetry.",
+      "published": "2026-10-30T17:00:00+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Loting KNVB-beker: AZ en Feyenoord op bezoek bij amateurclubs, thuisduels voor Ajax en PSV",
+      "url": "https://nos.nl/l/2637337",
+      "summary": "Bekerhouder AZ speelt in de tweede ronde van de KNVB-beker een uitwedstrijd tegen de amateurs van HSV Hoek. Ook eredivisiekoploper Feyenoord moet op bezoek bij een club uit de tweede divisie: GVVV in Veenendaal. Ajax en PSV hebben thuiswedstrijden tegen clubs uit de eerste divisie geloot. Ajax speelt in eigen stadion tegen FC Den Bosch, PSV ontvangt Vitesse. De wedstrijden worden gespeeld op dinsdag 1, woensdag 2 en ",
+      "published": "2026-10-30T16:48:30+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Wat leren we van de grootste cryptoroof ooit? 'Hou je mond over wat je bezit'",
+      "url": "https://nos.nl/l/2637333",
+      "summary": "Een paar transacties van in totaal zo'n 18.000 bitcoin, van het grootste cryptoplatform ter wereld, Binance, naar een anonieme digitale portemonnee die pas bestond. Op ongeveer hetzelfde moment verdwijnen er ook miljarden dollars aan andere cryptovaluta. Meer is er momenteel niet te zien van wat de grootste cryptoroof ooit is. Als het inderdaad om een bedrag van zo'n 6 miljard dollar gaat, is het überhaupt de grootst",
+      "published": "2026-10-30T16:32:57+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Van Barneveld zit op WK-wip: 'Als ik het haal geef ik mezelf een schouderklopje'",
+      "url": "https://nos.nl/l/2637329",
+      "summary": "Raymond van Barneveld is allerminst zeker van deelname aan zijn 34ste WK darts. Als de vijfvoudig wereldkampioen bij de komende twee toernooien nog een plekje zakt op de ranglijst van de Pro Tour, is hij zijn rechtstreekse ticket voor Ally Pally kwijt. Hij móet dus presteren volgende week in Leicester. \"Dat gaat me lukken\", verzekert Van Barneveld, die naar eigen zeggen stressvolle dagen tegemoet gaat. \"Ik ben nog no",
+      "published": "2026-10-30T16:19:55+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "De Jong over Oranje-periode Xavi: 'Iets heel herkenbaars opbouwen, dan prijs winnen'",
+      "url": "https://nos.nl/l/2637328",
+      "summary": "Frenkie de Jong voelt zich sinds een week weer echt voetballer. Hij maakte afgelopen zondag na een periode van blessureleed zijn rentree voor FC Barcelona tegen Real Madrid en hij werkt nu toe naar zijn 300ste wedstrijd voor de Catalanen en zijn eerste interlandperiode onder de nieuwe Oranje-bondscoach Xavi. De Jong kwam er als een van de eersten achter dat Xavi, met wie hij twee jaar samenwerkte bij Barça, weleens z",
+      "published": "2026-10-30T16:14:15+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Yorkshire Water boss resigns after firm downgraded",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd623pldqgo?at_medium=RSS&at_campaign=rss",
+      "summary": "Nicola Shaw, who has led the company since 2022, will step down in January, it is announced.",
+      "published": "2026-10-30T16:04:55+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "published": "2026-10-30T16:03:45+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Rusland mag niet worden uitgesloten van WK ijshockey, onvrede bij gastland Duitsland",
+      "url": "https://nos.nl/l/2637323",
+      "summary": "Russische ijshockeyteams mogen niet langer worden uitgesloten van de internationale toernooien. Dat heeft het internationaal sporttribunaal CAS bepaald. De Russen waren sinds het begin van de oorlog met Oekraïne in 2022 niet meer welkom. Het is een grote stap in de terugkeer van Rusland in de mondiale sportwereld. IJshockey is een van de populairste sporten in Rusland en wordt gezien als een nationale trots. Het Russ",
+      "published": "2026-10-30T15:31:15+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Ajax wil slechte reeks doorbreken tegen AZ, dat van een herfstdip niets wil weten",
+      "url": "https://nos.nl/l/2637322",
+      "summary": "Ajax ontvangt dit weekend 'angstgegner' AZ in de eredivisie. De Amsterdammers wisten elf wedstrijden op rij niet te winnen van AZ, de laatste zege was in 2022 in het bekertoernooi. Toch maakt Ajax-trainer Míchel Sánchez zich geen zorgen. \"AZ is een club die ontzettend goed werk levert\", zegt de trainer die vrijdag zijn 51ste verjaardag vierde. \"En een goede jeugdopleiding heeft, met veel continuïteit in de manier van",
+      "published": "2026-10-30T15:26:28+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Spain transport minister says he won't resign over high-speed rail disaster",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxj2e5qlxxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Óscar Puente has been facing calls to resign after two high-speed trains collided earlier in the week, killing at least 69 people.",
+      "published": "2026-10-30T15:03:39+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
+      "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
+      "published": "2026-10-30T14:48:22+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "North Korean hackers blamed for stealing record $6.3B in Binance breach",
+      "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach/",
+      "summary": "Hackers working for North Korea are suspected of hacking a Binance employee's laptop, which allowed the theft of billions in crypto.",
+      "published": "2026-10-30T14:00:25+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Skip the small talk: Make game-changing connections at TechCrunch Founder Summit with Braindate",
+      "url": "https://techcrunch.com/2026/10/30/skip-the-small-talk-make-game-changing-connections-at-techcrunch-founder-summit-with-braindate/",
+      "summary": "At TechCrunch Founder Summit 2026, happening November 4 at SoWa Power Station in Boston, networking powered by Braindate is designed to make those conversations easier to find, whether they are in 1:1 or small-group on-site meetings. Register before the event starts to save up to $100 on your pass, plus get a second for free.",
+      "published": "2026-10-30T14:00:00+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "summary": "DoorDash said that it is open to working with third-party agent makers.",
+      "published": "2026-10-30T13:54:25+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out/",
+      "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "published": "2026-10-30T13:00:00+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "5 days left: Your last chance to connect, scale, and save at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/30/5-days-left-your-last-chance-to-connect-scale-and-save-at-techcrunch-founder-summit-2026/",
+      "summary": "5 days to save up to $100, plus a second pass for free to TechCrunch Founder Summit 2026 in Boston on November 4. Register now.",
+      "published": "2026-10-30T13:00:00+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Judoka's De Voogd en Van Dijke snel klaar bij grandslamtoernooi in Abu Dhabi",
+      "url": "https://nos.nl/l/2637300",
+      "summary": "De Nederlandse judoka's hebben op de tweede dag van het grandslamtoernooi in Abu Dhabi geen indruk kunnen maken. Voor Margit de Voogd en Sanne van Dijke was het toernooi in de klasse tot 70 kilogram al na één partij voorbij. De Voogd won in 2024 nog goud in Abu Dhabi en pakte in 2025 brons, maar was nu kansloos tegen Serafima Moscalu. De Roemeense kreeg een yuko, waza-ari en ippon op het scorebord. Van Dijke, in 2019",
+      "published": "2026-10-30T12:48:21+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "What we know about Binance's $6.3bn hack",
+      "url": "https://www.bbc.co.uk/news/videos/cv2d62e34rw5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Cyber correspondent Joe Tidy explains more about what is suspected to be the biggest hack in history.",
+      "published": "2026-10-30T12:27:28+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+      "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
+      "published": "2026-10-30T12:04:02+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Jonge talenten haken aan bij 'beste shorttrackers ter wereld': 'Verrast dat ik meekom'",
+      "url": "https://nos.nl/l/2637296",
+      "summary": "\"Dit is de beste shorttrackploeg ter wereld.\" De 17-jarige Jesper Schmitz kijkt zijn ogen uit nu hij zijn rondjes rijdt bij de nationale selectie. En ook de 21-jarige Kiek Straathof doet bij de wereldbekerwedstrijden dit weekend in Vancouver en Montreal mee. Voor deze twee talenten is de 'stage' die ze bij de toppers krijgen de beste leerschool die ze konden wensen. \"Het is hartstikke lekker om achter al die olympisc",
+      "published": "2026-10-30T11:57:37+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Who could be behind the Binance hack and what we know so far",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yn8eqg3npo?at_medium=RSS&at_campaign=rss",
+      "summary": "Binance has been hit by what could be the biggest crypto hack ever - here's what we know so far",
+      "published": "2026-10-30T11:57:33+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "From Bitcoin to Binance: Crypto terms and what they mean",
+      "url": "https://www.bbc.co.uk/news/articles/cy5w2k5k5ylo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Binance hack has thrust cryptocurrencies back into headlines - but what are they and how do they work?",
+      "published": "2026-10-30T11:35:51+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Streeting denies 'kicking can down the road' in defence spending row",
+      "url": "https://www.bbc.co.uk/news/articles/cw62yrzxjnk4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The government is under pressure to set out a path to greater defence spending, as ministers unveil plans to boost UK firms.",
+      "published": "2026-10-30T11:23:38+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Vaessen vier interlands geschorst voor aandeel in opstootje bij racisme-rel",
+      "url": "https://nos.nl/l/2637287",
+      "summary": "Doelman Etienne Vaessen moet de komende vier interlands van Suriname missen. De keeper van FC Groningen is door de tuchtcommissie van de CONCACAF, de Noord- en Midden-Amerikaanse voetbalbond, geschorst vanwege zijn betrokkenheid bij gevechten na Guatemala-Suriname. Na afloop van de Nations League-wedstrijd sloeg de vlam in de pan, nadat Surinaamse spelers tijdens het duel waren geconfronteerd met racistische spreekor",
+      "published": "2026-10-30T10:48:30+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Na Shell boekt ook oliemaatschappij BP een megawinst",
+      "url": "https://nos.nl/l/2637285",
+      "summary": "De Britse olie- en gasmaatschappij BP heeft afgelopen kwartaal 8,5 miljard dollar winst gemaakt. Dat is de hoogste winst in achttien jaar en bijna vier keer zo veel als een jaar eerder. BP profiteert van de hoge energieprijzen sinds de start van de oorlog in het Midden-Oosten. BP verdient ook veel meer aan het raffineren van ruwe olie tot benzine, diesel en kerosine. Door de oorlog die de VS en Israël eind februari s",
+      "published": "2026-10-30T10:34:22+00:00"
+    },
+    {
+      "category": "Sport",
+      "source": "NOS Sport",
+      "title": "Nieuwkomer Lendeborg zet NBA op zijn kop door superster Doncic te tarten: 'Hij is Jordan niet'",
+      "url": "https://nos.nl/l/2637284",
+      "summary": "Het nieuwe NBA-seizoen is pas een dikke week bezig, maar de competitie staat nu al op zijn kop. Dat komt door nieuwkomer Yaxel Lendeborg van Golden State Warriors, die het heeft gewaagd Luka Doncic, superster van Los Angeles Lakers en zesvoudig All Star, te tarten. Komende nacht spelen beiden voor de tweede keer tegen elkaar. \"Ik heb alle respect voor hem verloren, man.\" Met dat ene zinnetje heeft de 24-jarige Amerik",
+      "published": "2026-10-30T10:32:51+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "What's at stake for Trump in the US midterms?",
+      "url": "https://www.bbc.co.uk/news/videos/cq77pm2jmmd5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Anthony Zurcher explains how the results of the midterm elections could reshape the rest of Trump's presidency.",
+      "published": "2026-10-30T10:19:48+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+      "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+      "summary": "Two analytics firms have attributed the incident to a North Korean hacking unit called TraderTraitor.",
+      "published": "2026-10-30T09:33:51+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Nederlandse economie blijft doorgroeien ondanks onrust in de wereld",
+      "url": "https://nos.nl/l/2637268",
+      "summary": "De Nederlandse economie blijft het goed doen. In de afgelopen drie maanden groeide de economie met 0,6 procent. Dat is wel iets minder dan het kwartaal ervoor, berekende het Centraal Bureau voor de Statistiek (CBS). Vergeleken met een jaar ervoor groeide de economie met 2,1 procent. \"Dat de economie twee kwartalen lang al harder groeit dan 0,5 procent, betekent dat de Nederlandse economie er best goed voorstaat\", zeg",
+      "published": "2026-10-30T08:30:43+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "How video game remakes tap the power of nostalgia",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qz428nnljo?at_medium=RSS&at_campaign=rss",
+      "summary": "Video games are good at triggering nostalgia, a key reason why classic games keep getting remade.",
+      "published": "2026-10-30T07:45:00+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "How Poundland grew from a market stall to a high street giant",
+      "url": "https://www.bbc.co.uk/news/articles/cw07304l5je7o?at_medium=RSS&at_campaign=rss",
+      "summary": "The retail giant - which started life at a Wolverhampton market - is now at threat of collapse.",
+      "published": "2026-10-30T06:08:22+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "NOS Tech",
+      "title": "Techbedrijven VS zoeken geld in Europa, risico voor Europese bedrijven",
+      "url": "https://nos.nl/l/2637253",
+      "summary": "Uit kwartaalcijfers van Amerikaanse techbedrijven deze week blijkt dat ze nog meer geld nodig hebben voor de ontwikkeling van kunstmatige intelligentie (AI). Steeds vaker halen ze dat geld op door leningen uit te geven, eerst in dollars maar nu ook in euro's. Dat brengt ook een risico voor Europese bedrijven met zich mee. Vooral het bouwen van datacenters kost veel geld. Voorheen gebruikten deze hyperscalers , zoals ",
+      "published": "2026-10-30T06:04:41+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Democrats have an identity crisis - it won't be an easy fix",
+      "url": "https://www.bbc.co.uk/news/articles/cknv08980d3vo?at_medium=RSS&at_campaign=rss",
+      "summary": "Whatever the result of the midterm elections, the party is facing tough questions over what they stand for and who should represent them.",
+      "published": "2026-10-30T02:14:41+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Cryptoplatform Binance gehackt, mogelijk miljarden gestolen",
+      "url": "https://nos.nl/l/2637242",
+      "summary": "Binance, het grootste cryptoplatform ter wereld, is het slachtoffer geworden van een hack. Volgens het bedrijf is er naar schatting voor 6,3 miljard dollar aan cryptomunten geraakt door de aanval, omgerekend ruim 5,6 miljard euro. Het bedrijf zegt dat zo'n 3 miljard dollar aan bezittingen is teruggevonden en bevroren. Zo kunnen die niet in verkeerde handen vallen. Wat er met de overige ruim 3 miljard is gebeurd, zegt",
+      "published": "2026-10-30T01:56:00+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Watch: Why Australia's mushroom murderer may now die in prison",
+      "url": "https://www.bbc.co.uk/news/videos/cmlykpd9kpy7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Judges agreed with the prosecution’s appeal that Erin Patterson’s initial non-parole period of 33 years was insufficient.",
+      "published": "2026-10-30T01:38:54+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Mushroom murderer fails to overturn convictions in Australian court challenge",
+      "url": "https://www.bbc.co.uk/news/articles/ck8dz8j5n993o?at_medium=RSS&at_campaign=rss",
+      "summary": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all.",
+      "published": "2026-10-30T01:35:40+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Many Cubans voted for Trump - now they're turning on Republican immigration policies",
+      "url": "https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss",
+      "summary": "President Trump's fellow Republicans might feel the brunt of frustration among Cubans at the ballot box, writes the BBC's Will Grant.",
+      "published": "2026-10-30T00:43:04+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "From Levi's to Primark - the fashion chains selling mended clothes",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy9qe5r1z3o?at_medium=RSS&at_campaign=rss",
+      "summary": "A new generation is embracing eye-catching patching and visible mends.",
+      "published": "2026-10-30T00:00:35+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Flinke koersdaling voor moederbedrijf Google, een van de grootste koersvallen ooit",
+      "url": "https://nos.nl/l/2637215",
+      "summary": "De koers van Alphabet dook op de New Yorkse beurs met ruim 12 procent omlaag. Het moederbedrijf van Google verloor daarmee in een keer bijna 500 miljard dollar in waarde. Daarmee is het een van de grootste koersvallen ooit. Dit gebeurde nadat het bedrijf haar kwartaalcijfers publiceerde. De algehele stemming op de Amerikaanse beurzen was niet iets om over naar huis te schrijven. Zo sloot de Dow-Jonesindex met 0,3 pro",
+      "published": "2026-10-29T20:01:12+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "NOS Tech",
+      "title": "Met een dikke kat zegt het Franse AI-bedrijf Mistral: kijk ook eens naar ons",
+      "url": "https://nos.nl/l/2637207",
+      "summary": "Met een verwijzing naar een dikke kat zet het Franse AI-bedrijf zijn nieuwste AI-model in de markt: le chonk . De bijnaam verwijst naar een internetgrap over het gewicht van katten. Hoe dikker de kat, hoe meer 'chonk' het beestje is. Het nieuwe AI-model heet officieel Large 4 en is volgens Mistral het grootste en krachtigste AI-model dat het bedrijf tot nu toe heeft uitgebracht: chonk dus. Mistral wordt gezien als he",
+      "published": "2026-10-29T19:25:54+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Burnham 'ready to support' Poundland staff as retailer faces collapse",
+      "url": "https://www.bbc.co.uk/news/articles/cqrky1p4dlm7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Poundland's bosses are filing a notice of intention to appoint administrators to the business.",
+      "published": "2026-10-29T19:11:10+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Vast, variabel of dynamisch? Huishoudens op zoek naar juiste energiecontract",
+      "url": "https://nos.nl/l/2637204",
+      "summary": "Al maanden stijgen de prijzen voor olie en gas door de oorlog in het Midden-Oosten. Grote energieconcerns lijden daar niet onder, blijkt vandaag uit cijfers. Terwijl de bedrijven hoge winsten behalen, blijven de energietarieven voor consumenten alsmaar oplopen. En dat levert de vraag op: kun je het beste een vast, variabel of toch dynamisch contract afsluiten? Verschillende energiebedrijven maakten de torenhoge winst",
+      "published": "2026-10-29T18:49:28+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "US interest rates held steady and economy grows - what it means for you",
+      "url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Federal Reserve's interest rate decisions affect everything from mortgages to car loans",
+      "published": "2026-10-29T17:15:05+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Faisal Islam: This Budget was micro and that was deliberate",
+      "url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+      "summary": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
+      "published": "2026-10-29T15:48:44+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Bereaved families will not face tax bill over pension delays under new rules",
+      "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+      "summary": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
+      "published": "2026-10-29T15:18:04+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Your pay, energy bills and savings: How the Budget affects you",
+      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
+      "published": "2026-10-29T15:11:35+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "DoorDash to buy Instacart in $17bn deal it says will expand customer options",
+      "url": "https://www.bbc.co.uk/news/articles/cm79pjg2l57yo?at_medium=RSS&at_campaign=rss",
+      "summary": "Instacart shoppers will be able to buy from 150,000 stores, compared to the 100,000 currently available on the platform, the firms said.",
+      "published": "2026-10-29T15:05:15+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
+      "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
+      "summary": "Budget forecasts show growth in living standards grinding almost to a halt.",
+      "published": "2026-10-29T13:19:24+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
+      "published": "2026-10-29T11:52:55+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "ECB-president Lagarde stopt: 'Niet meer comfortabel bij neutraliteit'",
+      "url": "https://nos.nl/l/2637136",
+      "summary": "De president van de Europese Centrale Bank, Christine Lagarde (70), stopt op 7 februari. Dat heeft ze de raad van bestuur en de voorzitter van de Europese Raad laten weten. Lagardes termijn liep tot eind oktober 2027. Ze zegt zich te willen gaan inzetten voor principes die haar dierbaar zijn. De aankondiging van haar vertrek komt tegelijkertijd met het rentebesluit in de eurozone. Ondanks dat de gevolgen van de stijg",
+      "published": "2026-10-29T10:13:37+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Ofcom outlines age check methods ahead of social media ban for under-16s",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly3027820lo?at_medium=RSS&at_campaign=rss",
+      "summary": "Ofcom says photo and digital ID, banking checks or facial age estimation can help prove someone is 16 or over.",
+      "published": "2026-10-29T09:31:44+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "'I live with a ghost' - inside the haunted homes attracting bargain hunters",
+      "url": "https://www.bbc.co.uk/news/articles/cqwy78elyrlzo?at_medium=RSS&at_campaign=rss",
+      "summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+      "published": "2026-10-29T09:30:03+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Dramatische kwartaalcijfers voor Volkswagen: miljarden in het rood",
+      "url": "https://nos.nl/l/2637121",
+      "summary": "De problemen bij Volkswagen zijn nog lang niet opgelost. De Duitse autofabrikant heeft het afgelopen kwartaal maar liefst 5,8 miljard euro verlies gedraaid, blijkt uit de nieuwste cijfers. In dezelfde periode vorig jaar werden ook rode cijfers geschreven - bijna 1,1 miljard euro. De omzet daalde daarnaast met 6,3 procent naar zo'n 75,3 miljard euro. De slechte prestaties in juli, augustus en september hebben onder me",
+      "published": "2026-10-29T08:09:58+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Oorlog in Midden-Oosten leidt opnieuw tot miljardenwinst bij Shell",
+      "url": "https://nos.nl/l/2637120",
+      "summary": "De winst van Shell is het afgelopen kwartaal opnieuw flink gestegen. Het olie-en gasbedrijf maakte onder aan de streep 12,1 miljard dollar winst. Shell zelf corrigeert voor de hogere olieprijzen en houdt 10,8 miljard nettowinst aan. In dezelfde periode vorig jaar was dat 5,4 miljard. Het bedrijf draaide een omzet van bijna 93 miljard dollar. De goede resultaten komen vooral door de aanhoudende oorlog in het Midden-Oo",
+      "published": "2026-10-29T08:07:10+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "NOS Tech",
+      "title": "Call of Duty-maker onder vuur in Zuid-Korea door gebruik beelden Seoul-ramp",
+      "url": "https://nos.nl/l/2637118",
+      "summary": "In Zuid-Korea is met afschuw gereageerd op een fragment in het schietspel Call of Duty: Modern Warfare 4 . Daarin zijn beelden te zien die afkomstig lijken te zijn van het dodelijke halloweendrama in Seoul in 2022, vandaag vier jaar geleden. Nabestaanden van de ramp willen dat de beelden worden verwijderd. In de korte filmpjes zijn beelden te zien van iemand die wordt gereanimeerd. Ook worden rijen lichamen die op de",
+      "published": "2026-10-29T07:51:21+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Details of thousands of US immigration agents leaked in major hack",
+      "url": "https://www.bbc.co.uk/news/articles/cq8jzkpjr28vo?at_medium=RSS&at_campaign=rss",
+      "summary": "A group called the Department of Peace released information on more than 41,000 DHS staff.",
+      "published": "2026-10-29T01:30:43+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Microsoft profits soar days after announcing thousands of layoffs",
+      "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no?at_medium=RSS&at_campaign=rss",
+      "summary": "The week, the Windows developer said it would offer buyouts to 60,000 workers as it looks to curb costs.",
+      "published": "2026-10-29T01:27:40+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Mogelijk flinke pensioenverhoging bij ABP en PME door gestegen dekkingsgraad",
+      "url": "https://nos.nl/l/2637103",
+      "summary": "De pensioenfondsen ABP en PME staan er goed voor. De afgelopen maanden profiteerden zij van de gestegen rente, waardoor de dekkingsgraad van het ambtenarenfonds en het fonds voor de metaal- en techindustrie naar boven de 130 procent steeg. Dat betekent dat ze ruim voldoende geld in kas hebben om de pensioenen uit te keren. Eerder dit jaar hadden het ABP, het PME en andere pensioenfondsen last van de oorlog in de Perz",
+      "published": "2026-10-28T23:09:30+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Amerikaanse centrale bank laat ondanks hoge inflatie rente onveranderd",
+      "url": "https://nos.nl/l/2637086",
+      "summary": "De Amerikaanse Centrale Bank, de Federal Reserve, laat het rentepercentage staan. Toch sluit voorzitter Kevin Warsh niet uit dat door de hoge inflatie de rente mogelijk binnenkort verder wordt verhoogd. Vorige maand verhoogde Warsh de rente voor het eerst in ruim drie jaar tijd. De rente werd toen verhoogd van 3,5 tot 3,75 procent naar 3,75 tot 4 procent om de inflatie in de Verenigde Staten te drukken. Die blijft do",
+      "published": "2026-10-28T20:43:38+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "What we now know about the UK economy in four charts",
+      "url": "https://www.bbc.co.uk/news/articles/c9x28350ly07o?at_medium=RSS&at_campaign=rss",
+      "summary": "The Office for Budget Responsibility says higher energy prices will impact everything from prices and living standards to economic growth.",
+      "published": "2026-10-28T20:08:45+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "What the Budget offers for under 25s - and what it leaves out",
+      "url": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
+      "summary": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
+      "published": "2026-10-28T20:02:38+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Healey provides some breathing space but things still set to get worse for most",
+      "url": "https://www.bbc.co.uk/news/articles/cqe9l4px0yzxo?at_medium=RSS&at_campaign=rss",
+      "summary": "The chancellor talked of charting a new course for Britain, but the impact of Iran war has limited his options.",
+      "published": "2026-10-28T19:51:01+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
+      "url": "https://www.bbc.co.uk/news/articles/c63djl148n3eo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Russian President praised Musk and said they are in \"close\" contact.",
+      "published": "2026-10-28T19:15:58+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "summary": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
+      "published": "2026-10-28T18:45:09+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Gasprijs stijgt door, boven de 100 euro per megawattuur",
+      "url": "https://nos.nl/l/2637039",
+      "summary": "De Europese gasprijs is vandaag door de grens van 100 euro per megawattuur gegaan. Dat is het hoogste niveau sinds de gascrisis in 2022, toen Rusland Oekraïne binnenviel. In februari, voordat Amerika en Israël de oorlog tegen Iran begonnen, was de prijs op de groothandelsmarkt nog onder de 30 euro per megawattuur. Sindsdien zijn in het Midden-Oosten belangrijke raffinaderijen en leidingen voor vloeibaar gas (lng) ger",
+      "published": "2026-10-28T15:08:02+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Rechter geeft Booking gelijk, personeel moet verplicht vaker naar kantoor",
+      "url": "https://nos.nl/l/2637007",
+      "summary": "Booking.com mag het personeel verplichten om 40 procent van hun werktijd op kantoor te zijn. Als iemand vijf dagen werkt, komt dat dus neer op twee dagen naar kantoor. De ondernemingsraad van de hotelboekingssite wilde niet akkoord gaan met die verplichting en daarop stapte het bedrijf naar de rechtbank in Amsterdam. En de rechter geeft Booking nu gelijk. De rechter is het eens met Booking dat \"elkaar ontmoeten op ka",
+      "published": "2026-10-28T12:09:16+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Benzine aan de pomp weer wat goedkoper ondanks dure olie",
+      "url": "https://nos.nl/l/2636997",
+      "summary": "De benzineprijs is de afgelopen tijd weer gedaald nadat die halverwege deze maand nog op een record stond. Op dit moment betaal je gemiddeld 2,55 euro. Tijdens de piek van twee weken geleden zag United Consumers dat er gemiddeld 2,73 euro werd gevraagd voor een liter benzine. Ook de prijs voor diesel is deze week wat lager, maar de prijs daalde niet zo hard als bij benzine. United Consumers krijgt dagelijks de advies",
+      "published": "2026-10-28T10:34:27+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "CBS: aantal woningen naar statushouders blijft gelijk",
+      "url": "https://nos.nl/l/2636959",
+      "summary": "Het aantal corporatiewoningen dat wordt toegewezen aan statushouders is in 2024 nauwelijks gestegen, blijkt uit cijfers van het Centraal Bureau voor de Statistiek (CBS). Ruim 8 procent van alle corporatiewoningen die in 2024 vrijkwamen, werd toegewezen aan huishoudens met een of meerdere statushouders. Het gaat om ruim 13.000 woningen, ongeveer evenveel als een jaar eerder. Onder starters is het aandeel statushouders",
+      "published": "2026-10-28T05:34:00+00:00"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "BBC Business",
+      "title": "'An annoying buzz': The search for stealthier drones",
+      "url": "https://www.bbc.co.uk/news/articles/ck1exgejq3xvo?at_medium=RSS&at_campaign=rss",
+      "summary": "As drone deliveries become more commonplace, their makers are looking for ways to make them quieter.",
+      "published": "2026-10-28T00:01:10+00:00"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "BBC Technology",
+      "title": "Tech Life",
+      "url": "https://www.bbc.co.uk/sounds/play/w3ct8jys?at_medium=RSS&at_campaign=rss",
+      "summary": "We hear from Ondřej Surý, the programmer whose PHP patches helped avert a cyber crisis.",
+      "published": "2026-10-27T20:30:00+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Mysterieuze cryptobaas en handige AI-ontwikkelaar: wie zijn de nieuwkomers in de Quote 500?",
+      "url": "https://nos.nl/l/2636937",
+      "summary": "De doorgaans vrij voorspelbare lijst van de Quote-500 is dit jaar opgeschud met allerhande tech-ondernemers, zo werd vanmorgen bekend. Opvallende nieuwkomers zijn cryptobaas Jean-Louis van der Velde en AI-ontwikkelaar Pim de Witte. Wie zijn zij? Jean-Louis van der Velde Het is een opvallende wijziging. Vrijwel niemand kent de nieuwe nummer één die vandaag debuteert in de lijst der rijken. De mysterieuze cryptomiljard",
+      "published": "2026-10-27T19:18:17+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "NOS Economie",
+      "title": "Reorganisatie bij scheepsbouwer Damen, 225 banen geschrapt in Nederland",
+      "url": "https://nos.nl/l/2636923",
+      "summary": "Scheepsbouwer Damen gaat ongeveer 225 van de 4000 arbeidsplaatsen in Nederland schrappen. Het bedrijf wil hiermee zijn organisatie \"eenvoudiger en efficiënter\" maken. De banen verdwijnen de komende twaalf tot achttien maanden bij de verschillende bedrijven van Damen in Nederland. Dat gebeurt zowel op kantoor als op de scheepswerven. Het gaat om functies in alle schalen en vakgebieden, zegt een woordvoerder. Het bedri",
+      "published": "2026-10-27T17:36:30+00:00"
+    }
+  ],
+  "warning": "Niet alle nieuwsbronnen konden worden bijgewerkt."
+}
