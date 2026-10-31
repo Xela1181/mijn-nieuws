@@ -35,6 +35,20 @@ $('#dailyenglish').innerHTML='<h4>'+esc(ex[0])+'</h4><p><strong>Speaking exercis
 const b=books[dayIndex%books.length];
 $('#bookoftheday').innerHTML='<p><strong>'+esc(b[0])+'</strong> — '+esc(b[1])+'</p><p>'+esc(b[2])+'</p>';
 $('#bookhistory').innerHTML=Array.from({length:7},(_,i)=>{const x=books[((dayIndex-i)%books.length+books.length)%books.length];return '<p>'+esc(x[0])+' — '+esc(x[1])+'</p>'}).join('');
+async function loadAudio(){
+  const status=$('#audiostatus'),player=$('#briefingaudio');
+  try{
+    const res=await fetch('./audio/briefing.json?v='+Date.now(),{cache:'no-store'});
+    if(!res.ok)throw Error('No metadata');
+    const info=await res.json();
+    const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+    if(info.date!==today){status.textContent='De audio van vandaag is nog niet beschikbaar. Laatste beschikbare briefing: '+info.date+'.';return}
+    player.src='./audio/briefing.mp3?v='+encodeURIComponent(info.date);
+    player.hidden=false;
+    status.textContent='Briefing '+info.date+' · British English · B2+ · '+info.word_count+' woorden · '+info.news_count+' nieuwsberichten. Gebruik de afspeelknop om te luisteren.';
+    const link=document.createElement('a');link.href='./audio/briefing.txt?v='+encodeURIComponent(info.date);link.textContent='Lees het Engelstalige transcript';link.target='_blank';link.rel='noopener';status.after(link);
+  }catch(e){status.textContent='De automatische audio is nog niet gegenereerd. Je kunt hieronder de actuele nieuwskoppen lezen.'}
+}
 const tips=[
 ['ChatGPT · Budget vs Actual','Gebruik AI om afwijkingen te structureren, zonder oorzaken te verzinnen.','Analyseer deze geanonimiseerde Actual-, Budget- en Forecast-cijfers. Rangschik de grootste afwijkingen op absolute en procentuele impact. Maak onderscheid tussen feiten, hypotheses en open vragen. Lever een compacte MT-samenvatting.'],
 ['Claude · Finance-policy review','Controleer een conceptbeleid op tegenstrijdigheden en ontbrekende beheersmaatregelen.','Beoordeel onderstaande geanonimiseerde Finance Policy op inconsistenties, onduidelijke verantwoordelijkheden, ontbrekende controles en mogelijke auditvragen. Geef een tabel met bevinding, risico en voorgestelde verbetering.'],
@@ -43,5 +57,5 @@ const tips=[
 ['ChatGPT · Excel-formules','Laat AI complexe formules uitleggen en controleer ze vervolgens in Excel.','Leg deze Excel-formule stap voor stap uit. Noem mogelijke fouten bij lege cellen, datums en afronding. Stel een beter leesbare variant voor en geef drie testcases.'],
 ['Claude · Transfer-pricing documentatie','Gebruik AI als checklist voor consistentie tussen intercompany-documenten.','Vergelijk deze geanonimiseerde beschrijvingen van intercompany-diensten, tarieven en allocaties. Signaleer tegenstrijdigheden, ontbrekende onderbouwing en punten die door een fiscalist moeten worden bevestigd.'],
 ['Nieuwe AI-tools · Beveiligde proef','Evalueer een nieuwe AI-app voordat je financiële gegevens invoert.','Maak een evaluatiechecklist voor een AI-tool in Finance: dataverwerking, bewaartermijnen, EU-opslag, audittrail, toegangsbeheer, nauwkeurigheid, export en kosten. Maak een scoremodel zonder leveranciersclaims te verzinnen.']
-];const today=new Date();const day=Math.floor(Date.UTC(today.getFullYear(),today.getMonth(),today.getDate())/86400000);const tip=tips[day%tips.length];$('#tipcontent').innerHTML=`<h3>${esc(tip[0])}</h3><p>${esc(tip[1])}</p><p><strong>Voorbeeldprompt</strong></p><div class="panel" id="tiptext">${esc(tip[2])}</div><p class="muted">Gebruik uitsluitend gegevens die volgens je bedrijfsbeleid met de gekozen AI-dienst gedeeld mogen worden.</p>`;const copy=document.createElement('button');copy.textContent='Kopieer prompt';copy.onclick=()=>navigator.clipboard?.writeText(tip[2]);$('#tipcontent').append(copy);load();
+];const today=new Date();const day=Math.floor(Date.UTC(today.getFullYear(),today.getMonth(),today.getDate())/86400000);const tip=tips[day%tips.length];$('#tipcontent').innerHTML=`<h3>${esc(tip[0])}</h3><p>${esc(tip[1])}</p><p><strong>Voorbeeldprompt</strong></p><div class="panel" id="tiptext">${esc(tip[2])}</div><p class="muted">Gebruik uitsluitend gegevens die volgens je bedrijfsbeleid met de gekozen AI-dienst gedeeld mogen worden.</p>`;const copy=document.createElement('button');copy.textContent='Kopieer prompt';copy.onclick=()=>navigator.clipboard?.writeText(tip[2]);$('#tipcontent').append(copy);load();loadAudio();
 </script></body></html>
