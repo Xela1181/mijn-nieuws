@@ -54,8 +54,8 @@ AI_TIPS = [
 
 
 def clean(value, max_chars=190):
-    value = re.sub(r"https?://\\S+", "", str(value or ""))
-    value = re.sub(r"\\s+", " ", value).strip()
+    value = re.sub(r"https?://\S+", "", str(value or ""))
+    value = re.sub(r"\s+", " ", value).strip()
     value = re.sub(r"[<>]", "", value)
     return value[:max_chars].rsplit(" ", 1)[0] if len(value) > max_chars else value
 
