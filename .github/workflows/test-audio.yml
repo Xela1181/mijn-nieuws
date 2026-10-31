@@ -1,0 +1,30 @@
+name: Test English audio briefing
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout test version
+        uses: actions/checkout@v4
+        with:
+          ref: feature/english-audio-briefing
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install free text-to-speech
+        run: python -m pip install edge-tts==7.2.3
+      - name: Generate test MP3
+        run: python scripts/generate_briefing.py
+      - name: Upload test audio and transcript
+        uses: actions/upload-artifact@v4
+        with:
+          name: english-briefing-test
+          path: |
+            audio/briefing.mp3
+            audio/briefing.txt
+            audio/briefing.json
+          if-no-files-found: error
+          retention-days: 7
