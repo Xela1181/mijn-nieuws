@@ -1,0 +1,48 @@
+name: Generate English audio briefing
+on:
+  schedule:
+    # 05:30 Amsterdam: 03:30 UTC in summer, 04:30 UTC in winter.
+    - cron: '30 3,4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-english-audio
+  cancel-in-progress: false
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.ref_name || 'main' }}
+      - name: Check Amsterdam time
+        id: clock
+        shell: bash
+        run: |
+          HOUR=$(TZ=Europe/Amsterdam date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$HOUR" = "05" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.clock.outputs.run == 'true'
+        with:
+          python-version: '3.12'
+      - name: Install free text-to-speech
+        if: steps.clock.outputs.run == 'true'
+        run: python -m pip install edge-tts==7.2.3
+      - name: Generate briefing MP3 and script
+        if: steps.clock.outputs.run == 'true'
+        run: python scripts/generate_briefing.py
+      - name: Commit briefing assets
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/briefing.mp3 audio/briefing.txt audio/briefing.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily English audio briefing"
+            git push
+          fi
