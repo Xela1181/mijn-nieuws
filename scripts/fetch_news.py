@@ -37,7 +37,7 @@ FEEDS = [
     ('Nederland & wereld','BBC World','https://feeds.bbci.co.uk/news/world/rss.xml'),
     ('Sport','NOS Sport','https://feeds.nos.nl/nossportalgemeen'),
 ]
-WEIGHTS = {'Finance & CFO': 30, 'IT & technologie': 25, 'Beleggen & economie': 25, 'Nederland & wereld': 15, 'Sport': 5, 'ITQ Nieuws': 0}
+QUOTAS = {'Finance & CFO': 8, 'IT & technologie': 6, 'Beleggen & economie': 6, 'Nederland & wereld': 4, 'Sport': 1, 'ITQ Nieuws': 0}
 KEYWORDS = {
  'Finance & CFO': ['cfo','finance director','financial reporting','financial statements','accounting','audit','treasury','liquidity','working capital','cash flow','cashflow','tax','belasting','btw','transfer pricing','consolidat','forecast','budget','ebitda','governance','compliance','ifrs','controller','financieel directeur','financiële verslaggeving','fusie','merger','acquisition'],
  'IT & technologie': ['artificial intelligence','ai ',' ai','cloud','cyber','security','ransomware','broadcom','vmware','microsoft','data center','datacenter','automation','automatisering','enterprise','software','chip','semiconductor','llm','generative ai','it services'],
@@ -97,7 +97,7 @@ def main():
     for item in items:
         key=re.sub(r'[^a-z0-9]+','',item['title'].casefold())[:110]
         if key not in unique: unique[key]=item
-    ranked={cat:[] for cat in WEIGHTS}
+    ranked={cat:[] for cat in QUOTAS}
     for item in unique.values():
         cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
         if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
@@ -109,10 +109,9 @@ def main():
         ranked[cat].append(item)
     for cat in ranked:
         ranked[cat].sort(key=lambda x:(x['score'],x['published']),reverse=True)
-    limit=100
-    quotas={cat:round(limit*w/100) for cat,w in WEIGHTS.items()}
+    # Fixed daily targets: 25 general news items, plus separate ITQ coverage.
     articles=[]
-    for cat,quota in quotas.items():articles+=ranked[cat][:quota]
+    for cat,quota in QUOTAS.items():articles+=ranked[cat][:quota]
     articles+=ranked['ITQ Nieuws'][:30]
     articles.sort(key=lambda x:(x['score'],x['published']),reverse=True)
     for item in articles:item.pop('score',None)
