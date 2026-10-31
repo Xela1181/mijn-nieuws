@@ -4,28 +4,53 @@ import datetime as dt
 import email.utils
 import html
 import json
+import urllib.parse
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+def google_news(query, lang='nl', country='NL'):
+    return 'https://news.google.com/rss/search?q='+urllib.parse.quote(query)+'&hl='+lang+'&gl='+country+'&ceid='+country+':'+lang
+
 FEEDS = [
-    ('Finance & CFO','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
+    ('ITQ Nieuws','Google Nieuws · ITQ',google_news('"ITQ" (VMware OR Broadcom OR consultancy OR cloud OR Beverwijk OR Nederland) when:30d')),
+    ('ITQ Nieuws','Google Nieuws · ITQ Consultancy',google_news('"ITQ Consultancy" when:30d')),
+    ('Sport','Marathonnieuws',google_news('(marathon OR hardlopen) (wedstrijd OR training OR record OR atletiek) when:7d')),
+    ('Sport','Langebaanschaatsen',google_news('(langebaanschaatsen OR schaatsen OR KNSB OR ISU) when:7d')),
+    ('Sport','IJshockey',google_news('(ijshockey OR NHL OR ice hockey) when:7d')),
     ('Finance & CFO','Harvard Business Review','https://feeds.hbr.org/harvardbusiness'),
+    ('Finance & CFO','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
+    ('Finance & CFO','Financial Times','https://www.ft.com/?format=rss'),
+    ('Finance & CFO','The Economist','https://www.economist.com/finance-and-economics/rss.xml'),
     ('IT & technologie','NOS Tech','https://feeds.nos.nl/nosnieuwstech'),
     ('IT & technologie','TechCrunch','https://techcrunch.com/feed/'),
-    ('IT & technologie','BBC Technology','https://feeds.bbci.co.uk/news/technology/rss.xml'),
+    ('IT & technologie','MIT Technology Review','https://www.technologyreview.com/feed/'),
+    ('IT & technologie','Ars Technica','https://feeds.arstechnica.com/arstechnica/index'),
+    ('IT & technologie','BleepingComputer','https://www.bleepingcomputer.com/feed/'),
     ('Beleggen & economie','NOS Economie','https://feeds.nos.nl/nosnieuwseconomie'),
     ('Beleggen & economie','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
     ('Beleggen & economie','MarketWatch','https://feeds.content.dowjones.io/public/rss/mw_topstories'),
+    ('Beleggen & economie','WSJ Markets','https://feeds.content.dowjones.io/public/rss/RSSMarketsMain'),
     ('Nederland & wereld','NOS Nieuws','https://feeds.nos.nl/nosnieuwsalgemeen'),
     ('Nederland & wereld','BBC World','https://feeds.bbci.co.uk/news/world/rss.xml'),
     ('Sport','NOS Sport','https://feeds.nos.nl/nossportalgemeen'),
 ]
+WEIGHTS = {'Finance & CFO': 30, 'IT & technologie': 25, 'Beleggen & economie': 25, 'Nederland & wereld': 15, 'Sport': 5, 'ITQ Nieuws': 0}
+KEYWORDS = {
+ 'Finance & CFO': ['cfo','finance director','financial reporting','financial statements','accounting','audit','treasury','liquidity','working capital','cash flow','cashflow','tax','belasting','btw','transfer pricing','consolidat','forecast','budget','ebitda','governance','compliance','ifrs','controller','financieel directeur','financiële verslaggeving','fusie','merger','acquisition'],
+ 'IT & technologie': ['artificial intelligence','ai ',' ai','cloud','cyber','security','ransomware','broadcom','vmware','microsoft','data center','datacenter','automation','automatisering','enterprise','software','chip','semiconductor','llm','generative ai','it services'],
+ 'Beleggen & economie': ['stock','share','aandeel','etf','beurs','market','interest rate','rente','inflation','inflatie','economy','economie','central bank','ecb','fed ','earnings','dividend','bond','obligatie','invest','beleg','crypto','bitcoin','ethereum','index fund','s&p 500','nasdaq'],
+ 'Nederland & wereld': ['nederland','dutch','europe','eu ','verkiez','politiek','kabinet','regering','war','oorlog','geopolit','international','wereld','minister'],
+ 'Sport': ['marathon','running','hardlopen','schaatsen','langebaan','speed skating','knsb','isu','ijshockey','ice hockey','nhl','atletiek'],
+ 'ITQ Nieuws': ['itq','itq consultancy','itq.eu','broadcom','vmware'],
+}
+BLOCK = {'Beleggen & economie':['my father','my mother','caregiver','debit card','credit card debt','advice column','should i','relationship','retirement advice','inheritance dispute','personal finance question']}
+
 TAG = re.compile(r'<[^>]+>')
 def clean(s):
-    return re.sub(r'\s+',' ',html.unescape(TAG.sub(' ',s or ''))).strip()[:420]
+    return re.sub(r'\s+',' ',html.unescape(TAG.sub(' ',s or ''))).strip()[:240]
 def value(node, names):
     for name in names:
         x=node.find(name)
@@ -67,10 +92,30 @@ def main():
         except Exception as exc:
             errors.append(f'{source}: {type(exc).__name__}')
             print(f'Feed error {source}: {exc}')
+    # Prefer relevant, recent articles and distribute results by the requested category weights.
     unique={}
     for item in items:
-        if item['url'] not in unique:unique[item['url']]=item
-    articles=sorted(unique.values(),key=lambda a:a['published'],reverse=True)[:150]
+        key=re.sub(r'[^a-z0-9]+','',item['title'].casefold())[:110]
+        if key not in unique: unique[key]=item
+    ranked={cat:[] for cat in WEIGHTS}
+    for item in unique.values():
+        cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
+        if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
+        if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
+        if any(b in blob for b in BLOCK.get(cat,[])):continue
+        score=sum(4 if word in item['title'].lower() else 1 for word in KEYWORDS[cat] if word in blob)
+        if cat in ('Finance & CFO','IT & technologie','Beleggen & economie') and score==0:continue
+        item['score']=score
+        ranked[cat].append(item)
+    for cat in ranked:
+        ranked[cat].sort(key=lambda x:(x['score'],x['published']),reverse=True)
+    limit=100
+    quotas={cat:round(limit*w/100) for cat,w in WEIGHTS.items()}
+    articles=[]
+    for cat,quota in quotas.items():articles+=ranked[cat][:quota]
+    articles+=ranked['ITQ Nieuws'][:30]
+    articles.sort(key=lambda x:(x['score'],x['published']),reverse=True)
+    for item in articles:item.pop('score',None)
     path=ROOT/'news.json'
     if not articles and path.exists():
         try:
