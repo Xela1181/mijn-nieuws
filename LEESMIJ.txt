@@ -1,0 +1,18 @@
+MIJN NIEUWS V2 — INSTALLATIE
+
+1. Pak de ZIP uit op je computer.
+2. Open GitHub repository Xela1181/mijn-nieuws.
+3. Upload index.html en news.json in de hoofdmap (vervang index.html).
+4. Upload scripts/fetch_news.py in de map scripts.
+5. Upload .github/workflows/update-news.yml in .github/workflows.
+   LET OP: bij GitHub web-upload kan het handiger zijn om de bestanden
+   stuk voor stuk via Add file > Create new file te maken en de
+   volledige padnaam in te voeren.
+6. Ga naar Actions > Update Mijn Nieuws RSS > Run workflow.
+7. Na succesvolle uitvoering wordt news.json gevuld en wordt de site bijgewerkt.
+
+Gratis via GitHub Pages en GitHub Actions binnen de geldende gebruikslimieten.
+RSS-feeds kunnen uitvallen of voorwaarden wijzigen; er is foutafhandeling.
+Spotify-knoppen openen zoekresultaten; geen Spotify-login of API vereist.
+Bewaarde artikelen worden alleen lokaal per browser bewaard.
+De briefing is een koppenoverzicht, nog geen AI-samenvatting of MP3.
