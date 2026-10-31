@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-31",
+  "voice": "en-GB-RyanNeural",
+  "level": "B2+",
+  "word_count": 647,
+  "news_count": 15,
+  "sources": [
+    {
+      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "Faisal Islam: This Budget was micro and that was deliberate",
+      "url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "Bereaved families will not face tax bill over pension delays under new rules",
+      "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "Your pay, energy bills and savings: How the Budget affects you",
+      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
+      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "category": "IT & technologie"
+    },
+    {
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "category": "IT & technologie"
+    },
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "category": "IT & technologie"
+    },
+    {
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "category": "IT & technologie"
+    },
+    {
+      "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
+      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d?mod=rss_markets_main",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "Amerikaanse centrale bank laat ondanks hoge inflatie rente onveranderd",
+      "url": "https://nos.nl/l/2637086",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "The S&P 500 isn’t the big winner you may think it is",
+      "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "Wekdienst 31/10: Anti-regeringsdemonstraties in meerdere landen • Vijf Eredivisieduels, waaronder Ajax-AZ",
+      "url": "https://nos.nl/l/2637405",
+      "category": "Nederland & wereld"
+    },
+    {
+      "title": "Ethiopian PM puts ministers through military training",
+      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+      "category": "Nederland & wereld"
+    },
+    {
+      "title": "Officiële verklaring van IJshockey Nederland - IJshockey Nederland",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNlpnNXFieE5WSkxaUXkwWS11cUlkVUhzZ2ZxNi1uODhvX0pLVnpBQkNkTnR6WVZ0dUxET0REQk9ENzgtYlBRc1kxUExDaFV5MVBlXzNubmlXVnhRRHlEMXZUN1lCOXNiQXUzZ3JIYXY4cXd2a280QmlweDl6V0MzR0Z3?oc=5",
+      "category": "Sport"
+    }
+  ]
+}
