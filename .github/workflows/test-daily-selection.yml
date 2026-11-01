@@ -5,6 +5,7 @@ on:
       - 'scripts/build_daily_selection.py'
       - '.github/workflows/test-daily-selection.yml'
       - 'index.html'
+      - 'CENTRALE-SELECTIE.md'
   workflow_dispatch:
 permissions:
   contents: read
@@ -31,4 +32,18 @@ jobs:
           assert len({a['url'] for a in x['articles']})==len(x['articles'])
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           print('PASS:',len(x['articles']),'items')
+          PY
+
+      - name: Verify English audio gate in dashboard
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          assert "candidate.selection_mode==='curated'" in html
+          assert "candidate.narration_en" in html
+          assert "spoken.some(a=>!a.audio_en)" in html
+          assert "if(!isCuratedSelection" in html
+          assert "utterance.lang='en-GB'" in html
+          assert "daily-selection.json" in html
+          print('PASS: English speech requires a curated daily selection')
           PY
