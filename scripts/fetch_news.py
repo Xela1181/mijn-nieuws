@@ -86,7 +86,7 @@ def fetch(cat, source, url):
         if not link.startswith(('https://','http://')) or not title:continue
         date=parse_date(value(node,['pubDate','{http://www.w3.org/2005/Atom}updated','{http://www.w3.org/2005/Atom}published','{http://purl.org/dc/elements/1.1/}date']))
         desc=clean(value(node,['description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content']))
-        language = 'nl' if 'news.google.com' in url or source.startswith('NOS') else 'en'
+        language = ('en' if 'ceid=US:en' in url else 'nl') if 'news.google.com' in url else ('nl' if source.startswith('NOS') else 'en')
         out.append(dict(category=cat,source=source,title=title,url=link,summary=desc,published=date,language=language))
     return out
 
