@@ -44,7 +44,7 @@ FEEDS = [
 ]
 QUOTAS = {'Finance & CFO': 8, 'IT & technologie': 6, 'Beleggen & economie': 6, 'Nederland & wereld': 4, 'Sport': 1, 'ITQ Nieuws': 0}
 KEYWORDS = {
- 'Finance & CFO': ['cfo','finance director','financial reporting','financial statements','accounting','audit','treasury','liquidity','working capital','cash flow','cashflow','tax','belasting','btw','transfer pricing','consolidat','forecast','budget','ebitda','governance','compliance','ifrs','controller','financieel directeur','financiële verslaggeving','fusie','merger','acquisition'],
+ 'Finance & CFO': ['cfo','finance director','financial reporting','financial statements','accounting','audit','treasury','liquidity','working capital','cash flow','cashflow','tax','belasting','btw','transfer pricing','consolidat','forecast','budget','ebitda','governance','compliance','ifrs','controller','financieel directeur','financiële verslaggeving','merger','acquisition','overname','m&a'],
  'IT & technologie': ['artificial intelligence','ai ',' ai','cloud','cyber','security','ransomware','broadcom','vmware','microsoft','data center','datacenter','automation','automatisering','enterprise','software','chip','semiconductor','llm','generative ai','it services'],
  'Beleggen & economie': ['stock','share','aandeel','etf','beurs','market','interest rate','rente','inflation','inflatie','economy','economie','central bank','ecb','fed ','earnings','dividend','bond','obligatie','invest','beleg','crypto','bitcoin','ethereum','index fund','s&p 500','nasdaq'],
  'Nederland & wereld': ['nederland','dutch','europe','eu ','verkiez','politiek','kabinet','regering','war','oorlog','geopolit','international','wereld','minister'],
@@ -108,6 +108,8 @@ def main():
         cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
         if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
         if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
+        # A generic local-government merger is not corporate finance or M&A.
+        if cat=='Finance & CFO' and any(w in blob for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):continue
         if any(b in blob for b in BLOCK.get(cat,[])):continue
         score=sum(4 if word in item['title'].lower() else 1 for word in KEYWORDS[cat] if word in blob)
         if cat in ('Finance & CFO','IT & technologie','Beleggen & economie') and score==0:continue
