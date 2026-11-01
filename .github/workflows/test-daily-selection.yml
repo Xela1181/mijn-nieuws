@@ -58,5 +58,6 @@ jobs:
           assert "SpeechSynthesisUtterance(part.text)" in html
           assert "utterance.lang=part.lang" in html
           assert "daily-selection.json" in html
+          assert "candidate.selection_mode==='rss_shortlist' && candidate.date===" in html
           print('PASS: bilingual original-language speech controls present')
           PY
