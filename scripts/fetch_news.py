@@ -133,6 +133,13 @@ def main():
         ranked[cat].append(item)
     for cat in ranked:
         ranked[cat].sort(key=lambda x:(x['score'],x['published']),reverse=True)
+    # Diagnostic: expose why trial sources do or do not survive the first ranking.
+    for trial in ('CFO.nl · proefbron','CMweb · proefbron','NBA · proefbron'):
+        fetched=[a for a in items if a['source']==trial]
+        eligible=[a for a in ranked['Finance & CFO'] if a['source']==trial]
+        print(f'TRIAL {trial}: fetched={len(fetched)} eligible={len(eligible)}')
+        for candidate in eligible[:3]:
+            print(f"TRIAL candidate {trial}: score={candidate['score']} title={candidate['title'][:100]}")
     # Fixed daily targets: 25 general news items, plus separate ITQ coverage.
     # Limit single-source domination in Finance so specialist sources can compete.
     articles=[]
