@@ -76,7 +76,9 @@ output = {
     "articles": selected,
     "item_ids": [a.get("id") or a.get("url") for a in selected],
     "narration": "",
-    "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT."
+    "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT." + (" " + source["warning"] if source.get("warning") else ""),
+    "source_failures": source.get("failed_sources", []),
+    "google_news_failures": source.get("google_news_failures", 0)
 }
 (root / "daily-selection.json").write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"Created {len(selected)} RSS shortlist articles for {today}")
