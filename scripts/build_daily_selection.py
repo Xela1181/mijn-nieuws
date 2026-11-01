@@ -40,6 +40,15 @@ for category, limit in quotas.items():
         url = item.get("url", "")
         if item.get("category") != category or not url.startswith("https://") or url in seen:
             continue
+        # Recheck freshness even if news.json was produced by an older fetcher.
+        try:
+            published = dt.datetime.fromisoformat(item['published'].replace('Z', '+00:00'))
+            if published.tzinfo is None: published = published.replace(tzinfo=dt.timezone.utc)
+            age_hours = (now - published).total_seconds() / 3600
+            if age_hours < -2 or age_hours > 168:
+                continue
+        except (KeyError, ValueError, TypeError, AttributeError):
+            continue
         if not item.get("title") or not item.get("summary") or rank(item) < -5:
             continue
         if category == 'Finance & CFO' and any(w in (item.get('title','')+' '+item.get('summary','')).casefold() for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):
