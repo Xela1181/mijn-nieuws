@@ -12,11 +12,11 @@ source = json.loads((root / "news.json").read_text(encoding="utf-8"))
 today = dt.datetime.now(ZoneInfo("Europe/Amsterdam")).date().isoformat()
 quotas = {"Finance & CFO": 4, "IT & technologie": 3, "Beleggen & economie": 3, "Nederland & wereld": 2, "Sport": 1}
 priority = {
- "Finance & CFO": ("cfo", "treasury", "liquidity", "audit", "forecast", "ebitda", "tax", "ifrs", "governance"),
+ "Finance & CFO": ("cfo", "treasury", "liquidity", "audit", "forecast", "ebitda", "tax", "ifrs", "governance", "belastingplan", "vennootschapsbelasting", "ecb", "dnb", "jaarrekening", "accountant"),
  "IT & technologie": ("vmware", "broadcom", "cloud", "cyber", "artificial intelligence", "microsoft", "data center"),
  "Beleggen & economie": ("etf", "stock", "aandeel", "beurs", "rente", "inflation", "ecb", "ethereum"),
  "Nederland & wereld": ("nederland", "europe", "kabinet", "economie", "minister"),
- "Sport": ("schaatsen", "langebaan", "marathon", "hardlopen", "wielrennen"),
+ "Sport": ("schaatsen", "langebaan", "marathon", "hardlopen", "wielrennen", "wckt", "thialf", "world cup"),
 }
 now = dt.datetime.now(dt.timezone.utc)
 def rank(item):
@@ -39,7 +39,7 @@ for category, limit in quotas.items():
         url = item.get("url", "")
         if item.get("category") != category or not url.startswith("https://") or url in seen:
             continue
-        if not item.get("title") or not item.get("summary"):
+        if not item.get("title") or not item.get("summary") or rank(item) < -5:
             continue
         if category == "Sport" and re.search(r"ijshockey|ice hockey|\bnhl\b", (item["title"] + " " + item["summary"]).lower()):
             continue
