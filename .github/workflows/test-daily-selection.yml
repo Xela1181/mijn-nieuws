@@ -26,6 +26,17 @@ jobs:
         run: python scripts/fetch_news.py
       - name: Select verified podcast episode
         run: python scripts/update_podcasts.py
+      - name: Report trial source contribution
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          articles=json.loads(Path('news.json').read_text())['articles']
+          for source in ('CFO.nl · proefbron','CMweb · proefbron','NBA · proefbron'):
+              selected=[a for a in articles if a.get('source')==source]
+              print(f'{source}: {len(selected)} articles retained after ranking')
+          PY
       - name: Build shortlist from freshly fetched RSS
         run: python scripts/build_daily_selection.py
       - name: Verify shortlist structure
