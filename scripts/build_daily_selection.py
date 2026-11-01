@@ -45,6 +45,8 @@ for category, limit in quotas.items():
         if category == 'Finance & CFO' and any(w in (item.get('title','')+' '+item.get('summary','')).casefold() for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):
             continue
         title = item.get('title', '').casefold()
+        if category == 'Finance & CFO' and any(w in title for w in ('zoekt een ', 'vacature', 'hiring ', 'we are hiring', 'solliciteer', 'job opening', 'career opportunity', 'jury m&a awards', 'genomineerden voor best deal', 'meld je aan', 'schrijf je in voor')):
+            continue
         if category == 'Finance & CFO' and any(w in title for w in ('f1-commentator', 'formule 1-commentator', 'voetbaltrainer', 'transfernieuws')):
             continue
         tax_politics = category == 'Finance & CFO' and any(w in title for w in ('belastingplan', 'btw-verhoging', 'belastingakkoord', 'btw', 'belasting', 'tax deal'))
