@@ -52,6 +52,7 @@ jobs:
           assert not any('gemeentefusie' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           assert not any('f1-commentator' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
+          assert not any(any(term in a['title'].lower() for term in ('zoekt een ', 'vacature', 'jury m&a awards')) for a in x['articles'] if a['category']=='Finance & CFO')
           print('PASS:',len(x['articles']),'items')
           PY
 
