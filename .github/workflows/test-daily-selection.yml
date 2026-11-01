@@ -61,3 +61,16 @@ jobs:
           assert "candidate.selection_mode==='rss_shortlist' && candidate.date===" in html
           print('PASS: bilingual original-language speech controls present')
           PY
+
+      - name: Package offline dashboard preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: mijn-nieuws-preview
+          path: |
+            index.html
+            news.json
+            daily-selection.json
+            podcast-tips.json
+            audio/
+          if-no-files-found: warn
+          retention-days: 7
