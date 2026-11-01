@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T11:42:33.755894+00:00",
+  "updated": "2026-11-01T15:56:08.758413+00:00",
   "articles": [
     {
       "category": "IT & technologie",
@@ -7,7 +7,8 @@
       "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
       "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
       "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI respo",
-      "published": "2026-10-31T13:10:19+00:00"
+      "published": "2026-10-31T13:10:19+00:00",
+      "language": "en"
     },
     {
       "category": "IT & technologie",
@@ -15,7 +16,8 @@
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
       "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "published": "2026-10-31T18:01:12+00:00"
+      "published": "2026-10-31T18:01:12+00:00",
+      "language": "en"
     },
     {
       "category": "IT & technologie",
@@ -23,7 +25,8 @@
       "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
       "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
       "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
-      "published": "2026-10-31T01:20:05+00:00"
+      "published": "2026-10-31T01:20:05+00:00",
+      "language": "en"
     },
     {
       "category": "IT & technologie",
@@ -31,7 +34,26 @@
       "title": "Creating AI value with enterprise context",
       "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
       "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, adv",
-      "published": "2026-10-28T20:32:02+00:00"
+      "published": "2026-10-28T20:32:02+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Sport",
+      "source": "Langebaanschaatsen",
+      "title": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. - Schaatsgekkies",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSm5MQnotR1QySHVCRmlONVRKRlNRV2pUYlhzRTYxNjA0Nl9jbGxaX3lWR25YcVVNdzE2VEtUMkc5bUdtaHUtUzJXWjQ2bzFJdWJRY3VKLUF4VXVVR0dvdzJ1bWJRcmZkV2I1aGdVdmF5d0s3R0RjeEFSZkVON3Q0WTZJNHZSM2tQQmhmMUc0MVhjWWJWUEU5cmVUNzNhVVluSVBoOVJCbXNjdVdvWlhDT2FEUHFkWWp2SFpqZnB6VVBLbHdwUlE?oc=5",
+      "summary": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. Schaatsgekkies",
+      "published": "2026-11-01T10:44:21+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Sport",
+      "source": "Langebaanschaatsen",
+      "title": "Programma World Cup Kwalificatie Toernooi schaatsen (WCKT) 2026 Heerenveen - Schaatsgekkies",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnlZTmNlamNzeWhOcXU0Z2VITEl3a1BDQzFEODlGYzVJWXZmeU5yY0tSb24zdXFqR0JKSHVEdGgzR1V4LXI3cHpPTGxMZHl6amxyWG1wOWhEU0VIY2lIR2I3VE1pMnBQd2djZVhGOHhSRTFQYlpRZzAyMEh0bDRpSkJmRDBEWVBobUdVTDBJSk9zdjNEVE9VT3U4dy02SVY2UmZWNGk0NVBpSTJGcEN6ZXEyVWhMZnJm?oc=5",
+      "summary": "Programma World Cup Kwalificatie Toernooi schaatsen (WCKT) 2026 Heerenveen Schaatsgekkies",
+      "published": "2026-11-01T10:44:00+00:00",
+      "language": "nl"
     },
     {
       "category": "IT & technologie",
@@ -39,7 +61,8 @@
       "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
       "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
       "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
-      "published": "2026-10-30T21:41:54+00:00"
+      "published": "2026-10-30T21:41:54+00:00",
+      "language": "en"
     },
     {
       "category": "IT & technologie",
@@ -47,7 +70,8 @@
       "title": "We urgently need to monitor AI agents’ actions in real time",
       "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
       "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same t",
-      "published": "2026-10-29T10:11:12+00:00"
+      "published": "2026-10-29T10:11:12+00:00",
+      "language": "en"
     },
     {
       "category": "Beleggen & economie",
@@ -55,7 +79,8 @@
       "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
       "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d?mod=rss_markets_main",
       "summary": "U.S. stocks fell as the AI selloff began to feed on itself following more disappointing earnings reports from Amazon and Intel, leaving investors to wonder if the tech correction could become a speculative bust.",
-      "published": "2026-10-30T22:04:00+00:00"
+      "published": "2026-10-30T22:04:00+00:00",
+      "language": "en"
     },
     {
       "category": "Beleggen & economie",
@@ -63,15 +88,89 @@
       "title": "AI Investors Are Racing to Get Insurance on the Biggest Market Bet in History",
       "url": "https://www.wsj.com/finance/stocks/ai-investors-are-racing-to-get-insurance-on-the-biggest-market-bet-in-history-a60e296f?mod=rss_markets_main",
       "summary": "With trillions of dollars riding on the artificial-intelligence trade, investors, traders and even tech executives are hunting for high-stakes protection.",
-      "published": "2026-11-01T00:00:00+00:00"
+      "published": "2026-11-01T15:23:00+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Sport",
+      "source": "Schaatsen nieuws",
+      "title": "Stijn van de Bunt: ‘Ik ga de meubelen van de KNSB niet redden’ - Schaatsen",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTBjVFpycWNZdFJkZ0k0dWNYZTR0MFNzV25yNXI5OXZxUlo4UEFjX01mMzBPTU5Wc09jWVpWTHROTlpLdXV5Rld2dlkxV09hUkR1cUVub2huMmVod3p4OHhYZWtLMHNFZG5yRVJQQm1CcmR5M0prQ25fc00tY3Bjd0VidTBucklDNGdlYVdHdnVzSHhaVFpv?oc=5",
+      "summary": "Stijn van de Bunt: ‘Ik ga de meubelen van de KNSB niet redden’ Schaatsen",
+      "published": "2026-11-01T14:20:22+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Sport",
+      "source": "Langebaanschaatsen",
+      "title": "Loting WCKT: Nuis - De Boo op 1000 meter - Schaatsen",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzRwNjhRQTIwUTd1Wk9uWndtV21qTThwNk1jZ1p6QjJWSE5jR0sxRzN4THA2NmRPTk84NUNKZHlVUVpvSWhzVks4WEg2NVV4U3d2MDRxa3VQSjhSUmktMGZEYUhaQ3RaZ2dlX0hmT0NiMmZremNydlgweUhIYXRwMzlpaTdNd2s?oc=5",
+      "summary": "Loting WCKT: Nuis - De Boo op 1000 meter Schaatsen",
+      "published": "2026-11-01T09:45:36+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Sport",
+      "source": "Langebaanschaatsen",
+      "title": "Loting WCKT schaatsen: Jenning de Boo tegen bekende, Femke Kok favoriete zonder Jutta Leerdam - Sportnieuws.nl",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNOTRPcVo3WTQ0dE9VaTZtTFlxUVVvZWVpZy0zQ2pnbjFJRUFXc0prc0ZmNzFiMk5nRGdEYUhHQnFoMEVidC11ckRsNVdVNEgybzItRmpFWExzRWM2ZFVxdkhBX3RVOHU4MndFTWg2TXBtZHF3M0h5QlRtckJkdWk4NlB5OHpIb1dpaTI0bXVzbTNYcU1YM3FISXhmc2Q1NTQyQ19SZ2s1T1F3QzlMbW1sSEkzSzhzM0FDdDJYVmhuaHZhLW5nRG1ad0lxVU1wRUNWTHlfaTBONmpKV29kREQ4b1o3c2NOUlk?oc=5",
+      "summary": "Loting WCKT schaatsen: Jenning de Boo tegen bekende, Femke Kok favoriete zonder Jutta Leerdam Sportnieuws.nl",
+      "published": "2026-11-01T07:38:57+00:00",
+      "language": "nl"
     },
     {
       "category": "Sport",
       "source": "IJshockey",
       "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NQ0dKZkc0MVUwTjczNGl6b0ZvU004V1lFejl2b21kS1dIM3I4clFwbG1QN0phNXota3BGQWhPTS13TlVpbEFYUUdQUGpON2RiTTRCSTBLVkV5MjVNVVZtbm5KTXVDUVluUVFz?oc=5",
       "summary": "IJshockey: NHL nu kijken of gemist? TVgids.nl",
-      "published": "2026-10-31T23:08:28+00:00"
+      "published": "2026-11-01T03:57:28+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Sport",
+      "source": "Schaatsen nieuws",
+      "title": "Dit was dag 2 van het WCKT - Schaatsen",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hOWgyYWI3bE43cFRXU3dpcnhSbzg2dXdUbmNhR3hzOVVMVTJTZUZuUVlicXJJbVZGVjgwZUVHbHREUFJnSFExZjhpdmphS3YyUlV4WDNoTlJub1ZpU2xsRW9HeW9HRlU?oc=5",
+      "summary": "Dit was dag 2 van het WCKT Schaatsen",
+      "published": "2026-10-31T19:09:06+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "Beursupdate: AEX op Wall Street - De AandeelHouder",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNby1VZzZ4bzNza0l4bTI0SFRBbEVrUzE0bnZzTlUwS3ZlY3Q1eGxiOExnQkRCT3hieWlKR2IxeUNQOUpfdGpDYU1xUzZwSXF4ZVZJUGx1TFN1M21NaVJlN1NkQkxiMkQ4T3A0Wk5YVUJuaHhRSG9xV3VPTUhOUmlSb2xiSU42b1BFN0FoTw?oc=5",
+      "summary": "Beursupdate: AEX op Wall Street De AandeelHouder",
+      "published": "2026-10-30T20:35:56+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "ING BeleggersBarometer: beleggers vrezen beursdruk door energieprijzen, maar houden portefeuille vrijwel ongemoeid - Newsroom ING",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVDBSbVgwc2RYc3NGVEJwdEdpVEplSXZ2UXdUbkpNOGd6VXJMeFRmbjZBZ1c3Nk9GdVY4ZTEtTmZFUjBwYWRHQVZlV0VzVjZOcGZJWEtRMXZmR2dzM0IxNTVRaGJEZkdfdVFoLTRSckZnUGtVMUhmdTM4bEpJeWkxRDNjNXd5ODk3cHJXLW40SFJnVVFVNXJPejZrSnRfT2VWRWxkenl2Q2R4QWZEWElfUHlVN1p4WlBUd25jX2lFS25lWkRhRkZydnl6V21rSlRiU25NcVliSUZNbEFyRUtRdG9R?oc=5",
+      "summary": "ING BeleggersBarometer: beleggers vrezen beursdruk door energieprijzen, maar houden portefeuille vrijwel ongemoeid Newsroom ING",
+      "published": "2026-10-30T06:00:00+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "Beste dividend aandelen voor oktober 2026 | Advies van experts - Beleggers Belangen",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UMExaVFQxZTBoNURSM1FIQkdzbk12bk90TDU0aFlzTUVwRHcwZWVBcHZEU1VmWmlGNlRUNTZTUU9zcXZRb2ZjNUZIOUFBdTBqUlhWYWUxa2djR3hWTzI5dF9QVE8yM0dKVjc3Y2ZYODg0bDROY21hS3BR?oc=5",
+      "summary": "Beste dividend aandelen voor oktober 2026 | Advies van experts Beleggers Belangen",
+      "published": "2026-10-29T21:15:00+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "CFO internationaal",
+      "title": "Wilton FY25 Audit Findings Prompt Financial Reporting Fixes - Good Morning Wilton",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGhEamlUTGFmNkhHUHJjcHdaMmY1WjlmejYxcW84MDhFR0V0RHpfaDIxbF9SWDlJSjFiVzdBNDhaeVVQZzM0MEpJNVpnSUhFWnNJVXBCR0ZiQkVkOXEwbjBJYy1KalZ6S1owTXo2eFpfdDRqems1SDlJZ0VQWGZNQ2M3MXluUWZPajBv?oc=5",
+      "summary": "Wilton FY25 Audit Findings Prompt Financial Reporting Fixes Good Morning Wilton",
+      "published": "2026-10-29T20:10:10+00:00",
+      "language": "en"
     },
     {
       "category": "Beleggen & economie",
@@ -79,7 +178,8 @@
       "title": "Amerikaanse centrale bank laat ondanks hoge inflatie rente onveranderd",
       "url": "https://nos.nl/l/2637086",
       "summary": "De Amerikaanse Centrale Bank, de Federal Reserve, laat het rentepercentage staan. Toch sluit voorzitter Kevin Warsh niet uit dat door de hoge inflatie de rente mogelijk binnenkort verder wordt verhoogd. Vorige maand verhoogde Warsh de rente",
-      "published": "2026-10-28T20:43:38+00:00"
+      "published": "2026-10-28T20:43:38+00:00",
+      "language": "nl"
     },
     {
       "category": "Finance & CFO",
@@ -87,7 +187,26 @@
       "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
       "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
       "summary": "The chancellor targets the cost of living amid global economic turmoil but opposition parties say he has not been bold enough.",
-      "published": "2026-10-28T18:45:09+00:00"
+      "published": "2026-10-28T18:45:09+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "CFO treasury en forecasts",
+      "title": "Harro Ridt is de nieuwe interim-Finance Director van Northwave Cyber Security - CFO.nl",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX1lrcUl2cm1YaFk0bXhjU3dvaTlVZ3J6VUc1YllWbkVhVy1QMXZaWFhPY0YtTVdfcmV1Q282Y05Qbl9QQ05COFhYNWh1aWg1MGtHVFRyMXdsdngtUnRBbWM4RmpfLVU3bTJoUjdRNXVOblFNZEo1M081VkMzdGI4YldBLWFUa3hoLVIzM2wwb0pZaEUzcU5UT3hWWG5YU1ROZTNV?oc=5",
+      "summary": "Harro Ridt is de nieuwe interim-Finance Director van Northwave Cyber Security CFO.nl",
+      "published": "2026-10-28T15:18:51+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Sport",
+      "source": "Hardlopen nieuws",
+      "title": "Koolhydraten stapelen voor een (halve) marathon? Voormalig topatlete en doctor in medische wetenschappen Miranda Boonstra legt uit hoe - RunningNL",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcllTajJndFltaWh1VDdrMHZ4NmtJZkItYS1TT3E4aVVPTVQ5amx1bWlsVHlsM3BJbjFWYXhBREtib3JrQk5KX0RTZnRiaTVWUEdXd3N4LU5RaVpQWnhYY25YVWNfa2JoYU5oVHVGUHFSRHRseVMyTjg2eDVNUVJBRDExZWJrZjY0MnI1NXhXY25kZkZiLWV2Rg?oc=5",
+      "summary": "Koolhydraten stapelen voor een (halve) marathon? Voormalig topatlete en doctor in medische wetenschappen Miranda Boonstra legt uit hoe RunningNL",
+      "published": "2026-10-28T07:00:00+00:00",
+      "language": "nl"
     },
     {
       "category": "Nederland & wereld",
@@ -95,31 +214,62 @@
       "title": "Premier Abiy van Ethiopië stuurt ministers naar militaire training",
       "url": "https://nos.nl/l/2637522",
       "summary": "Voor de regering van Ethiopië was het vandaag even niet vergaderen maar push-ups doen. Premier Abiy Ahmed had zijn kabinet op militaire training gestuurd. Hij deed zelf ook mee, is te zien op foto's die de premier heeft gedeeld op sociale m",
-      "published": "2026-10-31T21:14:40+00:00"
+      "published": "2026-10-31T21:14:40+00:00",
+      "language": "nl"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "WSJ Markets",
-      "title": "Opinion | Markets Don’t Vote for Lula in Brazil",
-      "url": "https://www.wsj.com/opinion/brazil-election-lula-da-silva-flavio-bolsonaro-markets-c8446089?mod=rss_markets_main",
-      "summary": "The country’s stocks, bonds and currency plunge after the socialist wins.",
-      "published": "2026-10-26T21:36:00+00:00"
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Zes opvarenden van rubberboot voor Zeeuwse kust waren minderjarig",
+      "url": "https://nos.nl/l/2637611",
+      "summary": "Op de rubberboot met migranten die gisteren werd opgepikt voor de Zeeuwse kust zaten onder anderen zes minderjarigen. Ze zijn overgebracht naar het aanmeldcentrum in Ter Apel. Van de 38 opvarenden heeft er één asiel gevraagd. De Koninklijke",
+      "published": "2026-11-01T15:13:54+00:00",
+      "language": "nl"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "WSJ Markets",
-      "title": "Investors Are Betting a Blue Wave Will Help Hospitals. Don’t Count on It.",
-      "url": "https://www.wsj.com/health/healthcare/investors-are-betting-a-blue-wave-will-help-hospitals-dont-count-on-it-411ab127?mod=rss_markets_main",
-      "summary": "Markets are anticipating a reversal of Trump’s Medicaid cuts. That may be easier said than done.",
-      "published": "2026-11-01T10:30:00+00:00"
+      "category": "Finance & CFO",
+      "source": "Nederlandse fiscaliteit",
+      "title": "Onderhandeling over belastingplan draait uit op spelletje Haags blufpoker - Het Parool",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM2hwTnVWclM1VVB4T1ZhTW9hM3pxM0Q1WFc4NTNmWHBPNFhwS21zQ0hBUUVNOW55Z1lUUnVLRmxZVDRHVXBpMHAwT0ZhUHo1TURzVnVvcmJVS0RCUjRSZkJqdzhQbFZPUHpDVXdhYkVyLU1URktWRUVhdGMxUkJ3U3JQQ01ZSF9uSm5FQ3c1YlAtLWJQbFc0b3hHZ2k2ZGVVcmUyeWg0R1FzLUZRdWl3dXAxd1p5dw?oc=5",
+      "summary": "Onderhandeling over belastingplan draait uit op spelletje Haags blufpoker Het Parool",
+      "published": "2026-11-01T14:38:43+00:00",
+      "language": "nl"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "MarketWatch",
-      "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
-      "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
-      "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
-      "published": "2026-10-31T16:02:00+00:00"
+      "category": "Finance & CFO",
+      "source": "Nederlandse fiscaliteit",
+      "title": "Bert Engelaar sluit hardere acties bij btw-verhoging niet uit - HLN",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yNFl2VVphVFlCREpsYVl1cmFuTF9IUXYwMXoyTE9PMld6QU5NSG8tOXdUZkQzSTJlZldIaWI1WlNmNWktSnVxRUpDM0ZWTnBrYkxlUF9jRHBnckxVRzI3MmdXSzd2YzVQ?oc=5",
+      "summary": "Bert Engelaar sluit hardere acties bij btw-verhoging niet uit HLN",
+      "published": "2026-11-01T12:54:00+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "Nederlandse fiscaliteit",
+      "title": "Jetten krijgt oppositie niet mee: nog altijd geen akkoord over belastingplan - Nieuw Rechts",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWjU1c2ZiMG9GZTQ4OUlOZUtGMGZTQzM3cktnRV9FWUkybVJrT29SQkFrQ0hzd0RReFhfcUd0Wlluck9YSDJ5LUFJVFUxcm9qdWFDZWZGUllka1VPZUxQaDdjX3NYUVJFcW1EX2NZaU5vS0J0N1RrdE50eENER0FoZ01xRGc1X0NqaFpNU2VaX2F1TkZZYlNYOVY0cV9uTGNZb3RhVkFvb2Y?oc=5",
+      "summary": "Jetten krijgt oppositie niet mee: nog altijd geen akkoord over belastingplan Nieuw Rechts",
+      "published": "2026-11-01T12:49:20+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "CFO treasury en forecasts",
+      "title": "Hoa Phat: Het dilemma van kapitaalkosten en cashflow - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtdmlJYlE1T1BGVks3OFc2V3BZb2tlZ0R6dmd2ejVQS0R3a3MxeGZ5UEZrQXUzVFJPUnNSaHhYNjFUQnNCV0FEREp5ZmJrZFRrSUZjdXhXbXVxTVJDcmdXbXMtRXVQZ1FJa3hxbG9aaFJEVjN4Qndr?oc=5",
+      "summary": "Hoa Phat: Het dilemma van kapitaalkosten en cashflow Vietnam.vn",
+      "published": "2026-11-01T09:45:21+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "CFO.nl · proefbron",
+      "title": "ERP-implementatie checklist: 5 vragen die elk CFO vooraf moet beantwoorden - cfo.nl",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUE5Xblk2ZGU0SGFYNkJFQlVFd0lVQjYtUFhLNFhOdFFSRFFJRGd3LUJjbHlpa1lNclBUTE5mdDF6N3hDd1V2Zzg3b1hlSXlUUl9iNjE4c3NYOTg3R3k0ckp0Tkt5aUUtXzg1djB2UXZvd0xoNWxBQ2ZvOEtXRVlGbnlTR1ItN1Flck5uclMwV01sOGVjb1F4TWctN3h2ZzdtMWc?oc=5",
+      "summary": "ERP-implementatie checklist: 5 vragen die elk CFO vooraf moet beantwoorden cfo.nl",
+      "published": "2026-11-01T06:57:09+00:00",
+      "language": "nl"
     },
     {
       "category": "Nederland & wereld",
@@ -127,7 +277,8 @@
       "title": "Thousands demonstrate in Paris as protests spread across Europe",
       "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
       "summary": "More than 320,000 people demonstrated across France against the rising cost of living and poor public services, with clashes between some protesters and police.",
-      "published": "2026-10-31T21:29:01+00:00"
+      "published": "2026-10-31T21:29:01+00:00",
+      "language": "en"
     },
     {
       "category": "Nederland & wereld",
@@ -135,72 +286,13 @@
       "title": "Ethiopian PM puts ministers through military training",
       "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
       "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
-      "published": "2026-10-31T14:28:15+00:00"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "BBC World",
-      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
-      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
-      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
-      "published": "2026-10-30T22:11:52+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "BBC Business",
-      "title": "Faisal Islam: This Budget was micro and that was deliberate",
-      "url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
-      "summary": "Chancellor John Healey's plans fall short of radical action to create a promised new economic model.",
-      "published": "2026-10-29T15:48:44+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "BBC Business",
-      "title": "Bereaved families will not face tax bill over pension delays under new rules",
-      "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
-      "summary": "Campaigners had warned some families could face an unfair financial penalty because of delays which were not their fault.",
-      "published": "2026-10-29T15:18:04+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "BBC Business",
-      "title": "Your pay, energy bills and savings: How the Budget affects you",
-      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
-      "summary": "Changes announced by Chancellor John Healey in his first Budget will affect your finances directly. Here's how.",
-      "published": "2026-10-29T15:11:35+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "BBC Business",
-      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
-      "summary": "People on a range of incomes from £4,062 to £150,000 a year tell the BBC what they made of this year's Budget.",
-      "published": "2026-10-29T11:52:55+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "BBC Business",
-      "title": "What the Budget offers for under 25s - and what it leaves out",
-      "url": "https://www.bbc.co.uk/news/articles/c60e05yn3w9zo?at_medium=RSS&at_campaign=rss",
-      "summary": "The chancellor announced a series of measures which will impact under-25 year-olds from housing to minimum wage.",
-      "published": "2026-10-28T20:02:38+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "The Economist",
-      "title": "In search of tax alpha",
-      "url": "https://www.economist.com/finance-and-economics/2026/10/06/in-search-of-tax-alpha",
-      "summary": "The taxman is losing patience with Americans’ shrewd use of tax losses",
-      "published": "2026-10-06T17:41:20+00:00"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "BBC Business",
-      "title": "'Painful' years ahead, think tanks warn, as living standards set to fall",
-      "url": "https://www.bbc.co.uk/news/articles/c6z7x8214np7o?at_medium=RSS&at_campaign=rss",
-      "summary": "Budget forecasts show growth in living standards grinding almost to a halt.",
-      "published": "2026-10-29T13:19:24+00:00"
+      "published": "2026-10-31T14:28:15+00:00",
+      "language": "en"
     }
   ],
-  "warning": "Niet alle nieuwsbronnen konden worden bijgewerkt."
+  "warning": "Niet alle nieuwsbronnen konden worden bijgewerkt.",
+  "failed_sources": [
+    "Harvard Business Review: URLError"
+  ],
+  "google_news_failures": 0
 }
