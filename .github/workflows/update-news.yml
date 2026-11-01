@@ -15,6 +15,8 @@ jobs:
           python-version: '3.12'
       - name: Fetch public RSS feeds
         run: python scripts/fetch_news.py
+      - name: Select today's podcast episode
+        run: python scripts/update_podcasts.py
       - name: Build daily shortlist
         run: python scripts/build_daily_selection.py
       - name: Verify shortlist
@@ -33,7 +35,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json daily-selection.json
+          git add news.json daily-selection.json podcast-tips.json
           if ! git diff --cached --quiet; then
             git commit -m "Update RSS news"
             git push
