@@ -83,6 +83,7 @@ jobs:
               'Seven-day podcast retention': 'age>=0&&age<7' in html,
               'Podcast source': 'podcast-tips.json' in html,
               'Audio source': 'briefing.mp3' in html,
+              'Audio matching': 'info.item_ids.length!==ids.length' in html and 'id===info.item_ids[i]' in html,
               'News speech': 'SpeechSynthesisUtterance(part.text)' in html,
           }
           for name, ok in checks.items():
