@@ -12,7 +12,7 @@ source = json.loads((root / "news.json").read_text(encoding="utf-8"))
 today = dt.datetime.now(ZoneInfo("Europe/Amsterdam")).date().isoformat()
 quotas = {"Finance & CFO": 4, "IT & technologie": 3, "Beleggen & economie": 3, "Nederland & wereld": 2, "Sport": 1}
 priority = {
- "Finance & CFO": ("cfo", "treasury", "liquidity", "audit", "forecast", "ebitda", "tax", "ifrs", "governance", "belastingplan", "vennootschapsbelasting", "ecb", "dnb", "jaarrekening", "accountant"),
+ "Finance & CFO": ("cfo", "treasury", "liquidity", "audit", "forecast", "ebitda", "tax", "ifrs", "governance", "belastingplan", "vennootschapsbelasting", "ecb", "dnb", "jaarrekening", "accountant", "cash flow", "transfer pricing", "financial reporting", "merger", "acquisition"),
  "IT & technologie": ("vmware", "broadcom", "cloud", "cyber", "artificial intelligence", "microsoft", "data center"),
  "Beleggen & economie": ("etf", "stock", "aandeel", "beurs", "rente", "inflation", "ecb", "ethereum"),
  "Nederland & wereld": ("nederland", "europe", "kabinet", "economie", "minister"),
@@ -45,6 +45,8 @@ for category, limit in quotas.items():
         if category == 'Finance & CFO' and any(w in (item.get('title','')+' '+item.get('summary','')).casefold() for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):
             continue
         title = item.get('title', '').casefold()
+        if category == 'Finance & CFO' and any(w in title for w in ('f1-commentator', 'formule 1-commentator', 'voetbaltrainer', 'transfernieuws')):
+            continue
         tax_politics = category == 'Finance & CFO' and any(w in title for w in ('belastingplan', 'btw-verhoging', 'belastingakkoord', 'btw', 'belasting', 'tax deal'))
         if tax_politics and tax_politics_count >= 2:
             continue
