@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T05:51:58.968966+00:00",
+  "updated": "2026-11-01T11:42:33.755894+00:00",
   "articles": [
     {
       "category": "IT & technologie",
@@ -69,9 +69,9 @@
       "category": "Sport",
       "source": "IJshockey",
       "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fSVZVcHdhWGVlNG4wT2R1RXV0MDZfMWNPNlFvczJpS2lNQnQ1ZG5tUEpnaGQwVk1rRTc2a21KUUJXbVZ5UnJOc19uVjcxUURsSzNtMHNjUUxoZy1xd1JJMzctNENpWUUxcHZV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
       "summary": "IJshockey: NHL nu kijken of gemist? TVgids.nl",
-      "published": "2026-10-29T07:00:00+00:00"
+      "published": "2026-10-31T23:08:28+00:00"
     },
     {
       "category": "Beleggen & economie",
@@ -107,19 +107,19 @@
     },
     {
       "category": "Beleggen & economie",
+      "source": "WSJ Markets",
+      "title": "Investors Are Betting a Blue Wave Will Help Hospitals. Don’t Count on It.",
+      "url": "https://www.wsj.com/health/healthcare/investors-are-betting-a-blue-wave-will-help-hospitals-dont-count-on-it-411ab127?mod=rss_markets_main",
+      "summary": "Markets are anticipating a reversal of Trump’s Medicaid cuts. That may be easier said than done.",
+      "published": "2026-11-01T10:30:00+00:00"
+    },
+    {
+      "category": "Beleggen & economie",
       "source": "MarketWatch",
       "title": "Want guaranteed income in retirement without an annuity? Try laddering I bonds.",
       "url": "https://www.marketwatch.com/story/how-to-use-i-bonds-to-create-guaranteed-inflation-proof-income-in-retirement-50753fea?mod=mw_rss_topstories",
       "summary": "The new I-bond interest rate could be 5.5% or 5.4%, but that shouldn’t change your strategy.",
       "published": "2026-10-31T16:02:00+00:00"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "WSJ Markets",
-      "title": "Opinion | An AI Halloween Market Scare",
-      "url": "https://www.wsj.com/opinion/market-scare-ai-binance-nasdaq-google-alphabet-94e31518?mod=rss_markets_main",
-      "summary": "Crypto isn’t risk-free after all, as thieves take Binance for $6.3 billion.",
-      "published": "2026-10-30T21:36:00+00:00"
     },
     {
       "category": "Nederland & wereld",
@@ -131,19 +131,19 @@
     },
     {
       "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Tientallen aanhoudingen in Den Haag, geen grote demonstraties in Nederland",
-      "url": "https://nos.nl/l/2637449",
-      "summary": "In Den Haag is het weer rustig na een onrustige dag. Hoewel de plunderingen waarvoor gevreesd werd, zijn uitgebleven, zijn er 34 aanhoudingen verricht op en rond het Malieveld. Er werden mensen aangehouden omdat ze gezichtsbedekking droegen",
-      "published": "2026-10-31T14:43:07+00:00"
-    },
-    {
-      "category": "Nederland & wereld",
       "source": "BBC World",
       "title": "Ethiopian PM puts ministers through military training",
       "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
       "summary": "The prime minister has previously emphasised military preparedness as central to his government's ambitions.",
       "published": "2026-10-31T14:28:15+00:00"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "G20 'family photo' cancelled after protests over presence of Russian minister",
+      "url": "https://www.bbc.co.uk/news/articles/cmd6dp2y576do?at_medium=RSS&at_campaign=rss",
+      "summary": "UK Foreign Secretary Ed Miliband confronted his Russian counterpart at the meeting and accused his government of killing innocent civilians in Ukraine.",
+      "published": "2026-10-30T22:11:52+00:00"
     },
     {
       "category": "Finance & CFO",
