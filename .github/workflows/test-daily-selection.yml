@@ -75,6 +75,7 @@ jobs:
           from pathlib import Path
           html=Path('index.html').read_text(encoding='utf-8')
           assert "candidate.selection_mode==='curated'" in html
+          assert 'map(a=>a.id||a.url)' in html
           assert "candidate.selection_mode" in html
           assert "a.language===\'nl\'" in html
           assert "SpeechSynthesisUtterance(part.text)" in html
