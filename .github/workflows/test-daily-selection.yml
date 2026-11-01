@@ -1,0 +1,181 @@
+name: Test daily news selection
+on:
+  pull_request:
+    paths:
+      - 'scripts/build_daily_selection.py'
+      - 'scripts/fetch_news.py'
+      - 'scripts/update_podcasts.py'
+      - '.github/workflows/test-daily-selection.yml'
+      - 'index.html'
+      - 'CENTRALE-SELECTIE.md'
+      - '.github/workflows/update-news.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify Python syntax
+        run: python -m py_compile scripts/build_daily_selection.py scripts/fetch_news.py scripts/update_podcasts.py
+      - name: Fetch fresh public RSS feeds
+        run: python scripts/fetch_news.py
+      - name: Select verified podcast episode
+        run: python scripts/update_podcasts.py
+      - name: Verify podcast recommendations
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          data=json.loads(Path('podcast-tips.json').read_text(encoding='utf-8'))
+          tips=data.get('tips', [])
+          today=dt.datetime.now(ZoneInfo('Europe/Amsterdam')).date()
+          assert len(tips)<=7
+          assert len({x['date'] for x in tips})==len(tips)
+          assert len({x['episode_id'] for x in tips})==len(tips)
+          for x in tips:
+              age=(today-dt.date.fromisoformat(x['date'])).days
+              assert 0<=age<7, (x['date'],age)
+              assert x['url'].startswith('https://')
+              assert x['spotify_search'].startswith('https://open.spotify.com/search/')
+              if x.get('spotify_url'):
+                  assert x['spotify_url'].startswith('https://open.spotify.com/episode/')
+              published=dt.datetime.fromisoformat(x['published'])
+              assert published.tzinfo is not None
+              assert published<=dt.datetime.now(dt.timezone.utc)+dt.timedelta(days=1)
+          print(f'PASS: {len(tips)} podcast tips with verified structure and seven-day retention')
+          PY
+      - name: Report trial source contribution
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          articles=json.loads(Path('news.json').read_text())['articles']
+          for source in ('CFO.nl · proefbron','CMweb · proefbron','NBA · proefbron'):
+              selected=[a for a in articles if a.get('source')==source]
+              print(f'{source}: {len(selected)} articles retained after ranking')
+          PY
+      - name: Build shortlist from freshly fetched RSS
+        run: python scripts/build_daily_selection.py
+      - name: Verify shortlist structure
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('daily-selection.json').read_text())
+          assert x['selection_mode']=='rss_shortlist'
+          assert 1<=len(x['articles'])<=13
+          assert all(a.get('published') for a in x['articles'])
+          assert len({a['url'] for a in x['articles']})==len(x['articles'])
+          import datetime as dt
+          from zoneinfo import ZoneInfo
+          now=dt.datetime.now(dt.timezone.utc)
+          for article in x['articles']:
+              published=dt.datetime.fromisoformat(article['published'].replace('Z','+00:00'))
+              assert published.tzinfo is not None
+              age_hours=(now-published).total_seconds()/3600
+              assert -2<=age_hours<=168, (article['title'],age_hours)
+          assert x['item_ids']==[a.get('id') or a.get('url') for a in x['articles']]
+          assert len(x['item_ids'])==len(set(x['item_ids']))
+          assert isinstance(x.get('google_news_failures'),int)
+          assert isinstance(x.get('source_failures'),list)
+          older=sum((now-dt.datetime.fromisoformat(a['published'].replace('Z','+00:00'))).total_seconds()>48*3600 for a in x['articles'])
+          if older: assert 'ouder dan 48 uur' in x['warning']
+          print(f'Freshness: {len(x["articles"])-older} within 48 hours; {older} older fallback')
+          assert not any('gemeentefusie' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
+          assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
+          assert not any('f1-commentator' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
+          assert not any(any(term in a['title'].lower() for term in ('zoekt een ', 'vacature', 'jury m&a awards')) for a in x['articles'] if a['category']=='Finance & CFO')
+          print('PASS:',len(x['articles']),'items')
+          PY
+
+      - name: Validate daily workflow YAML
+        run: |
+          python -m pip install --quiet pyyaml
+          python - <<'PY'
+          import yaml
+          from pathlib import Path
+          wf=yaml.safe_load(Path('.github/workflows/update-news.yml').read_text())
+          steps=wf['jobs']['update']['steps']
+          commands=[step.get('run','') for step in steps]
+          assert sum('python scripts/build_daily_selection.py' in c for c in commands)==1
+          assert sum('python scripts/fetch_news.py' in c for c in commands)==1
+          assert any('git add news.json daily-selection.json podcast-tips.json' in c for c in commands)
+          assert sum('python scripts/update_podcasts.py' in c for c in commands)==1
+          print('PASS: publication workflow is valid YAML with exactly one fetch and build step')
+          PY
+      - name: Verify daily publication workflow
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          workflow=Path('.github/workflows/update-news.yml').read_text(encoding='utf-8')
+          assert 'python scripts/fetch_news.py' in workflow
+          assert 'python scripts/build_daily_selection.py' in workflow
+          assert 'git add news.json daily-selection.json podcast-tips.json' in workflow
+          assert workflow.index('python scripts/fetch_news.py') < workflow.index('python scripts/build_daily_selection.py')
+          assert workflow.index('python scripts/build_daily_selection.py') < workflow.index('git add news.json daily-selection.json podcast-tips.json')
+          print('PASS: daily workflow builds and commits both news files')
+          PY
+      - name: Verify bilingual speech controls in dashboard
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path('index.html').read_text(encoding='utf-8')
+          assert "candidate.selection_mode==='curated'" in html
+          assert 'map(a=>a.id||a.url)' in html
+          assert "candidate.selection_mode" in html
+          assert "a.language===\'nl\'" in html
+          assert "SpeechSynthesisUtterance(part.text)" in html
+          assert "utterance.lang=part.lang" in html
+          assert "daily-selection.json" in html
+          assert "candidate.selection_mode==='rss_shortlist' && candidate.date===" in html
+          print('PASS: bilingual original-language speech controls present')
+          PY
+
+      - name: Verify personalized dashboard sections and privacy boundaries
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html=Path('index.html').read_text(encoding='utf-8')
+          checks={
+              'AI tip tab': 'data-tab="aitip"' in html,
+              'English tab': 'data-tab="english"' in html,
+              'Podcast tab': 'data-tab="podcasts"' in html,
+              'Speaking exercises': 'const englishExercises=[' in html and 'M&A due diligence' in html,
+              'Finance AI tips': 'const tips=[' in html and 'AI · Driver-based forecast' in html,
+              'Dutch date rotation': 'const tip=tips[dayIndex%tips.length]' in html,
+              'Privacy warning': 'bedrijfsbeleid' in html,
+              'Seven-day podcast retention': 'age>=0&&age<7' in html,
+              'Podcast source': 'podcast-tips.json' in html,
+              'Audio source': 'briefing.mp3' in html,
+              'Audio matching': 'info.item_ids.length!==ids.length' in html and 'id===info.item_ids[i]' in html,
+              'Audio waits for news': 'load().then(()=>loadAudio())' in html and 'load();loadAudio();' not in html,
+              'Speech reads full shortlist': 'speechParts=speechParts.filter(' not in html and 'Alle getoonde nieuwsitems worden voorgelezen.' in html,
+              'ITQ news loaded separately': "itqArticles=Array.isArray(itqData.articles)" in html and "$('#itqgrid').replaceChildren(...itqArticles.map(card))" in html,
+              'News speech': 'SpeechSynthesisUtterance(part.text)' in html,
+          }
+          for name, ok in checks.items():
+              print(('PASS' if ok else 'FAIL')+': '+name)
+          assert all(checks.values())
+          PY
+
+      - name: Package offline dashboard preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: mijn-nieuws-preview
+          path: |
+            index.html
+            news.json
+            daily-selection.json
+            podcast-tips.json
+            audio/
+          if-no-files-found: warn
+          retention-days: 7
