@@ -63,6 +63,30 @@ jobs:
           print('PASS: bilingual original-language speech controls present')
           PY
 
+      - name: Verify personalized dashboard sections and privacy boundaries
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          html=Path('index.html').read_text(encoding='utf-8')
+          checks={
+              'AI tip tab': 'data-tab="aitip"' in html,
+              'English tab': 'data-tab="english"' in html,
+              'Podcast tab': 'data-tab="podcasts"' in html,
+              'Speaking exercises': 'const englishExercises=[' in html and 'M&A due diligence' in html,
+              'Finance AI tips': 'const tips=[' in html and 'AI · Driver-based forecast' in html,
+              'Dutch date rotation': 'const tip=tips[dayIndex%tips.length]' in html,
+              'Privacy warning': 'bedrijfsbeleid' in html,
+              'Seven-day podcast retention': 'age>=0&&age<7' in html,
+              'Podcast source': 'podcast-tips.json' in html,
+              'Audio source': 'briefing.mp3' in html,
+              'News speech': 'SpeechSynthesisUtterance(part.text)' in html,
+          }
+          for name, ok in checks.items():
+              print(('PASS' if ok else 'FAIL')+': '+name)
+          assert all(checks.values())
+          PY
+
       - name: Package offline dashboard preview
         uses: actions/upload-artifact@v4
         with:
