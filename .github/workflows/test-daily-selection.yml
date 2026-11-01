@@ -86,6 +86,9 @@ jobs:
           assert len(x['item_ids'])==len(set(x['item_ids']))
           assert isinstance(x.get('google_news_failures'),int)
           assert isinstance(x.get('source_failures'),list)
+          older=sum((now-dt.datetime.fromisoformat(a['published'].replace('Z','+00:00'))).total_seconds()>48*3600 for a in x['articles'])
+          if older: assert 'ouder dan 48 uur' in x['warning']
+          print(f'Freshness: {len(x["articles"])-older} within 48 hours; {older} older fallback')
           assert not any('gemeentefusie' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           assert not any('f1-commentator' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
