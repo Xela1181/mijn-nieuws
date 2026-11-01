@@ -142,6 +142,7 @@ jobs:
               'Podcast source': 'podcast-tips.json' in html,
               'Audio source': 'briefing.mp3' in html,
               'Audio matching': 'info.item_ids.length!==ids.length' in html and 'id===info.item_ids[i]' in html,
+              'Audio waits for news': 'load().then(()=>loadAudio())' in html and 'load();loadAudio();' not in html,
               'News speech': 'SpeechSynthesisUtterance(part.text)' in html,
           }
           for name, ok in checks.items():
