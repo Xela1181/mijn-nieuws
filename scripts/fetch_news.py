@@ -28,6 +28,10 @@ FEEDS = [
     ('Finance & CFO','CFO treasury en forecasts',google_news('(cashflow OR werkkapitaal OR treasury OR liquiditeitsforecast OR CFO OR EBITDA) when:5d')),
     ('Finance & CFO','CFO internationaal',google_news('(CFO OR treasury OR accounting OR financial reporting OR corporate finance) when:5d','en','US')),
     ('Beleggen & economie','Nederlandse markten',google_news('(AEX OR ECB OR inflatie OR rente OR beleggers) when:3d')),
+    # Proefbronnen: Google News site-filter totdat een betrouwbare directe RSS-feed is bevestigd.
+    ('Finance & CFO','CFO.nl · proefbron',google_news('site:cfo.nl (CFO OR treasury OR governance OR audit OR forecast OR finance OR overname) when:7d')),
+    ('Finance & CFO','CMweb · proefbron',google_news('site:cmweb.nl (controlling OR treasury OR jaarrekening OR AI OR risicomanagement OR werkkapitaal) when:7d')),
+    ('Finance & CFO','NBA · proefbron',google_news('site:nba.nl (accountancy OR verslaggeving OR controle OR standaarden OR regelgeving OR jaarrekening) when:14d')),
     ('Finance & CFO','Harvard Business Review','https://feeds.hbr.org/harvardbusiness'),
     ('Finance & CFO','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
     ('Finance & CFO','Financial Times','https://www.ft.com/?format=rss'),
