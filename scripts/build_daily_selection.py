@@ -43,7 +43,7 @@ for category, limit in quotas.items():
         if not item.get("title") or not item.get("summary") or rank(item) < -5:
             continue
         title = item.get('title', '').casefold()
-        tax_politics = category == 'Finance & CFO' and any(w in title for w in ('belastingplan', 'btw-verhoging', 'belastingakkoord'))
+        tax_politics = category == 'Finance & CFO' and any(w in title for w in ('belastingplan', 'btw-verhoging', 'belastingakkoord', 'btw', 'belasting', 'tax deal'))
         if tax_politics and tax_politics_count >= 2:
             continue
         if tax_politics:
