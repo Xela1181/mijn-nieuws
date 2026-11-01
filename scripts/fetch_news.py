@@ -19,7 +19,12 @@ FEEDS = [
     ('ITQ Nieuws','Google Nieuws · ITQ Consultancy',google_news('"ITQ Consultancy" when:30d')),
     ('Sport','Marathonnieuws',google_news('(marathon OR hardlopen) (wedstrijd OR training OR record OR atletiek) when:7d')),
     ('Sport','Langebaanschaatsen',google_news('(langebaanschaatsen OR schaatsen OR KNSB OR ISU) when:7d')),
-    ('Sport','IJshockey',google_news('(ijshockey OR NHL OR ice hockey) when:7d')),
+    ('Sport','Wielrennen',google_news('(wielrennen OR cycling OR wielerwedstrijd) when:7d')),
+    ('Sport','Schaatsen nieuws',google_news('site:schaatsen.nl (world cup OR wckt OR schaatsen) when:7d')),
+    ('Sport','Hardlopen nieuws',google_news('site:running.nl (marathon OR hardlopen) when:7d')),
+    ('Finance & CFO','Nederlandse fiscaliteit',google_news('(belastingplan OR vennootschapsbelasting OR btw OR jaarrekening OR accountant) when:3d')),
+    ('Finance & CFO','Europese CFO',google_news('(ECB OR DNB OR treasury OR liquiditeit OR fusie OR overname) when:3d')),
+    ('Beleggen & economie','Nederlandse markten',google_news('(AEX OR ECB OR inflatie OR rente OR beleggers) when:3d')),
     ('Finance & CFO','Harvard Business Review','https://feeds.hbr.org/harvardbusiness'),
     ('Finance & CFO','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
     ('Finance & CFO','Financial Times','https://www.ft.com/?format=rss'),
@@ -43,7 +48,7 @@ KEYWORDS = {
  'IT & technologie': ['artificial intelligence','ai ',' ai','cloud','cyber','security','ransomware','broadcom','vmware','microsoft','data center','datacenter','automation','automatisering','enterprise','software','chip','semiconductor','llm','generative ai','it services'],
  'Beleggen & economie': ['stock','share','aandeel','etf','beurs','market','interest rate','rente','inflation','inflatie','economy','economie','central bank','ecb','fed ','earnings','dividend','bond','obligatie','invest','beleg','crypto','bitcoin','ethereum','index fund','s&p 500','nasdaq'],
  'Nederland & wereld': ['nederland','dutch','europe','eu ','verkiez','politiek','kabinet','regering','war','oorlog','geopolit','international','wereld','minister'],
- 'Sport': ['marathon','running','hardlopen','schaatsen','langebaan','speed skating','knsb','isu','ijshockey','ice hockey','nhl','atletiek'],
+ 'Sport': ['marathon','running','hardlopen','schaatsen','langebaan','speed skating','knsb','isu','wielrennen','cycling','atletiek','wckt','world cup'],
  'ITQ Nieuws': ['itq','itq consultancy','itq.eu','broadcom','vmware'],
 }
 BLOCK = {'Beleggen & economie':['my father','my mother','caregiver','debit card','credit card debt','advice column','should i','relationship','retirement advice','inheritance dispute','personal finance question']}
@@ -78,7 +83,8 @@ def fetch(cat, source, url):
         if not link.startswith(('https://','http://')) or not title:continue
         date=parse_date(value(node,['pubDate','{http://www.w3.org/2005/Atom}updated','{http://www.w3.org/2005/Atom}published','{http://purl.org/dc/elements/1.1/}date']))
         desc=clean(value(node,['description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content']))
-        out.append(dict(category=cat,source=source,title=title,url=link,summary=desc,published=date))
+        language = 'nl' if 'news.google.com' in url or source.startswith('NOS') else 'en'
+        out.append(dict(category=cat,source=source,title=title,url=link,summary=desc,published=date,language=language))
     return out
 
 def main():
@@ -101,7 +107,7 @@ def main():
     for item in unique.values():
         cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
         if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
-        if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
+        if cat=='Sport' and (not any(w in blob for w in KEYWORDS['Sport']) or re.search(r'ijshockey|ice hockey|\bnhl\b',blob)):continue
         if any(b in blob for b in BLOCK.get(cat,[])):continue
         score=sum(4 if word in item['title'].lower() else 1 for word in KEYWORDS[cat] if word in blob)
         if cat in ('Finance & CFO','IT & technologie','Beleggen & economie') and score==0:continue
