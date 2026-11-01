@@ -35,12 +35,19 @@ selected = []
 seen = set()
 for category, limit in quotas.items():
     count = 0
+    tax_politics_count = 0
     for item in sorted((a for a in source.get("articles", []) if a.get("category") == category), key=rank, reverse=True):
         url = item.get("url", "")
         if item.get("category") != category or not url.startswith("https://") or url in seen:
             continue
         if not item.get("title") or not item.get("summary") or rank(item) < -5:
             continue
+        title = item.get('title', '').casefold()
+        tax_politics = category == 'Finance & CFO' and any(w in title for w in ('belastingplan', 'btw-verhoging', 'belastingakkoord'))
+        if tax_politics and tax_politics_count >= 2:
+            continue
+        if tax_politics:
+            tax_politics_count += 1
         seen.add(url)
         selected.append(item)
         count += 1
