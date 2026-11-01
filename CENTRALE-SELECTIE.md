@@ -1,32 +1,20 @@
-# Eén centrale nieuwsselectie — ontwerp
+# Eén dagelijkse nieuwsselectie — uitvoeringsplan
 
-Status: voorbereid, nog niet gekoppeld aan de dagelijkse ChatGPT-taak.
+## Feitelijke status
+De GitHub-workflow maakt een gratis RSS-voorselectie in `daily-selection.json`, met 8–13 berichten waar voldoende bronnen beschikbaar zijn. Dit is `selection_mode: "rss_shortlist"`, niet een redactioneel gecontroleerde selectie. De artikelen behouden hun oorspronkelijke taal. Het dashboard leest de titels en RSS-samenvattingen; de browser leest exact die zichtbare titels en samenvattingen voor, met een Nederlandse of Engelse stem. De maximale spreektekst is 1.700 woorden (ongeveer 15 minuten, afhankelijk van stem en snelheid).
 
-## Doel
-Het dashboard, de ChatGPT-briefing en het voorleesscript gebruiken exact dezelfde gecureerde nieuwsitems, in dezelfde volgorde. Maximaal 15 minuten leestijd en maximaal 15 minuten luistertijd. Business English en podcasts staan los van de nieuwstijd.
+## Tijdstip en bron
+De GitHub-workflow staat op één dagelijkse run om 03:17 UTC, dus 04:17 Nederlandse wintertijd en 05:17 zomertijd. GitHub Actions kan vertraging hebben. Na samenvoegen is het publieke dagbestand bereikbaar via:
+https://xela1181.github.io/mijn-nieuws/daily-selection.json
 
-## Voorstel gegevenscontract
-Een dagelijkse publicatie bevat:
-- date (Europe/Amsterdam, YYYY-MM-DD)
-- updated (ISO-8601)
-- selection_mode: "curated"
-- articles: 8–15 items met id, category, source, title, url, summary, relevance, published
-- narration_en: volledig Engelstalig script (British English), uitsluitend gebaseerd op de items in articles
-- articles[].audio_en: Engelse spreektekst per item in dezelfde volgorde
-- maximaal 1.900 woorden Engelse spreektekst (indicatieve bovengrens voor circa 15 minuten, geen exacte tijdgarantie)
-- item_ids: lijst van artikel-id's in exact dezelfde volgorde als articles
-- estimated_read_minutes en estimated_listen_minutes, beide maximaal 15
+De bestaande ChatGPT-automatisering draait om 06:00 Europe/Amsterdam en is **nog niet gekoppeld** aan dit bestand. Die automatisering pas aanpassen nadat de workflow op de hoofdbranch is geactiveerd en een correct dagbestand publiceert. Bij ontbreken van een dagbestand moet ChatGPT de mismatch expliciet melden, niet een eigen selectie als identiek presenteren.
 
-## Publicatievoorwaarden
-1. De nieuwsselectie wordt op één plek samengesteld en op feiten en bronlinks gecontroleerd.
-2. Publicatie weigeren als item_ids afwijkt van articles, er dubbele URL's zijn, bronnen ontbreken, het aantal artikelen buiten 8–15 ligt, de Engelse spreektekst ontbreekt of de bovengrens van 1.900 woorden wordt overschreden.
-3. Audio is optioneel en mag pas als beschikbaar worden aangeduid wanneer daadwerkelijk gegenereerd en bereikbaar.
-4. De huidige RSS-automatisering mag een gecureerde selectie niet overschrijven.
-5. De bestaande ChatGPT-automatisering schrijft momenteel niet automatisch naar GitHub. Hiervoor is een aparte publicatieroute nodig.
-6. Tot die route werkt, mogen dashboard en ChatGPT niet als gegarandeerd identiek worden gepresenteerd.
+## Afgesproken bron-van-waarheid
+1. GitHub maakt eenmaal per dag een vaste RSS-selectie; geen stilzwijgende wijzigingen later op de dag.
+2. Het dashboard toont dezelfde volgorde als het dagbestand.
+3. Audio leest exact de zichtbare titel en samenvatting van elk geselecteerd artikel voor; geen vertaling.
+4. ChatGPT haalt na activatie hetzelfde dagbestand op en geeft dezelfde items in dezelfde volgorde weer, met dezelfde titel en samenvatting. De Business English-les en podcast-tip zijn afzonderlijke rubrieken.
+5. Een RSS-samenvatting is niet de volledige tekst van het bronartikel. Klik door naar de uitgever voor de volledige tekst.
 
-## Deze eerste wijziging
-Het dashboard kan een expliciet als 'curated' gemarkeerde selectie verwerken; de briefinglijst gebruikt dezelfde categorieën en artikelen zonder willekeurige limiet van 12. De bestaande live-site blijft ongewijzigd totdat de wijzigingen worden goedgekeurd en samengevoegd.
-
-## Huidige beperking
-Er is nog geen gratis, betrouwbare automatische vertaalslag en redactionele kwaliteitscontrole geïmplementeerd. De browser kan de aangeleverde Engelse tekst wel gratis uitspreken, maar kan deze niet zelfstandig journalistiek verantwoord produceren. Het dashboard toont daarom pas Engelse browseraudio als een volledig dagbestand aanwezig en geldig is.
+## Grenzen
+De selectie is automatisch gerangschikt op onderwerp en actualiteit, niet inhoudelijk gecontroleerd door een redacteur. Browserstemmen en spraakweergave verschillen per apparaat. De ChatGPT-automatisering kan een externe URL mogelijk niet altijd openen; zonder verificatie is synchronisatie niet gegarandeerd. Het dashboard blijft op de huidige live-versie totdat de PR is goedgekeurd.
