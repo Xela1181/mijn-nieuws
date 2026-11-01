@@ -115,6 +115,14 @@ def main():
         cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
         if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
         if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
+        if cat=='Finance & CFO':
+            title=item['title'].casefold()
+            # Recruiting, awards and event promotion are not daily CFO developments.
+            low_value=('zoekt een ', 'vacature', 'hiring ', 'we are hiring',
+                       'solliciteer', 'job opening', 'career opportunity',
+                       'jury m&a awards', 'genomineerden voor best deal',
+                       'meld je aan', 'schrijf je in voor')
+            if any(word in title for word in low_value):continue
         if cat=='Finance & CFO' and any(w in item['title'].lower() for w in ('f1-commentator','formule 1-commentator','voetbaltrainer','transfernieuws')):continue
         # A generic local-government merger is not corporate finance or M&A.
         if cat=='Finance & CFO' and any(w in blob for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):continue
