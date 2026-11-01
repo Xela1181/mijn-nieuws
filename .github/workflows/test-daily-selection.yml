@@ -38,6 +38,7 @@ jobs:
           assert 1<=len(x['articles'])<=13
           assert all(a.get('published') for a in x['articles'])
           assert len({a['url'] for a in x['articles']})==len(x['articles'])
+          assert not any('gemeentefusie' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           assert not any('f1-commentator' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
           print('PASS:',len(x['articles']),'items')
