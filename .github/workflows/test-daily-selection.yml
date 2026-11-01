@@ -21,7 +21,9 @@ jobs:
           python-version: '3.12'
       - name: Verify Python syntax
         run: python -m py_compile scripts/build_daily_selection.py scripts/fetch_news.py
-      - name: Build shortlist from committed RSS snapshot
+      - name: Fetch fresh public RSS feeds
+        run: python scripts/fetch_news.py
+      - name: Build shortlist from freshly fetched RSS
         run: python scripts/build_daily_selection.py
       - name: Verify shortlist structure
         run: |
@@ -30,7 +32,8 @@ jobs:
           from pathlib import Path
           x=json.loads(Path('daily-selection.json').read_text())
           assert x['selection_mode']=='rss_shortlist'
-          assert len(x['articles'])<=13
+          assert 1<=len(x['articles'])<=13
+          assert all(a.get('published') for a in x['articles'])
           assert len({a['url'] for a in x['articles']})==len(x['articles'])
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           print('PASS:',len(x['articles']),'items')
