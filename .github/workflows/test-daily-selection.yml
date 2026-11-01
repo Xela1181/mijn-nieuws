@@ -26,6 +26,31 @@ jobs:
         run: python scripts/fetch_news.py
       - name: Select verified podcast episode
         run: python scripts/update_podcasts.py
+      - name: Verify podcast recommendations
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+          data=json.loads(Path('podcast-tips.json').read_text(encoding='utf-8'))
+          tips=data.get('tips', [])
+          today=dt.datetime.now(ZoneInfo('Europe/Amsterdam')).date()
+          assert len(tips)<=7
+          assert len({x['date'] for x in tips})==len(tips)
+          assert len({x['episode_id'] for x in tips})==len(tips)
+          for x in tips:
+              age=(today-dt.date.fromisoformat(x['date'])).days
+              assert 0<=age<7, (x['date'],age)
+              assert x['url'].startswith('https://')
+              assert x['spotify_search'].startswith('https://open.spotify.com/search/')
+              if x.get('spotify_url'):
+                  assert x['spotify_url'].startswith('https://open.spotify.com/episode/')
+              published=dt.datetime.fromisoformat(x['published'])
+              assert published.tzinfo is not None
+              assert published<=dt.datetime.now(dt.timezone.utc)+dt.timedelta(days=1)
+          print(f'PASS: {len(tips)} podcast tips with verified structure and seven-day retention')
+          PY
       - name: Report trial source contribution
         run: |
           python - <<'PY'
