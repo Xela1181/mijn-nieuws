@@ -108,6 +108,7 @@ def main():
         cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
         if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
         if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
+        if cat=='Finance & CFO' and any(w in item['title'].lower() for w in ('f1-commentator','formule 1-commentator','voetbaltrainer','transfernieuws')):continue
         # A generic local-government merger is not corporate finance or M&A.
         if cat=='Finance & CFO' and any(w in blob for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):continue
         if any(b in blob for b in BLOCK.get(cat,[])):continue
