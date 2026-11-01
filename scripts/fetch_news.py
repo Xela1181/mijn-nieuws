@@ -126,6 +126,15 @@ def main():
         if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
         if cat=='Finance & CFO':
             title=item['title'].casefold()
+            if 'proefbron' in item['source']:
+                # Google site-search sometimes indexes biographies, glossaries and evergreen landing pages.
+                article_markers=(' - cfo.nl',' - cmweb',' - nba')
+                headline=title.split(' - ')[0].strip()
+                if len(headline.split()) < 5 or any(w in headline for w in
+                    ('over ons','wie zijn wij','compliance-verklaring','contact','redactie',
+                     'abonnement','privacyverklaring','algemene voorwaarden','auteurs',
+                     'werken bij','onze mensen','kennisbank','begrippenlijst')):
+                    continue
             # Recruiting, awards and event promotion are not daily CFO developments.
             low_value=('zoekt een ', 'vacature', 'hiring ', 'we are hiring',
                        'solliciteer', 'job opening', 'career opportunity',
