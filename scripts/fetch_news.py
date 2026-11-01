@@ -113,6 +113,14 @@ def main():
     ranked={cat:[] for cat in QUOTAS}
     for item in unique.values():
         cat=item['category']; blob=(item['title']+' '+item['summary']).lower()
+        # A Google News site search can return old evergreen pages despite when:7d.
+        # Only dated, genuinely recent articles belong in a daily briefing.
+        try:
+            published=dt.datetime.fromisoformat(item['published'].replace('Z','+00:00'))
+            age_hours=(now-published).total_seconds()/3600
+            if age_hours < -2 or age_hours > (336 if cat=='ITQ Nieuws' else 168):continue
+        except (ValueError, TypeError, KeyError, AttributeError):
+            continue
         if cat=='ITQ Nieuws' and not ('itq' in blob and any(w in blob for w in ['vmware','broadcom','consultancy','cloud','beverwijk','netherlands','nederland','itq.eu','managed services','it services'])):continue
         if cat=='Sport' and not any(w in blob for w in KEYWORDS['Sport']):continue
         if cat=='Finance & CFO':
