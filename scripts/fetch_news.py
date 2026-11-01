@@ -49,7 +49,7 @@ FEEDS = [
     ('Nederland & wereld','BBC World','https://feeds.bbci.co.uk/news/world/rss.xml'),
     ('Sport','NOS Sport','https://feeds.nos.nl/nossportalgemeen'),
 ]
-QUOTAS = {'Finance & CFO': 8, 'IT & technologie': 6, 'Beleggen & economie': 6, 'Nederland & wereld': 4, 'Sport': 1, 'ITQ Nieuws': 0}
+QUOTAS = {'Finance & CFO': 8, 'IT & technologie': 6, 'Beleggen & economie': 6, 'Nederland & wereld': 4, 'Sport': 8, 'ITQ Nieuws': 0}
 KEYWORDS = {
  'Finance & CFO': ['cfo','finance director','financial reporting','financial statements','accounting','audit','treasury','liquidity','working capital','cash flow','cashflow','tax','belasting','btw','transfer pricing','consolidat','forecast','budget','ebitda','governance','compliance','ifrs','controller','financieel directeur','financiële verslaggeving','merger','acquisition','overname','m&a'],
  'IT & technologie': ['artificial intelligence','ai ',' ai','cloud','cyber','security','ransomware','broadcom','vmware','microsoft','data center','datacenter','automation','automatisering','enterprise','software','chip','semiconductor','llm','generative ai','it services'],
