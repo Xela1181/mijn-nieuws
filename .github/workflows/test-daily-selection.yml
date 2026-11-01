@@ -40,10 +40,10 @@ jobs:
           from pathlib import Path
           html=Path('index.html').read_text(encoding='utf-8')
           assert "candidate.selection_mode==='curated'" in html
-          assert "candidate.narration_en" in html
-          assert "spoken.some(a=>!a.audio_en)" in html
-          assert "if(!isCuratedSelection" in html
+          assert "candidate.selection_mode" in html
+          assert "a.language===\'nl\'" in html
+          assert "SpeechSynthesisUtterance(part.text)" in html
           assert "utterance.lang='en-GB'" in html
           assert "daily-selection.json" in html
-          print('PASS: English speech requires a curated daily selection')
+          print('PASS: bilingual original-language speech controls present')
           PY
