@@ -27,7 +27,7 @@ def rank(item):
   moment = dt.datetime.fromisoformat(item.get("published", "").replace("Z", "+00:00"))
   if moment.tzinfo is None: moment = moment.replace(tzinfo=dt.timezone.utc)
   age = max(0, (now - moment).total_seconds() / 3600)
-  score += 12 if age <= 24 else 7 if age <= 48 else 3 if age <= 72 else -15 if age > 168 else 0
+  score += 35 if age <= 24 else 18 if age <= 48 else 4 if age <= 72 else -12
  except (ValueError, TypeError, AttributeError):
   score -= 5
  return score
@@ -68,6 +68,14 @@ for category, limit in quotas.items():
         count += 1
         if count == limit:
             break
+# Older articles are a fallback when the daily feed lacks enough relevant fresh stories.
+older_count = sum(
+    (now - dt.datetime.fromisoformat(a["published"].replace("Z", "+00:00"))).total_seconds() > 48 * 3600
+    for a in selected
+)
+freshness_warning = (f" {older_count} van de {len(selected)} artikelen zijn ouder dan 48 uur; "
+                     "deze zijn als aanvulling opgenomen omdat er onvoldoende recente geschikte berichten waren."
+                     if older_count else "")
 # This file is a machine-selected shortlist only, not a curated final briefing.
 output = {
     "date": today,
@@ -76,7 +84,7 @@ output = {
     "articles": selected,
     "item_ids": [a.get("id") or a.get("url") for a in selected],
     "narration": "",
-    "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT." + (" " + source["warning"] if source.get("warning") else ""),
+    "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT." + freshness_warning + (" " + source["warning"] if source.get("warning") else ""),
     "source_failures": source.get("failed_sources", []),
     "google_news_failures": source.get("google_news_failures", 0)
 }
