@@ -26,7 +26,7 @@ jobs:
           from pathlib import Path
           x=json.loads(Path('daily-selection.json').read_text(encoding='utf-8'))
           assert x['selection_mode']=='rss_shortlist'
-          assert 1<=len(x['articles'])<=13
+          assert 1<=len(x['articles'])<=15
           assert any(a.get('published') for a in x['articles'])
           assert len({a['url'] for a in x['articles']})==len(x['articles'])
           print('Daily shortlist:',len(x['articles']))

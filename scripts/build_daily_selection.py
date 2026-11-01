@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 root = Path(__file__).resolve().parents[1]
 source = json.loads((root / "news.json").read_text(encoding="utf-8"))
 today = dt.datetime.now(ZoneInfo("Europe/Amsterdam")).date().isoformat()
-quotas = {"Finance & CFO": 4, "IT & technologie": 3, "Beleggen & economie": 3, "Nederland & wereld": 2, "Sport": 1}
+quotas = {"Finance & CFO": 4, "IT & technologie": 3, "Beleggen & economie": 3, "Nederland & wereld": 2, "Sport": 3}
 priority = {
  "Finance & CFO": ("cfo", "treasury", "liquidity", "audit", "forecast", "ebitda", "tax", "ifrs", "governance", "belastingplan", "vennootschapsbelasting", "ecb", "dnb", "jaarrekening", "accountant", "cash flow", "transfer pricing", "financial reporting", "merger", "acquisition"),
  "IT & technologie": ("vmware", "broadcom", "cloud", "cyber", "artificial intelligence", "microsoft", "data center"),
@@ -36,7 +36,25 @@ seen = set()
 for category, limit in quotas.items():
     count = 0
     tax_politics_count = 0
-    for item in sorted((a for a in source.get("articles", []) if a.get("category") == category), key=rank, reverse=True):
+    candidates = sorted((a for a in source.get("articles", []) if a.get("category") == category), key=rank, reverse=True)
+    if category == "Sport":
+        # Reserve one candidate per interest before filling remaining slots.
+        sports = (
+            ("schaats", "langebaan", "knsb", "isu", "thialf", "speed skating", "wckt"),
+            ("ijshockey", "ice hockey", "nhl"),
+            ("hardlopen", "marathon", "running", "atletiek"),
+        )
+        preferred = []
+        used_urls = set()
+        for terms in sports:
+            match = next((a for a in candidates
+                          if a.get("url") not in used_urls
+                          and any(t in (a.get("title", "") + " " + a.get("summary", "")).casefold() for t in terms)), None)
+            if match:
+                preferred.append(match)
+                used_urls.add(match.get("url"))
+        candidates = preferred + [a for a in candidates if a.get("url") not in used_urls]
+    for item in candidates:
         url = item.get("url", "")
         if item.get("category") != category or not url.startswith("https://") or url in seen:
             continue

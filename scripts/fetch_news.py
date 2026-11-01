@@ -49,7 +49,7 @@ FEEDS = [
     ('Nederland & wereld','BBC World','https://feeds.bbci.co.uk/news/world/rss.xml'),
     ('Sport','NOS Sport','https://feeds.nos.nl/nossportalgemeen'),
 ]
-QUOTAS = {'Finance & CFO': 8, 'IT & technologie': 6, 'Beleggen & economie': 6, 'Nederland & wereld': 4, 'Sport': 1, 'ITQ Nieuws': 0}
+QUOTAS = {'Finance & CFO': 8, 'IT & technologie': 6, 'Beleggen & economie': 6, 'Nederland & wereld': 4, 'Sport': 8, 'ITQ Nieuws': 0}
 KEYWORDS = {
  'Finance & CFO': ['cfo','finance director','financial reporting','financial statements','accounting','audit','treasury','liquidity','working capital','cash flow','cashflow','tax','belasting','btw','transfer pricing','consolidat','forecast','budget','ebitda','governance','compliance','ifrs','controller','financieel directeur','financiële verslaggeving','merger','acquisition','overname','m&a'],
  'IT & technologie': ['artificial intelligence','ai ',' ai','cloud','cyber','security','ransomware','broadcom','vmware','microsoft','data center','datacenter','automation','automatisering','enterprise','software','chip','semiconductor','llm','generative ai','it services'],
@@ -162,7 +162,21 @@ def main():
     articles=[]
     for cat,quota in QUOTAS.items():
         picked=[];source_counts={}
-        for item in ranked[cat]:
+        candidates=ranked[cat]
+        if cat=='Sport':
+            # Preserve at least one candidate from each sport before the daily shortlist runs.
+            topics=(
+                ('schaats','langebaan','knsb','isu','thialf','speed skating','wckt'),
+                ('ijshockey','ice hockey','nhl'),
+                ('hardlopen','marathon','running','atletiek'),
+            )
+            front=[];used=set()
+            for terms in topics:
+                match=next((x for x in candidates if x['url'] not in used and any(t in (x['title']+' '+x['summary']).casefold() for t in terms)),None)
+                if match:
+                    front.append(match);used.add(match['url'])
+            candidates=front+[x for x in candidates if x['url'] not in used]
+        for item in candidates:
             src=item['source']
             if cat=='Finance & CFO' and source_counts.get(src,0)>=3:continue
             picked.append(item)

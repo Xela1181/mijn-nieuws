@@ -71,7 +71,7 @@ jobs:
           from pathlib import Path
           x=json.loads(Path('daily-selection.json').read_text())
           assert x['selection_mode']=='rss_shortlist'
-          assert 1<=len(x['articles'])<=13
+          assert 1<=len(x['articles'])<=15
           assert all(a.get('published') for a in x['articles'])
           assert len({a['url'] for a in x['articles']})==len(x['articles'])
           import datetime as dt
@@ -90,6 +90,20 @@ jobs:
           if older: assert 'ouder dan 48 uur' in x['warning']
           print(f'Freshness: {len(x["articles"])-older} within 48 hours; {older} older fallback')
           assert not any('gemeentefusie' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
+          sport=[a for a in x['articles'] if a['category']=='Sport']
+          assert len(sport)<=3
+          assert len(sport)==min(3,len([a for a in json.loads(Path('news.json').read_text())['articles'] if a['category']=='Sport']))
+          def sport_topic(a):
+              blob=(a.get('title','')+' '+a.get('summary','')).casefold()
+              groups=(('schaats','langebaan','knsb','isu','thialf','speed skating','wckt'),
+                      ('ijshockey','ice hockey','nhl'),
+                      ('hardlopen','marathon','running','atletiek'))
+              return [i for i,g in enumerate(groups) if any(t in blob for t in g)]
+          available={t for a in json.loads(Path('news.json').read_text())['articles'] if a['category']=='Sport' for t in sport_topic(a)}
+          covered={t for a in sport for t in sport_topic(a)}
+          if len(available)<=3 and len(sport)>=len(available):
+              assert available<=covered,(available,covered)
+          print('Sport coverage:',len(sport),'articles; topics',sorted(covered))
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           assert not any('f1-commentator' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
           assert not any(any(term in a['title'].lower() for term in ('zoekt een ', 'vacature', 'jury m&a awards')) for a in x['articles'] if a['category']=='Finance & CFO')
