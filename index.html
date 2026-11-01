@@ -55,7 +55,14 @@ async function loadAudio(){
     if(!res.ok)throw Error('No metadata');
     const info=await res.json();
     const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-    if(info.date!==today){status.textContent='De audio van vandaag is nog niet beschikbaar. Laatste beschikbare briefing: '+info.date+'.';return}
+    if(info.date!==today){status.textContent='De audio van vandaag is nog niet beschikbaar. Laatste beschikbare briefing: '+info.date+'. Gebruik ▶ Luister naar het nieuws voor de getoonde selectie.';return}
+    // A same-day MP3 is not necessarily based on the same news items. Require exact identifiers.
+    const shown=articles.filter(a=>categories.includes(a.category)&&a.category!=='Alles');
+    const ids=shown.map(a=>a.id||a.url);
+    if(!Array.isArray(info.item_ids)||info.item_ids.length!==ids.length||!ids.every((id,i)=>id===info.item_ids[i])){
+      status.textContent='De opgeslagen MP3 hoort niet aantoonbaar bij deze nieuwsselectie. Gebruik ▶ Luister naar het nieuws: die leest precies de getoonde artikelen voor.';
+      return;
+    }
     player.src='./audio/briefing.mp3?v='+encodeURIComponent(info.date);
     player.hidden=false;
     status.textContent='Briefing '+info.date+' · British English · B2+ · '+info.word_count+' woorden · '+info.news_count+' nieuwsberichten. Gebruik de afspeelknop om te luisteren.';
