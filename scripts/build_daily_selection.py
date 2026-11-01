@@ -54,7 +54,7 @@ output = {
     "updated": dt.datetime.now(dt.timezone.utc).isoformat(),
     "selection_mode": "rss_shortlist",
     "articles": selected,
-    "item_ids": [a.get("id") for a in selected],
+    "item_ids": [a.get("id") or a.get("url") for a in selected],
     "narration": "",
     "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT."
 }
