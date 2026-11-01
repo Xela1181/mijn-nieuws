@@ -15,11 +15,24 @@ jobs:
           python-version: '3.12'
       - name: Fetch public RSS feeds
         run: python scripts/fetch_news.py
-      - name: Build daily shortlist\n        run: python scripts/build_daily_selection.py\n      - name: Commit updated news
+      - name: Build daily shortlist\n        run: python scripts/build_daily_selection.py\n      - name: Build daily shortlist
+        run: python scripts/build_daily_selection.py
+      - name: Verify shortlist
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('daily-selection.json').read_text(encoding='utf-8'))
+          assert x['selection_mode']=='rss_shortlist'
+          assert 1<=len(x['articles'])<=13
+          assert len({a['url'] for a in x['articles']})==len(x['articles'])
+          print('Daily shortlist:',len(x['articles']))
+          PY
+      - name: Commit updated news
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json daily-selection.json
+          git add news.json daily-selection.json daily-selection.json
           if ! git diff --cached --quiet; then
             git commit -m "Update RSS news"
             git push
