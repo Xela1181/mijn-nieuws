@@ -39,6 +39,20 @@ jobs:
           print('PASS:',len(x['articles']),'items')
           PY
 
+      - name: Validate daily workflow YAML
+        run: |
+          python -m pip install --quiet pyyaml
+          python - <<'PY'
+          import yaml
+          from pathlib import Path
+          wf=yaml.safe_load(Path('.github/workflows/update-news.yml').read_text())
+          steps=wf['jobs']['update']['steps']
+          commands=[step.get('run','') for step in steps]
+          assert sum('python scripts/build_daily_selection.py' in c for c in commands)==1
+          assert sum('python scripts/fetch_news.py' in c for c in commands)==1
+          assert any('git add news.json daily-selection.json' in c for c in commands)
+          print('PASS: publication workflow is valid YAML with exactly one fetch and build step')
+          PY
       - name: Verify daily publication workflow
         run: |
           python - <<'PY'
