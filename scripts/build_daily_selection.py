@@ -16,7 +16,7 @@ priority = {
  "IT & technologie": ("vmware", "broadcom", "cloud", "cyber", "artificial intelligence", "microsoft", "data center"),
  "Beleggen & economie": ("etf", "stock", "aandeel", "beurs", "rente", "inflation", "ecb", "ethereum"),
  "Nederland & wereld": ("nederland", "europe", "kabinet", "economie", "minister"),
- "Sport": ("schaatsen", "langebaan", "marathon", "hardlopen", "wielrennen", "wckt", "thialf", "world cup"),
+ "Sport": ("schaatsen", "langebaan", "marathon", "hardlopen", "ijshockey", "ice hockey", "nhl", "wckt", "thialf", "world cup"),
 }
 now = dt.datetime.now(dt.timezone.utc)
 def rank(item):
@@ -40,8 +40,6 @@ for category, limit in quotas.items():
         if item.get("category") != category or not url.startswith("https://") or url in seen:
             continue
         if not item.get("title") or not item.get("summary") or rank(item) < -5:
-            continue
-        if category == "Sport" and re.search(r"ijshockey|ice hockey|\bnhl\b", (item["title"] + " " + item["summary"]).lower()):
             continue
         seen.add(url)
         selected.append(item)
