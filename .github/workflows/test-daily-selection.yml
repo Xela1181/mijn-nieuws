@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/build_daily_selection.py'
       - 'scripts/fetch_news.py'
+      - 'scripts/update_podcasts.py'
       - '.github/workflows/test-daily-selection.yml'
       - 'index.html'
       - 'CENTRALE-SELECTIE.md'
@@ -20,9 +21,11 @@ jobs:
         with:
           python-version: '3.12'
       - name: Verify Python syntax
-        run: python -m py_compile scripts/build_daily_selection.py scripts/fetch_news.py
+        run: python -m py_compile scripts/build_daily_selection.py scripts/fetch_news.py scripts/update_podcasts.py
       - name: Fetch fresh public RSS feeds
         run: python scripts/fetch_news.py
+      - name: Select verified podcast episode
+        run: python scripts/update_podcasts.py
       - name: Build shortlist from freshly fetched RSS
         run: python scripts/build_daily_selection.py
       - name: Verify shortlist structure
@@ -50,7 +53,8 @@ jobs:
           commands=[step.get('run','') for step in steps]
           assert sum('python scripts/build_daily_selection.py' in c for c in commands)==1
           assert sum('python scripts/fetch_news.py' in c for c in commands)==1
-          assert any('git add news.json daily-selection.json' in c for c in commands)
+          assert any('git add news.json daily-selection.json podcast-tips.json' in c for c in commands)
+          assert sum('python scripts/update_podcasts.py' in c for c in commands)==1
           print('PASS: publication workflow is valid YAML with exactly one fetch and build step')
           PY
       - name: Verify daily publication workflow
@@ -60,9 +64,9 @@ jobs:
           workflow=Path('.github/workflows/update-news.yml').read_text(encoding='utf-8')
           assert 'python scripts/fetch_news.py' in workflow
           assert 'python scripts/build_daily_selection.py' in workflow
-          assert 'git add news.json daily-selection.json' in workflow
+          assert 'git add news.json daily-selection.json podcast-tips.json' in workflow
           assert workflow.index('python scripts/fetch_news.py') < workflow.index('python scripts/build_daily_selection.py')
-          assert workflow.index('python scripts/build_daily_selection.py') < workflow.index('git add news.json daily-selection.json')
+          assert workflow.index('python scripts/build_daily_selection.py') < workflow.index('git add news.json daily-selection.json podcast-tips.json')
           print('PASS: daily workflow builds and commits both news files')
           PY
       - name: Verify bilingual speech controls in dashboard
