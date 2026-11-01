@@ -162,7 +162,21 @@ def main():
     articles=[]
     for cat,quota in QUOTAS.items():
         picked=[];source_counts={}
-        for item in ranked[cat]:
+        candidates=ranked[cat]
+        if cat=='Sport':
+            # Preserve at least one candidate from each sport before the daily shortlist runs.
+            topics=(
+                ('schaats','langebaan','knsb','isu','thialf','speed skating','wckt'),
+                ('ijshockey','ice hockey','nhl'),
+                ('hardlopen','marathon','running','atletiek'),
+            )
+            front=[];used=set()
+            for terms in topics:
+                match=next((x for x in candidates if x['url'] not in used and any(t in (x['title']+' '+x['summary']).casefold() for t in terms)),None)
+                if match:
+                    front.append(match);used.add(match['url'])
+            candidates=front+[x for x in candidates if x['url'] not in used]
+        for item in candidates:
             src=item['source']
             if cat=='Finance & CFO' and source_counts.get(src,0)>=3:continue
             picked.append(item)
