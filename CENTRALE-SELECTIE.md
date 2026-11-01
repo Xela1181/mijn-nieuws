@@ -11,13 +11,15 @@ Een dagelijkse publicatie bevat:
 - updated (ISO-8601)
 - selection_mode: "curated"
 - articles: 8–15 items met id, category, source, title, url, summary, relevance, published
-- narration: Nederlandstalig script uitsluitend gebaseerd op de items in articles
+- narration_en: volledig Engelstalig script (British English), uitsluitend gebaseerd op de items in articles
+- articles[].audio_en: Engelse spreektekst per item in dezelfde volgorde
+- maximaal 1.900 woorden Engelse spreektekst (indicatieve bovengrens voor circa 15 minuten, geen exacte tijdgarantie)
 - item_ids: lijst van artikel-id's in exact dezelfde volgorde als articles
 - estimated_read_minutes en estimated_listen_minutes, beide maximaal 15
 
 ## Publicatievoorwaarden
 1. De nieuwsselectie wordt op één plek samengesteld en op feiten en bronlinks gecontroleerd.
-2. Publicatie weigeren als item_ids afwijkt van articles, er dubbele URL's zijn, bronnen ontbreken of een tijdslimiet wordt overschreden.
+2. Publicatie weigeren als item_ids afwijkt van articles, er dubbele URL's zijn, bronnen ontbreken, het aantal artikelen buiten 8–15 ligt, de Engelse spreektekst ontbreekt of de bovengrens van 1.900 woorden wordt overschreden.
 3. Audio is optioneel en mag pas als beschikbaar worden aangeduid wanneer daadwerkelijk gegenereerd en bereikbaar.
 4. De huidige RSS-automatisering mag een gecureerde selectie niet overschrijven.
 5. De bestaande ChatGPT-automatisering schrijft momenteel niet automatisch naar GitHub. Hiervoor is een aparte publicatieroute nodig.
@@ -25,3 +27,6 @@ Een dagelijkse publicatie bevat:
 
 ## Deze eerste wijziging
 Het dashboard kan een expliciet als 'curated' gemarkeerde selectie verwerken; de briefinglijst gebruikt dezelfde categorieën en artikelen zonder willekeurige limiet van 12. De bestaande live-site blijft ongewijzigd totdat de wijzigingen worden goedgekeurd en samengevoegd.
+
+## Huidige beperking
+Er is nog geen gratis, betrouwbare automatische vertaalslag en redactionele kwaliteitscontrole geïmplementeerd. De browser kan de aangeleverde Engelse tekst wel gratis uitspreken, maar kan deze niet zelfstandig journalistiek verantwoord produceren. Het dashboard toont daarom pas Engelse browseraudio als een volledig dagbestand aanwezig en geldig is.
