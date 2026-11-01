@@ -126,8 +126,17 @@ def main():
     for cat in ranked:
         ranked[cat].sort(key=lambda x:(x['score'],x['published']),reverse=True)
     # Fixed daily targets: 25 general news items, plus separate ITQ coverage.
+    # Limit single-source domination in Finance so specialist sources can compete.
     articles=[]
-    for cat,quota in QUOTAS.items():articles+=ranked[cat][:quota]
+    for cat,quota in QUOTAS.items():
+        picked=[];source_counts={}
+        for item in ranked[cat]:
+            src=item['source']
+            if cat=='Finance & CFO' and source_counts.get(src,0)>=3:continue
+            picked.append(item)
+            source_counts[src]=source_counts.get(src,0)+1
+            if len(picked)>=quota:break
+        articles+=picked
     articles+=ranked['ITQ Nieuws'][:30]
     articles.sort(key=lambda x:(x['score'],x['published']),reverse=True)
     for item in articles:item.pop('score',None)
