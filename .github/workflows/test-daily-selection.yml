@@ -6,6 +6,7 @@ on:
       - '.github/workflows/test-daily-selection.yml'
       - 'index.html'
       - 'CENTRALE-SELECTIE.md'
+      - '.github/workflows/update-news.yml'
   workflow_dispatch:
 permissions:
   contents: read
@@ -34,7 +35,19 @@ jobs:
           print('PASS:',len(x['articles']),'items')
           PY
 
-      - name: Verify English audio gate in dashboard
+      - name: Verify daily publication workflow
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          workflow=Path('.github/workflows/update-news.yml').read_text(encoding='utf-8')
+          assert 'python scripts/fetch_news.py' in workflow
+          assert 'python scripts/build_daily_selection.py' in workflow
+          assert 'git add news.json daily-selection.json' in workflow
+          assert workflow.index('python scripts/fetch_news.py') < workflow.index('python scripts/build_daily_selection.py')
+          assert workflow.index('python scripts/build_daily_selection.py') < workflow.index('git add news.json daily-selection.json')
+          print('PASS: daily workflow builds and commits both news files')
+          PY
+      - name: Verify bilingual speech controls in dashboard
         run: |
           python - <<'PY'
           from pathlib import Path
