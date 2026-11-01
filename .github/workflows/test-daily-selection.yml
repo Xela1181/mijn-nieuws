@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'scripts/build_daily_selection.py'
+      - 'scripts/fetch_news.py'
       - '.github/workflows/test-daily-selection.yml'
       - 'index.html'
       - 'CENTRALE-SELECTIE.md'
