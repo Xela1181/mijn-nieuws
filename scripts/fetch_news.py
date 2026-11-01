@@ -96,7 +96,7 @@ def fetch(cat, source, url):
 
 def main():
     now=dt.datetime.now(dt.timezone.utc)
-    items=[];errors=[]
+    items=[];errors=[];google_errors=[]
     for cat,source,url in FEEDS:
         try:
             got=fetch(cat,source,url)
@@ -104,6 +104,7 @@ def main():
             items+=got
         except Exception as exc:
             errors.append(f'{source}: {type(exc).__name__}')
+            if 'news.google.com' in url:google_errors.append(source)
             print(f'Feed error {source}: {exc}')
     # Prefer relevant, recent articles and distribute results by the requested category weights.
     unique={}
@@ -169,7 +170,10 @@ def main():
             old=json.loads(path.read_text(encoding='utf-8'))
             articles=[]  # Never republish stale cached headlines as freshly fetched news.
         except Exception:pass
-    result={'updated':now.isoformat(),'articles':articles,'warning':('Niet alle nieuwsbronnen konden worden bijgewerkt.' if errors and articles else 'Er konden geen actuele RSS-artikelen worden opgehaald.' if not articles else '')}
+    warning=('Er konden geen actuele RSS-artikelen worden opgehaald.' if not articles else
+             f'Google Nieuws tijdelijk niet bereikbaar voor {len(google_errors)} bronnen; de selectie is mogelijk onvolledig.' if google_errors else
+             'Niet alle nieuwsbronnen konden worden bijgewerkt.' if errors else '')
+    result={'updated':now.isoformat(),'articles':articles,'warning':warning,'failed_sources':errors,'google_news_failures':len(google_errors)}
     path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'Saved {len(articles)} articles; feed errors: {len(errors)}')
 if __name__=='__main__':main()
