@@ -125,9 +125,9 @@ def main():
     if not articles and path.exists():
         try:
             old=json.loads(path.read_text(encoding='utf-8'))
-            articles=old.get('articles',[])
+            articles=[]  # Never republish stale cached headlines as freshly fetched news.
         except Exception:pass
-    result={'updated':now.isoformat(),'articles':articles,'warning':('Niet alle nieuwsbronnen konden worden bijgewerkt.' if errors and articles else 'Er konden nog geen RSS-artikelen worden opgehaald.' if not articles else '')}
+    result={'updated':now.isoformat(),'articles':articles,'warning':('Niet alle nieuwsbronnen konden worden bijgewerkt.' if errors and articles else 'Er konden geen actuele RSS-artikelen worden opgehaald.' if not articles else '')}
     path.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'Saved {len(articles)} articles; feed errors: {len(errors)}')
 if __name__=='__main__':main()
