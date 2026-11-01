@@ -128,7 +128,6 @@ def main():
             title=item['title'].casefold()
             if 'proefbron' in item['source']:
                 # Google site-search sometimes indexes biographies, glossaries and evergreen landing pages.
-                article_markers=(' - cfo.nl',' - cmweb',' - nba')
                 headline=title.split(' - ')[0].strip()
                 if len(headline.split()) < 5 or any(w in headline for w in
                     ('over ons','wie zijn wij','compliance-verklaring','contact','redactie',
