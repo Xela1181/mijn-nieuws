@@ -74,6 +74,18 @@ jobs:
           assert 1<=len(x['articles'])<=13
           assert all(a.get('published') for a in x['articles'])
           assert len({a['url'] for a in x['articles']})==len(x['articles'])
+          import datetime as dt
+          from zoneinfo import ZoneInfo
+          now=dt.datetime.now(dt.timezone.utc)
+          for article in x['articles']:
+              published=dt.datetime.fromisoformat(article['published'].replace('Z','+00:00'))
+              assert published.tzinfo is not None
+              age_hours=(now-published).total_seconds()/3600
+              assert -2<=age_hours<=168, (article['title'],age_hours)
+          assert x['item_ids']==[a.get('id') or a.get('url') for a in x['articles']]
+          assert len(x['item_ids'])==len(set(x['item_ids']))
+          assert isinstance(x.get('google_news_failures'),int)
+          assert isinstance(x.get('source_failures'),list)
           assert not any('gemeentefusie' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
           assert all(a['category']!='ITQ Nieuws' for a in x['articles'])
           assert not any('f1-commentator' in a['title'].lower() for a in x['articles'] if a['category']=='Finance & CFO')
