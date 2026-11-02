@@ -56,20 +56,25 @@ async function loadAudio(){
     if(!res.ok)throw Error('No metadata');
     const info=await res.json();
     const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-    if(info.date!==today){status.textContent='De audio van vandaag is nog niet beschikbaar. Laatste beschikbare briefing: '+info.date+'. Probeer later opnieuw wanneer de nieuwe audiobriefing is gepubliceerd.';return}
-    // A same-day MP3 is not necessarily based on the same news items. Require exact identifiers.
     const shown=articles.filter(a=>categories.includes(a.category)&&a.category!=='Alles');
     const ids=shown.map(a=>a.id||a.url);
-    if(!Array.isArray(info.item_ids)||info.item_ids.length!==ids.length||!ids.every((id,i)=>id===info.item_ids[i])){
-      status.textContent='De opgeslagen MP3 hoort niet aantoonbaar bij deze nieuwsselectie. De audio is nog niet gekoppeld aan precies dezelfde nieuwsselectie; daarom wordt geen afwijkende briefing afgespeeld.';
-      return;
-    }
+    const matching=Array.isArray(info.item_ids)&&info.item_ids.length===ids.length&&ids.every((id,i)=>id===info.item_ids[i]);
     player.src='./audio/briefing.mp3?v='+Date.now();
     player.hidden=false;
-    status.textContent='Briefing '+info.date+' · British English · B2+ · '+info.word_count+' woorden · '+info.news_count+' nieuwsberichten. Gebruik de afspeelknop om te luisteren.';
-    const link=document.createElement('a');link.href='./audio/briefing.txt?v='+encodeURIComponent(info.date);link.textContent='Lees het Engelstalige transcript';link.target='_blank';link.rel='noopener';status.after(link);
-  }catch(e){status.textContent='De automatische audio is nog niet gegenereerd. Je kunt hieronder de actuele nieuwskoppen lezen.'}
+    player.load();
+    const dateNote=info.date===today?'':'Let op: dit is de laatst beschikbare opname van '+info.date+'. ';
+    status.textContent=dateNote+'Britse Engelse audiobriefing · '+info.word_count+' woorden · '+info.news_count+' berichten. '+(matching?'De nieuwsselectie is gecontroleerd en komt overeen.':'Let op: de audio kan andere nieuwsberichten bevatten dan de selectie hieronder. Dit is voorlopig een luistertest.');
+    const existing=$('#audiotranscript');
+    if(existing)existing.remove();
+    const link=document.createElement('a');
+    link.id='audiotranscript';
+    link.href='./audio/briefing.txt?v='+Date.now();
+    link.textContent='Lees het Engelstalige transcript';
+    link.target='_blank';link.rel='noopener';
+    status.after(link);
+  }catch(e){status.textContent='De audiobriefing is momenteel niet beschikbaar. Probeer later opnieuw.'}
 }
+
 const tips=[
 ['ChatGPT · Budget vs Actual','Gebruik AI om afwijkingen te structureren, zonder oorzaken te verzinnen.','Analyseer deze geanonimiseerde Actual-, Budget- en Forecast-cijfers. Rangschik de grootste afwijkingen op absolute en procentuele impact. Maak onderscheid tussen feiten, hypotheses en open vragen. Lever een compacte MT-samenvatting.'],
 ['Claude · Finance-policy review','Controleer een conceptbeleid op tegenstrijdigheden en ontbrekende beheersmaatregelen.','Beoordeel onderstaande geanonimiseerde Finance Policy op inconsistenties, onduidelijke verantwoordelijkheden, ontbrekende controles en mogelijke auditvragen. Geef een tabel met bevinding, risico en voorgestelde verbetering.'],
