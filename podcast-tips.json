@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-01T15:56:18.762670+00:00",
+  "updated": "2026-11-02T04:17:18.809112+00:00",
   "tips": [
+    {
+      "podcast": "Hard Fork",
+      "title": "Are We in an A.I. Bubble? We're About to Find Out.",
+      "description": "Monday gave us the release of Anthropic’s S-1 filing, providing the clearest view yet into the business side of the A.I. boom and setting the stage for what could be the largest initial public offering in history. We’ll talk to Erin Griffith, who has been reporting on the story, ",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20Are%20We%20in%20an%20A.I.%20Bubble%3F%20We%27re%20About%20to%20Find%20Out.",
+      "published": "2026-10-30T10:00:00+00:00",
+      "episode_id": "Hard Fork|are we in an a.i. bubble? we're about to find out.",
+      "date": "2026-11-02"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Is it time to abolish the MBA?",
