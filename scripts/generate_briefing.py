@@ -83,10 +83,14 @@ def story_text(item):
     if item.get("language") != "en" or likely_dutch(item.get("title", "")):
         return ""
     title = clean(item["title"], 180).rstrip(" .!?:;")
+    if item.get('category') == 'Finance & CFO' and any(w in title.lower() for w in ('stock unit award', 'appointed', 'appointment', 'interim cfo', 'federal funds', 'government grant', 'compensation package')):
+        return ""
     raw = str(item.get("summary") or "").strip()
     if len(raw.split()) < 17:
         return ""
     summary = complete_sentences(raw)
+    if summary.endswith('[...]') or summary.endswith(' [...]'):
+        summary = summary.replace('[...]', '').strip()
     if len(summary.split()) < 15:
         return ""
     # Avoid reading the same sentence twice. A summary alone often reads best.
