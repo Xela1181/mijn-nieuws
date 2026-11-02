@@ -32,6 +32,9 @@ FEEDS = [
     ('Finance & CFO','CFO.nl · proefbron',google_news('site:cfo.nl (CFO OR treasury OR governance OR audit OR forecast OR finance OR overname) when:7d')),
     ('Finance & CFO','CMweb · proefbron',google_news('site:cmweb.nl (controlling OR treasury OR jaarrekening OR AI OR risicomanagement OR werkkapitaal) when:7d')),
     ('Finance & CFO','NBA · proefbron',google_news('site:nba.nl (accountancy OR verslaggeving OR controle OR standaarden OR regelgeving OR jaarrekening) when:14d')),
+    ('Finance & CFO','Accounting Today','https://www.accountingtoday.com/feed'),
+    ('Finance & CFO','Journal of Accountancy','https://www.journalofaccountancy.com/rss/news.xml'),
+    ('Finance & CFO','CFO Dive','https://www.cfodive.com/feeds/news/'),
     ('Finance & CFO','Harvard Business Review','https://feeds.hbr.org/harvardbusiness'),
     ('Finance & CFO','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
     ('Finance & CFO','Financial Times','https://www.ft.com/?format=rss'),
@@ -89,7 +92,7 @@ def fetch(cat, source, url):
                 if el.attrib.get('rel','alternate')=='alternate':link=el.attrib.get('href','');break
         if not link.startswith(('https://','http://')) or not title:continue
         date=parse_date(value(node,['pubDate','{http://www.w3.org/2005/Atom}updated','{http://www.w3.org/2005/Atom}published','{http://purl.org/dc/elements/1.1/}date']))
-        desc=clean(value(node,['description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content']))
+        desc=clean(value(node,['description','{http://www.w3.org/2005/Atom}summary','{http://www.w3.org/2005/Atom}content']), 650)
         language = ('en' if 'ceid=US:en' in url else 'nl') if 'news.google.com' in url else ('nl' if source.startswith('NOS') else 'en')
         out.append(dict(category=cat,source=source,title=title,url=link,summary=desc,published=date,language=language))
     return out
@@ -149,7 +152,7 @@ def main():
         item['score']=score
         ranked[cat].append(item)
     for cat in ranked:
-        ranked[cat].sort(key=lambda x:(x['score'],x['published']),reverse=True)
+        ranked[cat].sort(key=lambda x:(x['score'] + (3 if cat=='Finance & CFO' and x['language']=='en' and len(x['summary'].split())>=22 else 0),x['published']),reverse=True)
     # Diagnostic: expose why trial sources do or do not survive the first ranking.
     for trial in ('CFO.nl · proefbron','CMweb · proefbron','NBA · proefbron'):
         fetched=[a for a in items if a['source']==trial]
