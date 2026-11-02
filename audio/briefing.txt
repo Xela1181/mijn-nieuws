@@ -2,21 +2,31 @@ Good morning. This is your personal Business English news briefing for Monday, 0
 
 Here is today's selection of news stories with enough verified detail to explain clearly.
 
-Let's begin with Technology, artificial intelligence and cloud.
+Let's begin with Finance and CFO.
 
-Story 1. From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era. AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI respo
+Story 1. Rivian grants interim CFO 125,000 stock unit award. Rivian veteran Derek Mulvey took its interim CFO chair Friday as the company targets improved deliveries and continued autonomous tech development for the full year.
 
-Story 2. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]
+Story 2. Tips for auditors seeking to root out fraudulent federal funds use. There are a number of red flags that auditors should look out for when working with non-profits or government entities that get federal grants, experts say.
 
-Story 3. Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia. When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.
+That's the latest from Finance and CFO.
+
+That brings us to our next section: Technology, artificial intelligence and cloud.
+
+Story 1. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]
 
 That's the latest from Technology, artificial intelligence and cloud.
 
 That brings us to our next section: Investing and the economy.
 
-Story 1. stocks fell as the AI selloff began to feed on itself following more disappointing earnings reports from Amazon and Intel, leaving investors to wonder if the tech correction could become a speculative bust.
+Story 1. The bond-market rally is defying the typical investing playbook. Here’s why. Yet despite a barrage of robust data, Treasury bonds staged a surprise rally in October.
 
 That's the latest from Investing and the economy.
+
+That brings us to our next section: The Netherlands and world news.
+
+Story 1. Dutch police offer record €2m reward in hunt for drug lord. Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.
+
+That's the latest from The Netherlands and world news.
 
 That concludes the news. Now for your recommendations and English practice.
 
