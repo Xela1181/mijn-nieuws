@@ -24,12 +24,14 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          x=json.loads(Path('daily-selection.json').read_text(encoding='utf-8'))
-          assert x['selection_mode']=='rss_shortlist'
-          assert 0<=len(x['articles'])<=15, 'Shortlist exceeds maximum of 15 articles'\n          if not x['articles']:\n              print('WARNING: No eligible current news articles; publishing an empty shortlist rather than stale content')
-          assert all(a.get('published') for a in x['articles']), 'Selected articles must have publication dates'
-          assert len({a['url'] for a in x['articles']})==len(x['articles'])
-          print('Daily shortlist:',len(x['articles']))
+          x = json.loads(Path('daily-selection.json').read_text(encoding='utf-8'))
+          assert x['selection_mode'] == 'rss_shortlist'
+          assert len(x['articles']) <= 15, 'Shortlist exceeds 15 articles'
+          assert all(a.get('published') for a in x['articles']), 'Missing publication date'
+          assert len({a['url'] for a in x['articles']}) == len(x['articles']), 'Duplicate URLs'
+          if not x['articles']:
+              print('WARNING: No eligible articles; keeping empty shortlist')
+          print('Daily shortlist:', len(x['articles']))
           PY
       - name: Commit updated news
         run: |
