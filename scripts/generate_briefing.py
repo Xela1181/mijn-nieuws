@@ -66,13 +66,46 @@ def likely_dutch(title):
     return sum(word in DUTCH_WORDS for word in words) >= 2
 
 
+def complete_sentences(value, max_chars=600):
+    """Keep complete source sentences; never read a clipped RSS fragment."""
+    value = re.sub(r"https?://\\S+", "", str(value or ""))
+    value = re.sub(r"\\s+", " ", value).strip()
+    value = re.sub(r"\\s*(\\[\\.\\.\\.\\]|…|\\.\\.\\.)\\s*$", "", value)
+    value = value[:max_chars]
+    sentences = re.findall(r"[^.!?]+[.!?](?=\\s|$)", value)
+    if sentences:
+        return " ".join(s.strip() for s in sentences).strip()
+    return value.strip() if len(value) < max_chars and not value.endswith((",", ";", ":")) else ""
+
+
+def story_text(item):
+    """Use a source-backed summary only when it is informative and in English."""
+    if item.get("language") != "en" or likely_dutch(item.get("title", "")):
+        return ""
+    title = clean(item["title"], 180).rstrip(" .!?:;")
+    raw = str(item.get("summary") or "").strip()
+    if len(raw.split()) < 17:
+        return ""
+    summary = complete_sentences(raw)
+    if len(summary.split()) < 15:
+        return ""
+    # Avoid reading the same sentence twice. A summary alone often reads best.
+    core = re.split(r"\\s[-–—]\\s", title)[0]
+    title_words = set(re.findall(r"[a-z]{4,}", core.lower()))
+    summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
+    overlap = len(title_words & summary_words) / max(1, len(title_words))
+    if overlap > 0.5 or core.casefold() in summary.casefold():
+        return summary if len(summary.split()) >= 18 else ""
+    return title + ". " + summary
+
+
 def select_news(data, now):
     selected = []
     cutoff = now.astimezone(dt.timezone.utc) - dt.timedelta(days=4)
     for category, limit in CATEGORIES:
         options = []
         for item in data.get("articles", []):
-            if item.get("category") != category or not item.get("title") or likely_dutch(item["title"]):
+            if item.get("category") != category or not item.get("title"):
                 continue
             try:
                 published = dt.datetime.fromisoformat(item.get("published", ""))
@@ -80,41 +113,11 @@ def select_news(data, now):
                     continue
             except ValueError:
                 continue
-            options.append(item)
-        selected.extend((category, item) for item in options[:limit])
+            spoken = story_text(item)
+            if spoken:
+                options.append((item, spoken))
+        selected.extend((category, item, spoken) for item, spoken in options[:limit])
     return selected
-
-
-def spoken_item(item):
-    """Use the source's useful detail without reading a headline twice.
-
-    RSS feeds vary greatly: do not invent background when a feed only gives a title.
-    """
-    title = clean(item["title"], 190).rstrip(" .!?:;")
-    summary = clean(item.get("summary", ""), 500).rstrip(" .!?:;")
-    if not summary:
-        return title + "."
-    # Remove common publisher suffixes when comparing a headline with its description.
-    core_title = re.split(r"\\s[-–—]\\s", title)[0].strip()
-    summary = re.sub(r"^" + re.escape(title) + r"\\s*[:.\\-–—]*\\s*", "", summary, flags=re.I).strip()
-    summary = re.sub(r"^" + re.escape(core_title) + r"\\s*[:.\\-–—]*\\s*", "", summary, flags=re.I).strip()
-    if not summary:
-        return title + "."
-    if summary.lower() in title.lower():
-        return title + "."
-    title_words = set(re.findall(r"[a-z]{4,}", core_title.lower()))
-    summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
-    overlap = len(title_words & summary_words) / max(1, len(title_words))
-    # A full description often restates the headline but adds relevant detail.
-    # Prefer the longer self-contained description rather than saying both.
-    if overlap > 0.55:
-        if len(summary.split()) >= len(core_title.split()) + 5:
-            return summary[0].upper() + summary[1:] + "."
-        return title + "."
-    # Only append a description if it contains substantial additional context.
-    if len(summary.split()) >= 8:
-        return title + ". " + summary[0].upper() + summary[1:] + "."
-    return title + "."
 
 
 def make_script(data, now):
@@ -122,7 +125,7 @@ def make_script(data, now):
     idx = today.toordinal() % 7
     pieces = [
         f"Good morning. This is your personal Business English news briefing for {today.strftime('%A, %d %B %Y')}.",
-        "Here are the stories that matter today. We will cover finance, technology, markets, world news and sport.",
+        "Here is today's selection of news stories with enough verified detail to explain clearly.",
     ]
     news = select_news(data, now)
     section_labels = {
@@ -132,7 +135,7 @@ def make_script(data, now):
         "Nederland & wereld": "The Netherlands and world news",
         "Sport": "Sport",
     }
-    active_sections = [(cat, [item for group, item in news if group == cat])
+    active_sections = [(cat, [(item, spoken) for group, item, spoken in news if group == cat])
                        for cat, _ in CATEGORIES]
     active_sections = [(cat, items) for cat, items in active_sections if items]
     for section_index, (category, entries) in enumerate(active_sections):
@@ -141,12 +144,12 @@ def make_script(data, now):
             pieces.append(f"Let's begin with {label}.")
         else:
             pieces.append(f"That brings us to our next section: {label}.")
-        for item_index, item in enumerate(entries):
+        for item_index, (item, spoken) in enumerate(entries):
             introduction = f"Story {item_index + 1}. "
-            pieces.append(introduction + spoken_item(item))
+            pieces.append(introduction + spoken)
         pieces.append(f"That's the latest from {label}.")
     if not news:
-        pieces.append("There are no sufficiently recent verified news headlines available in the current feed.")
+        pieces.append("There are no sufficiently detailed English news summaries available in the current feed. We will not invent missing details.")
     pieces.append("That concludes the news. Now for your recommendations and English practice.")
     title, author, idea = BOOKS[idx]
     pieces.append(f"Today's book recommendation is {title}, by {author}. One idea to explore is to {idea}.")
@@ -177,7 +180,7 @@ async def main():
         "date": now.date().isoformat(), "voice": VOICE, "level": "B2+",
         "word_count": len(script.split()), "news_count": len(news),
         "sources": [{"title": item["title"], "url": item.get("url", ""), "category": category}
-                    for category, item in news],
+                    for category, item, spoken in news],
     }
     (OUT / "briefing.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     # Generate sections individually to make transitions audible.
