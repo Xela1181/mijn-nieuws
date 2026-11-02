@@ -26,14 +26,12 @@ FEEDS = [
     ('Finance & CFO','Europese CFO',google_news('(ECB OR DNB OR treasury OR liquiditeit OR fusie OR overname) when:3d')),
     ('Finance & CFO','CFO verslaggeving en audit',google_news('(IFRS OR accountancy OR jaarrekening OR audit OR financial reporting OR consolidatie) when:5d')),
     ('Finance & CFO','CFO treasury en forecasts',google_news('(cashflow OR werkkapitaal OR treasury OR liquiditeitsforecast OR CFO OR EBITDA) when:5d')),
-    ('Finance & CFO','CFO internationaal',google_news('(CFO OR treasury OR accounting OR financial reporting OR corporate finance) when:5d','en','US')),
+    ('Finance & CFO','CFO internationaal',google_news('(IFRS OR treasury OR working capital OR financial reporting OR CFO OR audit) when:5d','en','US')),
     ('Beleggen & economie','Nederlandse markten',google_news('(AEX OR ECB OR inflatie OR rente OR beleggers) when:3d')),
     # Proefbronnen: Google News site-filter totdat een betrouwbare directe RSS-feed is bevestigd.
     ('Finance & CFO','CFO.nl · proefbron',google_news('site:cfo.nl (CFO OR treasury OR governance OR audit OR forecast OR finance OR overname) when:7d')),
     ('Finance & CFO','CMweb · proefbron',google_news('site:cmweb.nl (controlling OR treasury OR jaarrekening OR AI OR risicomanagement OR werkkapitaal) when:7d')),
     ('Finance & CFO','NBA · proefbron',google_news('site:nba.nl (accountancy OR verslaggeving OR controle OR standaarden OR regelgeving OR jaarrekening) when:14d')),
-    ('Finance & CFO','Accounting Today','https://www.accountingtoday.com/feed'),
-    ('Finance & CFO','Journal of Accountancy','https://www.journalofaccountancy.com/rss/news.xml'),
     ('Finance & CFO','CFO Dive','https://www.cfodive.com/feeds/news/'),
     ('Finance & CFO','Harvard Business Review','https://feeds.hbr.org/harvardbusiness'),
     ('Finance & CFO','BBC Business','https://feeds.bbci.co.uk/news/business/rss.xml'),
@@ -143,11 +141,16 @@ def main():
                        'jury m&a awards', 'genomineerden voor best deal',
                        'meld je aan', 'schrijf je in voor')
             if any(word in title for word in low_value):continue
+            if any(word in title for word in ('appointed', 'appointment', 'named cfo', 'new cfo', 'nieuwe financieel directeur', 'nieuwe finance director', 'interim-finance director', 'stock unit award', 'compensation package', 'pay package', 'salary award', 'grants interim cfo')):continue
         if cat=='Finance & CFO' and any(w in item['title'].lower() for w in ('f1-commentator','formule 1-commentator','voetbaltrainer','transfernieuws')):continue
         # A generic local-government merger is not corporate finance or M&A.
         if cat=='Finance & CFO' and any(w in blob for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):continue
         if any(b in blob for b in BLOCK.get(cat,[])):continue
         score=sum(4 if word in item['title'].lower() else 1 for word in KEYWORDS[cat] if word in blob)
+        if cat=='Finance & CFO':
+            strategic=('ifrs','treasury','cash flow','cashflow','working capital','financial reporting','audit','consolidat','forecast','transfer pricing','tax regulation','accounting standard','risk management','financial controls','ai in finance','finance automation')
+            score += sum(7 for word in strategic if word in item['title'].lower())
+            if any(word in item['title'].lower() for word in ('federal funds','non-profit','nonprofit','government grant')):score -= 12
         if cat in ('Finance & CFO','IT & technologie','Beleggen & economie') and score==0:continue
         item['score']=score
         ranked[cat].append(item)
