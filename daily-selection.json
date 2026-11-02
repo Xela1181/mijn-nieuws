@@ -1,165 +1,46 @@
 {
   "date": "2026-11-02",
-  "updated": "2026-11-02T04:17:18.852651+00:00",
+  "updated": "2026-11-02T19:46:38.015747+00:00",
   "selection_mode": "rss_shortlist",
-  "articles": [
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Irma van der Kaaij is de nieuwe Finance Director van Wilting - CFO.nl",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0Z2RExQSldPN2lyUF9wUGJFbXdzWm5uUWVrekZhS0p5NWR0Y0UyeFJ1SWtXdS0tVTlqTWNtOTJCaWhNUko4N1h5UVpKRUVQQ3p3MWN1NnVDV3ZaVVEtazc1b1Q1b2laVE1zX3Ata1lrNUlzUmg4Y3JGdEFqeWtoZ3VrMF9obDhtNTNrNg?oc=5",
-      "summary": "Irma van der Kaaij is de nieuwe Finance Director van Wilting CFO.nl",
-      "published": "2026-11-01T19:45:23+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "Nederlandse fiscaliteit",
-      "title": "Belastingplan zet Nederlandse regering onder druk: deal met oppositie lijkt buiten bereik - De Morgen",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbGhaQlVHeWMxSV9SZ3pBR0p4dHhtQnByYUR6NVBNdC1BSERVX1Z4OHp0c05BLTNCSTBIdVcxSEc3cVU3YUx2TkplZ2laczM0VlhSWEw1QnBOMjRPS2o0d0dvLTJzMHdDX0IwaV8xV1Q5UzVnaWU4YVQxbWI5aTctTmRnOTYtMjlCbmRLb2pVTi15YzlhQ2t6TGFJaUVBWm5EZVExbVVfcFlkU29oUTc0bTgxRjAxZ2NuZ3lHaXpsYktLejFWeGRfdQ?oc=5",
-      "summary": "Belastingplan zet Nederlandse regering onder druk: deal met oppositie lijkt buiten bereik De Morgen",
-      "published": "2026-11-02T02:00:21+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "Nederlandse fiscaliteit",
-      "title": "Nog geen akkoord over belastingplan, kritiek op dekking box 3 - Accountancy Vanmorgen ·",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNFZGV2VZQ0MwSFVhN1BlUG1UT3dtNzkzZ1NWcEUtdFBiNFVZbkN5czF4ZHlpSThQOFBiN2NBYzctQkRUQ1RuLWRTd0RxOTBjeGZrRzBlY05fazlSYUp5SHF2X1RrbXZYT005NUEzSVVUQmh1cXJCRDBFQjNYb2J5M0NNLTQ4Tld4TUgyOGQ0bFp3VlAybjdySkNHSW5ZLVF6Z2RNNEd3MlB5WVgy?oc=5",
-      "summary": "Nog geen akkoord over belastingplan, kritiek op dekking box 3 Accountancy Vanmorgen ·",
-      "published": "2026-11-01T15:56:08+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Door knelpunten in de voorraad op te lossen, verdubbelt Vinatex de cashflow van het bedrijf. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMlEteEZjcEQwUE5FR2pET1RMRS1Jc2RpNzhMQnlESmotTTNuYmYxU2EtZmJPUl85TEVPcTJZMEFxa0hnUWptUTlSdzRwd2RJRUt0dUxleFdOMUNtY1dsaWxEcnlKOEszVnBTQ0N4X1d4Z0pDbEowbkdqWERKX25pTzBrczhtUzNwclRTTHNFXzM5S3NXdXUwWA?oc=5",
-      "summary": "Door knelpunten in de voorraad op te lossen, verdubbelt Vinatex de cashflow van het bedrijf. Vietnam.vn",
-      "published": "2026-11-02T01:46:27+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "BleepingComputer",
-      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
-      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-      "summary": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI respo",
-      "published": "2026-10-31T13:10:19+00:00",
-      "language": "en"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "BleepingComputer",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "published": "2026-10-31T18:01:12+00:00",
-      "language": "en"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "TechCrunch",
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
-      "published": "2026-10-31T01:20:05+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "Grootste Chinese banken boeken sterkste prestaties in derde kwartaal dankzij hogere rente- en bedrijfsopbrengsten - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOHlqYlBDcXdrOEF2ZHNFdWM4SnJSTlkxM3VwRXZBUkxvU2dNcFVNT1ZSZnNjYnE1eENTSExFMFRLUDE1b2xLME1hanBCOTgyUk9JbVpPS1ZUY3RsX1p3QWZHcWtFRUNyWUtIbFB5dExidWZuNEdVRlJIT19wTnRZTGs3Sy1wbHowTEZzaUJEN0RKOUNmUWN0c2JmN2l4TmI2dlhibHFBTUNSNmVwNUlVMGVHdVdmNDV1Y1J1WjhUQU5wZ2JqU3JuanE3V09iZENDRFZrUk8xVmFPMUFXQzlSQUpDVk1Eem5RTEVWdWRDaw?oc=5",
-      "summary": "Grootste Chinese banken boeken sterkste prestaties in derde kwartaal dankzij hogere rente- en bedrijfsopbrengsten MarketScreener Nederland",
-      "published": "2026-11-02T01:32:26+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "Bank of England staat op het punt de rente te verhogen, maar kan de verwachtingen voor meer verhogingen temperen - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWF8tWXlvZEo3NHloLW9fSGtaTGs5YmlFOGY2cHYtVTd4dk5zMHE2RW0tblRobk1GdS11T3c4S3VpTDFiSXk2Q2ZpUURRQ213c2JHNWN6cTNUcThNUGRHYlgxekNvWHZJaEFWdWllX2NGYVppWEs0VU1HMlVucmE3RFByRk1fc0lRbGUxVUZ5S1RKTTVDVkVnMkZRNHp4aWxDWHhJRkY1UHBFdHdUVDYzbzhvRjFLYnRQZVZjZ000RUFzTHdON0taT05VV0hUM0JfRTZwdjF1RktySUhndjBZWXEzQnhVazJ0MmFfWkx4MA?oc=5",
-      "summary": "Bank of England staat op het punt de rente te verhogen, maar kan de verwachtingen voor meer verhogingen temperen MarketScreener Nederland",
-      "published": "2026-11-02T00:02:34+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "VS-obligaties weer in de gunst bij beleggers - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHVKenRNUG94OTZLVnAtblBWMk8wdGdBSGhPb3BaSUgyT3JyT0I3UFNQb1l0SmNyLUFpcThrN1MwOUw0bTlfWl9vdDFDRFBYWEQyRS1zdWVVdGVwWmYzMzJWeEJWdlkxaXZDSnpJUktXbFAwb0lmNDF0eGFzMzhsUHNwbkhUa3FGak1xMTFJdGNjcTJHaEp2cnN6MFEyRVYtVG03YVl3?oc=5",
-      "summary": "VS-obligaties weer in de gunst bij beleggers MarketScreener Nederland",
-      "published": "2026-11-01T20:00:01+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Nederlandse stichting probeert Zweedse wolvenjacht te verhinderen",
-      "url": "https://nos.nl/l/2637654",
-      "summary": "Stichting Wolven Belangen heeft in Zweden beroep aangetekend tegen het doodschieten van 72 wolven. Ook eist de Nederlandse stichting dat er in afwachting van een oordeel van de rechtbank niet op wolven wordt gejaagd. Dit jaar namen vijf Zwe",
-      "published": "2026-11-01T18:59:41+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Na de verkiezingen en een verbijsterende week in Brazilië, hoe nu verder?",
-      "url": "https://nos.nl/l/2637669",
-      "summary": "Een week na de spannende verkiezingen in Brazilië, die verrassend werden gewonnen door zittend president Lula da Silva, volgen de spectaculaire gebeurtenissen elkaar in razend tempo op. Brazilianen blijven in verbijstering achter, alsof ze ",
-      "published": "2026-11-01T21:50:40+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
-      "source": "Langebaanschaatsen",
-      "title": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. - Schaatsgekkies",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSm5MQnotR1QySHVCRmlONVRKRlNRV2pUYlhzRTYxNjA0Nl9jbGxaX3lWR25YcVVNdzE2VEtUMkc5bUdtaHUtUzJXWjQ2bzFJdWJRY3VKLUF4VXVVR0dvdzJ1bWJRcmZkV2I1aGdVdmF5d0s3R0RjeEFSZkVON3Q0WTZJNHZSM2tQQmhmMUc0MVhjWWJWUEU5cmVUNzNhVVluSVBoOVJCbXNjdVdvWlhDT2FEUHFkWWp2SFpqZnB6VVBLbHdwUlE?oc=5",
-      "summary": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. Schaatsgekkies",
-      "published": "2026-11-01T10:44:21+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
-      "source": "IJshockey",
-      "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
-      "summary": "IJshockey: NHL nu kijken of gemist? TVgids.nl",
-      "published": "2026-10-31T23:08:28+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
-      "source": "Hardlopen nieuws",
-      "title": "Aan de finishlijn bij de allereerste editie van de NN Marathon The Hague: “Dit wordt een klassieker” - RunningNL",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0V1RWt3SGhmeTFwU05lN1FWZ0ZNazdya0E1WXpnR1JxUXJraGZfb1l3c2NHR3ByNDFkZjJDUWJqcEZHR0owQ1BJSVJUUWxua2Z5bGFWUmE5RFFrS0JRdThCRkhsUGI1U1JQT0xubWRwZ1Rta3ZOZ01vYnVTWm5TUVZXbGZEYWxGSUJlMzNTcXFsVmJjc0dHS2UxQUt0aVJJU0hHRUpGWVotbWp5RDJBd29DSWdKQ0Z3?oc=5",
-      "summary": "Aan de finishlijn bij de allereerste editie van de NN Marathon The Hague: “Dit wordt een klassieker” RunningNL",
-      "published": "2026-11-01T20:10:23+00:00",
-      "language": "nl"
-    }
-  ],
-  "item_ids": [
-    "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0Z2RExQSldPN2lyUF9wUGJFbXdzWm5uUWVrekZhS0p5NWR0Y0UyeFJ1SWtXdS0tVTlqTWNtOTJCaWhNUko4N1h5UVpKRUVQQ3p3MWN1NnVDV3ZaVVEtazc1b1Q1b2laVE1zX3Ata1lrNUlzUmg4Y3JGdEFqeWtoZ3VrMF9obDhtNTNrNg?oc=5",
-    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbGhaQlVHeWMxSV9SZ3pBR0p4dHhtQnByYUR6NVBNdC1BSERVX1Z4OHp0c05BLTNCSTBIdVcxSEc3cVU3YUx2TkplZ2laczM0VlhSWEw1QnBOMjRPS2o0d0dvLTJzMHdDX0IwaV8xV1Q5UzVnaWU4YVQxbWI5aTctTmRnOTYtMjlCbmRLb2pVTi15YzlhQ2t6TGFJaUVBWm5EZVExbVVfcFlkU29oUTc0bTgxRjAxZ2NuZ3lHaXpsYktLejFWeGRfdQ?oc=5",
-    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNFZGV2VZQ0MwSFVhN1BlUG1UT3dtNzkzZ1NWcEUtdFBiNFVZbkN5czF4ZHlpSThQOFBiN2NBYzctQkRUQ1RuLWRTd0RxOTBjeGZrRzBlY05fazlSYUp5SHF2X1RrbXZYT005NUEzSVVUQmh1cXJCRDBFQjNYb2J5M0NNLTQ4Tld4TUgyOGQ0bFp3VlAybjdySkNHSW5ZLVF6Z2RNNEd3MlB5WVgy?oc=5",
-    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMlEteEZjcEQwUE5FR2pET1RMRS1Jc2RpNzhMQnlESmotTTNuYmYxU2EtZmJPUl85TEVPcTJZMEFxa0hnUWptUTlSdzRwd2RJRUt0dUxleFdOMUNtY1dsaWxEcnlKOEszVnBTQ0N4X1d4Z0pDbEowbkdqWERKX25pTzBrczhtUzNwclRTTHNFXzM5S3NXdXUwWA?oc=5",
-    "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
-    "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-    "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOHlqYlBDcXdrOEF2ZHNFdWM4SnJSTlkxM3VwRXZBUkxvU2dNcFVNT1ZSZnNjYnE1eENTSExFMFRLUDE1b2xLME1hanBCOTgyUk9JbVpPS1ZUY3RsX1p3QWZHcWtFRUNyWUtIbFB5dExidWZuNEdVRlJIT19wTnRZTGs3Sy1wbHowTEZzaUJEN0RKOUNmUWN0c2JmN2l4TmI2dlhibHFBTUNSNmVwNUlVMGVHdVdmNDV1Y1J1WjhUQU5wZ2JqU3JuanE3V09iZENDRFZrUk8xVmFPMUFXQzlSQUpDVk1Eem5RTEVWdWRDaw?oc=5",
-    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWF8tWXlvZEo3NHloLW9fSGtaTGs5YmlFOGY2cHYtVTd4dk5zMHE2RW0tblRobk1GdS11T3c4S3VpTDFiSXk2Q2ZpUURRQ213c2JHNWN6cTNUcThNUGRHYlgxekNvWHZJaEFWdWllX2NGYVppWEs0VU1HMlVucmE3RFByRk1fc0lRbGUxVUZ5S1RKTTVDVkVnMkZRNHp4aWxDWHhJRkY1UHBFdHdUVDYzbzhvRjFLYnRQZVZjZ000RUFzTHdON0taT05VV0hUM0JfRTZwdjF1RktySUhndjBZWXEzQnhVazJ0MmFfWkx4MA?oc=5",
-    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHVKenRNUG94OTZLVnAtblBWMk8wdGdBSGhPb3BaSUgyT3JyT0I3UFNQb1l0SmNyLUFpcThrN1MwOUw0bTlfWl9vdDFDRFBYWEQyRS1zdWVVdGVwWmYzMzJWeEJWdlkxaXZDSnpJUktXbFAwb0lmNDF0eGFzMzhsUHNwbkhUa3FGak1xMTFJdGNjcTJHaEp2cnN6MFEyRVYtVG03YVl3?oc=5",
-    "https://nos.nl/l/2637654",
-    "https://nos.nl/l/2637669",
-    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSm5MQnotR1QySHVCRmlONVRKRlNRV2pUYlhzRTYxNjA0Nl9jbGxaX3lWR25YcVVNdzE2VEtUMkc5bUdtaHUtUzJXWjQ2bzFJdWJRY3VKLUF4VXVVR0dvdzJ1bWJRcmZkV2I1aGdVdmF5d0s3R0RjeEFSZkVON3Q0WTZJNHZSM2tQQmhmMUc0MVhjWWJWUEU5cmVUNzNhVVluSVBoOVJCbXNjdVdvWlhDT2FEUHFkWWp2SFpqZnB6VVBLbHdwUlE?oc=5",
-    "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
-    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS0V1RWt3SGhmeTFwU05lN1FWZ0ZNazdya0E1WXpnR1JxUXJraGZfb1l3c2NHR3ByNDFkZjJDUWJqcEZHR0owQ1BJSVJUUWxua2Z5bGFWUmE5RFFrS0JRdThCRkhsUGI1U1JQT0xubWRwZ1Rta3ZOZ01vYnVTWm5TUVZXbGZEYWxGSUJlMzNTcXFsVmJjc0dHS2UxQUt0aVJJU0hHRUpGWVotbWp5RDJBd29DSWdKQ0Z3?oc=5"
-  ],
+  "articles": [],
+  "item_ids": [],
   "narration": "",
-  "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT. 1 van de 15 artikelen zijn ouder dan 48 uur; deze zijn als aanvulling opgenomen omdat er onvoldoende recente geschikte berichten waren. Niet alle nieuwsbronnen konden worden bijgewerkt.",
+  "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT. Er konden geen actuele RSS-artikelen worden opgehaald.",
   "source_failures": [
-    "Harvard Business Review: URLError"
+    "Google Nieuws · ITQ: TypeError",
+    "Marathonnieuws: TypeError",
+    "Langebaanschaatsen: TypeError",
+    "IJshockey: TypeError",
+    "Schaatsen nieuws: TypeError",
+    "Hardlopen nieuws: TypeError",
+    "Nederlandse fiscaliteit: TypeError",
+    "Europese CFO: TypeError",
+    "CFO verslaggeving en audit: TypeError",
+    "CFO treasury en forecasts: TypeError",
+    "CFO internationaal: TypeError",
+    "Nederlandse markten: TypeError",
+    "CFO.nl · proefbron: TypeError",
+    "CMweb · proefbron: TypeError",
+    "NBA · proefbron: TypeError",
+    "Accounting Today: ParseError",
+    "Journal of Accountancy: HTTPError",
+    "CFO Dive: TypeError",
+    "Harvard Business Review: URLError",
+    "BBC Business: TypeError",
+    "Financial Times: TypeError",
+    "The Economist: TypeError",
+    "NOS Tech: TypeError",
+    "TechCrunch: TypeError",
+    "MIT Technology Review: TypeError",
+    "Ars Technica: TypeError",
+    "BleepingComputer: TypeError",
+    "NOS Economie: TypeError",
+    "BBC Business: TypeError",
+    "MarketWatch: TypeError",
+    "WSJ Markets: TypeError",
+    "NOS Nieuws: TypeError",
+    "BBC World: TypeError",
+    "NOS Sport: TypeError"
   ],
-  "google_news_failures": 0
+  "google_news_failures": 15
 }
