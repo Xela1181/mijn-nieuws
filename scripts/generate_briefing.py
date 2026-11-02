@@ -171,7 +171,7 @@ async def main():
     import tempfile
     with tempfile.TemporaryDirectory() as tmp:
         segment_paths = []
-        for i, paragraph in enumerate(script.split("\\n\\n")):
+        for i, paragraph in enumerate(script.split("\n\n")):
             if not paragraph.strip():
                 continue
             path = Path(tmp) / f"part_{i:03d}.mp3"
@@ -191,7 +191,7 @@ async def main():
             if i:
                 lines.append(f"file '{silence}'")
             lines.append(f"file '{path}'")
-        concat_file.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+        concat_file.write_text("\n".join(lines) + "\n", encoding="utf-8")
         subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat",
                         "-safe", "0", "-i", str(concat_file), "-c", "copy",
                         str(OUT / "briefing.mp3")], check=True)
