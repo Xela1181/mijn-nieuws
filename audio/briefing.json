@@ -1,33 +1,33 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "voice": "en-GB-RyanNeural",
   "level": "B2+",
-  "word_count": 644,
+  "word_count": 615,
   "news_count": 15,
   "sources": [
     {
-      "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss",
+      "title": "Irma van der Kaaij is de nieuwe Finance Director van Wilting - CFO.nl",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0Z2RExQSldPN2lyUF9wUGJFbXdzWm5uUWVrekZhS0p5NWR0Y0UyeFJ1SWtXdS0tVTlqTWNtOTJCaWhNUko4N1h5UVpKRUVQQ3p3MWN1NnVDV3ZaVVEtazc1b1Q1b2laVE1zX3Ata1lrNUlzUmg4Y3JGdEFqeWtoZ3VrMF9obDhtNTNrNg?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Faisal Islam: This Budget was micro and that was deliberate",
-      "url": "https://www.bbc.co.uk/news/articles/cwx283zynnv3o?at_medium=RSS&at_campaign=rss",
+      "title": "IFRS 18: Corporate Treasury perspective - kpmg.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTnl0VjY1b3lTQjBZSnpPUmtjU01GQ1VYcnNLWG5Hc3VCM0k2WmNNVFlCZFlKdG1KTGx6cTdHRGFmdFNia2NOZHNCeWxXSXNobDNhcUwzUVFzb003YktnNnNGeEtQUlRGNjUxNGx1UEJ5My1Kd3AtdGZObnFHYjNnaGdfMm5HQzNJ?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Bereaved families will not face tax bill over pension delays under new rules",
-      "url": "https://www.bbc.co.uk/news/articles/cr5yn9zwnp3qo?at_medium=RSS&at_campaign=rss",
+      "title": "Wilton FY25 Audit Findings Prompt Financial Reporting Fixes - Good Morning Wilton",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGhEamlUTGFmNkhHUHJjcHdaMmY1WjlmejYxcW84MDhFR0V0RHpfaDIxbF9SWDlJSjFiVzdBNDhaeVVQZzM0MEpJNVpnSUhFWnNJVXBCR0ZiQkVkOXEwbjBJYy1KalZ6S1owTXo2eFpfdDRqems1SDlJZ0VQWGZNQ2M3MXluUWZPajBv?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Your pay, energy bills and savings: How the Budget affects you",
-      "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&at_campaign=rss",
+      "title": "Belastingplan zet Nederlandse regering onder druk: deal met oppositie lijkt buiten bereik - De Morgen",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbGhaQlVHeWMxSV9SZ3pBR0p4dHhtQnByYUR6NVBNdC1BSERVX1Z4OHp0c05BLTNCSTBIdVcxSEc3cVU3YUx2TkplZ2laczM0VlhSWEw1QnBOMjRPS2o0d0dvLTJzMHdDX0IwaV8xV1Q5UzVnaWU4YVQxbWI5aTctTmRnOTYtMjlCbmRLb2pVTi15YzlhQ2t6TGFJaUVBWm5EZVExbVVfcFlkU29oUTc0bTgxRjAxZ2NuZ3lHaXpsYktLejFWeGRfdQ?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "I earn £30,000. I'm angry there was no fuel duty cut in the Budget",
-      "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&at_campaign=rss",
+      "title": "Door knelpunten in de voorraad op te lossen, verdubbelt Vinatex de cashflow van het bedrijf. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMlEteEZjcEQwUE5FR2pET1RMRS1Jc2RpNzhMQnlESmotTTNuYmYxU2EtZmJPUl85TEVPcTJZMEFxa0hnUWptUTlSdzRwd2RJRUt0dUxleFdOMUNtY1dsaWxEcnlKOEszVnBTQ0N4X1d4Z0pDbEowbkdqWERKX25pTzBrczhtUzNwclRTTHNFXzM5S3NXdXUwWA?oc=5",
       "category": "Finance & CFO"
     },
     {
@@ -46,9 +46,19 @@
       "category": "IT & technologie"
     },
     {
-      "title": "Creating AI value with enterprise context",
-      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
       "category": "IT & technologie"
+    },
+    {
+      "title": "VS-obligaties weer in de gunst bij beleggers - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHVKenRNUG94OTZLVnAtblBWMk8wdGdBSGhPb3BaSUgyT3JyT0I3UFNQb1l0SmNyLUFpcThrN1MwOUw0bTlfWl9vdDFDRFBYWEQyRS1zdWVVdGVwWmYzMzJWeEJWdlkxaXZDSnpJUktXbFAwb0lmNDF0eGFzMzhsUHNwbkhUa3FGak1xMTFJdGNjcTJHaEp2cnN6MFEyRVYtVG03YVl3?oc=5",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "Olie, inflatie en The Fed-risico: waarom Strategy nu nog meer Bitcoin wil - BeInCrypto",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6MlJ2N1VzWWlvN1pwRkZ6emhPZ0JER0pPYmtJZDFPd0hxV3hzd3Zjb2VrRzFibERNX2pXWVFLc0xkUndPam5nUjRNS29lYS01SXVfLWZZajJMWjlLbzVHQzltMlR5akUtTlZuMU9BUTJZaWw2ZV9yeGczSUk?oc=5",
+      "category": "Beleggen & economie"
     },
     {
       "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
@@ -56,28 +66,18 @@
       "category": "Beleggen & economie"
     },
     {
-      "title": "Amerikaanse centrale bank laat ondanks hoge inflatie rente onveranderd",
-      "url": "https://nos.nl/l/2637086",
-      "category": "Beleggen & economie"
-    },
-    {
-      "title": "The S&P 500 isn’t the big winner you may think it is",
-      "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
-      "category": "Beleggen & economie"
-    },
-    {
-      "title": "Wekdienst 31/10: Anti-regeringsdemonstraties in meerdere landen • Vijf Eredivisieduels, waaronder Ajax-AZ",
-      "url": "https://nos.nl/l/2637405",
+      "title": "Na de verkiezingen en een verbijsterende week in Brazilië, hoe nu verder?",
+      "url": "https://nos.nl/l/2637669",
       "category": "Nederland & wereld"
     },
     {
-      "title": "Ethiopian PM puts ministers through military training",
-      "url": "https://www.bbc.co.uk/news/articles/cmwyv2y7g9l8o?at_medium=RSS&at_campaign=rss",
+      "title": "Eerlijke verkiezingen? Amerikaanse kiezers vrezen vooral wat erna komt",
+      "url": "https://nos.nl/l/2637659",
       "category": "Nederland & wereld"
     },
     {
-      "title": "Officiële verklaring van IJshockey Nederland - IJshockey Nederland",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNlpnNXFieE5WSkxaUXkwWS11cUlkVUhzZ2ZxNi1uODhvX0pLVnpBQkNkTnR6WVZ0dUxET0REQk9ENzgtYlBRc1kxUExDaFV5MVBlXzNubmlXVnhRRHlEMXZUN1lCOXNiQXUzZ3JIYXY4cXd2a280QmlweDl6V0MzR0Z3?oc=5",
+      "title": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. - Schaatsgekkies",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSm5MQnotR1QySHVCRmlONVRKRlNRV2pUYlhzRTYxNjA0Nl9jbGxaX3lWR25YcVVNdzE2VEtUMkc5bUdtaHUtUzJXWjQ2bzFJdWJRY3VKLUF4VXVVR0dvdzJ1bWJRcmZkV2I1aGdVdmF5d0s3R0RjeEFSZkVON3Q0WTZJNHZSM2tQQmhmMUc0MVhjWWJWUEU5cmVUNzNhVVluSVBoOVJCbXNjdVdvWlhDT2FEUHFkWWp2SFpqZnB6VVBLbHdwUlE?oc=5",
       "category": "Sport"
     }
   ]
