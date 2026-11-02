@@ -86,15 +86,34 @@ def select_news(data, now):
 
 
 def spoken_item(item):
-    """Speak a single concise statement, never headline plus summary."""
-    title = clean(item["title"], 170).rstrip(" .!?:;")
-    summary = clean(item.get("summary", ""), 230).rstrip(" .!?:;")
-    if summary:
-        title_words = set(re.findall(r"[a-z]{4,}", title.lower()))
-        summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
-        overlap = len(title_words & summary_words) / max(1, len(title_words))
-        if title.casefold() not in summary.casefold() and overlap < 0.35 and len(summary.split()) >= 13 and summary[0].isupper():
-            return summary + "."
+    """Use the source's useful detail without reading a headline twice.
+
+    RSS feeds vary greatly: do not invent background when a feed only gives a title.
+    """
+    title = clean(item["title"], 190).rstrip(" .!?:;")
+    summary = clean(item.get("summary", ""), 500).rstrip(" .!?:;")
+    if not summary:
+        return title + "."
+    # Remove common publisher suffixes when comparing a headline with its description.
+    core_title = re.split(r"\\s[-–—]\\s", title)[0].strip()
+    summary = re.sub(r"^" + re.escape(title) + r"\\s*[:.\\-–—]*\\s*", "", summary, flags=re.I).strip()
+    summary = re.sub(r"^" + re.escape(core_title) + r"\\s*[:.\\-–—]*\\s*", "", summary, flags=re.I).strip()
+    if not summary:
+        return title + "."
+    if summary.lower() in title.lower():
+        return title + "."
+    title_words = set(re.findall(r"[a-z]{4,}", core_title.lower()))
+    summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
+    overlap = len(title_words & summary_words) / max(1, len(title_words))
+    # A full description often restates the headline but adds relevant detail.
+    # Prefer the longer self-contained description rather than saying both.
+    if overlap > 0.55:
+        if len(summary.split()) >= len(core_title.split()) + 5:
+            return summary[0].upper() + summary[1:] + "."
+        return title + "."
+    # Only append a description if it contains substantial additional context.
+    if len(summary.split()) >= 8:
+        return title + ". " + summary[0].upper() + summary[1:] + "."
     return title + "."
 
 
