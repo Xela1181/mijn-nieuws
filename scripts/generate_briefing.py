@@ -13,15 +13,15 @@ import edge_tts
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "audio"
-VOICE = "en-GB-RyanNeural"
+VOICE = "en-GB-SoniaNeural"
 RATE = "-8%"
-MAX_WORDS = 1550
+MAX_WORDS = 1250
 
 CATEGORIES = [
-    ("Finance & CFO", 5),
-    ("IT & technologie", 4),
-    ("Beleggen & economie", 3),
-    ("Nederland & wereld", 2),
+    ("Finance & CFO", 3),
+    ("IT & technologie", 3),
+    ("Beleggen & economie", 2),
+    ("Nederland & wereld", 1),
     ("Sport", 1),
 ]
 BOOKS = [
@@ -60,13 +60,19 @@ def clean(value, max_chars=190):
     return value[:max_chars].rsplit(" ", 1)[0] if len(value) > max_chars else value
 
 
+DUTCH_WORDS = set("de het een van voor met bij over naar zijn wordt worden deze nieuwe nederlandse nederland op uit niet door als aan en ook".split())
+def likely_dutch(title):
+    words = re.findall(r"[a-zà-ÿ]+", title.lower())
+    return sum(word in DUTCH_WORDS for word in words) >= 2
+
+
 def select_news(data, now):
     selected = []
     cutoff = now.astimezone(dt.timezone.utc) - dt.timedelta(days=4)
     for category, limit in CATEGORIES:
         options = []
         for item in data.get("articles", []):
-            if item.get("category") != category or not item.get("title"):
+            if item.get("category") != category or not item.get("title") or likely_dutch(item["title"]):
                 continue
             try:
                 published = dt.datetime.fromisoformat(item.get("published", ""))
@@ -80,24 +86,16 @@ def select_news(data, now):
 
 
 def spoken_item(item):
-    """Make one natural spoken item; avoid repeating a headline in its summary."""
-    title = clean(item["title"], 145).rstrip(" .!?:;")
-    summary = clean(item.get("summary", ""), 210).rstrip(" .!?:;")
-    if not summary:
-        return title + "."
-    # RSS descriptions often repeat the full headline verbatim.
-    if title.casefold() in summary.casefold():
-        remainder = re.sub(re.escape(title), "", summary, flags=re.IGNORECASE).strip(" .!?:;-")
-        if remainder and len(remainder.split()) >= 5:
-            return title + ". " + remainder[0].upper() + remainder[1:] + "."
-        return title + "."
-    # Also remove repeated leading fragments and descriptions with heavy word overlap.
-    title_words = set(re.findall(r"[a-z]{4,}", title.lower()))
-    summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
-    overlap = len(title_words & summary_words) / max(1, min(len(title_words), len(summary_words)))
-    if overlap > 0.78:
-        return summary[0].upper() + summary[1:] + "."
-    return title + ". " + summary[0].upper() + summary[1:] + "."
+    """Speak a single concise statement, never headline plus summary."""
+    title = clean(item["title"], 170).rstrip(" .!?:;")
+    summary = clean(item.get("summary", ""), 230).rstrip(" .!?:;")
+    if summary:
+        title_words = set(re.findall(r"[a-z]{4,}", title.lower()))
+        summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
+        overlap = len(title_words & summary_words) / max(1, len(title_words))
+        if title.casefold() not in summary.casefold() and overlap < 0.35 and len(summary.split()) >= 13 and summary[0].isupper():
+            return summary + "."
+    return title + "."
 
 
 def make_script(data, now):
@@ -105,7 +103,7 @@ def make_script(data, now):
     idx = today.toordinal() % 7
     pieces = [
         f"Good morning. This is your personal Business English news briefing for {today.strftime('%A, %d %B %Y')}.",
-        "The briefing is written for upper-intermediate business English. News is based on public headlines and short summaries. Always consult the original articles for full context.",
+        "Here are the stories that matter today. We will cover finance, technology, markets, world news and sport.",
     ]
     news = select_news(data, now)
     section_labels = {
@@ -125,14 +123,12 @@ def make_script(data, now):
         else:
             pieces.append(f"That brings us to our next section: {label}.")
         for item_index, item in enumerate(entries):
-            introduction = ("Our first story: " if item_index == 0 else
-                            "In another development: " if item_index % 3 == 1 else
-                            "Next, " if item_index % 3 == 2 else
-                            "Also worth noting: ")
+            introduction = f"Story {item_index + 1}. "
             pieces.append(introduction + spoken_item(item))
         pieces.append(f"That's the latest from {label}.")
     if not news:
         pieces.append("There are no sufficiently recent verified news headlines available in the current feed.")
+    pieces.append("That concludes the news. Now for your recommendations and English practice.")
     title, author, idea = BOOKS[idx]
     pieces.append(f"Today's book recommendation is {title}, by {author}. One idea to explore is to {idea}.")
     pieces.append("Podcast recommendation: check the Books and Podcasts tab for a verified episode link. No episode is announced without a confirmed link.")
@@ -183,7 +179,7 @@ async def main():
         concat_file = Path(tmp) / "segments.txt"
         silence = Path(tmp) / "pause.mp3"
         subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "lavfi", "-i",
-                        "anullsrc=r=24000:cl=mono", "-t", "0.7",
+                        "anullsrc=r=24000:cl=mono", "-t", "1.6",
                         "-c:a", "libmp3lame", "-q:a", "5", str(silence)],
                        check=True)
         lines = []
