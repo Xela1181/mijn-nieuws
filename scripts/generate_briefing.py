@@ -79,6 +79,27 @@ def select_news(data, now):
     return selected
 
 
+def spoken_item(item):
+    """Make one natural spoken item; avoid repeating a headline in its summary."""
+    title = clean(item["title"], 145).rstrip(" .!?:;")
+    summary = clean(item.get("summary", ""), 210).rstrip(" .!?:;")
+    if not summary:
+        return title + "."
+    # RSS descriptions often repeat the full headline verbatim.
+    if title.casefold() in summary.casefold():
+        remainder = re.sub(re.escape(title), "", summary, flags=re.IGNORECASE).strip(" .!?:;-")
+        if remainder and len(remainder.split()) >= 5:
+            return title + ". " + remainder[0].upper() + remainder[1:] + "."
+        return title + "."
+    # Also remove repeated leading fragments and descriptions with heavy word overlap.
+    title_words = set(re.findall(r"[a-z]{4,}", title.lower()))
+    summary_words = set(re.findall(r"[a-z]{4,}", summary.lower()))
+    overlap = len(title_words & summary_words) / max(1, min(len(title_words), len(summary_words)))
+    if overlap > 0.78:
+        return summary[0].upper() + summary[1:] + "."
+    return title + ". " + summary[0].upper() + summary[1:] + "."
+
+
 def make_script(data, now):
     today = now.date()
     idx = today.toordinal() % 7
@@ -87,20 +108,29 @@ def make_script(data, now):
         "The briefing is written for upper-intermediate business English. News is based on public headlines and short summaries. Always consult the original articles for full context.",
     ]
     news = select_news(data, now)
-    for category, _ in CATEGORIES:
-        entries = [a for c, a in news if c == category]
-        if not entries:
-            continue
-        label = {"IT & technologie": "Technology, AI and cloud", "Beleggen & economie": "Investing and markets",
-                 "Nederland & wereld": "The Netherlands and the world", "Sport": "Sport"}.get(category, category)
-        pieces.append(f"Now, {label}.")
-        for item in entries:
-            title = clean(item["title"], 140)
-            summary = clean(item.get("summary", ""), 160)
-            if summary and summary.casefold() not in title.casefold():
-                pieces.append(f"{title}. {summary}.")
-            else:
-                pieces.append(f"{title}.")
+    section_labels = {
+        "Finance & CFO": "Finance and CFO",
+        "IT & technologie": "Technology, artificial intelligence and cloud",
+        "Beleggen & economie": "Investing and the economy",
+        "Nederland & wereld": "The Netherlands and world news",
+        "Sport": "Sport",
+    }
+    active_sections = [(cat, [item for group, item in news if group == cat])
+                       for cat, _ in CATEGORIES]
+    active_sections = [(cat, items) for cat, items in active_sections if items]
+    for section_index, (category, entries) in enumerate(active_sections):
+        label = section_labels[category]
+        if section_index == 0:
+            pieces.append(f"Let's begin with {label}.")
+        else:
+            pieces.append(f"That brings us to our next section: {label}.")
+        for item_index, item in enumerate(entries):
+            introduction = ("Our first story: " if item_index == 0 else
+                            "In another development: " if item_index % 3 == 1 else
+                            "Next, " if item_index % 3 == 2 else
+                            "Also worth noting: ")
+            pieces.append(introduction + spoken_item(item))
+        pieces.append(f"That's the latest from {label}.")
     if not news:
         pieces.append("There are no sufficiently recent verified news headlines available in the current feed.")
     title, author, idea = BOOKS[idx]
@@ -135,7 +165,36 @@ async def main():
                     for category, item in news],
     }
     (OUT / "briefing.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    await edge_tts.Communicate(script, VOICE, rate=RATE).save(str(OUT / "briefing.mp3"))
+    # Generate sections individually to make transitions audible.
+    # MP3 segments can be joined by ffmpeg with short silences.
+    import subprocess
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        segment_paths = []
+        for i, paragraph in enumerate(script.split("\\n\\n")):
+            if not paragraph.strip():
+                continue
+            path = Path(tmp) / f"part_{i:03d}.mp3"
+            await edge_tts.Communicate(paragraph, VOICE, rate=RATE).save(str(path))
+            segment_paths.append(path)
+        if not segment_paths:
+            raise RuntimeError("No audio segments generated")
+        # A short pause between stories, rather than uninterrupted reading.
+        concat_file = Path(tmp) / "segments.txt"
+        silence = Path(tmp) / "pause.mp3"
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-f", "lavfi", "-i",
+                        "anullsrc=r=24000:cl=mono", "-t", "0.7",
+                        "-c:a", "libmp3lame", "-q:a", "5", str(silence)],
+                       check=True)
+        lines = []
+        for i, path in enumerate(segment_paths):
+            if i:
+                lines.append(f"file '{silence}'")
+            lines.append(f"file '{path}'")
+        concat_file.write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "concat",
+                        "-safe", "0", "-i", str(concat_file), "-c", "copy",
+                        str(OUT / "briefing.mp3")], check=True)
     print(f"Generated audio for {metadata['date']}: {metadata['word_count']} words, {len(news)} news items")
 
 
