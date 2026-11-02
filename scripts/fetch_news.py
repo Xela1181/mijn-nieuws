@@ -64,8 +64,8 @@ KEYWORDS = {
 BLOCK = {'Beleggen & economie':['my father','my mother','caregiver','debit card','credit card debt','advice column','should i','relationship','retirement advice','inheritance dispute','personal finance question']}
 
 TAG = re.compile(r'<[^>]+>')
-def clean(s):
-    return re.sub(r'\s+',' ',html.unescape(TAG.sub(' ',s or ''))).strip()[:240]
+def clean(s, limit=240):
+    return re.sub(r'\s+',' ',html.unescape(TAG.sub(' ',s or ''))).strip()[:limit]
 def value(node, names):
     for name in names:
         x=node.find(name)
