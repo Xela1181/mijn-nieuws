@@ -1,15 +1,10 @@
 {
   "date": "2026-11-02",
-  "voice": "en-GB-RyanNeural",
+  "voice": "en-GB-SoniaNeural",
   "level": "B2+",
-  "word_count": 657,
-  "news_count": 15,
+  "word_count": 429,
+  "news_count": 9,
   "sources": [
-    {
-      "title": "Irma van der Kaaij is de nieuwe Finance Director van Wilting - CFO.nl",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0Z2RExQSldPN2lyUF9wUGJFbXdzWm5uUWVrekZhS0p5NWR0Y0UyeFJ1SWtXdS0tVTlqTWNtOTJCaWhNUko4N1h5UVpKRUVQQ3p3MWN1NnVDV3ZaVVEtazc1b1Q1b2laVE1zX3Ata1lrNUlzUmg4Y3JGdEFqeWtoZ3VrMF9obDhtNTNrNg?oc=5",
-      "category": "Finance & CFO"
-    },
     {
       "title": "IFRS 18: Corporate Treasury perspective - kpmg.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTnl0VjY1b3lTQjBZSnpPUmtjU01GQ1VYcnNLWG5Hc3VCM0k2WmNNVFlCZFlKdG1KTGx6cTdHRGFmdFNia2NOZHNCeWxXSXNobDNhcUwzUVFzb003YktnNnNGeEtQUlRGNjUxNGx1UEJ5My1Kd3AtdGZObnFHYjNnaGdfMm5HQzNJ?oc=5",
@@ -18,16 +13,6 @@
     {
       "title": "Wilton FY25 Audit Findings Prompt Financial Reporting Fixes - Good Morning Wilton",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGhEamlUTGFmNkhHUHJjcHdaMmY1WjlmejYxcW84MDhFR0V0RHpfaDIxbF9SWDlJSjFiVzdBNDhaeVVQZzM0MEpJNVpnSUhFWnNJVXBCR0ZiQkVkOXEwbjBJYy1KalZ6S1owTXo2eFpfdDRqems1SDlJZ0VQWGZNQ2M3MXluUWZPajBv?oc=5",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Belastingplan zet Nederlandse regering onder druk: deal met oppositie lijkt buiten bereik - De Morgen",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbGhaQlVHeWMxSV9SZ3pBR0p4dHhtQnByYUR6NVBNdC1BSERVX1Z4OHp0c05BLTNCSTBIdVcxSEc3cVU3YUx2TkplZ2laczM0VlhSWEw1QnBOMjRPS2o0d0dvLTJzMHdDX0IwaV8xV1Q5UzVnaWU4YVQxbWI5aTctTmRnOTYtMjlCbmRLb2pVTi15YzlhQ2t6TGFJaUVBWm5EZVExbVVfcFlkU29oUTc0bTgxRjAxZ2NuZ3lHaXpsYktLejFWeGRfdQ?oc=5",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Door knelpunten in de voorraad op te lossen, verdubbelt Vinatex de cashflow van het bedrijf. - Vietnam.vn",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMlEteEZjcEQwUE5FR2pET1RMRS1Jc2RpNzhMQnlESmotTTNuYmYxU2EtZmJPUl85TEVPcTJZMEFxa0hnUWptUTlSdzRwd2RJRUt0dUxleFdOMUNtY1dsaWxEcnlKOEszVnBTQ0N4X1d4Z0pDbEowbkdqWERKX25pTzBrczhtUzNwclRTTHNFXzM5S3NXdXUwWA?oc=5",
       "category": "Finance & CFO"
     },
     {
@@ -46,16 +31,6 @@
       "category": "IT & technologie"
     },
     {
-      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-      "category": "IT & technologie"
-    },
-    {
-      "title": "VS-obligaties weer in de gunst bij beleggers - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWHVKenRNUG94OTZLVnAtblBWMk8wdGdBSGhPb3BaSUgyT3JyT0I3UFNQb1l0SmNyLUFpcThrN1MwOUw0bTlfWl9vdDFDRFBYWEQyRS1zdWVVdGVwWmYzMzJWeEJWdlkxaXZDSnpJUktXbFAwb0lmNDF0eGFzMzhsUHNwbkhUa3FGak1xMTFJdGNjcTJHaEp2cnN6MFEyRVYtVG03YVl3?oc=5",
-      "category": "Beleggen & economie"
-    },
-    {
       "title": "Olie, inflatie en The Fed-risico: waarom Strategy nu nog meer Bitcoin wil - BeInCrypto",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6MlJ2N1VzWWlvN1pwRkZ6emhPZ0JER0pPYmtJZDFPd0hxV3hzd3Zjb2VrRzFibERNX2pXWVFLc0xkUndPam5nUjRNS29lYS01SXVfLWZZajJMWjlLbzVHQzltMlR5akUtTlZuMU9BUTJZaWw2ZV9yeGczSUk?oc=5",
       "category": "Beleggen & economie"
@@ -64,11 +39,6 @@
       "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
       "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d?mod=rss_markets_main",
       "category": "Beleggen & economie"
-    },
-    {
-      "title": "Na de verkiezingen en een verbijsterende week in Brazilië, hoe nu verder?",
-      "url": "https://nos.nl/l/2637669",
-      "category": "Nederland & wereld"
     },
     {
       "title": "Eerlijke verkiezingen? Amerikaanse kiezers vrezen vooral wat erna komt",

@@ -1,56 +1,46 @@
 Good morning. This is your personal Business English news briefing for Monday, 02 November 2026.
 
-The briefing is written for upper-intermediate business English. News is based on public headlines and short summaries. Always consult the original articles for full context.
+Here are the stories that matter today. We will cover finance, technology, markets, world news and sport.
 
 Let's begin with Finance and CFO.
 
-Our first story: Irma van der Kaaij is de nieuwe Finance Director van Wilting CFO.nl.
+Story 1. IFRS 18: Corporate Treasury perspective - kpmg.com.
 
-In another development: IFRS 18: Corporate Treasury perspective kpmg.com.
-
-Next, Wilton FY25 Audit Findings Prompt Financial Reporting Fixes Good Morning Wilton.
-
-Also worth noting: Belastingplan zet Nederlandse regering onder druk: deal met oppositie lijkt buiten bereik De Morgen.
-
-In another development: Door knelpunten in de voorraad op te lossen, verdubbelt Vinatex de cashflow van het bedrijf. Vietnam.vn.
+Story 2. Wilton FY25 Audit Findings Prompt Financial Reporting Fixes - Good Morning Wilton.
 
 That's the latest from Finance and CFO.
 
 That brings us to our next section: Technology, artificial intelligence and cloud.
 
-Our first story: From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era. AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical.
+Story 1. AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills,.
 
-In another development: Northflank security breach leads to abuse of customers' AI API keys. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...].
+Story 2. Northflank security breach leads to abuse of customers' AI API keys.
 
-Next, Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia. When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.
-
-Also worth noting: Supersonic airliner in doubt as company shifts to powering AI data centers. Boom’s airliner may be delayed, and its data center power business lost a customer.
+Story 3. When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.
 
 That's the latest from Technology, artificial intelligence and cloud.
 
 That brings us to our next section: Investing and the economy.
 
-Our first story: VS-obligaties weer in de gunst bij beleggers MarketScreener Nederland.
+Story 1. Olie, inflatie en The Fed-risico: waarom Strategy nu nog meer Bitcoin wil - BeInCrypto.
 
-In another development: Olie, inflatie en The Fed-risico: waarom Strategy nu nog meer Bitcoin wil BeInCrypto.
-
-Next, U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling. U.S. stocks fell as the AI selloff began to feed on itself following more disappointing earnings reports from Amazon and Intel, leaving investors to wonder if the tech correction could become a speculative.
+Story 2. U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling.
 
 That's the latest from Investing and the economy.
 
 That brings us to our next section: The Netherlands and world news.
 
-Our first story: Na de verkiezingen en een verbijsterende week in Brazilië, hoe nu verder. Een week na de spannende verkiezingen in Brazilië, die verrassend werden gewonnen door zittend president Lula da Silva, volgen de spectaculaire gebeurtenissen elkaar in razend tempo op. Brazilianen blijven in.
-
-In another development: Eerlijke verkiezingen? Amerikaanse kiezers vrezen vooral wat erna komt. Gegevens van kiezers opvragen, stembiljetten innemen, kiesdistricten hertekenen en rechtszaken aanspannen. Het is slechts een greep uit de acties die president Trump heeft ondernomen in de aanloop naar de.
+Story 1. Gegevens van kiezers opvragen, stembiljetten innemen, kiesdistricten hertekenen en rechtszaken aanspannen. Het is slechts een greep uit de acties die president Trump heeft ondernomen in de aanloop naar de tussentijdse.
 
 That's the latest from The Netherlands and world news.
 
 That brings us to our next section: Sport.
 
-Our first story: Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. Schaatsgekkies.
+Story 1. Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. - Schaatsgekkies.
 
 That's the latest from Sport.
+
+That concludes the news. Now for your recommendations and English practice.
 
 Today's book recommendation is The Phoenix Project, by Gene Kim and colleagues. One idea to explore is to connect IT operations to business outcomes.
 
