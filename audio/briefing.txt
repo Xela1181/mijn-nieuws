@@ -1,20 +1,12 @@
 Good morning. This is your personal Business English news briefing for Monday, 02 November 2026.
 
-Here are the stories that matter today. We will cover finance, technology, markets, world news and sport.
+Here is today's selection of news stories with enough verified detail to explain clearly.
 
-Let's begin with Finance and CFO.
+Let's begin with Technology, artificial intelligence and cloud.
 
-Story 1. IFRS 18: Corporate Treasury perspective - kpmg.com.
+Story 1. From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era. AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI respo
 
-Story 2. Wilton FY25 Audit Findings Prompt Financial Reporting Fixes - Good Morning Wilton.
-
-That's the latest from Finance and CFO.
-
-That brings us to our next section: Technology, artificial intelligence and cloud.
-
-Story 1. From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era. AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI respo.
-
-Story 2. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...].
+Story 2. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]
 
 Story 3. Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia. When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.
 
@@ -22,23 +14,9 @@ That's the latest from Technology, artificial intelligence and cloud.
 
 That brings us to our next section: Investing and the economy.
 
-Story 1. Olie, inflatie en The Fed-risico: waarom Strategy nu nog meer Bitcoin wil - BeInCrypto.
-
-Story 2. U.S. stocks fell as the AI selloff began to feed on itself following more disappointing earnings reports from Amazon and Intel, leaving investors to wonder if the tech correction could become a speculative bust.
+Story 1. stocks fell as the AI selloff began to feed on itself following more disappointing earnings reports from Amazon and Intel, leaving investors to wonder if the tech correction could become a speculative bust.
 
 That's the latest from Investing and the economy.
-
-That brings us to our next section: The Netherlands and world news.
-
-Story 1. Eerlijke verkiezingen? Amerikaanse kiezers vrezen vooral wat erna komt. Gegevens van kiezers opvragen, stembiljetten innemen, kiesdistricten hertekenen en rechtszaken aanspannen. Het is slechts een greep uit de acties die president Trump heeft ondernomen in de aanloop naar de tussentijdse verkiezingen. Daaraan.
-
-That's the latest from The Netherlands and world news.
-
-That brings us to our next section: Sport.
-
-Story 1. Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. - Schaatsgekkies.
-
-That's the latest from Sport.
 
 That concludes the news. Now for your recommendations and English practice.
 

@@ -2,19 +2,9 @@
   "date": "2026-11-02",
   "voice": "en-GB-SoniaNeural",
   "level": "B2+",
-  "word_count": 511,
-  "news_count": 9,
+  "word_count": 359,
+  "news_count": 4,
   "sources": [
-    {
-      "title": "IFRS 18: Corporate Treasury perspective - kpmg.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTnl0VjY1b3lTQjBZSnpPUmtjU01GQ1VYcnNLWG5Hc3VCM0k2WmNNVFlCZFlKdG1KTGx6cTdHRGFmdFNia2NOZHNCeWxXSXNobDNhcUwzUVFzb003YktnNnNGeEtQUlRGNjUxNGx1UEJ5My1Kd3AtdGZObnFHYjNnaGdfMm5HQzNJ?oc=5",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Wilton FY25 Audit Findings Prompt Financial Reporting Fixes - Good Morning Wilton",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVGhEamlUTGFmNkhHUHJjcHdaMmY1WjlmejYxcW84MDhFR0V0RHpfaDIxbF9SWDlJSjFiVzdBNDhaeVVQZzM0MEpJNVpnSUhFWnNJVXBCR0ZiQkVkOXEwbjBJYy1KalZ6S1owTXo2eFpfdDRqems1SDlJZ0VQWGZNQ2M3MXluUWZPajBv?oc=5",
-      "category": "Finance & CFO"
-    },
     {
       "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
       "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
@@ -31,24 +21,9 @@
       "category": "IT & technologie"
     },
     {
-      "title": "Olie, inflatie en The Fed-risico: waarom Strategy nu nog meer Bitcoin wil - BeInCrypto",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6MlJ2N1VzWWlvN1pwRkZ6emhPZ0JER0pPYmtJZDFPd0hxV3hzd3Zjb2VrRzFibERNX2pXWVFLc0xkUndPam5nUjRNS29lYS01SXVfLWZZajJMWjlLbzVHQzltMlR5akUtTlZuMU9BUTJZaWw2ZV9yeGczSUk?oc=5",
-      "category": "Beleggen & economie"
-    },
-    {
       "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling",
       "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-as-amazon-intel-earnings-spark-more-ai-selling-5670f50d?mod=rss_markets_main",
       "category": "Beleggen & economie"
-    },
-    {
-      "title": "Eerlijke verkiezingen? Amerikaanse kiezers vrezen vooral wat erna komt",
-      "url": "https://nos.nl/l/2637659",
-      "category": "Nederland & wereld"
-    },
-    {
-      "title": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zondag 1 november 2026. - Schaatsgekkies",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSm5MQnotR1QySHVCRmlONVRKRlNRV2pUYlhzRTYxNjA0Nl9jbGxaX3lWR25YcVVNdzE2VEtUMkc5bUdtaHUtUzJXWjQ2bzFJdWJRY3VKLUF4VXVVR0dvdzJ1bWJRcmZkV2I1aGdVdmF5d0s3R0RjeEFSZkVON3Q0WTZJNHZSM2tQQmhmMUc0MVhjWWJWUEU5cmVUNzNhVVluSVBoOVJCbXNjdVdvWlhDT2FEUHFkWWp2SFpqZnB6VVBLbHdwUlE?oc=5",
-      "category": "Sport"
     }
   ]
 }
