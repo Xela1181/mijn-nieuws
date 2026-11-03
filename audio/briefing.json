@@ -1,29 +1,19 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "voice": "en-GB-SoniaNeural",
   "level": "B2+",
-  "word_count": 413,
-  "news_count": 5,
+  "word_count": 304,
+  "news_count": 3,
   "sources": [
-    {
-      "title": "Rivian grants interim CFO 125,000 stock unit award",
-      "url": "https://www.cfodive.com/news/rivian-grants-interim-cfo-125000-stock-unit-award/873375/",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Tips for auditors seeking to root out fraudulent federal funds use",
-      "url": "https://www.cfodive.com/news/tips-auditors-seeking-root-out-fraudulent-federal-funds-use-accounting/873372/",
-      "category": "Finance & CFO"
-    },
     {
       "title": "Northflank security breach leads to abuse of customers' AI API keys",
       "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
       "category": "IT & technologie"
     },
     {
-      "title": "The bond-market rally is defying the typical investing playbook. Here’s why.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-rally-is-defying-the-typical-investing-playbook-heres-why-17a14342?mod=mw_rss_topstories",
-      "category": "Beleggen & economie"
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "category": "IT & technologie"
     },
     {
       "title": "Dutch police offer record €2m reward in hunt for drug lord",
