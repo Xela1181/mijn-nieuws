@@ -1,14 +1,49 @@
 {
   "date": "2026-11-03",
-  "voice": "en-GB-SoniaNeural",
-  "level": "B2+",
-  "word_count": 304,
-  "news_count": 3,
+  "selection_mode": "rss_shortlist",
+  "voice": {
+    "en": "en-GB-SoniaNeural",
+    "nl": "nl-NL-ColetteNeural"
+  },
+  "word_count": 521,
+  "news_count": 15,
+  "item_ids": [
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOE96LXlmbUdadDNmWUFQX3dWRnNyZmo1S2l5djh5R0ctV1BzczN0ZjlJZ2d6OHI1OGFPTGNJMUdfM3pkYWJkRWdqWnBXczd4NTZIX3lhdGJ0djNNRTMzcGRjTmhxUDdKampxMVhOMmdUaU81SDFIMzEzNV9QNDJHN3p3R25CVUstOWJoR0t5SVpFQlhpd25BdXlCWE1zc0ZWQ1hiS0tabFRlN2s?oc=5",
+    "https://www.cfodive.com/spons/5-ways-cfos-can-maximize-their-organizations-human-capital/833426/",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW9rV0xPdmd3bVozd3Zvb3kzbkFocTBnUjltYmtLOUhCOUFDZTlWNjFVZjBoTlp2a0VxYnh5Z3VOVHBRWUZrUjNVRXBWR2p6VzI1ZWxHT3pUOE9rMDltc21wYnV1Ml85N3FKeUxJQTVReVpnVEZvanBqb09Sa2V0QllhbVJFSXZhZDJlMGNvamdvV0k?oc=5",
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd19CenVUbHUxU0FvQjFnWGxndF9VX3lNcHdpRGRSOUhLN3ZOMTVVVEhQQ0tyM0hHZjRUbHRJeXBTLWk1MEJUSGR2MkRFd1EyMzc3NEU2NW01TVJzeVhBVHRMM2YzUFdUVm9GTVNCUVBjZEh5MldMWl85dE5kTTFQVWdfZ3ZVRjNiM2RQN3BQVUVQZElKMTF5QTlWSm9vaGhWaVFoVDRnYnJjVjRqU25DVDVzLXZiYmpiU2Zub1VZTzlrbmpFNVNvT0J3ZVgxY3hzLXZ2U1NGanhoREk1?oc=5",
+    "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+    "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+    "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa1V6VTcxaTMxSEoxTlIzc0E5emRtVEVoYUx2VlZpTU5kYXhtWlBqNGNEUURNRGcyYi1CaDE1SHlFeUh0djlFTHRlVlpSUGF6NV9rSm90cmlmMHplUEZoaGI2VjB4RFFydF93ckswcVlQR1dMMWNNb3Y2ZldrRXhVMlZvdkJBSFIxWUU0eGZ3MA?oc=5",
+    "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+    "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main",
+    "https://nos.nl/l/2637791",
+    "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnlZTmNlamNzeWhOcXU0Z2VITEl3a1BDQzFEODlGYzVJWXZmeU5yY0tSb24zdXFqR0JKSHVEdGgzR1V4LXI3cHpPTGxMZHl6amxyWG1wOWhEU0VIY2lIR2I3VE1pMnBQd2djZVhGOHhSRTFQYlpRZzAyMEh0bDRpSkJmRDBEWVBobUdVTDBJSk9zdjNEVE9VT3U4dy02SVY2UmZWNGk0NVBpSTJGcEN6ZXEyVWhMZnJm?oc=5",
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5"
+  ],
   "sources": [
     {
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "category": "IT & technologie"
+      "title": "AI as Connective Tissue Linking Predictive Forecasting to Automated Payments - The CFO",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOE96LXlmbUdadDNmWUFQX3dWRnNyZmo1S2l5djh5R0ctV1BzczN0ZjlJZ2d6OHI1OGFPTGNJMUdfM3pkYWJkRWdqWnBXczd4NTZIX3lhdGJ0djNNRTMzcGRjTmhxUDdKampxMVhOMmdUaU81SDFIMzEzNV9QNDJHN3p3R25CVUstOWJoR0t5SVpFQlhpd25BdXlCWE1zc0ZWQ1hiS0tabFRlN2s?oc=5",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "5 ways CFOs can maximize their organization’s human capital",
+      "url": "https://www.cfodive.com/spons/5-ways-cfos-can-maximize-their-organizations-human-capital/833426/",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "AI in finance: veel experimenten, maar opschaling blijft lastig - CMweb - Controllers Magazine",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW9rV0xPdmd3bVozd3Zvb3kzbkFocTBnUjltYmtLOUhCOUFDZTlWNjFVZjBoTlp2a0VxYnh5Z3VOVHBRWUZrUjNVRXBWR2p6VzI1ZWxHT3pUOE9rMDltc21wYnV1Ml85N3FKeUxJQTVReVpnVEZvanBqb09Sa2V0QllhbVJFSXZhZDJlMGNvamdvV0k?oc=5",
+      "category": "Finance & CFO"
+    },
+    {
+      "title": "Beyond compliance: The role of boards and audit committees in trusted financial reporting - Deloitte",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd19CenVUbHUxU0FvQjFnWGxndF9VX3lNcHdpRGRSOUhLN3ZOMTVVVEhQQ0tyM0hHZjRUbHRJeXBTLWk1MEJUSGR2MkRFd1EyMzc3NEU2NW01TVJzeVhBVHRMM2YzUFdUVm9GTVNCUVBjZEh5MldMWl85dE5kTTFQVWdfZ3ZVRjNiM2RQN3BQVUVQZElKMTF5QTlWSm9vaGhWaVFoVDRnYnJjVjRqU25DVDVzLXZiYmpiU2Zub1VZTzlrbmpFNVNvT0J3ZVgxY3hzLXZ2U1NGanhoREk1?oc=5",
+      "category": "Finance & CFO"
     },
     {
       "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
@@ -16,9 +51,54 @@
       "category": "IT & technologie"
     },
     {
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "category": "IT & technologie"
+    },
+    {
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "category": "IT & technologie"
+    },
+    {
+      "title": "ING oogst renterugwind en keert €1,9 mrd uit aan aandeelhouders - Beleggers Belangen",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa1V6VTcxaTMxSEoxTlIzc0E5emRtVEVoYUx2VlZpTU5kYXhtWlBqNGNEUURNRGcyYi1CaDE1SHlFeUh0djlFTHRlVlpSUGF6NV9rSm90cmlmMHplUEZoaGI2VjB4RFFydF93ckswcVlQR1dMMWNNb3Y2ZldrRXhVMlZvdkJBSFIxWUU0eGZ3MA?oc=5",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+      "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "Stock Market News, November 2, 2026: Apple Stock Slips After Earnings; Nasdaq Falls",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main",
+      "category": "Beleggen & economie"
+    },
+    {
+      "title": "Coalitiepartijen onderling eens over belastingplan en box 3, vanochtend extra ministerraad",
+      "url": "https://nos.nl/l/2637791",
+      "category": "Nederland & wereld"
+    },
+    {
       "title": "Dutch police offer record €2m reward in hunt for drug lord",
       "url": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
       "category": "Nederland & wereld"
+    },
+    {
+      "title": "Programma World Cup Kwalificatie Toernooi schaatsen (WCKT) 2026 Heerenveen - Schaatsgekkies",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnlZTmNlamNzeWhOcXU0Z2VITEl3a1BDQzFEODlGYzVJWXZmeU5yY0tSb24zdXFqR0JKSHVEdGgzR1V4LXI3cHpPTGxMZHl6amxyWG1wOWhEU0VIY2lIR2I3VE1pMnBQd2djZVhGOHhSRTFQYlpRZzAyMEh0bDRpSkJmRDBEWVBobUdVTDBJSk9zdjNEVE9VT3U4dy02SVY2UmZWNGk0NVBpSTJGcEN6ZXEyVWhMZnJm?oc=5",
+      "category": "Sport"
+    },
+    {
+      "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
+      "category": "Sport"
+    },
+    {
+      "title": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel - RunningNL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5",
+      "category": "Sport"
     }
   ]
 }

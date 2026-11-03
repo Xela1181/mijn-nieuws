@@ -1,29 +1,73 @@
-Good morning. This is your personal Business English news briefing for Tuesday, 03 November 2026.
+Good morning. This is your news briefing for Tuesday, 03 November 2026. Today's stories are read in their original language.
 
-Here is today's selection of news stories with enough verified detail to explain clearly.
+Next, Finance and CFO.
 
-Let's begin with Technology, artificial intelligence and cloud.
+Story 1.
 
-Story 1. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys.
+AI as Connective Tissue Linking Predictive Forecasting to Automated Payments - The CFO
 
-Story 2. Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.
+Story 2.
 
-That's the latest from Technology, artificial intelligence and cloud.
+5 ways CFOs can maximize their organization’s human capital. Executives everywhere are trying to balance protecting margins and funding growth. Maximizing their organization’s human capital may be the key to achieving both goals.
 
-That brings us to our next section: The Netherlands and world news.
+Story 3.
 
-Story 1. Dutch police offer record €2m reward in hunt for drug lord. Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.
+AI in finance: veel experimenten, maar opschaling blijft lastig - CMweb - Controllers Magazine
 
-That's the latest from The Netherlands and world news.
+Story 4.
 
-That concludes the news. Now for your recommendations and English practice.
+Beyond compliance: The role of boards and audit committees in trusted financial reporting - Deloitte
 
-Today's book recommendation is Thinking, Fast and Slow, by Daniel Kahneman. One idea to explore is to question overconfidence in financial decisions.
+Next, technology.
 
-Podcast recommendation: check the Books and Podcasts tab for a verified episode link. No episode is announced without a confirmed link.
+Story 5.
 
-Business English practice. Today's topic is working capital. Listen to this model sentence. Reducing overdue receivables could strengthen our short-term liquidity position. Now your speaking task: Explain one action to improve working capital. Pause the recording if you want more time to answer.
+Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens. Y Combinator Garry Tan has jokingly admitted that he's suffered from "cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.
 
-And finally, your AI for Finance tip. Use AI to structure upside and downside liquidity scenarios, with explicit assumptions. Never enter confidential company information into an unapproved AI service.
+Story 6.
 
-That concludes today's briefing. Have a productive day.
+Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition. Two startups tackling the data center water problem are joining forces in a $16 million deal.
+
+Story 7.
+
+Northflank security breach leads to abuse of customers' AI API keys. Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys.
+
+Next, investing and the economy.
+
+Story 8.
+
+ING oogst renterugwind en keert €1,9 mrd uit aan aandeelhouders - Beleggers Belangen
+
+Story 9.
+
+Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned. Some investors appeared a little too eager to buy the dip in technology stocks last month.
+
+Story 10.
+
+Stock Market News, November 2, 2026: Apple Stock Slips After Earnings; Nasdaq Falls
+
+Next, the Netherlands and world news.
+
+Story 11.
+
+Coalitiepartijen onderling eens over belastingplan en box 3, vanochtend extra ministerraad. De coalitiepartijen D66, VVD en CDA zijn het eens geworden over aanpassing van het belastingplan voor volgend jaar en de invoering van een vermogenswinstbelasting in box 3. Volgens ingewijden wordt de nieuwe vorm van vermogensbelasting een jaar uitgesteld. Verder maken de coalitiepartijen geen keuze voor de linkse of rechtse oppositie om tot een meerderheid te komen. Vanochtend komt het kabinet bij elkaar in een ingelaste ministerraad, waarna de voorstellen naar de Tweede Kamer worden gestuurd. Woensdagavond is er een debat over het belastingplan. Maandag overlegde de top van de coalitie urenlang over de kwestie. Tot nu toe probeerde het mind
+
+Story 12.
+
+Dutch police offer record €2m reward in hunt for drug lord. Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.
+
+Next, sport.
+
+Story 13.
+
+Programma World Cup Kwalificatie Toernooi schaatsen (WCKT) 2026 Heerenveen - Schaatsgekkies
+
+Story 14.
+
+IJshockey: NHL nu kijken of gemist? - TVgids.nl
+
+Story 15.
+
+New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel - RunningNL
+
+That concludes today's news briefing. Have a good day.
