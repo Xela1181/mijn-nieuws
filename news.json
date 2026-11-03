@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T19:54:05.498420+00:00",
+  "updated": "2026-11-03T04:10:57.417609+00:00",
   "articles": [
     {
       "category": "Finance & CFO",
@@ -21,20 +21,20 @@
     },
     {
       "category": "Beleggen & economie",
-      "source": "MarketWatch",
-      "title": "6 dividend stocks for investors who want to cut their exposure to the S&P 500",
-      "url": "https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories",
-      "summary": "Novartis, Mitsubishi and Canadian Natural are examples of companies in developed markets outside the U.S. that pass screens for high dividend yields and low volatility for prices and earnings.",
-      "published": "2026-11-02T16:56:00+00:00",
+      "source": "WSJ Markets",
+      "title": "Stock Market News, November 2, 2026: Apple Stock Slips After Earnings; Nasdaq Falls",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main",
+      "summary": "Oil slides amid signs U.S., Iran could consider diplomacy",
+      "published": "2026-11-02T09:46:46+00:00",
       "language": "en"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "MarketWatch",
-      "title": "The bond-market rally is defying the typical investing playbook. Here’s why.",
-      "url": "https://www.marketwatch.com/story/the-bond-market-rally-is-defying-the-typical-investing-playbook-heres-why-17a14342?mod=mw_rss_topstories",
-      "summary": "The U.S. economy expanded at its fastest clip in over five years during the third quarter, according to the Commerce Department’s initial reading on GDP. Yet despite a barrage of robust data, Treasury bonds staged a surprise rally in October.",
-      "published": "2026-11-02T18:13:00+00:00",
+      "category": "Finance & CFO",
+      "source": "CFO internationaal",
+      "title": "AI as Connective Tissue Linking Predictive Forecasting to Automated Payments - The CFO",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOE96LXlmbUdadDNmWUFQX3dWRnNyZmo1S2l5djh5R0ctV1BzczN0ZjlJZ2d6OHI1OGFPTGNJMUdfM3pkYWJkRWdqWnBXczd4NTZIX3lhdGJ0djNNRTMzcGRjTmhxUDdKampxMVhOMmdUaU81SDFIMzEzNV9QNDJHN3p3R25CVUstOWJoR0t5SVpFQlhpd25BdXlCWE1zc0ZWQ1hiS0tabFRlN2s?oc=5",
+      "summary": "AI as Connective Tissue Linking Predictive Forecasting to Automated Payments The CFO",
+      "published": "2026-11-02T14:30:45+00:00",
       "language": "en"
     },
     {
@@ -58,10 +58,19 @@
     {
       "category": "Beleggen & economie",
       "source": "Nederlandse markten",
+      "title": "RBA verhoogt rente naar niveau van 2008, verwacht meer verhogingen tegen inflatie - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbmJ2UnUydGQ0cFd6c3pKUVl5V2pRU1R6bXFRWkR0YkNuNS03Q2w0aGQ3cDlGQmJGOEdsR1ZxNW9rMFZZemxXR1g1VWVxaHdVN1pFSmhrR3FWMUFVSzdNMjdzQ0RlYTVyLUdQWXNlZzBkZEpLSnRjODVRYmxXSm5uSjlDV1dHeEhFaVN4bURFazFLclIyTDU1ZHBzSzFVc0REeVZBR0RWMlR3MjBLZVBqMDNhUmU4WUpnVjdNVTRYdmczTFJZd09tV0ln?oc=5",
+      "summary": "RBA verhoogt rente naar niveau van 2008, verwacht meer verhogingen tegen inflatie Investing.com",
+      "published": "2026-11-03T03:52:50+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
       "title": "Inflatiestrijd VS nog niet gewonnen: ‘De Fed gaat rente weer verhogen’ - bnr.nl",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2tsV2RhT0h1elhELTFYLXZXOE16UnhJd3lQVjZZejgyR01ZM2pZWmlpS3czNnpxbUpBTkFJaU43elBGWlg4OFEzV0ZzckhUM002emxRZzVtSVkta3ZVUUpRZDVOV2Fsb1p2b3lDOXhtaXdGY3JxSTk4SXJMZy1QaUxMRWxLbEFpTkpHd0NKREFfX2pOVnRQZ1BXRk1Ka1l6WmZrZ0p4dV9oWFYxbkM4aA?oc=5",
       "summary": "Inflatiestrijd VS nog niet gewonnen: ‘De Fed gaat rente weer verhogen’ bnr.nl",
-      "published": "2026-11-02T17:01:00+00:00",
+      "published": "2026-11-02T17:01:42+00:00",
       "language": "nl"
     },
     {
@@ -72,15 +81,6 @@
       "summary": "Deze Dividend Aristocrat krijgt een zeldzaam harde klap op de beurs Beleggers Belangen",
       "published": "2026-11-02T15:30:00+00:00",
       "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "WSJ Markets",
-      "title": "Stock Market Today: Nasdaq Turns Lower; Dow Rises After Friday's Selloff",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main",
-      "summary": "Oil slides amid signs U.S., Iran could consider diplomacy",
-      "published": "2026-11-02T09:46:46+00:00",
-      "language": "en"
     },
     {
       "category": "Beleggen & economie",
@@ -111,29 +111,11 @@
     },
     {
       "category": "Finance & CFO",
-      "source": "CFO internationaal",
-      "title": "UK regulator suspends Petra Diamonds shares after audit delay at South Africa-focused miner - Business Insider Africa",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcmktcjFIUC1EejY4TnRRa0xtYk9XMkZnc04wbVpFMFRwaC1TZE53MGUybG0tNUhwdlZiRzdSR04wYjAycnRvMW9XYW1IbG1MaW9PVWtldmg2b3FUOGkwaVVIQkZWZkotLWl2a0lkNEozRUlKYjQ3allPcGVUUDBZaThleFdmeWdteEtVcXVuQTVsSW5vZy1leGxjZVZjOE9CNktSTzBmZ2VIUTMtWnBpOWg5azF2Mnp6VjRmSU54SkxBRHVLbzh6UEZqdXZtUk5YclZqdzJ6aTNTQQ?oc=5",
-      "summary": "UK regulator suspends Petra Diamonds shares after audit delay at South Africa-focused miner Business Insider Africa",
-      "published": "2026-11-02T18:10:34+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Finance & CFO",
       "source": "CMweb · proefbron",
       "title": "AI in finance: veel experimenten, maar opschaling blijft lastig - CMweb - Controllers Magazine",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW9rV0xPdmd3bVozd3Zvb3kzbkFocTBnUjltYmtLOUhCOUFDZTlWNjFVZjBoTlp2a0VxYnh5Z3VOVHBRWUZrUjNVRXBWR2p6VzI1ZWxHT3pUOE9rMDltc21wYnV1Ml85N3FKeUxJQTVReVpnVEZvanBqb09Sa2V0QllhbVJFSXZhZDJlMGNvamdvV0k?oc=5",
       "summary": "AI in finance: veel experimenten, maar opschaling blijft lastig CMweb - Controllers Magazine",
       "published": "2026-11-02T08:00:00+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Winst OTE Group overtreft Q3 2026-verwachtingen dankzij cashflow Door Investing.com - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbUJpT2dYTkVER2FFWW9YR29xcFh4MmtaTFFqYU1HV2tFcjdNMlp5M3YwS2Zja1VJWTh4NHBMRlFwVzctM2FZQll4Z3kwWTZJSUtTU0hvUEJTUlNaeFBLNjlicXMzdjExOTVVLUY4aDVXU2pkMFpXdkdobF9qbXlkemN3QzZrSmxrRFNXUjY1UlNzLWI0enp4WmhOdTVkWnAydUt1X3prMkd2TTJnNm9OTEdxbHZIQlE5?oc=5",
-      "summary": "Winst OTE Group overtreft Q3 2026-verwachtingen dankzij cashflow Door Investing.com Investing.com",
-      "published": "2026-11-01T11:23:39+00:00",
       "language": "nl"
     },
     {
@@ -147,21 +129,21 @@
     },
     {
       "category": "Finance & CFO",
-      "source": "CFO Dive",
-      "title": "Economy in Q3 grew 3.4%, exceeding forecasts amid persistent inflation",
-      "url": "https://www.cfodive.com/news/economy-q3-grew-exceeding-forecasts-amid-persistent-inflation-fed-savings-consumers-midterms-trump/873243/",
-      "summary": "On the eve of the midterm elections, half of Americans view the economy as “extremely important” and 37% consider the issue “very important,” Gallup said.",
-      "published": "2026-10-29T19:49:17+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Finance & CFO",
       "source": "CFO verslaggeving en audit",
       "title": "Jelle Bijl wordt Director Reporting, Consolidation & FP&A bij Vermaat - Financieel Management",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0U3bWxvbXZweThKU2RJaUVzNHJxNlBaS0EtT2VPNGpaMG9KNVN3UnFSU1lTa0N6VVNId3VZeDl5SGx2UUhiOEwzNkhSX0lsN2g5M3JEajJGckR1VlhJTW5uTUJWM3ZiTDJhcnFKOVB3MzNHWl9mbGhwX2tfQ0VSc1lkbHVBSEJFcWZoSUdOeWhLWHpTSTQyRUJocWpfWm53Rlh2c3c0d3QwQTQ?oc=5",
       "summary": "Jelle Bijl wordt Director Reporting, Consolidation & FP&A bij Vermaat Financieel Management",
       "published": "2026-10-29T14:33:25+00:00",
       "language": "nl"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+      "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+      "summary": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
+      "published": "2026-11-02T22:03:00+00:00",
+      "language": "en"
     },
     {
       "category": "IT & technologie",
@@ -175,19 +157,19 @@
     {
       "category": "IT & technologie",
       "source": "TechCrunch",
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
-      "published": "2026-11-02T15:00:00+00:00",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+      "published": "2026-11-03T00:35:52+00:00",
       "language": "en"
     },
     {
       "category": "IT & technologie",
-      "source": "Ars Technica",
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
-      "summary": "Low costs and offline security mean magnetic tape still has a job.",
-      "published": "2026-10-30T17:38:19+00:00",
+      "source": "TechCrunch",
+      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+      "published": "2026-11-02T15:00:00+00:00",
       "language": "en"
     },
     {
@@ -198,6 +180,15 @@
       "summary": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.",
       "published": "2026-11-02T17:29:49+00:00",
       "language": "en"
+    },
+    {
+      "category": "Sport",
+      "source": "Hardlopen nieuws",
+      "title": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel - RunningNL",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5",
+      "summary": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel RunningNL",
+      "published": "2026-11-02T13:10:44+00:00",
+      "language": "nl"
     },
     {
       "category": "Sport",
@@ -237,15 +228,6 @@
     },
     {
       "category": "Sport",
-      "source": "Marathonnieuws",
-      "title": "Andreas Almgren verbluft met debuutzege in New York City Marathon - Atletieknieuws",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNldXZy1FM1FpQ01zUUN2RmRUeEpHdjZ4ckttS2JBUkszeHpMZDBIUGpidlNSdHFPdEw4Y1RldnVybkJVN3BZakNQLWpQZ05QaVZGTG9Rb1dHY0tyVktXTk1pNFg3YXRzVzliNlk3ZDB2X0lpeS1oelFlWnNHSzNxa19QSV9Pdm05TmNYWngySnpyREJJN2VBeURKSUFYZw?oc=5",
-      "summary": "Andreas Almgren verbluft met debuutzege in New York City Marathon Atletieknieuws",
-      "published": "2026-11-01T17:02:24+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
       "source": "Schaatsen nieuws",
       "title": "Stijn van de Bunt: ‘Ik ga de meubelen van de KNSB niet redden’ - Schaatsen.nl",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTBjVFpycWNZdFJkZ0k0dWNYZTR0MFNzV25yNXI5OXZxUlo4UEFjX01mMzBPTU5Wc09jWVpWTHROTlpLdXV5Rld2dlkxV09hUkR1cUVub2huMmVod3p4OHhYZWtLMHNFZG5yRVJQQm1CcmR5M0prQ25fc00tY3Bjd0VidTBucklDNGdlYVdHdnVzSHhaVFpv?oc=5",
@@ -257,9 +239,18 @@
       "category": "Sport",
       "source": "IJshockey",
       "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fSVZVcHdhWGVlNG4wT2R1RXV0MDZfMWNPNlFvczJpS2lNQnQ1ZG5tUEpnaGQwVk1rRTc2a21KUUJXbVZ5UnJOc19uVjcxUURsSzNtMHNjUUxoZy1xd1JJMzctNENpWUUxcHZV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
       "summary": "IJshockey: NHL nu kijken of gemist? TVgids.nl",
-      "published": "2026-10-29T07:00:00+00:00",
+      "published": "2026-10-30T23:13:40+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Coalitiepartijen onderling eens over belastingplan en box 3, vanochtend extra ministerraad",
+      "url": "https://nos.nl/l/2637791",
+      "summary": "De coalitiepartijen D66, VVD en CDA zijn het eens geworden over aanpassing van het belastingplan voor volgend jaar en de invoering van een vermogenswinstbelasting in box 3. Volgens ingewijden wordt de nieuwe vorm van vermogensbelasting een jaar uitgesteld. Verder maken de coalitiepartijen geen keuze voor de linkse of rechtse oppositie om tot een meerderheid te komen. Vanochtend komt het kabinet bij elkaar in een ingelaste ministerraad, waarna de voorstellen naar de Tweede Kamer worden gestuurd. Woensdagavond is er een debat over het belastingplan. Maandag overlegde de top van de coalitie urenlang over de kwestie. Tot nu toe probeerde het mind",
+      "published": "2026-11-02T19:48:17+00:00",
       "language": "nl"
     },
     {
@@ -281,12 +272,21 @@
       "language": "nl"
     },
     {
-      "category": "Nederland & wereld",
-      "source": "BBC World",
-      "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cwx28mngxz8do?at_medium=RSS&at_campaign=rss",
-      "summary": "Many Ukrainians, who have faced years of Russian attacks, did not take the messages seriously and doubted their veracity.",
-      "published": "2026-11-02T18:34:24+00:00",
+      "category": "Finance & CFO",
+      "source": "CFO Dive",
+      "title": "5 ways CFOs can maximize their organization’s human capital",
+      "url": "https://www.cfodive.com/spons/5-ways-cfos-can-maximize-their-organizations-human-capital/833426/",
+      "summary": "Executives everywhere are trying to balance protecting margins and funding growth. Maximizing their organization’s human capital may be the key to achieving both goals.",
+      "published": "2026-11-02T10:00:00+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "CFO Dive",
+      "title": "Brazil’s PicPay CFO forges ahead after post-election turmoil, watershed IPO",
+      "url": "https://www.cfodive.com/news/brazils-picpay-cfo-forges-ahead-post-election-turmoil-watershed-ipo/833549/",
+      "summary": "André Cazotto took PicPay’s finance reins just months after it became the first Brazilian company to go public in the U.S. in four years.",
+      "published": "2026-10-29T20:42:50+00:00",
       "language": "en"
     }
   ],
