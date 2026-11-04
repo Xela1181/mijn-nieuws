@@ -1,13 +1,22 @@
 {
-  "updated": "2026-11-03T04:10:57.417609+00:00",
+  "updated": "2026-11-04T04:14:51.121206+00:00",
   "articles": [
     {
       "category": "Finance & CFO",
       "source": "CFO internationaal",
-      "title": "Beyond compliance: The role of boards and audit committees in trusted financial reporting - Deloitte",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd19CenVUbHUxU0FvQjFnWGxndF9VX3lNcHdpRGRSOUhLN3ZOMTVVVEhQQ0tyM0hHZjRUbHRJeXBTLWk1MEJUSGR2MkRFd1EyMzc3NEU2NW01TVJzeVhBVHRMM2YzUFdUVm9GTVNCUVBjZEh5MldMWl85dE5kTTFQVWdfZ3ZVRjNiM2RQN3BQVUVQZElKMTF5QTlWSm9vaGhWaVFoVDRnYnJjVjRqU25DVDVzLXZiYmpiU2Zub1VZTzlrbmpFNVNvT0J3ZVgxY3hzLXZ2U1NGanhoREk1?oc=5",
-      "summary": "Beyond compliance: The role of boards and audit committees in trusted financial reporting Deloitte",
-      "published": "2026-10-29T18:47:15+00:00",
+      "title": "Railways to adopt IFRS for financial audit - Business Recorder",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb3JRN3pzZXV3WVVDMFA1R2d2aGg3Z2w3SWJETDZ4cFRjNk45RGdNaHRBdk4zbUJVVTRzSFZjRnBKU2tMb0NmT3NKTW44Q3NGTFVrUEs4NUJBZ1JqZFM5R3N4aXF4R0ZsMVE2TWU5RXo5QklyLVlCMm03UmYyTzkxcVUtYjl6aXptMWfSAVZBVV95cUxQemhkYW8zVEkxRmhZSVl5ZHBOaTg1MUFwa2F5QnNOZmk4eFpGZ1d4MEZEWUpNYkFSQzJ0c3pHV1AtbjlIcjFvdHctNlVqU0pSZGlla015QQ?oc=5",
+      "summary": "Railways to adopt IFRS for financial audit Business Recorder",
+      "published": "2026-11-04T02:43:20+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "CFO internationaal",
+      "title": "GPP Resources Auditors Raise Concern Amid RM20.7 Million Working Capital Deficit - BusinessToday Malaysia",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNU0xZZFZ3TDZ3V09ISmMzTlpuVWdjbVRVVFVDa0c2OHFIdFlhZW5ocE5EU2JxaWJoU3AwVjZyN25ydzFvVS1KOGQyVkwtR3ZTRFlyY0R3ZGEzWE4wOURaeXRNelQtYU9DdUYzNUtmbl9XS002Z3dRb1l1ZEk0OTBjTmFxN1FfZGxkNVBaeS1WblVjeUphakVxVmVBZzVlR3pSV0FjbG1GdjViWmhhU2gyZUx0WFVnaFFtYVlXNWpxa2hUVjQ?oc=5",
+      "summary": "GPP Resources Auditors Raise Concern Amid RM20.7 Million Working Capital Deficit BusinessToday Malaysia",
+      "published": "2026-10-31T09:12:25+00:00",
       "language": "en"
     },
     {
@@ -20,75 +29,57 @@
       "language": "en"
     },
     {
+      "category": "IT & technologie",
+      "source": "BleepingComputer",
+      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+      "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+      "published": "2026-11-03T18:51:04+00:00",
+      "language": "en"
+    },
+    {
       "category": "Beleggen & economie",
       "source": "WSJ Markets",
-      "title": "Stock Market News, November 2, 2026: Apple Stock Slips After Earnings; Nasdaq Falls",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main",
-      "summary": "Oil slides amid signs U.S., Iran could consider diplomacy",
-      "published": "2026-11-02T09:46:46+00:00",
+      "title": "Stock Market News, Nov. 3, 2026: Stock Futures Drop as Investors Weigh Potential Democratic Gains",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2026?mod=rss_markets_main",
+      "summary": "Nasdaq futures fall 2%; bitcoin prices slip",
+      "published": "2026-11-03T08:43:11+00:00",
+      "language": "en"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+      "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+      "summary": "CrowdStrike said it will buy Fiddler AI, which makes AI agent observability software, and Dreadnode, which helps companies automate AI security testing.",
+      "published": "2026-11-03T17:56:52+00:00",
+      "language": "en"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "summary": "Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.",
+      "published": "2026-11-03T21:43:08+00:00",
       "language": "en"
     },
     {
       "category": "Finance & CFO",
-      "source": "CFO internationaal",
-      "title": "AI as Connective Tissue Linking Predictive Forecasting to Automated Payments - The CFO",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOE96LXlmbUdadDNmWUFQX3dWRnNyZmo1S2l5djh5R0ctV1BzczN0ZjlJZ2d6OHI1OGFPTGNJMUdfM3pkYWJkRWdqWnBXczd4NTZIX3lhdGJ0djNNRTMzcGRjTmhxUDdKampxMVhOMmdUaU81SDFIMzEzNV9QNDJHN3p3R25CVUstOWJoR0t5SVpFQlhpd25BdXlCWE1zc0ZWQ1hiS0tabFRlN2s?oc=5",
-      "summary": "AI as Connective Tissue Linking Predictive Forecasting to Automated Payments The CFO",
-      "published": "2026-11-02T14:30:45+00:00",
+      "source": "CFO Dive",
+      "title": "SEC approves easing of audit quality controls as endorsed by Big Four",
+      "url": "https://www.cfodive.com/news/sec-approves-easing-audit-quality-controls-endorsed-big-four-atkins-ey-pwc-deloitte-kpmg/873643/",
+      "summary": "The amended rules align with efforts by SEC Chair Paul Atkins to streamline compliance and promote regulation that is “grounded in First Principles.”",
+      "published": "2026-11-03T20:45:31+00:00",
       "language": "en"
     },
     {
-      "category": "IT & technologie",
-      "source": "BleepingComputer",
-      "title": "Northflank security breach leads to abuse of customers' AI API keys",
-      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
-      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
-      "published": "2026-10-31T18:01:12+00:00",
-      "language": "en"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "MIT Technology Review",
-      "title": "Creating AI value with enterprise context",
-      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
-      "published": "2026-10-28T20:32:02+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "RBA verhoogt rente naar niveau van 2008, verwacht meer verhogingen tegen inflatie - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbmJ2UnUydGQ0cFd6c3pKUVl5V2pRU1R6bXFRWkR0YkNuNS03Q2w0aGQ3cDlGQmJGOEdsR1ZxNW9rMFZZemxXR1g1VWVxaHdVN1pFSmhrR3FWMUFVSzdNMjdzQ0RlYTVyLUdQWXNlZzBkZEpLSnRjODVRYmxXSm5uSjlDV1dHeEhFaVN4bURFazFLclIyTDU1ZHBzSzFVc0REeVZBR0RWMlR3MjBLZVBqMDNhUmU4WUpnVjdNVTRYdmczTFJZd09tV0ln?oc=5",
-      "summary": "RBA verhoogt rente naar niveau van 2008, verwacht meer verhogingen tegen inflatie Investing.com",
-      "published": "2026-11-03T03:52:50+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "Inflatiestrijd VS nog niet gewonnen: ‘De Fed gaat rente weer verhogen’ - bnr.nl",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2tsV2RhT0h1elhELTFYLXZXOE16UnhJd3lQVjZZejgyR01ZM2pZWmlpS3czNnpxbUpBTkFJaU43elBGWlg4OFEzV0ZzckhUM002emxRZzVtSVkta3ZVUUpRZDVOV2Fsb1p2b3lDOXhtaXdGY3JxSTk4SXJMZy1QaUxMRWxLbEFpTkpHd0NKREFfX2pOVnRQZ1BXRk1Ka1l6WmZrZ0p4dV9oWFYxbkM4aA?oc=5",
-      "summary": "Inflatiestrijd VS nog niet gewonnen: ‘De Fed gaat rente weer verhogen’ bnr.nl",
-      "published": "2026-11-02T17:01:42+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "Deze Dividend Aristocrat krijgt een zeldzaam harde klap op de beurs - Beleggers Belangen",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUlxRTVyVXBwdTJJam0yTl9FMmNqamxIejJvY2hHU2twWF9UWEJQRjlpWmRZcENNdnlzSWN1cC1qYVpRRV9XaHpxNGgteGtJb1FlR2ZUNXFnTlg4ZFlhNnNBczFmUE1GY0RQdmVwYklTTDVaVDRfWkV0d1E2VnJCVDN1YVNDS1hNWFpXRzVjT3ZzcnVvbzdlZXJQYkFjS3phZFBVQzNCUk9fZHFIRFE?oc=5",
-      "summary": "Deze Dividend Aristocrat krijgt een zeldzaam harde klap op de beurs Beleggers Belangen",
-      "published": "2026-11-02T15:30:00+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "ING oogst renterugwind en keert €1,9 mrd uit aan aandeelhouders - Beleggers Belangen",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa1V6VTcxaTMxSEoxTlIzc0E5emRtVEVoYUx2VlZpTU5kYXhtWlBqNGNEUURNRGcyYi1CaDE1SHlFeUh0djlFTHRlVlpSUGF6NV9rSm90cmlmMHplUEZoaGI2VjB4RFFydF93ckswcVlQR1dMMWNNb3Y2ZldrRXhVMlZvdkJBSFIxWUU0eGZ3MA?oc=5",
-      "summary": "ING oogst renterugwind en keert €1,9 mrd uit aan aandeelhouders Beleggers Belangen",
-      "published": "2026-11-02T09:14:00+00:00",
+      "category": "Finance & CFO",
+      "source": "Nederlandse fiscaliteit",
+      "title": "Aangepast Belastingplan 2027: btw-verhoging sierteelt uitgesteld, koopkrachtmaatregelen uitgebreid - Taxlive",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeTRtRnpYci1pbnd0Z05BT0o0UTFqazAzUGlaSm9hOTVld2V5M3RiTmp5OWMtYS01VzZtZDFiclJXN243UHJrUFVxRHN5aXlqb2FCR0tDdlZYM091M3VXX1lReUh5OFBDOENkTjJtbGhqeEFDOUQtbG5JUGoxVXppQVVldXhYVDdnMUQ1bFhFYjAwM2Q3NVByTTNFeWRLb0l4Q1FZOHNfbTJ0YlZHeEQ1eENZQ0tvUTc3RGFXanRFdjhydFltbHBvejFVVlhwQlJKRU90Sm1RZ2s?oc=5",
+      "summary": "Aangepast Belastingplan 2027: btw-verhoging sierteelt uitgesteld, koopkrachtmaatregelen uitgebreid Taxlive",
+      "published": "2026-11-03T18:08:46+00:00",
       "language": "nl"
     },
     {
@@ -101,84 +92,102 @@
       "language": "nl"
     },
     {
-      "category": "IT & technologie",
-      "source": "Ars Technica",
-      "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
-      "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-      "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
-      "published": "2026-10-30T21:41:54+00:00",
-      "language": "en"
-    },
-    {
       "category": "Finance & CFO",
-      "source": "CMweb · proefbron",
-      "title": "AI in finance: veel experimenten, maar opschaling blijft lastig - CMweb - Controllers Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMW9rV0xPdmd3bVozd3Zvb3kzbkFocTBnUjltYmtLOUhCOUFDZTlWNjFVZjBoTlp2a0VxYnh5Z3VOVHBRWUZrUjNVRXBWR2p6VzI1ZWxHT3pUOE9rMDltc21wYnV1Ml85N3FKeUxJQTVReVpnVEZvanBqb09Sa2V0QllhbVJFSXZhZDJlMGNvamdvV0k?oc=5",
-      "summary": "AI in finance: veel experimenten, maar opschaling blijft lastig CMweb - Controllers Magazine",
-      "published": "2026-11-02T08:00:00+00:00",
+      "source": "CFO treasury en forecasts",
+      "title": "Crescent Energy overtreft Q3-verwachtingen door hogere cashflow - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYkRvQWJiVW0tdDdNTVBkakdPaWJkaTZnY3l1N0piaWJPWV8xT1BER053eHNPMy1FV1U0Q0tQTU90WExPd1FzWGtBUHZsdnJ5Q1dybENYRTZHTVRjS0hQaHE3dy1va1BNTVpyeWYyall1R014N0JER1RpQXJ3MGJBQ29sVTBSR0VjVWtnYnRwc2MzZHZyWC1qUkoyQ29HNFdhbGJLYk1oTGszUW5nekZhNGdPWFhOTVU?oc=5",
+      "summary": "Crescent Energy overtreft Q3-verwachtingen door hogere cashflow Investing.com",
+      "published": "2026-11-03T17:22:05+00:00",
       "language": "nl"
     },
     {
       "category": "Finance & CFO",
       "source": "CFO treasury en forecasts",
-      "title": "S&P Global revises outlook on Meta to negative on cashflow concerns - IEX.nl",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzFIa1BWS01EZWVfNzFvV0J5VkE1VXBNY3E5c1RIMWxjVmg5QzhoWndNRGotNmVDUGFOc1N6dkNKbXZFUDlrTERTWGNkX2RZd0NNcWdFdXJOVFBwME5xUlA0YV9jNnNtZWNMazFNLXczTzVzeElKdE1IaWJ5MzNYRGdSZXhEWHBiaVNOb1VmUU5LZG1DekJzUndtbFI1TUZBQjdhUjhB?oc=5",
-      "summary": "S&P Global revises outlook on Meta to negative on cashflow concerns IEX.nl",
-      "published": "2026-10-30T21:14:00+00:00",
+      "title": "Te laat betaalde facturen knijpen de cashflow van Dordtse mkb’ers af - DordtCentraal",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQzFISjNyN085MW4xcHVRYkNySWZ3VllObXRXa1F6aFlCSEpTUHo1bDd1M0E3c1RCQ2pYV1NNRjRCOWVfc1BqZDlzNnJld0E1RGU4aUJFSDdwQmxudGU5bEhXVk9fWGhTS212RTU0X25OSzFUbUppOU9DUEhsMEFhc0FYbEg5YTR6UHFTYkt5SDZQem5JWHZISUctQTFrZWdINkVvUFNwOEFkSkJpQ2NUbEQ1azZiOFl5V1E?oc=5",
+      "summary": "Te laat betaalde facturen knijpen de cashflow van Dordtse mkb’ers af DordtCentraal",
+      "published": "2026-11-03T13:15:12+00:00",
       "language": "nl"
     },
     {
       "category": "Finance & CFO",
-      "source": "CFO verslaggeving en audit",
-      "title": "Jelle Bijl wordt Director Reporting, Consolidation & FP&A bij Vermaat - Financieel Management",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc0U3bWxvbXZweThKU2RJaUVzNHJxNlBaS0EtT2VPNGpaMG9KNVN3UnFSU1lTa0N6VVNId3VZeDl5SGx2UUhiOEwzNkhSX0lsN2g5M3JEajJGckR1VlhJTW5uTUJWM3ZiTDJhcnFKOVB3MzNHWl9mbGhwX2tfQ0VSc1lkbHVBSEJFcWZoSUdOeWhLWHpTSTQyRUJocWpfWm53Rlh2c3c0d3QwQTQ?oc=5",
-      "summary": "Jelle Bijl wordt Director Reporting, Consolidation & FP&A bij Vermaat Financieel Management",
-      "published": "2026-10-29T14:33:25+00:00",
+      "source": "CFO treasury en forecasts",
+      "title": "Embellence Group ziet marges en cashflow stijgen in Q3 2026 - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHN6Nlg4UHFBbG1rWmtob3dYX3hyRml4MVJCQmgtUzAwR3ZPTlIwQ3o2Q0NYTGZma3dieDl2YWhoS05JX09zTHdRVE95Qy1nbWNQMC1vc3VqLVlfMmlfSnEyN192TlFnb1p6MVFzVEkxZzI4NDQ3QUFqb0czbGtoTktTVTFIUVhXOG53WFpGRkgwSUg1UUdLSTlYVDVBcWFBQXVIbnh1SmR1ZE5INUZ1ZGhSOA?oc=5",
+      "summary": "Embellence Group ziet marges en cashflow stijgen in Q3 2026 Investing.com",
+      "published": "2026-11-03T10:49:54+00:00",
       "language": "nl"
     },
     {
       "category": "Beleggen & economie",
       "source": "MarketWatch",
-      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
-      "url": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
-      "summary": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
-      "published": "2026-11-02T22:03:00+00:00",
+      "title": "What analysts are telling us while Apple’s stock falls after earnings report",
+      "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+      "summary": "Shares in Apple declined nearly 2% on Tuesday after investors were left feeling disappointed about the company’s gross margin outlook and slowing services revenue growth.",
+      "published": "2026-11-03T22:48:00+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
+      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+      "summary": "Super Micro is building out a “high-quality customer base” that’s fueling revenue growth, CFO Mark Long told MarketWatch.",
+      "published": "2026-11-04T01:12:00+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Shopify’s stock slides after earnings. This is what’s worrying Wall Street.",
+      "url": "https://www.marketwatch.com/story/shopifys-stock-slides-after-earnings-this-is-whats-worrying-wall-street-e2e8d52b?mod=mw_rss_topstories",
+      "summary": "The company missed revenue expectations, a tough outcome in today’s less-forgiving tech market.",
+      "published": "2026-11-03T22:45:00+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "AI’s control over the bond market is growing — even rivaling war and elections",
+      "url": "https://www.marketwatch.com/story/ais-control-over-the-bond-market-is-growing-even-rivaling-war-and-elections-5d727b35?mod=mw_rss_topstories",
+      "summary": "“Hyperscalers” burned through their cash. Now their bond deals are helping fuel the economy.",
+      "published": "2026-11-03T22:06:00+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "United Overseas Bank boekt hogere nettowinst in derde kwartaal; rente-inkomsten vrijwel stabiel - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQVJCTklfM1VnaXl4Ymo3QXNQUEtIZzhaOFJjMzhXNWRUbWlRZi0zX1pUVWtvRGZwY2xTSmotMTcwZnhyb3RNWURaSmFNUFBybVdEX3Y0a2R6WXYzOEc0RW0wV1doaFBGaWVESGlWZ0VYNUVXQi1rUC1zcGlIUkh3V2R1dUJQa1AyR2owRnFfeXVOUjdWSnlzcDlwakptMHFmWmF2UzI1UjZfUndET1p2RWNUTkhjRzlmR25wMEhSaE5QODBaYXUzdEw4aVBTS1NIbVVTb045YVEyY0pZSXNzVUNDYVBtNWt6?oc=5",
+      "summary": "United Overseas Bank boekt hogere nettowinst in derde kwartaal; rente-inkomsten vrijwel stabiel MarketScreener Nederland",
+      "published": "2026-11-04T02:12:20+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "published": "2026-11-03T22:41:03+00:00",
       "language": "en"
     },
     {
       "category": "IT & technologie",
-      "source": "MIT Technology Review",
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…",
-      "published": "2026-10-29T10:11:12+00:00",
+      "source": "BleepingComputer",
+      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+      "published": "2026-11-03T21:28:44+00:00",
       "language": "en"
     },
     {
       "category": "IT & technologie",
       "source": "TechCrunch",
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
-      "published": "2026-11-03T00:35:52+00:00",
-      "language": "en"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "TechCrunch",
-      "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
-      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
-      "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
-      "published": "2026-11-02T15:00:00+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "BBC World",
-      "title": "Dutch police offer record €2m reward in hunt for drug lord",
-      "url": "https://www.bbc.co.uk/news/articles/ckly0v2q2yxlo?at_medium=RSS&at_campaign=rss",
-      "summary": "Jos Leijdekkers has been found guilty in absentia of cocaine smuggling and is believed to be in Sierra Leone.",
-      "published": "2026-11-02T17:29:49+00:00",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "summary": "The first experimental feature under the tab will allow users to get recommendations based on what they're currently in the mood for.",
+      "published": "2026-11-03T18:42:16+00:00",
       "language": "en"
     },
     {
@@ -188,6 +197,15 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5",
       "summary": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel RunningNL",
       "published": "2026-11-02T13:10:44+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Sport",
+      "source": "Langebaanschaatsen",
+      "title": "Programma schaatsen wereldbeker World Cup 1 Beijing (Peking) - Schaatsgekkies",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXhnMHRKd1BXMTNkVUlxX3NGZV9CWk90YXU5YkxBT2x2aEE2QU1KamMtSTNlam1qQnZkTmhxNlYyRmk2THZYRXVUWnZKNk5OWXBVVTIxek9hVk1aaUNweXpBUnZSLV9xb0NfYTN3SDl5YVR1eGRxa1d3UWNRRmFnaHVUb2ZYejZ3SGdNT1pubFY1eVVySlNaaHZialM1elp6RVRBdk1vUzQ1OWN0NHYtTHY3SXNrRGVPREFxaDUyQlBQRm9KNjB6TlJB?oc=5",
+      "summary": "Programma schaatsen wereldbeker World Cup 1 Beijing (Peking) Schaatsgekkies",
+      "published": "2026-11-02T09:44:00+00:00",
       "language": "nl"
     },
     {
@@ -228,15 +246,6 @@
     },
     {
       "category": "Sport",
-      "source": "Schaatsen nieuws",
-      "title": "Stijn van de Bunt: ‘Ik ga de meubelen van de KNSB niet redden’ - Schaatsen.nl",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeTBjVFpycWNZdFJkZ0k0dWNYZTR0MFNzV25yNXI5OXZxUlo4UEFjX01mMzBPTU5Wc09jWVpWTHROTlpLdXV5Rld2dlkxV09hUkR1cUVub2huMmVod3p4OHhYZWtLMHNFZG5yRVJQQm1CcmR5M0prQ25fc00tY3Bjd0VidTBucklDNGdlYVdHdnVzSHhaVFpv?oc=5",
-      "summary": "Stijn van de Bunt: ‘Ik ga de meubelen van de KNSB niet redden’ Schaatsen.nl",
-      "published": "2026-11-01T14:22:43+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
       "source": "IJshockey",
       "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
@@ -247,46 +256,37 @@
     {
       "category": "Nederland & wereld",
       "source": "NOS Nieuws",
-      "title": "Coalitiepartijen onderling eens over belastingplan en box 3, vanochtend extra ministerraad",
-      "url": "https://nos.nl/l/2637791",
-      "summary": "De coalitiepartijen D66, VVD en CDA zijn het eens geworden over aanpassing van het belastingplan voor volgend jaar en de invoering van een vermogenswinstbelasting in box 3. Volgens ingewijden wordt de nieuwe vorm van vermogensbelasting een jaar uitgesteld. Verder maken de coalitiepartijen geen keuze voor de linkse of rechtse oppositie om tot een meerderheid te komen. Vanochtend komt het kabinet bij elkaar in een ingelaste ministerraad, waarna de voorstellen naar de Tweede Kamer worden gestuurd. Woensdagavond is er een debat over het belastingplan. Maandag overlegde de top van de coalitie urenlang over de kwestie. Tot nu toe probeerde het mind",
-      "published": "2026-11-02T19:48:17+00:00",
+      "title": "Nederlandse industrie krijgt compensatie voor dure stroom",
+      "url": "https://nos.nl/l/2637923",
+      "summary": "De industrie krijgt volgend jaar 150 miljoen euro extra van het kabinet om de hoge stroomprijzen te compenseren. Dat staat in een brief aan de Tweede Kamer. Ook komt geld dat al in het regeerakkoord was afgesproken eerder beschikbaar. Vanaf 2028 is dat 345 miljoen euro en vanaf 2029 is het 495 miljoen per jaar. Bedrijven die deze compensatie willen ontvangen moeten dat wel voor de helft besteden aan verduurzaming, zoals in het bedrijf meer energie besparen of duurzame stroom opwekken. Concurrenten Ook uit een vergelijking van het kabinet blijkt weer dat Nederlandse bedrijven veel meer betalen voor elektriciteit en netwerkkosten dan concurrent",
+      "published": "2026-11-03T19:50:38+00:00",
       "language": "nl"
     },
     {
       "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Wapenstilstand Oekraïense stad Olesjky loopt af: wat betekent dat voor de oorlog?",
-      "url": "https://nos.nl/l/2637781",
-      "summary": "Gisteravond eindigde het staakt-het-vuren de Zuid-Oekraïense stad Olesjky. Het zesdaagse bestand was een van de eerste keren dat de gevechten tussen Rusland en Oekraïne werden stilgelegd sinds het begin van de Russische invasie in 2022. Bewoners van Olesjky konden hierdoor geëvacueerd worden. Het was een bijzondere situatie dat de gevechten tussen de twee landen zo lang stopten. Wat betekent het verder voor de oorlog? Was dit een kentering of slechts eenmalig? De belangrijkste vragen op een rij. Waarom een staakt-het-vuren? De Zuid-Oekraïense stad Olesjky ligt sinds het begin van de oorlog onder vuur. De meeste mensen waren al gevlucht, maar ",
-      "published": "2026-11-02T17:51:39+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Podcast De Dag: hoe de Democraten de verkiezingen (nu én straks) proberen te winnen",
-      "url": "https://nos.nl/l/2637777",
-      "summary": "Na twee jaar aan de zijlijn, hopen de Democraten morgen bij de midterm-verkiezingen in Amerika het tij te keren. De uitslag is niet alleen belangrijk voor de politieke verhoudingen in het Congres, maar ook voor de koers van de Democraten in aanloop naar de presidentsverkiezingen van 2028. Amerika-deskundige Casper Thomas licht in deze podcast drie staten uit waar de Democraten meedoen met in het oog springende kandidaten: Texas, Kansas en Michigan. Wat en wie werkt voor de Democraten? Reageren? Mail dedag@nos.nl Presentatie en montage: Elisabeth Steinz Redactie: Wouter Sloekers",
-      "published": "2026-11-02T17:40:27+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO Dive",
-      "title": "5 ways CFOs can maximize their organization’s human capital",
-      "url": "https://www.cfodive.com/spons/5-ways-cfos-can-maximize-their-organizations-human-capital/833426/",
-      "summary": "Executives everywhere are trying to balance protecting margins and funding growth. Maximizing their organization’s human capital may be the key to achieving both goals.",
-      "published": "2026-11-02T10:00:00+00:00",
+      "source": "BBC World",
+      "title": "Spanish transport minister resigns days after deadly train crash",
+      "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 69 people were killed and dozens injured in the collision south of the capital, Madrid.",
+      "published": "2026-11-03T22:45:59+00:00",
       "language": "en"
     },
     {
-      "category": "Finance & CFO",
-      "source": "CFO Dive",
-      "title": "Brazil’s PicPay CFO forges ahead after post-election turmoil, watershed IPO",
-      "url": "https://www.cfodive.com/news/brazils-picpay-cfo-forges-ahead-post-election-turmoil-watershed-ipo/833549/",
-      "summary": "André Cazotto took PicPay’s finance reins just months after it became the first Brazilian company to go public in the U.S. in four years.",
-      "published": "2026-10-29T20:42:50+00:00",
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
+      "title": "Spaanse minister van Transport stapt alsnog op na treinramp",
+      "url": "https://nos.nl/l/2637929",
+      "summary": "De Spaanse minister van Transport Puente treedt af na de dodelijke treinramp van vorige week in Urda . Daar kwamen 69 mensen om het leven toen een hogesnelheidstrein op een stilstaande regionale trein inreed. Het was de tweede dodelijke treinbotsing dit jaar met tientallen doden, waardoor Puentes positie als minister van Transport onder druk kwam te staan. \"Een minister van Transport in een land als Spanje kan niet aanblijven na twee ongelukken in minder dan een jaar tijd\", verklaarde de minister. Hij zei dat hij dat besluit al had genomen direct na het ongeluk in Urda, maar dat hij in functie was gebleven om de gevolgen aan te pakken en maat",
+      "published": "2026-11-03T20:45:25+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Seven flights across Europe targeted by suspected bomb threats",
+      "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+      "summary": "Planes in Poland, Spain, Bulgaria and Italy have been checked for explosives following separate threats.",
+      "published": "2026-11-03T20:42:47+00:00",
       "language": "en"
     }
   ],
