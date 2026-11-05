@@ -19,6 +19,18 @@ priority = {
  "Sport": ("schaatsen", "langebaan", "marathon", "hardlopen", "ijshockey", "ice hockey", "nhl", "wckt", "thialf", "world cup"),
 }
 now = dt.datetime.now(dt.timezone.utc)
+MAX_ARTICLE_AGE_HOURS = 36
+SPORT_LOW_VALUE = ('nu kijken', 'of gemist', 'tvgids', 'tv-gids', 'livestream', 'loting/startlijsten', 'startlijsten', 'programma schaatsen', 'programma world cup')
+def substantial(item):
+    title = item.get('title', '').casefold()
+    summary = (item.get('summary') or '').strip()
+    if item.get('category') == 'Sport' and any(term in title for term in SPORT_LOW_VALUE):
+        return False
+    # RSS summaries that merely repeat the headline are not substantive news.
+    if len(summary.split()) < 18:
+        return False
+    return True
+
 def rank(item):
  blob = (item.get("title", "") + " " + item.get("summary", "")).casefold()
  title = item.get("title", "").casefold()
@@ -63,11 +75,11 @@ for category, limit in quotas.items():
             published = dt.datetime.fromisoformat(item['published'].replace('Z', '+00:00'))
             if published.tzinfo is None: published = published.replace(tzinfo=dt.timezone.utc)
             age_hours = (now - published).total_seconds() / 3600
-            if age_hours < -2 or age_hours > 168:
+            if age_hours < -2 or age_hours > MAX_ARTICLE_AGE_HOURS:
                 continue
         except (KeyError, ValueError, TypeError, AttributeError):
             continue
-        if not item.get("title") or not item.get("summary") or rank(item) < -5:
+        if not item.get("title") or not substantial(item) or rank(item) < -5:
             continue
         if category == 'Finance & CFO' and any(w in (item.get('title','')+' '+item.get('summary','')).casefold() for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):
             continue
