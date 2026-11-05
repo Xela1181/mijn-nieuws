@@ -47,7 +47,18 @@ const dayIndex=Math.floor(Date.parse(localDay+'T00:00:00Z')/86400000);
 const ex=englishExercises[dayIndex%englishExercises.length];
 $('#dailyenglish').innerHTML='<h4>'+esc(ex[0])+'</h4><p><strong>Speaking exercise (B2+):</strong> '+esc(ex[1])+'</p><p><strong>Vocabulary:</strong> '+esc(ex[2])+'</p><p class="muted">Speak aloud for 2–3 minutes; focus on clarity, natural phrasing and accurate financial vocabulary.</p>';
 const b=books[dayIndex%books.length];
-$('#bookoftheday').innerHTML='<p><strong>'+esc(b[0])+'</strong> — '+esc(b[1])+'</p><p>'+esc(b[2])+'</p>';
+const bookDetails=[
+'Een managementroman over een fabriek die ondanks hard werken nauwelijks winst maakt. De hoofdpersoon ontdekt hoe knelpunten de totale prestatie beperken en waarom lokale efficiëntie niet hetzelfde is als een goed bedrijfsresultaat. Relevant voor het verbeteren van processen, capaciteit en cashflow.',
+'Een verhaal over IT, Finance en Operations die samen een vastgelopen organisatie proberen te verbeteren. Het boek laat zien hoe afhankelijkheden, wachtrijen en versnipperde verantwoordelijkheden innovatie vertragen. Interessant voor de samenwerking tussen finance, IT en de business.',
+'Een toegankelijk overzicht van hoe mensen besluiten nemen via snelle intuïtie en langzamere analyse. Het boek behandelt denkfouten, overmoed en risico-inschatting. Relevant bij forecasting, investeringsbesluiten en het kritisch beoordelen van managementaannames.',
+'Richard Rumelt legt uit waarom ambities en doelstellingen nog geen strategie vormen. Goede strategie begint met een scherpe diagnose, een richtinggevende keuze en samenhangende acties. Nuttig voor strategische planning en het toetsen van financiële prioriteiten.',
+'John Doerr beschrijft hoe organisaties doelen vertalen naar meetbare resultaten met OKRs. Met voorbeelden uit bekende bedrijven laat hij zien hoe focus, transparantie en voortgangsmeting samenhangen. Relevant voor KPI-sturing en de uitvoering van strategische plannen.',
+'Morgan Housel onderzoekt waarom gedrag, verwachtingen en persoonlijke ervaringen vaak belangrijker zijn dan financiële kennis. Korte verhalen behandelen risico, vermogensopbouw en de rol van geluk. Interessant voor beleggen en langetermijnbesluitvorming.',
+'Dit boek legt uit hoe resultatenrekening, balans en kasstroomoverzicht samenhangen en hoe managers cijfers kunnen interpreteren. Het bespreekt onder meer winstgevendheid, werkkapitaal en de aannames achter financiële rapportages. Geschikt als praktische basis voor financiële communicatie.'
+];
+const bookInfo=bookDetails[dayIndex%books.length];
+const bookLink='https://www.google.com/search?q='+encodeURIComponent(b[0]+' '+b[1]+' book');
+$('#bookoftheday').innerHTML='<p><strong>'+esc(b[0])+'</strong> — '+esc(b[1])+'</p><p>'+esc(bookInfo)+'</p><p><strong>Onderwerp:</strong> '+esc(b[2])+'</p><p><a href="'+esc(bookLink)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></p>';
 $('#bookhistory').innerHTML=Array.from({length:7},(_,i)=>{const x=books[((dayIndex-i)%books.length+books.length)%books.length];return '<p>'+esc(x[0])+' — '+esc(x[1])+'</p>'}).join('');
 async function loadAudio(){
   const status=$('#audiostatus'),player=$('#briefingaudio');
