@@ -1,88 +1,88 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "selection_mode": "rss_shortlist",
   "voice": {
     "en": "en-GB-SoniaNeural",
     "nl": "nl-NL-ColetteNeural"
   },
-  "word_count": 506,
+  "word_count": 555,
   "news_count": 15,
   "item_ids": [
-    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb3JRN3pzZXV3WVVDMFA1R2d2aGg3Z2w3SWJETDZ4cFRjNk45RGdNaHRBdk4zbUJVVTRzSFZjRnBKU2tMb0NmT3NKTW44Q3NGTFVrUEs4NUJBZ1JqZFM5R3N4aXF4R0ZsMVE2TWU5RXo5QklyLVlCMm03UmYyTzkxcVUtYjl6aXptMWfSAVZBVV95cUxQemhkYW8zVEkxRmhZSVl5ZHBOaTg1MUFwa2F5QnNOZmk4eFpGZ1d4MEZEWUpNYkFSQzJ0c3pHV1AtbjlIcjFvdHctNlVqU0pSZGlla015QQ?oc=5",
-    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeTRtRnpYci1pbnd0Z05BT0o0UTFqazAzUGlaSm9hOTVld2V5M3RiTmp5OWMtYS01VzZtZDFiclJXN243UHJrUFVxRHN5aXlqb2FCR0tDdlZYM091M3VXX1lReUh5OFBDOENkTjJtbGhqeEFDOUQtbG5JUGoxVXppQVVldXhYVDdnMUQ1bFhFYjAwM2Q3NVByTTNFeWRLb0l4Q1FZOHNfbTJ0YlZHeEQ1eENZQ0tvUTc3RGFXanRFdjhydFltbHBvejFVVlhwQlJKRU90Sm1RZ2s?oc=5",
-    "https://www.cfodive.com/news/sec-approves-easing-audit-quality-controls-endorsed-big-four-atkins-ey-pwc-deloitte-kpmg/873643/",
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYkRvQWJiVW0tdDdNTVBkakdPaWJkaTZnY3l1N0piaWJPWV8xT1BER053eHNPMy1FV1U0Q0tQTU90WExPd1FzWGtBUHZsdnJ5Q1dybENYRTZHTVRjS0hQaHE3dy1va1BNTVpyeWYyall1R014N0JER1RpQXJ3MGJBQ29sVTBSR0VjVWtnYnRwc2MzZHZyWC1qUkoyQ29HNFdhbGJLYk1oTGszUW5nekZhNGdPWFhOTVU?oc=5",
-    "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-    "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
-    "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
-    "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2026?mod=rss_markets_main",
-    "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
-    "https://nos.nl/l/2637923",
-    "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
+    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
+    "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+    "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+    "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
+    "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+    "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
+    "https://nos.nl/l/2638075",
+    "https://nos.nl/l/2638064",
     "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXhnMHRKd1BXMTNkVUlxX3NGZV9CWk90YXU5YkxBT2x2aEE2QU1KamMtSTNlam1qQnZkTmhxNlYyRmk2THZYRXVUWnZKNk5OWXBVVTIxek9hVk1aaUNweXpBUnZSLV9xb0NfYTN3SDl5YVR1eGRxa1d3UWNRRmFnaHVUb2ZYejZ3SGdNT1pubFY1eVVySlNaaHZialM1elp6RVRBdk1vUzQ1OWN0NHYtTHY3SXNrRGVPREFxaDUyQlBQRm9KNjB6TlJB?oc=5",
-    "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5"
   ],
   "sources": [
     {
-      "title": "Railways to adopt IFRS for financial audit - Business Recorder",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb3JRN3pzZXV3WVVDMFA1R2d2aGg3Z2w3SWJETDZ4cFRjNk45RGdNaHRBdk4zbUJVVTRzSFZjRnBKU2tMb0NmT3NKTW44Q3NGTFVrUEs4NUJBZ1JqZFM5R3N4aXF4R0ZsMVE2TWU5RXo5QklyLVlCMm03UmYyTzkxcVUtYjl6aXptMWfSAVZBVV95cUxQemhkYW8zVEkxRmhZSVl5ZHBOaTg1MUFwa2F5QnNOZmk4eFpGZ1d4MEZEWUpNYkFSQzJ0c3pHV1AtbjlIcjFvdHctNlVqU0pSZGlla015QQ?oc=5",
+      "title": "NATASHA MARRIAN: Inside the Treasury’s moves to rein in rogue municipalities - Financial Mail",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Aangepast Belastingplan 2027: btw-verhoging sierteelt uitgesteld, koopkrachtmaatregelen uitgebreid - Taxlive",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeTRtRnpYci1pbnd0Z05BT0o0UTFqazAzUGlaSm9hOTVld2V5M3RiTmp5OWMtYS01VzZtZDFiclJXN243UHJrUFVxRHN5aXlqb2FCR0tDdlZYM091M3VXX1lReUh5OFBDOENkTjJtbGhqeEFDOUQtbG5JUGoxVXppQVVldXhYVDdnMUQ1bFhFYjAwM2Q3NVByTTNFeWRLb0l4Q1FZOHNfbTJ0YlZHeEQ1eENZQ0tvUTc3RGFXanRFdjhydFltbHBvejFVVlhwQlJKRU90Sm1RZ2s?oc=5",
+      "title": "Amerikaanse Treasury verwacht geen wijzigingen in omvang couponveilingen bij kwartaalbericht over herfinanciering - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "SEC approves easing of audit quality controls as endorsed by Big Four",
-      "url": "https://www.cfodive.com/news/sec-approves-easing-audit-quality-controls-endorsed-big-four-atkins-ey-pwc-deloitte-kpmg/873643/",
+      "title": "Fraport boekt sterke cashflow dankzij internationale divisie - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Crescent Energy overtreft Q3-verwachtingen door hogere cashflow - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYkRvQWJiVW0tdDdNTVBkakdPaWJkaTZnY3l1N0piaWJPWV8xT1BER053eHNPMy1FV1U0Q0tQTU90WExPd1FzWGtBUHZsdnJ5Q1dybENYRTZHTVRjS0hQaHE3dy1va1BNTVpyeWYyall1R014N0JER1RpQXJ3MGJBQ29sVTBSR0VjVWtnYnRwc2MzZHZyWC1qUkoyQ29HNFdhbGJLYk1oTGszUW5nekZhNGdPWFhOTVU?oc=5",
+      "title": "Nobia-aandelen kelderen 19% door winstdaling en negatieve cashflow in Q3 - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "category": "IT & technologie"
     },
     {
-      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
-      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
       "category": "IT & technologie"
     },
     {
-      "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
-      "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
       "category": "IT & technologie"
     },
     {
-      "title": "Stock Market News, Nov. 3, 2026: Stock Futures Drop as Investors Weigh Potential Democratic Gains",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-03-2026?mod=rss_markets_main",
+      "title": "Beursupdate: AEX op Wall Street - De AandeelHouder",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
       "category": "Beleggen & economie"
     },
     {
-      "title": "What analysts are telling us while Apple’s stock falls after earnings report",
-      "url": "https://www.marketwatch.com/story/what-analysts-are-saying-as-apples-stock-falls-after-earnings-report-f0afa357?mod=mw_rss_topstories",
+      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
+      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
       "category": "Beleggen & economie"
     },
     {
-      "title": "Super Micro’s stock pops as earnings show booming demand for AI servers",
-      "url": "https://www.marketwatch.com/story/super-micros-stock-pops-as-earnings-show-booming-demand-for-ai-servers-2d179658?mod=mw_rss_topstories",
+      "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
+      "url": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
       "category": "Beleggen & economie"
     },
     {
-      "title": "Nederlandse industrie krijgt compensatie voor dure stroom",
-      "url": "https://nos.nl/l/2637923",
+      "title": "Meerderheid vinden voor belastingplan blijft complexe puzzel voor minderheidskabinet",
+      "url": "https://nos.nl/l/2638075",
       "category": "Nederland & wereld"
     },
     {
-      "title": "Spanish transport minister resigns days after deadly train crash",
-      "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+      "title": "Van Oekraïne tot Iran: overwinning Democraten zal wereldwijd impact hebben",
+      "url": "https://nos.nl/l/2638064",
       "category": "Nederland & wereld"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
       "category": "Sport"
     },
     {
