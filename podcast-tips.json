@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-04T05:57:54.339842+00:00",
+  "updated": "2026-11-05T04:15:08.586836+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Will AI take my job? Ask an economist!",
+      "description": "Are AI job losses showing up in the job numbers? What does a pro-worker approach to AI development look like? What advice do you have for college students? It’s our latest “Ask an Economist” segment, where listeners get to pose questions directly to economists about hot topics in",
+      "url": "https://www.npr.org/2026/11/04/nx-s1-6028029/will-ai-take-my-job-ask-an-economist",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Will%20AI%20take%20my%20job%3F%20Ask%20an%20economist%21",
+      "published": "2026-11-04T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|will ai take my job? ask an economist!",
+      "date": "2026-11-05"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Is it time to reconsider the adjustable rate mortgage?",
