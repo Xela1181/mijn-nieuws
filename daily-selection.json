@@ -1,163 +1,83 @@
 {
   "date": "2026-11-05",
-  "updated": "2026-11-05T04:15:08.621075+00:00",
+  "updated": "2026-11-05T19:15:14.506630+00:00",
   "selection_mode": "rss_shortlist",
   "articles": [
     {
-      "category": "Finance & CFO",
-      "source": "CFO internationaal",
-      "title": "NATASHA MARRIAN: Inside the Treasury’s moves to rein in rogue municipalities - Financial Mail",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
-      "summary": "NATASHA MARRIAN: Inside the Treasury’s moves to rein in rogue municipalities Financial Mail",
-      "published": "2026-11-04T23:36:41+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Amerikaanse Treasury verwacht geen wijzigingen in omvang couponveilingen bij kwartaalbericht over herfinanciering - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
-      "summary": "Amerikaanse Treasury verwacht geen wijzigingen in omvang couponveilingen bij kwartaalbericht over herfinanciering MarketScreener Nederland",
-      "published": "2026-11-04T14:49:12+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Fraport boekt sterke cashflow dankzij internationale divisie - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
-      "summary": "Fraport boekt sterke cashflow dankzij internationale divisie Investing.com",
-      "published": "2026-11-04T10:35:50+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Nobia-aandelen kelderen 19% door winstdaling en negatieve cashflow in Q3 - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
-      "summary": "Nobia-aandelen kelderen 19% door winstdaling en negatieve cashflow in Q3 Investing.com",
-      "published": "2026-11-04T08:30:02+00:00",
-      "language": "nl"
-    },
-    {
       "category": "IT & technologie",
-      "source": "MIT Technology Review",
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
-      "published": "2026-11-04T18:50:55+00:00",
-      "language": "en"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "Ars Technica",
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
-      "published": "2026-11-04T20:55:50+00:00",
+      "source": "TechCrunch",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "published": "2026-11-05T19:06:12+00:00",
       "language": "en"
     },
     {
       "category": "IT & technologie",
       "source": "TechCrunch",
-      "title": "Meta acquires AI coding startup Conductor",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "published": "2026-11-04T21:10:56+00:00",
+      "title": "Meta’s warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "published": "2026-11-05T19:12:39+00:00",
+      "language": "en"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "published": "2026-11-05T15:19:05+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "MarketWatch",
+      "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+      "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+      "summary": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
+      "published": "2026-11-05T18:03:00+00:00",
       "language": "en"
     },
     {
       "category": "Beleggen & economie",
       "source": "Nederlandse markten",
-      "title": "Beursupdate: AEX op Wall Street - De AandeelHouder",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
-      "summary": "Beursupdate: AEX op Wall Street De AandeelHouder",
-      "published": "2026-11-04T22:12:00+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "MarketWatch",
-      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-      "summary": "AppLovin’s stock is popping after “clearly positive” earnings results.",
-      "published": "2026-11-05T01:05:00+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "MarketWatch",
-      "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
-      "url": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
-      "summary": "Figma’s investments in AI models and agents are driving usage, but the cost of delivering these features is proving to be expensive",
-      "published": "2026-11-05T01:03:00+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Meerderheid vinden voor belastingplan blijft complexe puzzel voor minderheidskabinet",
-      "url": "https://nos.nl/l/2638075",
-      "summary": "Het is nog steeds onzeker of het kabinet er in gaat slagen om het belastingplan voor volgend jaar door het parlement te krijgen. Vanavond bleek in de Tweede Kamer dat er waarschijnlijk veel politieke kunstgrepen nodig zijn om een uitweg te vinden. Omdat het minderheidskabinet er niet in slaagde om op voorhand een meerderheid te vinden, hebben nu de fracties het voortouw. Regeringspartij D66 wil wel met de oppositiepartijen Pro en Volt gaan praten over hun voorstel om de plannen zo te wijzigen dat de belasting op vermogen omhoog gaat, om daarmee de belasting voor werkenden te kunnen verlagen. Met steun van deze partijen is een meerderheid voor",
-      "published": "2026-11-04T22:02:07+00:00",
+      "title": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3FWM180OUFYdUdMUTkwYjkwUTM5MXEzdUZMeTV5MzVGaVp6bHFQaF9YdWlJM0NId2pSUWNybVhCTkIwSHNKUUVfZUtDQ0paeFVYeDRFcXVyNnl6d1BPQ1hWdnBVQ3lhdkJ2aGxOdjM3al91QngtS3R5RmktQUNiZjNyV2JaZG8wbDB0QWNmeWJOb3k2THE2SWxRQmpTRlJXVW91cG94QVExdGpYZEdaaFZGUHd2VzMxVjQ5SDQwUFNOQ2t0bHd6YlZOaGswVDB3LXRQMlhzZVJ3T1Z3YkVaSzV5Z3FGRFpfUl9pNmFYZw?oc=5",
+      "summary": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed MarketScreener Nederland",
+      "published": "2026-11-05T18:20:20+00:00",
       "language": "nl"
     },
     {
       "category": "Nederland & wereld",
       "source": "NOS Nieuws",
-      "title": "Van Oekraïne tot Iran: overwinning Democraten zal wereldwijd impact hebben",
-      "url": "https://nos.nl/l/2638064",
-      "summary": "De klinkende verkiezingsoverwinning van de Democraten bij de Congresverkiezingen zal niet alleen in de VS, maar ook in het buitenland veel teweegbrengen. Zo'n drastische omkering van de machtsverhoudingen in Washington kan niet onopgemerkt blijven in landen als Oekraïne, Iran en Israël. Het verschil wordt pas duidelijk nadat de nieuw gekozen Amerikaanse Congresleden echt beginnen. Dat gebeurt op 3 januari. Dan nemen de verkiezingswinnaars in het Capitool machtige posities in: het Huis van Afgevaardigden, de Senaat en ook de invloedrijke buitenland- en inlichtingencommissies in het Congres krijgen naar verwachting allemaal Democratische voorzi",
-      "published": "2026-11-04T19:01:02+00:00",
+      "title": "Rubberboot met migranten ging vanuit Nederland de Noordzee op",
+      "url": "https://nos.nl/l/2638172",
+      "summary": "De rubberboot die afgelopen zaterdag van zee werd gehaald bij Breskens, is vanuit Nederlands grondgebied het water opgegaan. Dat meldt het Openbaar Ministerie (OM). Waar de boot precies te water ging, maakt het OM niet bekend. Maar volgens Omroep Zeeland waren de opvarenden niet onderkoeld toen zij werden aangetroffen. Volgens diverse bronnen die de omroep heeft gesproken, zijn de migranten waarschijnlijk ten oosten van Breskens aan boord gegaan. Het is nog niet duidelijk wat de beoogde eindbestemming was. Mensensmokkel Aan boord van de rubberboot zaten 36 Afghaanse migranten en twee vermoedelijke mensensmokkelaars uit Sudan. Van de in totaal",
+      "published": "2026-11-05T16:03:04+00:00",
       "language": "nl"
     },
     {
-      "category": "Sport",
-      "source": "Langebaanschaatsen",
-      "title": "Programma schaatsen wereldbeker World Cup 1 Beijing (Peking) - Schaatsgekkies",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXhnMHRKd1BXMTNkVUlxX3NGZV9CWk90YXU5YkxBT2x2aEE2QU1KamMtSTNlam1qQnZkTmhxNlYyRmk2THZYRXVUWnZKNk5OWXBVVTIxek9hVk1aaUNweXpBUnZSLV9xb0NfYTN3SDl5YVR1eGRxa1d3UWNRRmFnaHVUb2ZYejZ3SGdNT1pubFY1eVVySlNaaHZialM1elp6RVRBdk1vUzQ1OWN0NHYtTHY3SXNrRGVPREFxaDUyQlBQRm9KNjB6TlJB?oc=5",
-      "summary": "Programma schaatsen wereldbeker World Cup 1 Beijing (Peking) Schaatsgekkies",
-      "published": "2026-11-02T09:44:00+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
-      "source": "IJshockey",
-      "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
-      "summary": "IJshockey: NHL nu kijken of gemist? TVgids.nl",
-      "published": "2026-10-31T07:00:00+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
-      "source": "Hardlopen nieuws",
-      "title": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel - RunningNL",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5",
-      "summary": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel RunningNL",
-      "published": "2026-11-02T13:10:44+00:00",
-      "language": "nl"
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
+      "published": "2026-11-05T17:39:48+00:00",
+      "language": "en"
     }
   ],
   "item_ids": [
-    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
-    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
-    "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-    "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-    "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-    "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
-    "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
-    "https://nos.nl/l/2638075",
-    "https://nos.nl/l/2638064",
-    "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXhnMHRKd1BXMTNkVUlxX3NGZV9CWk90YXU5YkxBT2x2aEE2QU1KamMtSTNlam1qQnZkTmhxNlYyRmk2THZYRXVUWnZKNk5OWXBVVTIxek9hVk1aaUNweXpBUnZSLV9xb0NfYTN3SDl5YVR1eGRxa1d3UWNRRmFnaHVUb2ZYejZ3SGdNT1pubFY1eVVySlNaaHZialM1elp6RVRBdk1vUzQ1OWN0NHYtTHY3SXNrRGVPREFxaDUyQlBQRm9KNjB6TlJB?oc=5",
-    "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5"
+    "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+    "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+    "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+    "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3FWM180OUFYdUdMUTkwYjkwUTM5MXEzdUZMeTV5MzVGaVp6bHFQaF9YdWlJM0NId2pSUWNybVhCTkIwSHNKUUVfZUtDQ0paeFVYeDRFcXVyNnl6d1BPQ1hWdnBVQ3lhdkJ2aGxOdjM3al91QngtS3R5RmktQUNiZjNyV2JaZG8wbDB0QWNmeWJOb3k2THE2SWxRQmpTRlJXVW91cG94QVExdGpYZEdaaFZGUHd2VzMxVjQ5SDQwUFNOQ2t0bHd6YlZOaGswVDB3LXRQMlhzZVJ3T1Z3YkVaSzV5Z3FGRFpfUl9pNmFYZw?oc=5",
+    "https://nos.nl/l/2638172",
+    "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
   ],
   "narration": "",
-  "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT. 3 van de 15 artikelen zijn ouder dan 48 uur; deze zijn als aanvulling opgenomen omdat er onvoldoende recente geschikte berichten waren. Niet alle nieuwsbronnen konden worden bijgewerkt.",
+  "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT. Niet alle nieuwsbronnen konden worden bijgewerkt.",
   "source_failures": [
     "Harvard Business Review: URLError"
   ],

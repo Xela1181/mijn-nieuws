@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:14:54.207708+00:00",
+  "updated": "2026-11-05T19:15:03.890481+00:00",
   "articles": [
     {
       "category": "Finance & CFO",
@@ -20,13 +20,49 @@
       "language": "en"
     },
     {
-      "category": "IT & technologie",
-      "source": "BleepingComputer",
-      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-      "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
-      "published": "2026-11-03T18:51:04+00:00",
+      "category": "Beleggen & economie",
+      "source": "WSJ Markets",
+      "title": "Stock Market Today: Nasdaq Plunges 5% as Investors Retreat From AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026?mod=rss_markets_main",
+      "summary": "Tech-heavy index enters correction territory; Dow drops more than 1,500 points",
+      "published": "2026-11-05T09:25:53+00:00",
       "language": "en"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "published": "2026-11-05T19:06:12+00:00",
+      "language": "en"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Meta’s warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "published": "2026-11-05T19:12:39+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3FWM180OUFYdUdMUTkwYjkwUTM5MXEzdUZMeTV5MzVGaVp6bHFQaF9YdWlJM0NId2pSUWNybVhCTkIwSHNKUUVfZUtDQ0paeFVYeDRFcXVyNnl6d1BPQ1hWdnBVQ3lhdkJ2aGxOdjM3al91QngtS3R5RmktQUNiZjNyV2JaZG8wbDB0QWNmeWJOb3k2THE2SWxRQmpTRlJXVW91cG94QVExdGpYZEdaaFZGUHd2VzMxVjQ5SDQwUFNOQ2t0bHd6YlZOaGswVDB3LXRQMlhzZVJ3T1Z3YkVaSzV5Z3FGRFpfUl9pNmFYZw?oc=5",
+      "summary": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed MarketScreener Nederland",
+      "published": "2026-11-05T18:20:20+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "Hoge inflatie geen garantie voor hogere goudprijs na rentebesluit Fed - ANP Persportaal",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNEhia1pTS2xZTGYzZjh2aGRGcHpzaWRaZmNUb3dYNkdVQV9jcjdGTzQ4M1FET0xQUFFWWEdvT2ZFY0VJa2Q1SmxqOWJYNnNrcWwtTlB0bEJFM0hVekpvWHJfc0NqUEdxVWw5OEJVOTFOWUZITlJVN0pzRktpa0U0TTM2czhDbVYySFBtRHBfdFFYWWxZWkp4MlRHX0l4RTd6NHlOZW9XWmRLQ1Q3a1hvUFFKYTlvTl9KX0ZqQ0trZzNRX2tUazU5dWdsZm1VVE1IcWFVRmFRNVA?oc=5",
+      "summary": "Hoge inflatie geen garantie voor hogere goudprijs na rentebesluit Fed ANP Persportaal",
+      "published": "2026-11-05T07:44:10+00:00",
+      "language": "nl"
     },
     {
       "category": "IT & technologie",
@@ -65,49 +101,22 @@
       "language": "nl"
     },
     {
-      "category": "Sport",
-      "source": "Langebaanschaatsen",
-      "title": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zaterdag 31 oktober 2026. - Schaatsgekkies",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMEluZjBDeF9OellfMEdCb2d5TjBDX2ZVUkpZSlh1LWZwa1ctU3NsTVlmY2plRHM5RzNueFo2Y1o3ZFYyZzRCc2wyZm5icWZuQTdKZG9XWXk3a1o5M0huZmZPYktPTGs4bnFKY01HUVRZRlk2T21xSHh6MWk2eFd1NDJPaElOa05ZMWRXenpzOEU1REE3NXJ2V1pUYUJwOVozemlLWllPTEdzT1lVWGItRExDNzFVbTN5NnpMYWh2ZEx5Yi15cXFUNw?oc=5",
-      "summary": "Loting/startlijsten schaatsen World Cup Kwalificatie Toernooi (WCKT), zaterdag 31 oktober 2026. Schaatsgekkies",
-      "published": "2026-10-31T12:44:00+00:00",
+      "category": "Finance & CFO",
+      "source": "CFO treasury en forecasts",
+      "title": "Multiliquid Treasury introduceert 24/7 T‑Bill‑rendement en directe afwikkeling voor bedrijfsliquiditeiten - Yellow.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcDdJSUFiUlZjc0FiR1NSaFJfWTFxSm1zN3Z5ckNzSGpRNzVMRUMxQ3FpWm5jbURjZzZoa3hUcHVERkpXOTRfME1WU3ZCcDhuVFNteVNndFBmaHh5d0E5aDFRVUd3bzI5N1kwcWZUXzNmQ3ZmbUdFbXJFd0tGQXQ3U3dTZDlQY1VPODRaYXQwRm5JblJQM0ZCQldMTnh4elh2RVppM3BNMTBUdHJ6WXZUVXVRUzVDejZXQXdmdDM5ODRheFBkY1UtLVM5azIyT2VuQ3NNQ05QSEVZRWJyd1VidWZ3SWRxNFpWTnVoSnp3?oc=5",
+      "summary": "Multiliquid Treasury introduceert 24/7 T‑Bill‑rendement en directe afwikkeling voor bedrijfsliquiditeiten Yellow.com",
+      "published": "2026-11-05T17:45:39+00:00",
       "language": "nl"
     },
     {
       "category": "Finance & CFO",
       "source": "CFO internationaal",
-      "title": "NATASHA MARRIAN: Inside the Treasury’s moves to rein in rogue municipalities - Financial Mail",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
-      "summary": "NATASHA MARRIAN: Inside the Treasury’s moves to rein in rogue municipalities Financial Mail",
-      "published": "2026-11-04T23:36:41+00:00",
+      "title": "73 Strings Unveils Extraction Agent to Streamline Financial Reporting With Agentic AI - Business Wire",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdmxJOTNybEZScXNqRGZCUXpSVTNNeGVQanVEajBBWGxLVENiMkppRkszeVN5dVJnelNNeW9JWFE3ZmdtMWxGTDBRemp5Qm9ib3hLNXpKbUFiSG44eWdTZXJYLUMyS2FfMWkxbERVbi1PUWotcVZxNTBlWDRUMHQzaFgtLTRVbF82SElMSXZyZG9vTU00NXF4X2lTUENrSVFqam8tdmFPTzFjU1FrdllJejR4bEhVWkdCS1Vrc0VOeFZlX2JnY1pzTDRTdFg2OW9NUVRtLTZSZnBMQQ?oc=5",
+      "summary": "73 Strings Unveils Extraction Agent to Streamline Financial Reporting With Agentic AI Business Wire",
+      "published": "2026-11-05T14:00:00+00:00",
       "language": "en"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Amerikaanse Treasury verwacht geen wijzigingen in omvang couponveilingen bij kwartaalbericht over herfinanciering - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
-      "summary": "Amerikaanse Treasury verwacht geen wijzigingen in omvang couponveilingen bij kwartaalbericht over herfinanciering MarketScreener Nederland",
-      "published": "2026-11-04T14:49:12+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Fraport boekt sterke cashflow dankzij internationale divisie - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
-      "summary": "Fraport boekt sterke cashflow dankzij internationale divisie Investing.com",
-      "published": "2026-11-04T10:35:50+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO treasury en forecasts",
-      "title": "Nobia-aandelen kelderen 19% door winstdaling en negatieve cashflow in Q3 - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
-      "summary": "Nobia-aandelen kelderen 19% door winstdaling en negatieve cashflow in Q3 Investing.com",
-      "published": "2026-11-04T08:30:02+00:00",
-      "language": "nl"
     },
     {
       "category": "Finance & CFO",
@@ -121,19 +130,28 @@
     {
       "category": "Beleggen & economie",
       "source": "MarketWatch",
-      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-      "summary": "AppLovin’s stock is popping after “clearly positive” earnings results.",
-      "published": "2026-11-05T01:05:00+00:00",
+      "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
+      "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
+      "summary": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
+      "published": "2026-11-05T18:03:00+00:00",
       "language": "en"
     },
     {
       "category": "IT & technologie",
       "source": "TechCrunch",
-      "title": "Meta acquires AI coding startup Conductor",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-      "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
-      "published": "2026-11-04T21:10:56+00:00",
+      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+      "published": "2026-11-05T15:19:05+00:00",
+      "language": "en"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "MIT Technology Review",
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "url": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…",
+      "published": "2026-11-05T13:10:00+00:00",
       "language": "en"
     },
     {
@@ -146,67 +164,58 @@
       "language": "en"
     },
     {
-      "category": "IT & technologie",
-      "source": "TechCrunch",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
-      "published": "2026-11-04T19:30:04+00:00",
-      "language": "en"
-    },
-    {
-      "category": "IT & technologie",
-      "source": "TechCrunch",
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
-      "published": "2026-11-05T01:26:22+00:00",
-      "language": "en"
-    },
-    {
       "category": "Beleggen & economie",
       "source": "MarketWatch",
-      "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
-      "url": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
-      "summary": "Figma’s investments in AI models and agents are driving usage, but the cost of delivering these features is proving to be expensive",
-      "published": "2026-11-05T01:03:00+00:00",
+      "title": "As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity",
+      "url": "https://www.marketwatch.com/story/as-nvidias-stock-heads-for-a-bear-market-bargain-hunters-see-a-golden-buying-opportunity-1a5917e6?mod=mw_rss_topstories",
+      "summary": "Portfolio managers say chip demand should be resilient even in a period of political uncertainty.",
+      "published": "2026-11-05T18:59:00+00:00",
       "language": "en"
     },
     {
       "category": "Beleggen & economie",
       "source": "Nederlandse markten",
-      "title": "Beursupdate: AEX op Wall Street - De AandeelHouder",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
-      "summary": "Beursupdate: AEX op Wall Street De AandeelHouder",
-      "published": "2026-11-04T22:12:00+00:00",
+      "title": "Tsjechische centrale bank verhoogt rente dit jaar voor de tweede keer - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlQzeVZsNXdHMTY2N3pXZmJaeTRORS1CbHAyM2FZZG5KVzFzTmZoeEVuSkdjZW1wZU5tdVJDYWk2X2F3RXNOTG00TmctdTloREVKbjliZ1czMVRMLTBJT0NTUnUzTlVXY1d5WVpJRlFSY0wtZjJEOTl4UHp1QWZVUWNYVThNeUFjX21tb3FRSm1Tb3ZWcFNLWkNLYnhSUkhtU0FWMzlGNGpnQWx0dW04d01qc05MQVpJUjg3SWhfd3cwRDBBcVk0?oc=5",
+      "summary": "Tsjechische centrale bank verhoogt rente dit jaar voor de tweede keer MarketScreener Nederland",
+      "published": "2026-11-05T18:32:31+00:00",
       "language": "nl"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "ECB moet waakzaam blijven voor inflatieschokken, zegt Knot - Welingelichte Kringen",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ0RNTDNMYm5TVzZDbmd5OXlKNENZc3o5aTFDYW5SV0VDR3NKbm5IVG9TT3haR2JOZzlMZk9kUFN4YTZra2dXcmZJcGZuOWJTV1REMko5MXpIUjNsZXpqaktyU0xVejN0XzhWY1g1NWdldmtYamp1bVF2OVp5UC1LQ1Ewa2dzZ2l4MGctLVdpR216ell0akJWU2g4MmN1bUo1eVE1Qw?oc=5",
-      "summary": "ECB moet waakzaam blijven voor inflatieschokken, zegt Knot Welingelichte Kringen",
-      "published": "2026-11-04T17:07:49+00:00",
+      "category": "Finance & CFO",
+      "source": "CFO treasury en forecasts",
+      "title": "Lennaert Kapiteijn: van Financial Controller naar CFO van de Johan Cruijff Arena - Financieel Management",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVhlZFBoRmdmeUlFcUxnUThvcThHYTZzNjl3WnBTZkdRaV9lelNCa2wtd2ZneE1aM2lBalJZTGdiNkdicjJldHQxXzlzUTJHNGx3N1JZSkh4RHJ1UGFreFFaTmhSd1NsLWw1MFIwZ1djYmkwZUpnT0ZvTVpPUkpEYVhrcFN3Y3NYR1ZUTXgtOFk1amNpVWlkb1Y5Z3NNVVlxNnF6MGZVUWxtYkI0NUMzNHgwdE5IU2tweWRRbjZ3?oc=5",
+      "summary": "Lennaert Kapiteijn: van Financial Controller naar CFO van de Johan Cruijff Arena Financieel Management",
+      "published": "2026-11-05T13:39:39+00:00",
       "language": "nl"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "Waarom beleggers juichen na verkiezingswinst Democraten, maar de economie er niet per se beter van wordt - AD.nl",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVVBLcUxzTUlhSWh6MXlxR2gtdU9VOWZ2bmkzazNlMmpzSU8xWHFicV9IR200TTJPdFVWYVRSbGZrWmRhUElVdlRMcndncm5RejFpb3ZyYlVZZzdpcXZ1TVdycmZHMFpjaWVtREkyTkk0a3RMUUZQenFNRk51R3JwUHdiWks3WWpSTkgybUxHZ2VYeFo3aDIzZFdmM0swUm4zWnpManFJa29BWXVDQm1mc0hjOEFKR2FjdlBjdHpmVVhwU1F2aGs2cnJ5X1RFamtTVHh3WkZiRQ?oc=5",
-      "summary": "Waarom beleggers juichen na verkiezingswinst Democraten, maar de economie er niet per se beter van wordt AD.nl",
-      "published": "2026-11-04T16:01:00+00:00",
+      "category": "Sport",
+      "source": "Schaatsen nieuws",
+      "title": "Jenning de Boo mist eerste World Cups door gebroken sleutelbeen - Schaatsen.nl",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaEdDMUY4YzZFWDhRTEJ0cWg4Y3AtRUVuUXNIT2dHS25ld1RBT2hTM3Bma1lsNTJQWnV1d25hQkhteXZaVE5ScDh2cVhWRU5Cc2ExRjEzZk1hLUNEVHRXRTJ5WG5oYWRtOW5vT3BIX29yTVd0NlBmekY0ZUhWaG03dE40UTZyZlRsY0VWYzQzSFpuWVZPZDFOeW5HMmk?oc=5",
+      "summary": "Jenning de Boo mist eerste World Cups door gebroken sleutelbeen Schaatsen.nl",
+      "published": "2026-11-05T13:08:22+00:00",
       "language": "nl"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "WSJ Markets",
-      "title": "Stock Market News, Nov. 4, 2026: Dow Jumps to Best Day in 18 Months, Oil Slides",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-04-2026?mod=rss_markets_main",
-      "summary": "After Democrats win midterms, crude drops 8.7% on hopes of Iran war ending",
-      "published": "2026-11-04T03:22:53+00:00",
-      "language": "en"
+      "category": "Sport",
+      "source": "Hardlopen nieuws",
+      "title": "Nieuwe RunningNL: Ronald Mulder op de cover en alles over hardlopen en ouder worden - RunningNL",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVWVMbUQwLXo3UWRnRmJTMjFmT1dZN0dFaDlaOFVFUmozeDBMS2xHWTVodFRUN3RZQUJwektySzdLLU5IdVpYa0N2SE9TRjFwUXFWc1J5WkJGS2tuSjYwS0x3MTZGenVlb0Q3ZUFmTm5qdGVIMUZLclBHLUtXbnp4eGljT2d4NDJtaXRSWWRWQllXTFJjWXFsTGsteTh0RE5SQnZVaw?oc=5",
+      "summary": "Nieuwe RunningNL: Ronald Mulder op de cover en alles over hardlopen en ouder worden RunningNL",
+      "published": "2026-11-05T10:18:22+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Finance & CFO",
+      "source": "Nederlandse fiscaliteit",
+      "title": "Hogere vermogensbelasting in ruil voor steun aan het Belastingplan 2027 - Taxence",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenBpS0hmSzUwUnZwaWxsZUFkZzZwT0VaZTIyWHJjZG1EYXhTdFNHOGpSTFhoVzh5V05ZMFpiUG1OS0NqWXlyd2VIZlpfUWVRRkpzNFpmb0wtVHl0Tm1sMjIydGNjekh4MzcyaXJfaGsxSk93aUx1MGxUOUxTYVNWakx3V3FNMnh6WDY4UXhKWkVZTnFRZ0NFOXhHRDFsTF9WT2o5eA?oc=5",
+      "summary": "Hogere vermogensbelasting in ruil voor steun aan het Belastingplan 2027 Taxence",
+      "published": "2026-11-05T06:36:13+00:00",
+      "language": "nl"
     },
     {
       "category": "Sport",
@@ -237,39 +246,39 @@
     },
     {
       "category": "Sport",
-      "source": "Langebaanschaatsen",
-      "title": "Geniet na van dag 3 van het WCKT 2026 - Schaatsen.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjNlVGUjFqZHZTd3l6NEg0TVlYVVFJRXpmcWtoM1BUUTdocy05NGo1NmZ6WjYzUTBuTE9NU1kzbWhjcEZqZWdqdlVmZG5sZ1hjOHFxaDBwWFdSdThTVDBSR211d0tUMTZ4R2Rr?oc=5",
-      "summary": "Geniet na van dag 3 van het WCKT 2026 Schaatsen.nl",
-      "published": "2026-11-01T19:50:22+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Sport",
       "source": "IJshockey",
       "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTQm1WSE5LWnl2cXVkcTNSTHAxRi1xbDBOaUptVlhERmphZV9UcVpDQ3JkcDBWSFlYbHRkcnl4a0Fxa253TEkwc3pENTFQdmNYNU5jTHlLbTRnblIySC10bzV6UEJuMTN6VUxN?oc=5",
       "summary": "IJshockey: NHL nu kijken of gemist? TVgids.nl",
-      "published": "2026-10-31T07:00:00+00:00",
+      "published": "2026-11-01T07:00:00+00:00",
       "language": "nl"
     },
     {
       "category": "Nederland & wereld",
       "source": "NOS Nieuws",
-      "title": "Meerderheid vinden voor belastingplan blijft complexe puzzel voor minderheidskabinet",
-      "url": "https://nos.nl/l/2638075",
-      "summary": "Het is nog steeds onzeker of het kabinet er in gaat slagen om het belastingplan voor volgend jaar door het parlement te krijgen. Vanavond bleek in de Tweede Kamer dat er waarschijnlijk veel politieke kunstgrepen nodig zijn om een uitweg te vinden. Omdat het minderheidskabinet er niet in slaagde om op voorhand een meerderheid te vinden, hebben nu de fracties het voortouw. Regeringspartij D66 wil wel met de oppositiepartijen Pro en Volt gaan praten over hun voorstel om de plannen zo te wijzigen dat de belasting op vermogen omhoog gaat, om daarmee de belasting voor werkenden te kunnen verlagen. Met steun van deze partijen is een meerderheid voor",
-      "published": "2026-11-04T22:02:07+00:00",
+      "title": "Rubberboot met migranten ging vanuit Nederland de Noordzee op",
+      "url": "https://nos.nl/l/2638172",
+      "summary": "De rubberboot die afgelopen zaterdag van zee werd gehaald bij Breskens, is vanuit Nederlands grondgebied het water opgegaan. Dat meldt het Openbaar Ministerie (OM). Waar de boot precies te water ging, maakt het OM niet bekend. Maar volgens Omroep Zeeland waren de opvarenden niet onderkoeld toen zij werden aangetroffen. Volgens diverse bronnen die de omroep heeft gesproken, zijn de migranten waarschijnlijk ten oosten van Breskens aan boord gegaan. Het is nog niet duidelijk wat de beoogde eindbestemming was. Mensensmokkel Aan boord van de rubberboot zaten 36 Afghaanse migranten en twee vermoedelijke mensensmokkelaars uit Sudan. Van de in totaal",
+      "published": "2026-11-05T16:03:04+00:00",
       "language": "nl"
     },
     {
       "category": "Nederland & wereld",
       "source": "NOS Nieuws",
-      "title": "Van Oekraïne tot Iran: overwinning Democraten zal wereldwijd impact hebben",
-      "url": "https://nos.nl/l/2638064",
-      "summary": "De klinkende verkiezingsoverwinning van de Democraten bij de Congresverkiezingen zal niet alleen in de VS, maar ook in het buitenland veel teweegbrengen. Zo'n drastische omkering van de machtsverhoudingen in Washington kan niet onopgemerkt blijven in landen als Oekraïne, Iran en Israël. Het verschil wordt pas duidelijk nadat de nieuw gekozen Amerikaanse Congresleden echt beginnen. Dat gebeurt op 3 januari. Dan nemen de verkiezingswinnaars in het Capitool machtige posities in: het Huis van Afgevaardigden, de Senaat en ook de invloedrijke buitenland- en inlichtingencommissies in het Congres krijgen naar verwachting allemaal Democratische voorzi",
-      "published": "2026-11-04T19:01:02+00:00",
+      "title": "Frankrijk demonstreert opnieuw voor hogere lonen, regering wil onrust voorkomen",
+      "url": "https://nos.nl/l/2638145",
+      "summary": "Op de grote landelijke protestdag in Frankrijk heeft de oproerpolitie in Lyon charges uitgevoerd tegen demonstranten en traangas ingezet. Sommige betogers riepen anti-politieleuzen. Een deel van hen was in het zwart gekleed en droeg gezichtsbedekking. Bij Toulouse is een middelbare school in brand gestoken. In Parijs stonden scholieren en andere demonstranten tegenover de politie nadat ze een straat hadden geblokkeerd met vuilnisbakken. In een voorstad van de hoofdstad werden vuilnisbakken in brand gestoken. De brandweer had het vuur snel onder controle. De grote demonstratie in Parijs begon vanmiddag om 15.00 uur. In diverse steden, waaronde",
+      "published": "2026-11-05T12:57:37+00:00",
       "language": "nl"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "BBC World",
+      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
+      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+      "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
+      "published": "2026-11-05T17:39:48+00:00",
+      "language": "en"
     },
     {
       "category": "Nederland & wereld",
@@ -279,15 +288,6 @@
       "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
       "published": "2026-11-05T03:47:56+00:00",
       "language": "en"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "NOS Nieuws",
-      "title": "Wereldgezondheidsorganisatie staat gebruik van twee nieuwe ebolavaccins toe",
-      "url": "https://nos.nl/l/2638072",
-      "summary": "De Wereldgezondheidsorganisatie (WHO) heeft twee nieuwe ebolavaccins goedgekeurd, die nu kunnen worden gebruikt bij de grootschalige ebola-uitbraak in de Democratische Republiek Congo. Er is groen licht gegeven om de vaccinaties te gaan testen binnen de besmettingshaarden in het land. De twee vaccinaties zijn de eerste middelen die specifiek ontwikkeld zijn voor de dodelijke Bundibugyo-variant van het virus, die sinds mei om zich heen grijpt in het land. Het eerste vaccin heet 'ChAdOx1' en is ontwikkeld door de Universiteit van Oxford en het Serum Institute of India. Het tweede vaccin genaamd 'mRNA-1469' werd ontwikkeld door de farmaceut Mode",
-      "published": "2026-11-04T21:06:48+00:00",
-      "language": "nl"
     }
   ],
   "warning": "Niet alle nieuwsbronnen konden worden bijgewerkt.",
