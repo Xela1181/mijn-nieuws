@@ -59,7 +59,13 @@ const bookDetails=[
 const bookInfo=bookDetails[dayIndex%books.length];
 const bookLink='https://www.google.com/search?q='+encodeURIComponent(b[0]+' '+b[1]+' book');
 $('#bookoftheday').innerHTML='<p><strong>'+esc(b[0])+'</strong> — '+esc(b[1])+'</p><p>'+esc(bookInfo)+'</p><p><strong>Onderwerp:</strong> '+esc(b[2])+'</p><p><a href="'+esc(bookLink)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></p>';
-$('#bookhistory').innerHTML=Array.from({length:7},(_,i)=>{const x=books[((dayIndex-i)%books.length+books.length)%books.length];return '<p>'+esc(x[0])+' — '+esc(x[1])+'</p>'}).join('');
+$('#bookhistory').innerHTML=Array.from({length:7},(_,i)=>{
+ const index=((dayIndex-i)%books.length+books.length)%books.length;
+ const x=books[index];
+ const description=bookDetails[index];
+ const url='https://www.google.com/search?q='+encodeURIComponent(x[0]+' '+x[1]+' book');
+ return '<article class="article" style="min-height:auto;margin:12px 0"><h4>'+esc(x[0])+' — '+esc(x[1])+'</h4><p>'+esc(description)+'</p><p><strong>Onderwerp:</strong> '+esc(x[2])+'</p><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></article>';
+}).join('');
 async function loadAudio(){
   const status=$('#audiostatus'),player=$('#briefingaudio');
   try{
