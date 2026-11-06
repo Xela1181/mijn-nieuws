@@ -27,7 +27,10 @@ def substantial(item):
     if item.get('category') == 'Sport' and any(term in title for term in SPORT_LOW_VALUE):
         return False
     # RSS summaries that merely repeat the headline are not substantive news.
-    if len(summary.split()) < 18:
+    if len(summary.split()) < 12:
+        return False
+    headline = title.split(' - ')[0].strip()
+    if summary.casefold().startswith(headline) and len(summary.split()) < len(headline.split()) + 8:
         return False
     return True
 
@@ -48,6 +51,7 @@ seen = set()
 for category, limit in quotas.items():
     count = 0
     tax_politics_count = 0
+    source_counts = {}
     candidates = sorted((a for a in source.get("articles", []) if a.get("category") == category), key=rank, reverse=True)
     if category == "Sport":
         # Reserve one candidate per interest before filling remaining slots.
@@ -69,6 +73,8 @@ for category, limit in quotas.items():
     for item in candidates:
         url = item.get("url", "")
         if item.get("category") != category or not url.startswith("https://") or url in seen:
+            continue
+        if source_counts.get(item.get('source', ''), 0) >= (2 if category in ('IT & technologie', 'Nederland & wereld') else 3):
             continue
         # Recheck freshness even if news.json was produced by an older fetcher.
         try:
@@ -94,6 +100,7 @@ for category, limit in quotas.items():
         if tax_politics:
             tax_politics_count += 1
         seen.add(url)
+        source_counts[item.get('source', '')] = source_counts.get(item.get('source', ''), 0) + 1
         selected.append(item)
         count += 1
         if count == limit:
