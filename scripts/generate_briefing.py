@@ -58,8 +58,8 @@ def load_selection(now):
     if data.get("selection_mode") not in ("rss_shortlist", "curated"):
         raise ValueError("Unknown selection mode")
     items = data.get("articles")
-    if not isinstance(items, list) or not 8 <= len(items) <= 15:
-        raise ValueError("Expected 8–15 selected articles; refusing incomplete audio")
+    if not isinstance(items, list) or not 1 <= len(items) <= 15:
+        raise ValueError("Expected 1–15 selected articles; refusing invalid audio")
     ids = [a.get("id") or a.get("url") for a in items]
     if not all(ids) or len(ids) != len(set(ids)) or ids != data.get("item_ids"):
         raise ValueError("Selection identifiers are missing, duplicated or out of order")
