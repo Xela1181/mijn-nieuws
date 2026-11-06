@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-05",
-  "updated": "2026-11-05T19:15:14.506630+00:00",
+  "date": "2026-11-06",
+  "updated": "2026-11-06T04:13:39.629420+00:00",
   "selection_mode": "rss_shortlist",
   "articles": [
     {
@@ -15,7 +15,7 @@
     {
       "category": "IT & technologie",
       "source": "TechCrunch",
-      "title": "Meta’s warns that election backlash against data centers could make AI expansion harder",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
       "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
       "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
       "published": "2026-11-05T19:12:39+00:00",
@@ -33,20 +33,20 @@
     {
       "category": "Beleggen & economie",
       "source": "MarketWatch",
-      "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
-      "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
-      "summary": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
-      "published": "2026-11-05T18:03:00+00:00",
+      "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+      "url": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
+      "summary": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
+      "published": "2026-11-05T21:44:00+00:00",
       "language": "en"
     },
     {
       "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3FWM180OUFYdUdMUTkwYjkwUTM5MXEzdUZMeTV5MzVGaVp6bHFQaF9YdWlJM0NId2pSUWNybVhCTkIwSHNKUUVfZUtDQ0paeFVYeDRFcXVyNnl6d1BPQ1hWdnBVQ3lhdkJ2aGxOdjM3al91QngtS3R5RmktQUNiZjNyV2JaZG8wbDB0QWNmeWJOb3k2THE2SWxRQmpTRlJXVW91cG94QVExdGpYZEdaaFZGUHd2VzMxVjQ5SDQwUFNOQ2t0bHd6YlZOaGswVDB3LXRQMlhzZVJ3T1Z3YkVaSzV5Z3FGRFpfUl9pNmFYZw?oc=5",
-      "summary": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed MarketScreener Nederland",
-      "published": "2026-11-05T18:20:20+00:00",
-      "language": "nl"
+      "source": "WSJ Markets",
+      "title": "U.S. Stock Market Will Likely Struggle to Regain October Peak",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
+      "summary": "The U.S. equity market will likely struggle to regain its early October peak anytime soon, even if fears around the U.S. political outlook prove overdone, Capital Economics said.",
+      "published": "2026-11-06T03:10:00+00:00",
+      "language": "en"
     },
     {
       "category": "Nederland & wereld",
@@ -59,22 +59,22 @@
     },
     {
       "category": "Nederland & wereld",
-      "source": "BBC World",
-      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
-      "published": "2026-11-05T17:39:48+00:00",
-      "language": "en"
+      "source": "NOS Nieuws",
+      "title": "Kabinet wil werkende statushouders jaren meer tijd geven voor inburgering",
+      "url": "https://nos.nl/l/2638212",
+      "summary": "Het kabinet wil een groep statushouders langer de tijd geven voor hun inburgering. Dat schrijft minister Aartsen van Werk en Participatie in een brief aan de Tweede Kamer. De statushouders die in aanmerking komen, moeten ten minste 28 uur per week werken of hebben gewerkt. Werkende statushouders mogen, afhankelijk van hun situatie, tot drie jaar langer over hun inburgering doen. Ze moeten minimaal drie maanden aaneengesloten aan het werk zijn geweest. Dat geldt ook voor statushouders die nog aan het werk gaan. De regels gaan komend jaar in, schrijft Aartsen. Hoe werkt inburgeren? Als iemands aanvraag voor een tijdelijke verblijfsvergunning po",
+      "published": "2026-11-05T21:13:32+00:00",
+      "language": "nl"
     }
   ],
   "item_ids": [
     "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
     "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
     "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-    "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
-    "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3FWM180OUFYdUdMUTkwYjkwUTM5MXEzdUZMeTV5MzVGaVp6bHFQaF9YdWlJM0NId2pSUWNybVhCTkIwSHNKUUVfZUtDQ0paeFVYeDRFcXVyNnl6d1BPQ1hWdnBVQ3lhdkJ2aGxOdjM3al91QngtS3R5RmktQUNiZjNyV2JaZG8wbDB0QWNmeWJOb3k2THE2SWxRQmpTRlJXVW91cG94QVExdGpYZEdaaFZGUHd2VzMxVjQ5SDQwUFNOQ2t0bHd6YlZOaGswVDB3LXRQMlhzZVJ3T1Z3YkVaSzV5Z3FGRFpfUl9pNmFYZw?oc=5",
+    "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
+    "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
     "https://nos.nl/l/2638172",
-    "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss"
+    "https://nos.nl/l/2638212"
   ],
   "narration": "",
   "warning": "Automatische RSS-voorselectie; niet gecontroleerd of gesynchroniseerd met ChatGPT. Niet alle nieuwsbronnen konden worden bijgewerkt.",

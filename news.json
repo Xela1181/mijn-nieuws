@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T19:15:03.890481+00:00",
+  "updated": "2026-11-06T04:13:26.772789+00:00",
   "articles": [
     {
       "category": "Finance & CFO",
@@ -22,9 +22,9 @@
     {
       "category": "Beleggen & economie",
       "source": "WSJ Markets",
-      "title": "Stock Market Today: Nasdaq Plunges 5% as Investors Retreat From AI Trade After Election",
+      "title": "Stock Market News, Nov. 5, 2026: Nasdaq Plunges 5.5%; Investors Retreat From AI Trade After Election",
       "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026?mod=rss_markets_main",
-      "summary": "Tech-heavy index enters correction territory; Dow drops more than 1,500 points",
+      "summary": "Tech-heavy index enters correction; Dow drops more than 1,800 points",
       "published": "2026-11-05T09:25:53+00:00",
       "language": "en"
     },
@@ -38,22 +38,31 @@
       "language": "en"
     },
     {
-      "category": "IT & technologie",
-      "source": "TechCrunch",
-      "title": "Meta’s warns that election backlash against data centers could make AI expansion harder",
-      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-      "published": "2026-11-05T19:12:39+00:00",
-      "language": "en"
+      "category": "Beleggen & economie",
+      "source": "Nederlandse markten",
+      "title": "OCBC boekt hogere aan aandeelhouders toekomende winst in derde kwartaal; rente-inkomsten stijgen - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOR2twWjRERmlRZWQ2OWVoalRZSHZtX0ZMMzB0eE9icktNVWkxS0VyakJoa2NNa0dfOUNFaHR5ejdoQTY2Mi1Vd1gxLTBDU2I2VWdsSWNhMUVwdklXS19Xd3JiV1JmRTZYTEdaN2tBdldsZ1lmZm4zdFU2QjdVMVA1UWh0dVVhRURuMEdEdjJZSFR3U2hJczFQakYzU2hKNzFoZTdQcEFCOXRGN2dUb0llRFNuQlRycWxMM09HWEp1YUhHM1NvRzFDel9jRy1LY2lFbmR0SkpTbFhpQlFTNUxTajBHMno2R3M0X1E?oc=5",
+      "summary": "OCBC boekt hogere aan aandeelhouders toekomende winst in derde kwartaal; rente-inkomsten stijgen MarketScreener Nederland",
+      "published": "2026-11-06T00:46:14+00:00",
+      "language": "nl"
     },
     {
       "category": "Beleggen & economie",
       "source": "Nederlandse markten",
-      "title": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPX3FWM180OUFYdUdMUTkwYjkwUTM5MXEzdUZMeTV5MzVGaVp6bHFQaF9YdWlJM0NId2pSUWNybVhCTkIwSHNKUUVfZUtDQ0paeFVYeDRFcXVyNnl6d1BPQ1hWdnBVQ3lhdkJ2aGxOdjM3al91QngtS3R5RmktQUNiZjNyV2JaZG8wbDB0QWNmeWJOb3k2THE2SWxRQmpTRlJXVW91cG94QVExdGpYZEdaaFZGUHd2VzMxVjQ5SDQwUFNOQ2t0bHd6YlZOaGswVDB3LXRQMlhzZVJ3T1Z3YkVaSzV5Z3FGRFpfUl9pNmFYZw?oc=5",
-      "summary": "FOMC moet monetair beleid mogelijk geleidelijk verder verkrappen om inflatie te bestrijden, zegt Hammack van de Cleveland Fed MarketScreener Nederland",
-      "published": "2026-11-05T18:20:20+00:00",
+      "title": "Terugslag tegen AI kan timing beursgang Anthropic bedreigen, zeggen potentiële beleggers - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZmV2MHVBXzNRSjhzNDhXZGRoZEIycXkwbTNxNnFNek9sT2xUTlVtRm05MjktRzZwOEhyWVViNk9RUk5tY0xZUkthTy1oSjdCLWY5M3pWeDdvdTYwaGN5eEsyVEczemd5WTF6SVNONWdteFlxZzBLTlViZGhTRWF2cTkwWlU3dTFORG44UDU5MDE0WUlVWVZqZTIyX0lHMXpldDRrcWN0RFhXX0NqSVhjbVp6anZtaXpGSUpFWmplZHl3QmdkVGpXWjRycTdCLUVlSEE3N19VNnhqcXYzRFdJ?oc=5",
+      "summary": "Terugslag tegen AI kan timing beursgang Anthropic bedreigen, zeggen potentiële beleggers MarketScreener Nederland",
+      "published": "2026-11-05T23:40:27+00:00",
       "language": "nl"
+    },
+    {
+      "category": "IT & technologie",
+      "source": "TechCrunch",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "published": "2026-11-05T19:12:39+00:00",
+      "language": "en"
     },
     {
       "category": "Beleggen & economie",
@@ -102,21 +111,21 @@
     },
     {
       "category": "Finance & CFO",
+      "source": "CFO internationaal",
+      "title": "Highlights from the Wikimedia Foundation and Wikimedia Endowment audit reports for fiscal year 2025-2026 - Wikimedia .org",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPay1yMy1oRXdaMWFRbUVGMVQ3X1VWRWRrVUlzLUFRMUNaQS1MaWt6YnkweC1fUzFPTTlYalhVamJvb0t3eU1UOWw3Um03Vm1YZGUwWC1ySXVQeDdFbzJxTF9yVlJXTzN0NUY5cGZFTFJSeV9VM0xjU2hWR21MRVd1V0dtci15eDBHNGtyc1NxeE5vSVhHSWVuMzRzcWJJSGd5cmVDSzJZdVNoeGpEc1hkMFhqbzlSVXhwaXRxME9ob3RSazVjOWMzTGFERS11ZE8yUkdrMGN0akRFQUk?oc=5",
+      "summary": "Highlights from the Wikimedia Foundation and Wikimedia Endowment audit reports for fiscal year 2025-2026 Wikimedia .org",
+      "published": "2026-11-05T19:49:19+00:00",
+      "language": "en"
+    },
+    {
+      "category": "Finance & CFO",
       "source": "CFO treasury en forecasts",
       "title": "Multiliquid Treasury introduceert 24/7 T‑Bill‑rendement en directe afwikkeling voor bedrijfsliquiditeiten - Yellow.com",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcDdJSUFiUlZjc0FiR1NSaFJfWTFxSm1zN3Z5ckNzSGpRNzVMRUMxQ3FpWm5jbURjZzZoa3hUcHVERkpXOTRfME1WU3ZCcDhuVFNteVNndFBmaHh5d0E5aDFRVUd3bzI5N1kwcWZUXzNmQ3ZmbUdFbXJFd0tGQXQ3U3dTZDlQY1VPODRaYXQwRm5JblJQM0ZCQldMTnh4elh2RVppM3BNMTBUdHJ6WXZUVXVRUzVDejZXQXdmdDM5ODRheFBkY1UtLVM5azIyT2VuQ3NNQ05QSEVZRWJyd1VidWZ3SWRxNFpWTnVoSnp3?oc=5",
       "summary": "Multiliquid Treasury introduceert 24/7 T‑Bill‑rendement en directe afwikkeling voor bedrijfsliquiditeiten Yellow.com",
       "published": "2026-11-05T17:45:39+00:00",
       "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "CFO internationaal",
-      "title": "73 Strings Unveils Extraction Agent to Streamline Financial Reporting With Agentic AI - Business Wire",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdmxJOTNybEZScXNqRGZCUXpSVTNNeGVQanVEajBBWGxLVENiMkppRkszeVN5dVJnelNNeW9JWFE3ZmdtMWxGTDBRemp5Qm9ib3hLNXpKbUFiSG44eWdTZXJYLUMyS2FfMWkxbERVbi1PUWotcVZxNTBlWDRUMHQzaFgtLTRVbF82SElMSXZyZG9vTU00NXF4X2lTUENrSVFqam8tdmFPTzFjU1FrdllJejR4bEhVWkdCS1Vrc0VOeFZlX2JnY1pzTDRTdFg2OW9NUVRtLTZSZnBMQQ?oc=5",
-      "summary": "73 Strings Unveils Extraction Agent to Streamline Financial Reporting With Agentic AI Business Wire",
-      "published": "2026-11-05T14:00:00+00:00",
-      "language": "en"
     },
     {
       "category": "Finance & CFO",
@@ -130,10 +139,10 @@
     {
       "category": "Beleggen & economie",
       "source": "MarketWatch",
-      "title": "Bloom Energy’s stock is one of the S&P 500’s biggest losers amid fears of data-center delays",
-      "url": "https://www.marketwatch.com/story/bloom-energys-stock-is-one-of-the-s-p-500s-biggest-losers-amid-fears-of-data-center-delays-a44c96bb?mod=mw_rss_topstories",
-      "summary": "Bloom Energy shares got swept in by tech stocks’ sharp selloff Thursday, as investors fretted that the data-center buildout was at risk of stalling in the aftermath of the U.S. midterm elections.",
-      "published": "2026-11-05T18:03:00+00:00",
+      "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+      "url": "https://www.marketwatch.com/story/buy-the-dip-or-wait-it-out-young-investors-react-as-retail-stock-selling-hits-one-of-its-highest-levels-since-covid-crash-610d8087?mod=mw_rss_topstories",
+      "summary": "Some see another buying opportunity. Others fear the worst isn’t over. A market rout is testing the instincts of a generation raised on quick rebounds.",
+      "published": "2026-11-05T21:44:00+00:00",
       "language": "en"
     },
     {
@@ -155,30 +164,30 @@
       "language": "en"
     },
     {
+      "category": "Beleggen & economie",
+      "source": "WSJ Markets",
+      "title": "U.S. Stock Market Will Likely Struggle to Regain October Peak",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
+      "summary": "The U.S. equity market will likely struggle to regain its early October peak anytime soon, even if fears around the U.S. political outlook prove overdone, Capital Economics said.",
+      "published": "2026-11-06T03:10:00+00:00",
+      "language": "en"
+    },
+    {
       "category": "IT & technologie",
-      "source": "Ars Technica",
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-      "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
-      "published": "2026-11-04T20:55:50+00:00",
+      "source": "TechCrunch",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "published": "2026-11-05T22:40:55+00:00",
       "language": "en"
     },
     {
-      "category": "Beleggen & economie",
-      "source": "MarketWatch",
-      "title": "As Nvidia’s stock heads for a bear market, bargain hunters see a golden buying opportunity",
-      "url": "https://www.marketwatch.com/story/as-nvidias-stock-heads-for-a-bear-market-bargain-hunters-see-a-golden-buying-opportunity-1a5917e6?mod=mw_rss_topstories",
-      "summary": "Portfolio managers say chip demand should be resilient even in a period of political uncertainty.",
-      "published": "2026-11-05T18:59:00+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Beleggen & economie",
-      "source": "Nederlandse markten",
-      "title": "Tsjechische centrale bank verhoogt rente dit jaar voor de tweede keer - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlQzeVZsNXdHMTY2N3pXZmJaeTRORS1CbHAyM2FZZG5KVzFzTmZoeEVuSkdjZW1wZU5tdVJDYWk2X2F3RXNOTG00TmctdTloREVKbjliZ1czMVRMLTBJT0NTUnUzTlVXY1d5WVpJRlFSY0wtZjJEOTl4UHp1QWZVUWNYVThNeUFjX21tb3FRSm1Tb3ZWcFNLWkNLYnhSUkhtU0FWMzlGNGpnQWx0dW04d01qc05MQVpJUjg3SWhfd3cwRDBBcVk0?oc=5",
-      "summary": "Tsjechische centrale bank verhoogt rente dit jaar voor de tweede keer MarketScreener Nederland",
-      "published": "2026-11-05T18:32:31+00:00",
+      "category": "Finance & CFO",
+      "source": "Nederlandse fiscaliteit",
+      "title": "Eindejaarstips btw en overdrachtsbelasting - Hendriksen Accountants en Adviseurs",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10ay1RMWhZSWxoVXQwRnk3cWR4Zmp6TS02ZkFaeGJ0NlJZZ2RKdGZSRHZXZzBvekRqeExIdnh3Y29uak5oM0Q0YlFYemVRcjNyWGJ0aXFDTldST2Q1dXFrazZMY1pVamVVZjk0SldRc0NmWnNpS0xOY1ZoWDQ?oc=5",
+      "summary": "Eindejaarstips btw en overdrachtsbelasting Hendriksen Accountants en Adviseurs",
+      "published": "2026-11-05T15:44:49+00:00",
       "language": "nl"
     },
     {
@@ -187,7 +196,7 @@
       "title": "Lennaert Kapiteijn: van Financial Controller naar CFO van de Johan Cruijff Arena - Financieel Management",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVhlZFBoRmdmeUlFcUxnUThvcThHYTZzNjl3WnBTZkdRaV9lelNCa2wtd2ZneE1aM2lBalJZTGdiNkdicjJldHQxXzlzUTJHNGx3N1JZSkh4RHJ1UGFreFFaTmhSd1NsLWw1MFIwZ1djYmkwZUpnT0ZvTVpPUkpEYVhrcFN3Y3NYR1ZUTXgtOFk1amNpVWlkb1Y5Z3NNVVlxNnF6MGZVUWxtYkI0NUMzNHgwdE5IU2tweWRRbjZ3?oc=5",
       "summary": "Lennaert Kapiteijn: van Financial Controller naar CFO van de Johan Cruijff Arena Financieel Management",
-      "published": "2026-11-05T13:39:39+00:00",
+      "published": "2026-11-05T13:45:55+00:00",
       "language": "nl"
     },
     {
@@ -206,15 +215,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVWVMbUQwLXo3UWRnRmJTMjFmT1dZN0dFaDlaOFVFUmozeDBMS2xHWTVodFRUN3RZQUJwektySzdLLU5IdVpYa0N2SE9TRjFwUXFWc1J5WkJGS2tuSjYwS0x3MTZGenVlb0Q3ZUFmTm5qdGVIMUZLclBHLUtXbnp4eGljT2d4NDJtaXRSWWRWQllXTFJjWXFsTGsteTh0RE5SQnZVaw?oc=5",
       "summary": "Nieuwe RunningNL: Ronald Mulder op de cover en alles over hardlopen en ouder worden RunningNL",
       "published": "2026-11-05T10:18:22+00:00",
-      "language": "nl"
-    },
-    {
-      "category": "Finance & CFO",
-      "source": "Nederlandse fiscaliteit",
-      "title": "Hogere vermogensbelasting in ruil voor steun aan het Belastingplan 2027 - Taxence",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenBpS0hmSzUwUnZwaWxsZUFkZzZwT0VaZTIyWHJjZG1EYXhTdFNHOGpSTFhoVzh5V05ZMFpiUG1OS0NqWXlyd2VIZlpfUWVRRkpzNFpmb0wtVHl0Tm1sMjIydGNjekh4MzcyaXJfaGsxSk93aUx1MGxUOUxTYVNWakx3V3FNMnh6WDY4UXhKWkVZTnFRZ0NFOXhHRDFsTF9WT2o5eA?oc=5",
-      "summary": "Hogere vermogensbelasting in ruil voor steun aan het Belastingplan 2027 Taxence",
-      "published": "2026-11-05T06:36:13+00:00",
       "language": "nl"
     },
     {
@@ -256,6 +256,15 @@
     {
       "category": "Nederland & wereld",
       "source": "NOS Nieuws",
+      "title": "D66 en Pro willen verbod op stapelen politieke functies",
+      "url": "https://nos.nl/l/2638225",
+      "summary": "D66 en Pro willen dat er een verbod komt op dubbelfuncties in de politiek. De grootste regerings- en de grootste oppositiepartij hebben daartoe samen een plan opgesteld. CDA-minister Heerma van Binnenlandse Zaken ziet er wel wat in. Politici kunnen nu meerdere politieke functies combineren en doen dat soms ook. Ze zijn dan bijvoorbeeld lid van de Tweede Kamer én van de gemeenteraad van hun woonplaats, of wethouder en tegelijk Statenlid in de provincie waar hun gemeente onderdeel van is. Voor iedere functie krijgen ze een vergoeding. Belangenverstrengeling Er zijn partijen die zulke constructies zelf verbieden in hun eigen reglementen. D66 en ",
+      "published": "2026-11-06T02:27:10+00:00",
+      "language": "nl"
+    },
+    {
+      "category": "Nederland & wereld",
+      "source": "NOS Nieuws",
       "title": "Rubberboot met migranten ging vanuit Nederland de Noordzee op",
       "url": "https://nos.nl/l/2638172",
       "summary": "De rubberboot die afgelopen zaterdag van zee werd gehaald bij Breskens, is vanuit Nederlands grondgebied het water opgegaan. Dat meldt het Openbaar Ministerie (OM). Waar de boot precies te water ging, maakt het OM niet bekend. Maar volgens Omroep Zeeland waren de opvarenden niet onderkoeld toen zij werden aangetroffen. Volgens diverse bronnen die de omroep heeft gesproken, zijn de migranten waarschijnlijk ten oosten van Breskens aan boord gegaan. Het is nog niet duidelijk wat de beoogde eindbestemming was. Mensensmokkel Aan boord van de rubberboot zaten 36 Afghaanse migranten en twee vermoedelijke mensensmokkelaars uit Sudan. Van de in totaal",
@@ -265,28 +274,19 @@
     {
       "category": "Nederland & wereld",
       "source": "NOS Nieuws",
-      "title": "Frankrijk demonstreert opnieuw voor hogere lonen, regering wil onrust voorkomen",
-      "url": "https://nos.nl/l/2638145",
-      "summary": "Op de grote landelijke protestdag in Frankrijk heeft de oproerpolitie in Lyon charges uitgevoerd tegen demonstranten en traangas ingezet. Sommige betogers riepen anti-politieleuzen. Een deel van hen was in het zwart gekleed en droeg gezichtsbedekking. Bij Toulouse is een middelbare school in brand gestoken. In Parijs stonden scholieren en andere demonstranten tegenover de politie nadat ze een straat hadden geblokkeerd met vuilnisbakken. In een voorstad van de hoofdstad werden vuilnisbakken in brand gestoken. De brandweer had het vuur snel onder controle. De grote demonstratie in Parijs begon vanmiddag om 15.00 uur. In diverse steden, waaronde",
-      "published": "2026-11-05T12:57:37+00:00",
+      "title": "Kabinet wil werkende statushouders jaren meer tijd geven voor inburgering",
+      "url": "https://nos.nl/l/2638212",
+      "summary": "Het kabinet wil een groep statushouders langer de tijd geven voor hun inburgering. Dat schrijft minister Aartsen van Werk en Participatie in een brief aan de Tweede Kamer. De statushouders die in aanmerking komen, moeten ten minste 28 uur per week werken of hebben gewerkt. Werkende statushouders mogen, afhankelijk van hun situatie, tot drie jaar langer over hun inburgering doen. Ze moeten minimaal drie maanden aaneengesloten aan het werk zijn geweest. Dat geldt ook voor statushouders die nog aan het werk gaan. De regels gaan komend jaar in, schrijft Aartsen. Hoe werkt inburgeren? Als iemands aanvraag voor een tijdelijke verblijfsvergunning po",
+      "published": "2026-11-05T21:13:32+00:00",
       "language": "nl"
     },
     {
       "category": "Nederland & wereld",
       "source": "BBC World",
-      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-      "summary": "At least 21 flights across Europe are affected in what the UK government calls a \"malicious hoax threat\".",
-      "published": "2026-11-05T17:39:48+00:00",
-      "language": "en"
-    },
-    {
-      "category": "Nederland & wereld",
-      "source": "BBC World",
-      "title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-      "url": "https://www.bbc.co.uk/news/articles/crz98zqkz7z0o?at_medium=RSS&at_campaign=rss",
-      "summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
-      "published": "2026-11-05T03:47:56+00:00",
+      "title": "Who could be behind hoax bomb threats to European air travel?",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dzzjg3g9zo?at_medium=RSS&at_campaign=rss",
+      "summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+      "published": "2026-11-05T19:58:40+00:00",
       "language": "en"
     }
   ],
