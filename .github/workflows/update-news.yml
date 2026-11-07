@@ -1,4 +1,4 @@
-name: Update Mijn Nieuws RSS
+name: Update dagelijkse podcasttip
 on:
   schedule:
     - cron: '17 3 * * *'
@@ -13,32 +13,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Fetch public RSS feeds
-        run: python scripts/fetch_news.py
       - name: Select today's podcast episode
         run: python scripts/update_podcasts.py
-      - name: Build daily shortlist
-        run: python scripts/build_daily_selection.py
-      - name: Verify shortlist
-        run: |
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          x = json.loads(Path('daily-selection.json').read_text(encoding='utf-8'))
-          assert x['selection_mode'] == 'rss_shortlist'
-          assert len(x['articles']) <= 15, 'Shortlist exceeds 15 articles'
-          assert all(a.get('published') for a in x['articles']), 'Missing publication date'
-          assert len({a['url'] for a in x['articles']}) == len(x['articles']), 'Duplicate URLs'
-          if not x['articles']:
-              print('WARNING: No eligible articles; keeping empty shortlist')
-          print('Daily shortlist:', len(x['articles']))
-          PY
       - name: Commit updated news
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json daily-selection.json podcast-tips.json
+          git add podcast-tips.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update RSS news"
+            git commit -m "Update daily podcast tip"
             git push
           fi
