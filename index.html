@@ -108,7 +108,7 @@ const tips=[
 ];const tip=tips[dayIndex%tips.length];$('#tipcontent').innerHTML=`<h3>${esc(tip[0])}</h3><p>${esc(tip[1])}</p><p><strong>Voorbeeldprompt</strong></p><div class="panel" id="tiptext">${esc(tip[2])}</div><p class="muted">Gebruik uitsluitend gegevens die volgens je bedrijfsbeleid met de gekozen AI-dienst gedeeld mogen worden.</p>`;const copy=document.createElement('button');copy.textContent='Kopieer prompt';copy.onclick=()=>navigator.clipboard?.writeText(tip[2]);$('#tipcontent').append(copy);async function loadITQ(){
  const box=$('#itqgrid');
  try{
-  const res=await fetch('./news.json?v='+Date.now(),{cache:'no-store'});
+  const res=await fetch('./itq-news.json?v='+Date.now(),{cache:'no-store'});
   if(!res.ok)throw Error('Niet beschikbaar');
   const data=await res.json();
   const items=(data.articles||[]).filter(a=>a.category==='ITQ Nieuws'&&a.title&&a.url);
