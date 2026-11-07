@@ -39,8 +39,8 @@ def main():
         old=json.loads(OUT.read_text(encoding="utf-8")).get("articles",[])
     except (OSError,ValueError):
         old=[]
-    items={a["url"]:a for a in old if a.get("url") and a.get("published") and a.get("title")}
-    items[SEED_URL]=dict(category="ITQ Nieuws",source="Techzine",title="ITQ Cloud Platform biedt Europese private cloud op VCF",url=SEED_URL,summary="Techzine bericht over het ITQ Cloud Platform, een Europese privatecloudoplossing op basis van VMware Cloud Foundation.",published="2026-10-07T12:00:00+00:00",date_estimated=True)
+    items={a["url"]:a for a in old if a.get("url") and a.get("title")}
+    items[SEED_URL]=dict(category="ITQ Nieuws",source="Techzine",title="ITQ Cloud Platform biedt Europese private cloud op VCF",url=SEED_URL,summary="Techzine bericht over het ITQ Cloud Platform, een Europese privatecloudoplossing op basis van VMware Cloud Foundation.",published="",date_unknown=True)
     errors=[]
     for query in QUERIES:
         url="https://news.google.com/rss/search?q="+urllib.parse.quote(query)+"&hl=nl&gl=NL&ceid=NL:nl"
@@ -66,7 +66,7 @@ def main():
     recent=[]
     for item in items.values():
         date=parse_date(item.get("published",""))
-        if date is not None and -1 <= (now-date).total_seconds()/86400 <= 90:
+        if (date is not None and -1 <= (now-date).total_seconds()/86400 <= 90) or item.get("url")==SEED_URL:
             recent.append(item)
     recent.sort(key=lambda a:a["published"],reverse=True)
     OUT.write_text(json.dumps({"updated":now.isoformat(),"articles":recent[:60],"errors":errors},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
