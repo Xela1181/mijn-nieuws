@@ -118,21 +118,21 @@ const tips=[
 }
 
 const stepsKey='mijn-dashboard-private-steps-v1';
-function localDay(){return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
+function stepsLocalDay(){return new Intl.DateTimeFormat('sv-SE',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
 function renderSteps(){
  const value=$('#stepsvalue'),note=$('#stepsupdated');
  let entry=null;try{entry=JSON.parse(localStorage.getItem(stepsKey)||'null')}catch(e){}
- if(entry&&entry.date===localDay()&&Number.isSafeInteger(entry.steps)&&entry.steps>=0){
+ if(entry&&entry.date===stepsLocalDay()&&Number.isSafeInteger(entry.steps)&&entry.steps>=0){
   value.textContent=new Intl.NumberFormat('nl-NL').format(entry.steps)+' stappen';
   note.textContent='Bijgewerkt om '+new Date(entry.updatedAt).toLocaleTimeString('nl-NL',{hour:'2-digit',minute:'2-digit'});
  }else{value.textContent='Nog geen stappen ontvangen vandaag';note.textContent='Start de opdracht op je iPhone om je stappen te laden.'}
 }
 function receiveSteps(){
- const match=location.hash.match(/^#steps=(\\d{1,8})$/);
+ const match=location.hash.match(/^#steps=(\d{1,8})$/);
  if(match){
   const steps=Number(match[1]);
   if(Number.isSafeInteger(steps)&&steps>=0){
-   try{localStorage.setItem(stepsKey,JSON.stringify({date:localDay(),steps,updatedAt:new Date().toISOString()}))}catch(e){}
+   try{localStorage.setItem(stepsKey,JSON.stringify({date:stepsLocalDay(),steps,updatedAt:new Date().toISOString()}))}catch(e){}
   }
   try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}
  }
