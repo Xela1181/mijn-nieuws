@@ -1,8 +1,5 @@
 name: Daily English audio briefing
 on:
-  schedule:
-    # 05:30 Europe/Amsterdam, accounting for daylight saving time.
-    - cron: '30 3,4 * * *'
   workflow_dispatch:
 permissions:
   contents: write
