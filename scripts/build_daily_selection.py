@@ -27,6 +27,9 @@ def substantial(item):
     if item.get('category') == 'Sport' and any(term in title for term in SPORT_LOW_VALUE):
         return False
     # RSS summaries that merely repeat the headline are not substantive news.
+    if item.get('category') == 'Sport':
+        # A verified selection/result is useful even when the feed only supplies a headline.
+        return any(w in title for w in ('selectie', 'geselecteerd', 'wereldkampioen', 'world cup', 'uitslag', 'record', 'winst', 'gewonnen'))
     if len(summary.split()) < 12:
         return False
     headline = title.split(' - ')[0].strip()
@@ -90,6 +93,8 @@ for category, limit in quotas.items():
         if category == 'Finance & CFO' and any(w in (item.get('title','')+' '+item.get('summary','')).casefold() for w in ('gemeentelijke fusie','gemeentefusie','fusie van gemeenten','gemeenten fuseren','gemeentelijke herindeling')):
             continue
         title = item.get('title', '').casefold()
+        if category == 'Finance & CFO' and any(w in title for w in ('etf', 'ishares', 'stock', 'aandelenkoers', 'bond etf', 'dividend', 'treasury bond', 'federal reserve', 'us economy', 'crypto exchange', 'sanctioning', 'drug money', 'railways to adopt')):
+            continue
         if category == 'Finance & CFO' and any(w in title for w in ('zoekt een ', 'vacature', 'hiring ', 'we are hiring', 'solliciteer', 'job opening', 'career opportunity', 'jury m&a awards', 'genomineerden voor best deal', 'meld je aan', 'schrijf je in voor')):
             continue
         if category == 'Finance & CFO' and any(w in title for w in ('f1-commentator', 'formule 1-commentator', 'voetbaltrainer', 'transfernieuws')):
