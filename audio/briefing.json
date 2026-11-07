@@ -1,104 +1,68 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-07",
   "selection_mode": "rss_shortlist",
   "voice": {
     "en": "en-GB-SoniaNeural",
     "nl": "nl-NL-ColetteNeural"
   },
-  "word_count": 555,
-  "news_count": 15,
+  "word_count": 538,
+  "news_count": 9,
   "item_ids": [
-    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
-    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
-    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
-    "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-    "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-    "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-    "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
-    "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
-    "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
-    "https://nos.nl/l/2638075",
-    "https://nos.nl/l/2638064",
-    "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXhnMHRKd1BXMTNkVUlxX3NGZV9CWk90YXU5YkxBT2x2aEE2QU1KamMtSTNlam1qQnZkTmhxNlYyRmk2THZYRXVUWnZKNk5OWXBVVTIxek9hVk1aaUNweXpBUnZSLV9xb0NfYTN3SDl5YVR1eGRxa1d3UWNRRmFnaHVUb2ZYejZ3SGdNT1pubFY1eVVySlNaaHZialM1elp6RVRBdk1vUzQ1OWN0NHYtTHY3SXNrRGVPREFxaDUyQlBQRm9KNjB6TlJB?oc=5",
-    "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
-    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5"
+    "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQldvREx2Nk5SV0pJdExaOUFTaGNUZ0VMYXBaRVlCb3ZTTG9VNFA0U1ZTVER4MWs2b25XQXJMZm5NODMtZFluemRQQ2tadzRNR1pRU2lDem9jUWQ0eEg3b0xZYlkzUW5yVXp6dExsdjZtMU5INW95Nm05d1dZYURrazBkUlpXUHg4YnhaTjBEdGlZSHlQZWljeHRxSzFnSUJzV1RYWXNnZVFvdmdrR2ZVUTdJYmphajVSWDVtOUlhTHcxOVNWYVFqd1A2dTZaSG1hMWpremVzcVd2a1NDb3A1akZEb21VQ1dKMGNB?oc=5",
+    "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+    "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+    "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+    "https://www.wsj.com/opinion/theres-no-such-thing-as-a-stock-market-bubble-159ea117?mod=rss_markets_main",
+    "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
+    "https://www.wsj.com/finance/stocks/nasdaq-futures-steady-after-asian-ai-rout-as-investors-brace-for-jobs-day-83415c52?mod=rss_markets_main",
+    "https://nos.nl/l/2638357",
+    "https://nos.nl/l/2638326"
   ],
   "sources": [
     {
-      "title": "NATASHA MARRIAN: Inside the Treasury’s moves to rein in rogue municipalities - Financial Mail",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeVVTT1MxRXVvZUZpamx6N096VnN4QzEzcGxSaURkQktiZjFCMk1MSGJ5N2FsQWk3Q0pLOS1VM29LUGdURXJGSkdqbFFkeXctUFRRcExEaW9nb19VY0xRcEJkcFpCM1BBdjd4OEFUZFhDaEh2ZTdKckFILWU5OHZ1YTkyNnhDUUxzUzN3U2ZfcjViRUNFUXEyRFZkem9hbXFxeEh1MzlTUTV2a2tXMk1rRUl3?oc=5",
+      "title": "iShares Trust - iShares 20+ Year Treasury Bond ETF kondigt maandelijks dividend aan, betaalbaar op 5 november 2026 - MarketScreener Nederland",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPQldvREx2Nk5SV0pJdExaOUFTaGNUZ0VMYXBaRVlCb3ZTTG9VNFA0U1ZTVER4MWs2b25XQXJMZm5NODMtZFluemRQQ2tadzRNR1pRU2lDem9jUWQ0eEg3b0xZYlkzUW5yVXp6dExsdjZtMU5INW95Nm05d1dZYURrazBkUlpXUHg4YnhaTjBEdGlZSHlQZWljeHRxSzFnSUJzV1RYWXNnZVFvdmdrR2ZVUTdJYmphajVSWDVtOUlhTHcxOVNWYVFqd1A2dTZaSG1hMWpremVzcVd2a1NDb3A1akZEb21VQ1dKMGNB?oc=5",
       "category": "Finance & CFO"
     },
     {
-      "title": "Amerikaanse Treasury verwacht geen wijzigingen in omvang couponveilingen bij kwartaalbericht over herfinanciering - MarketScreener Nederland",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc2RrRXY5TkpwUnJnb2xtR3g3cHA3VVA0VmlRcTFvMUo1eUp5S0d2WW1wY085dU5ha3lfSDJGS0RNMUpNUEVsREJLZUl5em9janRhN21wUEQ1STBBMEt3ajhtSXB4RHRQWWJoQTJ3OVo1NEkzbDVEQXViODdWelRIZWhkUk1OMzZZRlFrVVhvaUczb202NHdCeGtURGgzZlpEYTgwQVlzWXlyQ2laYWRzaTJaZzBZRzV5VmlITXR1ZWlYUDYxa0trTnJjVHBQaDFKYlk5QkpzNkpNMDM4SE5HaEs5YVc0OGNMWGgyQXprbEc?oc=5",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Fraport boekt sterke cashflow dankzij internationale divisie - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYzVzVG0wSXJjU281cHZTenlRM1lJWTc2Q1E3MDZtVmtFU2FOLVJCUEpQWW5UblVsaUIyWlQtYm44VkFpcmtUOUhtSzljbk8zQWh2VzZIMEpHak53QlZRYlFtc09lUVNCb3Y2NWRvNi1Xcmt0Slh6WXJITXp1QlJaXzZSdm8zNGhRdkF2QW8wUnl1eElXakRhWGdrYUJaVzBDOG5iRFVmV2ZVX3U0dXQ0VQ?oc=5",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Nobia-aandelen kelderen 19% door winstdaling en negatieve cashflow in Q3 - Investing.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUFJZUdJeC12WnBnVG5Md2dfRkUwTWVhQ2daNDJFMlJIZjRwbWIteW1kRDdwU0YwSkNLTFE0alpydGZwc0UyR01wWUVCRDlsNE5rOGRhTnBLMjRyeXAtYlkwbW5UcTc4T0ZmQ2hOMXBnc2xTUmRVR0RkVG5maWpWR21GNlpiMERVLWgtRUhWa0p1cThJQnlUY2xjeGVSVHBrRVhTZm5nLWphbGdCU1dzWmZrZnl3am8?oc=5",
-      "category": "Finance & CFO"
-    },
-    {
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
       "category": "IT & technologie"
     },
     {
-      "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-      "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
       "category": "IT & technologie"
     },
     {
-      "title": "Meta acquires AI coding startup Conductor",
-      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
       "category": "IT & technologie"
     },
     {
-      "title": "Beursupdate: AEX op Wall Street - De AandeelHouder",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX2lVN0NlVC1nd0JvdHRJRF9pdENhMHZjWUlYa3BmZUhIR0l6LVU2dDlTTHJCaDdrWUJJdC1vc3Q0SjhZeGZjZTV1ZldpOUZlSEo3ZHZXZnBKbEEtemY2bDZybl9xcUt4Uy1Na2Y4X3ROUGhsRzZkS2FhZUlwQnhJeWlOMktBR0d1WjRqZg?oc=5",
+      "title": "Opinion | There’s No Such Thing as a Stock-Market Bubble",
+      "url": "https://www.wsj.com/opinion/theres-no-such-thing-as-a-stock-market-bubble-159ea117?mod=rss_markets_main",
       "category": "Beleggen & economie"
     },
     {
-      "title": "This year’s worst-performing S&P 500 stock is finally seeing some major relief",
-      "url": "https://www.marketwatch.com/story/this-years-worst-performing-s-p-500-stock-is-finally-seeing-some-major-relief-fff3fa85?mod=mw_rss_topstories",
+      "title": "Healthcare Stocks Caught Up in Market Selloff",
+      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-5-9-dragged-by-chip-stocks-d8937761?mod=rss_markets_main",
       "category": "Beleggen & economie"
     },
     {
-      "title": "Figma’s stock dips as investors worry that AI momentum is coming at a high price",
-      "url": "https://www.marketwatch.com/story/figmas-stock-falls-as-investors-worry-that-ai-momentum-is-coming-at-a-high-price-1aa2134d?mod=mw_rss_topstories",
+      "title": "AI Stocks Rebound After Brutal Week for Nasdaq",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-steady-after-asian-ai-rout-as-investors-brace-for-jobs-day-83415c52?mod=rss_markets_main",
       "category": "Beleggen & economie"
     },
     {
-      "title": "Meerderheid vinden voor belastingplan blijft complexe puzzel voor minderheidskabinet",
-      "url": "https://nos.nl/l/2638075",
+      "title": "Kabinet wil strengere regels voor detacheren arbeidsmigrant vanuit ander EU-land",
+      "url": "https://nos.nl/l/2638357",
       "category": "Nederland & wereld"
     },
     {
-      "title": "Van Oekraïne tot Iran: overwinning Democraten zal wereldwijd impact hebben",
-      "url": "https://nos.nl/l/2638064",
+      "title": "Jetten over kritiek van Rode Lijn: 'Nederland steekt wel degelijk de nek uit'",
+      "url": "https://nos.nl/l/2638326",
       "category": "Nederland & wereld"
-    },
-    {
-      "title": "Programma schaatsen wereldbeker World Cup 1 Beijing (Peking) - Schaatsgekkies",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTXhnMHRKd1BXMTNkVUlxX3NGZV9CWk90YXU5YkxBT2x2aEE2QU1KamMtSTNlam1qQnZkTmhxNlYyRmk2THZYRXVUWnZKNk5OWXBVVTIxek9hVk1aaUNweXpBUnZSLV9xb0NfYTN3SDl5YVR1eGRxa1d3UWNRRmFnaHVUb2ZYejZ3SGdNT1pubFY1eVVySlNaaHZialM1elp6RVRBdk1vUzQ1OWN0NHYtTHY3SXNrRGVPREFxaDUyQlBQRm9KNjB6TlJB?oc=5",
-      "category": "Sport"
-    },
-    {
-      "title": "IJshockey: NHL nu kijken of gemist? - TVgids.nl",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxanQ0NDY3dHY2bl9DYjlPZkhxMlJTTVh4R3VnMHV3WWdycThSR2w2VFFwUkVMT1pLeUJtU2Fqamg1NTdyUUV6anhVZXduMU9GODRDQ3RrTDRoYVJyOTlHMktwbmJzY0taQ2E0?oc=5",
-      "category": "Sport"
-    },
-    {
-      "title": "New York Marathon 2026: Zweedse sensatie Almgren wint bij debuut, Chepkirui herovert de titel - RunningNL",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdENFemNoeXpac00yUTN4V1d5d2ZwOEgxX29pekwyQUJocmtUdEVfWWMyR0ZDWjVYb2RTXzNVLWZYa0FtdnRrZlMtVU04UG8zUVB6MlpOdjFOTmJPSWNuSFNXMWlRNWNYZFBIOGF6OGROaDRtMzdRSXlKLTByMS05c1RqNVhodHBWRlFYWUdFemZtbWRsUDNHU0NQZDdDaUFJUExMOENmT2YwV0EwdVVVMA?oc=5",
-      "category": "Sport"
     }
   ]
 }
