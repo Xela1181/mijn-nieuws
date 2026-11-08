@@ -86,9 +86,9 @@ def main():
         if x.get("episode_id") and not any(s["id"] == x["episode_id"] for s in seen):
             seen.append({"id": x["episode_id"], "date": x["date"]})
     # Reject stale recommendations, including an existing recommendation for today.
-    history = [x for x in history if x.get("published") and
-               (lambda age: -1 <= age <= 3)((dt.datetime.now(dt.timezone.utc) -
-               dt.datetime.fromisoformat(x["published"])).total_seconds() / 86400)]
+    history = [x for x in history if x.get("date") != today.isoformat() or
+               (x.get("published") and (lambda age: -1 <= age <= 3)(
+                (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(x["published"])).total_seconds() / 86400))]
     if any(x["date"] == today.isoformat() for x in history):
         print("Today's recommendation already exists; preserving the daily choice.")
     else:
