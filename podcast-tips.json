@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-08T04:12:09.552498+00:00",
+  "updated": "2026-11-08T05:50:08.289063+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Caution: Men NOT at Work",
+      "description": "An increasing number of men are dropping out of the workforce. What’s behind this trend and can anything be done about it? Fact checking by Leyla Doss. Your Next Listen – What's going on with men's labor force participation? –Over 2,000 episodes in our archive on the NPR App Conn",
+      "url": "https://www.npr.org/2026/11/06/nx-s1-6032597/caution-men-not-at-work",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Caution%3A%20Men%20NOT%20at%20Work",
+      "published": "2026-11-06T15:35:42+00:00",
+      "episode_id": "The Indicator from Planet Money|caution: men not at work",
+      "date": "2026-11-08"
+    },
     {
       "podcast": "Hard Fork",
       "title": "Why the Tech Right Lost Big This Week",
@@ -96,6 +107,10 @@
     {
       "id": "Hard Fork|are we in an a.i. bubble? we're about to find out.",
       "date": "2026-11-02"
+    },
+    {
+      "id": "The Indicator from Planet Money|caution: men not at work",
+      "date": "2026-11-08"
     }
   ]
 }
