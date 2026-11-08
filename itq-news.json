@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08T05:31:31.064248+00:00",
   "articles": [
+    {
+      "category": "ITQ Nieuws",
+      "source": "Google Nieuws",
+      "title": "ITQ lanceert ITQ Cloud Platform: een volledig beheerde private cloud voor Europa - itq.eu",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb25ScXRsQ1hOYXd3UVNsRHZRczRaNUxteHdzSlZ1TTJqQ1cxdldianh2ZEdBM3pfWGo4MVhRMkFkU0gxbFk3Y1d0U0Fndm1rdEh0emczaTZYRnlLd0UxZk5KSGZQZzlNNlhoRmpKbFJDd1E5UlZmeTVNeE9acFNodGVpcnBtQ1RFQVVqc3lveWFxWnFFdThfamJleXpBWW8?oc=5",
+      "summary": "ITQ lanceert ITQ Cloud Platform: een volledig beheerde private cloud voor Europa itq.eu",
+      "published": "2026-10-16T07:00:00+00:00"
+    },
+    {
+      "category": "ITQ Nieuws",
+      "source": "Google Nieuws",
+      "title": "ITQ Cloud Platform: de soevereine private cloud | ITQ Private Cloud Café podcast - itq.eu",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczhKMFZtMlFCMmw0LXVWcWFhZzdpb013LUpDbDd0eGg1eWJRSmFWVHh0VGtkTUtfZkJoRjNNUnVYc3lVNDQtRFctd2FWc3N0N2JXQ3lRX3dSNExlQ0RpcEVqaTBJdWFuYXdLbXphZy0zcll4WEUwLVVlZ0d1TkZXclBrMmxnQmw5blA5dXdUMDJHU1JDRnl2WTBRQkxfODdp?oc=5",
+      "summary": "ITQ Cloud Platform: de soevereine private cloud | ITQ Private Cloud Café podcast itq.eu",
+      "published": "2026-09-17T07:00:00+00:00"
+    },
+    {
+      "category": "ITQ Nieuws",
+      "source": "Google Nieuws",
+      "title": "Ivanti Workspace Control stopt op 31 december 2026 - itq.eu",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EWUhndl91aDN4RzNvbzc4LU80TEw5UWQxbEY1eUFMUFFUWGY0d0pkS2JBM0c3RFYzLUJjbEJmTm5EdjhicUZvSzJEemtfLTlzMGdHZ0RaNlVHRWwwUXJpbFVsOWJaTzZDb3dodi1OZDU2SDJ0allydg?oc=5",
+      "summary": "Ivanti Workspace Control stopt op 31 december 2026 itq.eu",
+      "published": "2026-08-19T21:33:06+00:00"
+    },
+    {
+      "category": "ITQ Nieuws",
+      "source": "Google Nieuws",
+      "title": "Ivanti Workspace Control End-of-Life: jouw migratieroute naar Omnissa DEM | ITQonversations - itq.eu",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdmtseklVSlEtaVI5eWdmRkxTcTVieDRmYTlndHc4QkhBckJkWjd4dFRIQkh2NVU5UnotU2p5NVY2bUZLOHk2Nm10bV9fLVVxYVB6cUpPNlNmRzN3c3NuSWVWaXNsa3lNT3YzeTNHLVJEQmZCcmJtV1dabDFmMGs0NGpTOTRTNllOZFFUNkZrT0E1Tm1KNncxeHMwYlE0ek01bm1KUEhYajFCc05aazNF?oc=5",
+      "summary": "Ivanti Workspace Control End-of-Life: jouw migratieroute naar Omnissa DEM | ITQonversations itq.eu",
+      "published": "2026-08-18T07:00:00+00:00"
+    },
     {
       "category": "ITQ Nieuws",
       "source": "Techzine",
@@ -10,5 +42,6 @@
       "published": "",
       "date_unknown": true
     }
-  ]
+  ],
+  "errors": []
 }
