@@ -70,13 +70,25 @@ def episodes(name, url, weight):
 def main():
     today = dt.datetime.now(ZoneInfo("Europe/Amsterdam")).date()
     history = []
+    seen = []
     if OUT.exists():
         try:
-            history = json.loads(OUT.read_text(encoding="utf-8")).get("tips", [])
+            saved = json.loads(OUT.read_text(encoding="utf-8"))
+            history = saved.get("tips", [])
+            seen = saved.get("seen", [])
         except (ValueError, OSError, AttributeError):
             pass
     history = [x for x in history if isinstance(x, dict) and x.get("date") and
                0 <= (today - dt.date.fromisoformat(x["date"])).days < 7]
+    seen = [x for x in seen if isinstance(x, dict) and x.get("id") and x.get("date") and
+            0 <= (today - dt.date.fromisoformat(x["date"])).days < 60]
+    for x in history:
+        if x.get("episode_id") and not any(s["id"] == x["episode_id"] for s in seen):
+            seen.append({"id": x["episode_id"], "date": x["date"]})
+    # Reject stale recommendations, including an existing recommendation for today.
+    history = [x for x in history if x.get("published") and
+               (lambda age: -1 <= age <= 3)((dt.datetime.now(dt.timezone.utc) -
+               dt.datetime.fromisoformat(x["published"])).total_seconds() / 86400)]
     if any(x["date"] == today.isoformat() for x in history):
         print("Today's recommendation already exists; preserving the daily choice.")
     else:
@@ -88,12 +100,12 @@ def main():
                 print(f"{name}: {len(got)} episodes")
             except Exception as exc:
                 print(f"{name}: {type(exc).__name__}: {exc}")
-        used = {x.get("episode_id") for x in history}
+        used = {x["id"] for x in seen}
         now = dt.datetime.now(dt.timezone.utc)
         ranked = []
         for x in candidates:
             age = (now - dt.datetime.fromisoformat(x["published"])).total_seconds() / 86400
-            if age < -1 or age > 14:
+            if age < -1 or age > 3:
                 continue
             episode_id = x["podcast"] + "|" + x["title"].casefold()
             if episode_id in used:
@@ -109,11 +121,12 @@ def main():
             selected["episode_id"] = episode_id
             selected["date"] = today.isoformat()
             history.append(selected)
+            seen.append({"id": episode_id, "date": today.isoformat()})
             print("Selected:", selected["podcast"], selected["title"])
         else:
             print("No verified fresh episode available; no fabricated recommendation.")
     history.sort(key=lambda x: x["date"], reverse=True)
     OUT.write_text(json.dumps({"updated": dt.datetime.now(dt.timezone.utc).isoformat(),
-                                "tips": history[:7]}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                                "tips": history[:7], "seen": seen}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 if __name__ == "__main__":
     main()
