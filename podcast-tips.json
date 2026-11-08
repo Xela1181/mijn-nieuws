@@ -2,17 +2,6 @@
   "updated": "2026-11-08T04:12:09.552498+00:00",
   "tips": [
     {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Is it time to abolish the MBA?",
-      "description": "Does business school fix the world? Or does it just churn out consultants, bankers and tech workers? A professor and a dean debate the value of the modern-day MBA. Fact checking by Sierra Juarez . Your Next Listen –– Are small town colleges going extinct? ––Over 2,000 episodes in",
-      "url": "https://www.npr.org/2026/10/28/nx-s1-6019698/is-it-time-to-abolish-the-mba",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Is%20it%20time%20to%20abolish%20the%20MBA%3F",
-      "published": "2026-10-28T07:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|is it time to abolish the mba?",
-      "date": "2026-11-08"
-    },
-    {
       "podcast": "Hard Fork",
       "title": "Why the Tech Right Lost Big This Week",
       "description": "After watching the historic election results on Tuesday night, we sat down with Erin Griffith and Ezra Klein to make sense of what they mean for the tech industry. We talk about the role of anti-A.I. and anti-data-center sentiment, backlash against billionaires and whether Silico",
@@ -76,6 +65,36 @@
       "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20Are%20We%20in%20an%20A.I.%20Bubble%3F%20We%27re%20About%20to%20Find%20Out.",
       "published": "2026-10-30T10:00:00+00:00",
       "episode_id": "Hard Fork|are we in an a.i. bubble? we're about to find out.",
+      "date": "2026-11-02"
+    }
+  ],
+  "seen": [
+    {
+      "id": "The Indicator from Planet Money|is it time to abolish the mba?",
+      "date": "2026-11-08"
+    },
+    {
+      "id": "Hard Fork|why the tech right lost big this week",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "The Indicator from Planet Money|can anthropic make enough money to justify its value?",
+      "date": "2026-11-06"
+    },
+    {
+      "id": "The Indicator from Planet Money|will ai take my job? ask an economist!",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "The Indicator from Planet Money|is it time to reconsider the adjustable rate mortgage?",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "The Indicator from Planet Money|why meta is giving you muse for free",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "Hard Fork|are we in an a.i. bubble? we're about to find out.",
       "date": "2026-11-02"
     }
   ]
