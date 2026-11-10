@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-09T05:04:13.204367+00:00",
+  "updated": "2026-11-10T04:10:27.052114+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Why data centers and Musk lost but billionaires won the midterms",
+      "description": "After last week's midterm elections, there are quite a few economic indicators to watch – from data centers to California billionaires. Who won, who lost, and why it matters. Fact checking by Leyla Doss. Your Next Listen – How taxing the wealthy could work –Over 2,000 episodes in",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6032779/why-data-centers-and-musk-lost-but-billionaires-won-the-midterms",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Why%20data%20centers%20and%20Musk%20lost%20but%20billionaires%20won%20the%20midterms",
+      "published": "2026-11-09T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|why data centers and musk lost but billionaires won the midterms",
+      "date": "2026-11-10"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Caution: Men NOT at Work",
@@ -55,17 +66,6 @@
       "published": "2026-11-03T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|is it time to reconsider the adjustable rate mortgage?",
       "date": "2026-11-04"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Why Meta is giving you Muse for free",
-      "description": "Meta’s new AI agent Muse is one of the fastest-growing apps ever. It’s a big bet from a company spending billions to win the AI race. But what is the real cost of using this powerful, free AI product? Fact checking by Sierra Juarez . Your Next Listen – SNAP strains, youth basebal",
-      "url": "https://www.npr.org/2026/10/27/nx-s1-6018569/why-meta-is-giving-you-muse-for-free",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Why%20Meta%20is%20giving%20you%20Muse%20for%20free",
-      "published": "2026-10-27T07:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|why meta is giving you muse for free",
-      "date": "2026-11-03"
     }
   ],
   "seen": [
@@ -100,6 +100,10 @@
     {
       "id": "The Indicator from Planet Money|caution: men not at work",
       "date": "2026-11-08"
+    },
+    {
+      "id": "The Indicator from Planet Money|why data centers and musk lost but billionaires won the midterms",
+      "date": "2026-11-10"
     }
   ]
 }
