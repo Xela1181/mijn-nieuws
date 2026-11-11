@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-10T05:54:57.592588+00:00",
+  "updated": "2026-11-11T04:16:29.038196+00:00",
   "tips": [
+    {
+      "podcast": "Hard Fork",
+      "title": "The Jensen Huang Affair",
+      "description": "Jensen Huang, the chief executive of Nvidia, has admitted to an affair with a top executive at the data center company Megaspeed — a woman going by the name of Alice Huang who the U.S. government alleges is a Chinese spy. In this special midweek episode of “Hard Fork,” we sit dow",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20The%20Jensen%20Huang%20Affair",
+      "published": "2026-11-10T11:00:00+00:00",
+      "episode_id": "Hard Fork|the jensen huang affair",
+      "date": "2026-11-11"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Why data centers and Musk lost but billionaires won the midterms",
@@ -55,17 +66,6 @@
       "published": "2026-11-04T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|will ai take my job? ask an economist!",
       "date": "2026-11-05"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Is it time to reconsider the adjustable rate mortgage?",
-      "description": "High mortgage rates are nudging some aspiring homeowners to consider adjustable-rate mortgages over the standard 30-year fixed-rate option. Are ARMs the better choice in today’s economy? Fact checking by Sierra Juarez . Your Next Listen – When mortgage rates are too low to give u",
-      "url": "https://www.npr.org/2026/11/03/nx-s1-6026712/is-it-time-to-reconsider-the-adjustable-rate-mortgage",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Is%20it%20time%20to%20reconsider%20the%20adjustable%20rate%20mortgage%3F",
-      "published": "2026-11-03T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|is it time to reconsider the adjustable rate mortgage?",
-      "date": "2026-11-04"
     }
   ],
   "seen": [
@@ -104,6 +104,10 @@
     {
       "id": "The Indicator from Planet Money|why data centers and musk lost but billionaires won the midterms",
       "date": "2026-11-10"
+    },
+    {
+      "id": "Hard Fork|the jensen huang affair",
+      "date": "2026-11-11"
     }
   ]
 }
