@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-12T04:14:59.413925+00:00",
+  "updated": "2026-11-13T04:14:43.850193+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Should personal finance be part of the liberal arts?",
+      "description": "We take you inside an AP personal finance class in Alabama where students are learning about Roth IRAs and compound interest. As states add personal finance classes, should business be more woven into the liberal arts? Fact checking by Sierra Juarez . Your Next Listen – New colle",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6037729/should-personal-finance-be-part-of-the-liberal-arts",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Should%20personal%20finance%20be%20part%20of%20the%20liberal%20arts%3F",
+      "published": "2026-11-12T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|should personal finance be part of the liberal arts?",
+      "date": "2026-11-13"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "So … is the stock market the economy now?",
@@ -55,17 +66,6 @@
       "published": "2026-11-06T11:00:00+00:00",
       "episode_id": "Hard Fork|why the tech right lost big this week",
       "date": "2026-11-07"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Can Anthropic make enough money to justify its value?",
-      "description": "Anthropic released its financials to the public as the AI juggernaut prepares for its highly anticipated IPO. So what do these numbers reveal about the future of the AI economy? Fact checking by Leyla Doss. Your Next Listen – Why Oracle's debt load could be your problem –Over 2,0",
-      "url": "https://www.npr.org/2026/11/05/nx-s1-6029778/can-anthropic-make-enough-money-to-justify-its-value",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Can%20Anthropic%20make%20enough%20money%20to%20justify%20its%20value%3F",
-      "published": "2026-11-05T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|can anthropic make enough money to justify its value?",
-      "date": "2026-11-06"
     }
   ],
   "seen": [
@@ -112,6 +112,10 @@
     {
       "id": "The Indicator from Planet Money|so … is the stock market the economy now?",
       "date": "2026-11-12"
+    },
+    {
+      "id": "The Indicator from Planet Money|should personal finance be part of the liberal arts?",
+      "date": "2026-11-13"
     }
   ]
 }
