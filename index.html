@@ -1,12 +1,12 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mijn Dashboard</title><style>
 :root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#18223f;background:#f2f5fb}*{box-sizing:border-box}body{margin:0}header{background:#1b1d3d;color:white;padding:22px max(20px,calc((100vw - 1080px)/2))}header h1{margin:0;font-size:26px}header p{margin:8px 0 0;color:#d9e1f5}main{max-width:1100px;margin:auto;padding:28px 18px}h2{font-size:23px;margin:10px 0}p.muted,.muted{color:#667390;font-size:14px}.tabs,.filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}button,.button{background:#fff;border:1px solid #ccd7ef;border-radius:10px;padding:12px 15px;color:#182c58;cursor:pointer;font:inherit;text-decoration:none;display:inline-block}button.active{background:#3c5e9e;color:white;border-color:#3c5e9e}.panel{background:white;border:1px solid #d9e2f1;border-radius:15px;padding:22px;margin:14px 0}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.article{background:#fff;border:1px solid #d9e2f1;border-radius:15px;padding:20px;min-height:235px;overflow-wrap:anywhere}.article h3{font-size:18px;margin:12px 0}.article p{line-height:1.55}.tag{font-size:12px;background:#edf2fa;color:#3c5e9e;padding:6px 8px;border-radius:6px;display:inline-block}.meta{color:#64728c;font-size:12px}.article a{color:#345da6}.search{width:100%;padding:13px;border:1px solid #ccd7ef;border-radius:9px;font:inherit}section[hidden]{display:none!important}.notice{padding:15px;background:#fff8e7;border:1px solid #f1d49b;border-radius:10px;margin:16px 0}.quicklinks{display:flex;flex-wrap:wrap;gap:10px}.todoitem{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid #e7ebf4}.todoitem span{flex:1;overflow-wrap:anywhere}.todoitem.done span{text-decoration:line-through;color:#667390}.todoitem button{padding:6px 10px}.pod{display:flex;flex-direction:column;gap:10px}.pod a{color:#2454a0}.footer{font-size:12px;color:#64728c;margin:30px 0}.stats{font-size:13px;color:#61708c}a:focus,button:focus,input:focus{outline:2px solid #4a6fb4;outline-offset:2px}@media(max-width:820px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){.grid{grid-template-columns:1fr}main{padding:18px 12px}.panel{padding:15px}header{padding:20px 15px}}
-</style></head><body><header><h1>▣ Mijn Dashboard</h1><p>Jouw dagelijkse tips en inspiratie</p></header><main><h2>Goedemorgen! Jouw dagelijkse inspiratie</h2><p class="muted" id="updated" hidden></p><nav class="tabs" aria-label="Hoofdmenu"><button class="active" data-tab="home">Mijn dag</button><button data-tab="itq">ITQ Nieuws</button><button data-tab="aitip">AI-tip Finance</button><button data-tab="english">Business English</button><button data-tab="podcasts">Boeken & podcasts</button><button data-tab="backlog">Backlog</button></nav>
+</style></head><body><header><h1>▣ Mijn Dashboard</h1><p>Jouw dagelijkse tips en inspiratie</p></header><main><h2>Goedemorgen! Jouw dagelijkse inspiratie</h2><p class="muted" id="updated" hidden></p><nav class="tabs" aria-label="Hoofdmenu"><button class="active" data-tab="home">Mijn dag</button><button data-tab="itq">ITQ Nieuws</button><button data-tab="aitip">AI-tip Finance</button><button data-tab="english">Business English</button><button data-tab="podcasts">Podcasts</button><button data-tab="books">Boeken</button><button data-tab="backlog">Backlog</button></nav>
 
 
 <section id="home"><div class="panel"><h3>Mijn persoonlijke dag</h3><p class="muted">Je taken worden alleen in de browser van dit apparaat bewaard. Gebruik geen gevoelige gegevens; bij het wissen van websitegegevens kunnen je taken verdwijnen.</p><form id="todoform" style="display:flex;gap:8px;flex-wrap:wrap"><input id="todotext" class="search" style="flex:1;min-width:180px" maxlength="160" placeholder="Nieuwe persoonlijke taak…" aria-label="Nieuwe taak" required><button type="submit">Toevoegen</button></form><p class="stats" id="todocount"></p><div id="todolist"></div><button id="clearcompleted" type="button">Voltooide taken verwijderen</button></div><div class="panel"><h3>Mijn sport & agenda</h3><p class="muted">Snelkoppelingen naar je eigen apps. We halen geen sport- of agendagegevens op en slaan die niet op.</p><div class="quicklinks"><a class="button" href="https://www.strava.com/dashboard" target="_blank" rel="noopener noreferrer">🏃 Strava openen</a><a class="button" href="https://flow.polar.com/" target="_blank" rel="noopener noreferrer">⌚ Polar Flow openen</a><a class="button" href="calshow://">📅 Apple Agenda openen</a></div><p class="muted">Op iPhone kan de Agenda-knop de Agenda-app openen; als je browser dit niet ondersteunt, open je Agenda rechtstreeks op je toestel.</p></div></section><section id="itq" hidden><div class="panel"><h3>ITQ in het nieuws</h3><p class="muted">Openbare berichten over ITQ, ITQ Consultancy en ITQ-partners. Alleen relevante resultaten worden hier getoond.</p></div><div class="grid" id="itqgrid"><p class="muted">ITQ-berichten laden…</p></div></section><section id="aitip"><div class="panel"><h3>AI-tip voor Finance van vandaag</h3><p class="muted">Dagelijks een praktische toepassing voor ChatGPT, Claude of andere AI-tools. Praktische tips voor internationaal Finance Management en ontwikkeling richting CFO. De tips roteren dagelijks; ze zijn geen live AI-productnieuws en gebruiken geen privégesprekken of vertrouwelijke bedrijfsgegevens.</p><div id="tipcontent"></div></div></section>
 
 <section id="english" hidden><div class="panel"><h3>Business English · spreken en woordenschat</h3><div id="dailyenglish"></div><p class="muted">Geen schrijfopdrachten; gericht op spreken en woordenschat.</p></div></section>
-<section id="podcasts" hidden><div class="panel"><h3>Podcasts · luisteren via Spotify</h3><p class="muted">Dagelijks één bestaande aflevering, met een link naar de uitgever en een Spotify-zoeklink. Een rechtstreekse Spotify-afleveringslink verschijnt alleen als deze bevestigd is. De laatste zeven dagen blijven zichtbaar.</p><div id="episodeoftheday"></div></div><div class="panel"><h3>Boekentip van de dag</h3><div id="bookoftheday"></div><h4>Laatste zeven boekentips</h4><div id="bookhistory"></div></div></section>
+<section id="podcasts" hidden><div class="panel"><h3>Podcasts · luisteren via Spotify</h3><p class="muted">Dagelijks één bestaande aflevering, met een link naar de uitgever en een Spotify-zoeklink. Een rechtstreekse Spotify-afleveringslink verschijnt alleen als deze bevestigd is. De laatste zeven dagen blijven zichtbaar.</p><div id="episodeoftheday"></div></div></section><section id="books" hidden><div class="panel"><h3>Boekentips</h3><p class="muted">Elke week een nieuwe aanbeveling. Een titel komt pas na minimaal zes kalendermaanden opnieuw aan bod.</p><div id="bookoftheday"></div><h4>Eerdere aanbevelingen</h4><div id="bookhistory"></div></div></section>
 
 <section id="backlog" hidden><div class="panel"><h3>Ideeën voor later</h3><p class="muted">Een overzicht van mogelijke uitbreidingen. Dit is een ideeënlijst, geen planning. De twee vaste ideeën staan in het dashboard; ideeën die je zelf toevoegt worden alleen lokaal op dit apparaat bewaard.</p><div class="article" style="min-height:auto;margin:12px 0"><span class="tag">Later onderzoeken</span><h3>Nieuwsvideo</h3><p>Een korte dagelijkse nieuwsupdate in videoformaat, passend bij de selectie in Mijn Dashboard. Eerst bekijken of dit praktisch en gratis kan.</p></div><div class="article" style="min-height:auto;margin:12px 0"><span class="tag">Later onderzoeken</span><h3>Stappenteller · Apple Gezondheid</h3><p>Dagelijkse stappen automatisch in het dashboard tonen, zonder handmatig kopiëren. Alleen oppakken als een betrouwbare, gratis koppeling mogelijk is die ook werkt via het iPhone-beginscherm.</p></div><h3>Eigen ideeën</h3><form id="backlogform" style="display:flex;gap:8px;flex-wrap:wrap"><input id="backlogtext" class="search" style="flex:1;min-width:180px" maxlength="220" placeholder="Nieuw idee voor later…" aria-label="Nieuw backlogidee" required><button type="submit">Idee toevoegen</button></form><div id="backloglist"></div></div></section>
 <p class="footer">Persoonlijk dashboard · taken worden lokaal op dit apparaat opgeslagen; er is geen accountbeveiliging of synchronisatie.</p></main>
@@ -47,26 +47,63 @@ const localDay=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year
 const dayIndex=Math.floor(Date.parse(localDay+'T00:00:00Z')/86400000);
 const ex=englishExercises[dayIndex%englishExercises.length];
 $('#dailyenglish').innerHTML='<h4>'+esc(ex[0])+'</h4><p><strong>Speaking exercise (B2+):</strong> '+esc(ex[1])+'</p><p><strong>Vocabulary:</strong> '+esc(ex[2])+'</p><p class="muted">Speak aloud for 2–3 minutes; focus on clarity, natural phrasing and accurate financial vocabulary.</p>';
-const b=books[dayIndex%books.length];
-const bookDetails=[
-'Een managementroman over een fabriek die ondanks hard werken nauwelijks winst maakt. De hoofdpersoon ontdekt hoe knelpunten de totale prestatie beperken en waarom lokale efficiëntie niet hetzelfde is als een goed bedrijfsresultaat. Relevant voor het verbeteren van processen, capaciteit en cashflow.',
-'Een verhaal over IT, Finance en Operations die samen een vastgelopen organisatie proberen te verbeteren. Het boek laat zien hoe afhankelijkheden, wachtrijen en versnipperde verantwoordelijkheden innovatie vertragen. Interessant voor de samenwerking tussen finance, IT en de business.',
-'Een toegankelijk overzicht van hoe mensen besluiten nemen via snelle intuïtie en langzamere analyse. Het boek behandelt denkfouten, overmoed en risico-inschatting. Relevant bij forecasting, investeringsbesluiten en het kritisch beoordelen van managementaannames.',
-'Richard Rumelt legt uit waarom ambities en doelstellingen nog geen strategie vormen. Goede strategie begint met een scherpe diagnose, een richtinggevende keuze en samenhangende acties. Nuttig voor strategische planning en het toetsen van financiële prioriteiten.',
-'John Doerr beschrijft hoe organisaties doelen vertalen naar meetbare resultaten met OKRs. Met voorbeelden uit bekende bedrijven laat hij zien hoe focus, transparantie en voortgangsmeting samenhangen. Relevant voor KPI-sturing en de uitvoering van strategische plannen.',
-'Morgan Housel onderzoekt waarom gedrag, verwachtingen en persoonlijke ervaringen vaak belangrijker zijn dan financiële kennis. Korte verhalen behandelen risico, vermogensopbouw en de rol van geluk. Interessant voor beleggen en langetermijnbesluitvorming.',
-'Dit boek legt uit hoe resultatenrekening, balans en kasstroomoverzicht samenhangen en hoe managers cijfers kunnen interpreteren. Het bespreekt onder meer winstgevendheid, werkkapitaal en de aannames achter financiële rapportages. Geschikt als praktische basis voor financiële communicatie.'
+// One new book per week; 27 titles ensure a title cannot recur within six calendar months.
+const extraBooks=[
+['The Effective Executive','Peter F. Drucker','Effectiveness, priorities and management'],
+['High Output Management','Andrew S. Grove','Managing teams and operating performance'],
+['The Hard Thing About Hard Things','Ben Horowitz','Leadership under uncertainty'],
+['The Innovator’s Dilemma','Clayton M. Christensen','Disruption and strategic decisions'],
+['The Lean Startup','Eric Ries','Experimentation and measurable learning'],
+['The Five Dysfunctions of a Team','Patrick Lencioni','Teamwork and accountability'],
+['Deep Work','Cal Newport','Focus and knowledge work'],
+['Atomic Habits','James Clear','Habits and sustainable improvement'],
+['The Checklist Manifesto','Atul Gawande','Process reliability and controls'],
+['The Outsiders','William N. Thorndike','Capital allocation and CEO decisions'],
+['The Intelligent Investor','Benjamin Graham','Long-term investing and risk'],
+['A Random Walk Down Wall Street','Burton G. Malkiel','Diversification and market efficiency'],
+['The Little Book of Common Sense Investing','John C. Bogle','Index investing and costs'],
+['Same as Ever','Morgan Housel','Unchanging patterns in risk and behaviour'],
+['The Most Important Thing','Howard Marks','Investment risk and market cycles'],
+['Principles','Ray Dalio','Decision frameworks and organizational principles'],
+['The Culture Map','Erin Meyer','Cross-cultural communication'],
+['Never Split the Difference','Chris Voss with Tahl Raz','Negotiation and communication'],
+['Competing in the Age of AI','Marco Iansiti and Karim R. Lakhani','AI strategy and operating models'],
+['Co-Intelligence','Ethan Mollick','Practical collaboration with AI']
 ];
-const bookInfo=bookDetails[dayIndex%books.length];
-const bookLink='https://www.google.com/search?q='+encodeURIComponent(b[0]+' '+b[1]+' book');
-$('#bookoftheday').innerHTML='<p><strong>'+esc(b[0])+'</strong> — '+esc(b[1])+'</p><p>'+esc(bookInfo)+'</p><p><strong>Onderwerp:</strong> '+esc(b[2])+'</p><p><a href="'+esc(bookLink)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></p>';
-$('#bookhistory').innerHTML=Array.from({length:7},(_,i)=>{
- const index=((dayIndex-i)%books.length+books.length)%books.length;
- const x=books[index];
- const description=bookDetails[index];
- const url='https://www.google.com/search?q='+encodeURIComponent(x[0]+' '+x[1]+' book');
- return '<article class="article" style="min-height:auto;margin:12px 0"><h4>'+esc(x[0])+' — '+esc(x[1])+'</h4><p>'+esc(description)+'</p><p><strong>Onderwerp:</strong> '+esc(x[2])+'</p><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></article>';
-}).join('');
+const allBooks=[...books,...extraBooks];
+const bookDescriptions=[...bookDetails,
+'Een klassieker over prioriteiten stellen, beslissingen nemen en effectief leidinggeven.',
+'Praktische inzichten in operationele sturing, management en teamresultaten.',
+'Leiderschapslessen over moeilijke beslissingen en onzekere situaties.',
+'Over hoe nieuwe technologie bestaande bedrijfsmodellen kan ontwrichten.',
+'Over kleine experimenten, aannames toetsen en leren van resultaten.',
+'Over vertrouwen, conflicten, betrokkenheid en verantwoordelijkheid in teams.',
+'Over geconcentreerd werken in een wereld vol afleiding.',
+'Over het ontwikkelen van kleine, duurzame gewoonten.',
+'Over het belang van checklists en betrouwbare uitvoering van complexe processen.',
+'Over bestuurders die uitblinken in kapitaalallocatie en waardecreatie.',
+'Een klassieke introductie tot waardebeleggen, veiligheidsmarges en risico.',
+'Over financiële markten, beleggen en de waarde van brede spreiding.',
+'Over indexfondsen, langetermijnrendement en het effect van kosten.',
+'Over patronen in menselijk gedrag die bij financiële beslissingen terugkeren.',
+'Over risicobeheer, marktcycli en verstandig beleggen.',
+'Over systematisch beslissen en het expliciet maken van uitgangspunten.',
+'Over samenwerking en communicatie tussen verschillende nationale culturen.',
+'Over luisteren, vragen stellen en onderhandelen onder druk.',
+'Over hoe AI organisaties, processen en concurrentie kan veranderen.',
+'Over het praktisch inzetten van AI als collega, coach en hulpmiddel.'
+];
+const firstBookDay=Math.floor(Date.parse('2026-11-15T00:00:00Z')/86400000);
+const bookWeek=Math.max(0,Math.floor((dayIndex-firstBookDay)/7));
+function bookDate(week){return new Date((firstBookDay+week*7)*86400000).toISOString().slice(0,10)}
+function renderBook(week,latest){
+ const idx=((week%allBooks.length)+allBooks.length)%allBooks.length;
+ const item=allBooks[idx],desc=bookDescriptions[idx];
+ const url='https://www.google.com/search?q='+encodeURIComponent(item[0]+' '+item[1]+' book');
+ return '<article class="article" style="min-height:auto;margin:12px 0"><span class="tag">'+(latest?'Nieuwste tip · ':'')+esc(bookDate(week))+'</span><h3>'+esc(item[0])+'</h3><p><strong>'+esc(item[1])+'</strong> · Engels</p><p>'+esc(desc)+'</p><p><strong>Onderwerp:</strong> '+esc(item[2])+'</p><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></article>';
+}
+$('#bookoftheday').innerHTML=renderBook(bookWeek,true);
+$('#bookhistory').innerHTML=bookWeek===0?'<p class="muted">Nog geen eerdere boekentips in deze reeks.</p>':Array.from({length:Math.min(7,bookWeek)},(_,i)=>renderBook(bookWeek-i-1,false)).join('');
 async function loadAudio(){
   const status=$('#audiostatus'),player=$('#briefingaudio');
   try{
