@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-14T05:50:19.385794+00:00",
+  "updated": "2026-11-15T04:13:18.624539+00:00",
   "tips": [
+    {
+      "podcast": "Hard Fork",
+      "title": "Jensen Huang Is Out at Nvidia",
+      "description": "Jensen Huang is out as chief executive of Nvidia. It’s a stunning fall for one the most powerful figures of the A.I. boom. To make sense of it all, we’re joined by two of the reporters who’ve been leading the coverage for The New York Times, Ana Swanson and Ryan Mac, alongside St",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20Jensen%20Huang%20Is%20Out%20at%20Nvidia",
+      "published": "2026-11-12T23:02:01+00:00",
+      "episode_id": "Hard Fork|jensen huang is out at nvidia",
+      "date": "2026-11-15"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "An inflation scare, workers get their fair share, and Nvidia’s billion-dollar affairs",
@@ -55,17 +66,6 @@
       "published": "2026-11-09T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|why data centers and musk lost but billionaires won the midterms",
       "date": "2026-11-10"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Caution: Men NOT at Work",
-      "description": "An increasing number of men are dropping out of the workforce. What’s behind this trend and can anything be done about it? Fact checking by Leyla Doss. Your Next Listen – What's going on with men's labor force participation? –Over 2,000 episodes in our archive on the NPR App Conn",
-      "url": "https://www.npr.org/2026/11/06/nx-s1-6032597/caution-men-not-at-work",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Caution%3A%20Men%20NOT%20at%20Work",
-      "published": "2026-11-06T15:35:42+00:00",
-      "episode_id": "The Indicator from Planet Money|caution: men not at work",
-      "date": "2026-11-08"
     }
   ],
   "seen": [
@@ -120,6 +120,10 @@
     {
       "id": "The Indicator from Planet Money|an inflation scare, workers get their fair share, and nvidia’s billion-dollar affairs",
       "date": "2026-11-14"
+    },
+    {
+      "id": "Hard Fork|jensen huang is out at nvidia",
+      "date": "2026-11-15"
     }
   ]
 }
