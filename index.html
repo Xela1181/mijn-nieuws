@@ -6,7 +6,7 @@
 <section id="home"><div class="panel"><h3>Mijn persoonlijke dag</h3><p class="muted">Je taken worden alleen in de browser van dit apparaat bewaard. Gebruik geen gevoelige gegevens; bij het wissen van websitegegevens kunnen je taken verdwijnen.</p><form id="todoform" style="display:flex;gap:8px;flex-wrap:wrap"><input id="todotext" class="search" style="flex:1;min-width:180px" maxlength="160" placeholder="Nieuwe persoonlijke taak…" aria-label="Nieuwe taak" required><button type="submit">Toevoegen</button></form><p class="stats" id="todocount"></p><div id="todolist"></div><button id="clearcompleted" type="button">Voltooide taken verwijderen</button></div><div class="panel"><h3>Mijn sport & agenda</h3><p class="muted">Snelkoppelingen naar je eigen apps. We halen geen sport- of agendagegevens op en slaan die niet op.</p><div class="quicklinks"><a class="button" href="https://www.strava.com/dashboard" target="_blank" rel="noopener noreferrer">🏃 Strava openen</a><a class="button" href="https://flow.polar.com/" target="_blank" rel="noopener noreferrer">⌚ Polar Flow openen</a><a class="button" href="calshow://">📅 Apple Agenda openen</a></div><p class="muted">Op iPhone kan de Agenda-knop de Agenda-app openen; als je browser dit niet ondersteunt, open je Agenda rechtstreeks op je toestel.</p></div></section><section id="itq" hidden><div class="panel"><h3>ITQ in het nieuws</h3><p class="muted">Openbare berichten over ITQ, ITQ Consultancy en ITQ-partners. Alleen relevante resultaten worden hier getoond.</p></div><div class="grid" id="itqgrid"><p class="muted">ITQ-berichten laden…</p></div></section><section id="aitip"><div class="panel"><h3>AI-tip voor Finance van vandaag</h3><p class="muted">Dagelijks een praktische toepassing voor ChatGPT, Claude of andere AI-tools. Praktische tips voor internationaal Finance Management en ontwikkeling richting CFO. De tips roteren dagelijks; ze zijn geen live AI-productnieuws en gebruiken geen privégesprekken of vertrouwelijke bedrijfsgegevens.</p><div id="tipcontent"></div></div></section>
 
 <section id="english" hidden><div class="panel"><h3>Business English · spreken en woordenschat</h3><div id="dailyenglish"></div><p class="muted">Geen schrijfopdrachten; gericht op spreken en woordenschat.</p></div></section>
-<section id="podcasts" hidden><div class="panel"><h3>Podcasts · luisteren via Spotify</h3><p class="muted">Dagelijks één bestaande aflevering, met een link naar de uitgever en een Spotify-zoeklink. Een rechtstreekse Spotify-afleveringslink verschijnt alleen als deze bevestigd is. De laatste zeven dagen blijven zichtbaar.</p><div id="episodeoftheday"></div></div></section><section id="books" hidden><div class="panel"><h3>Boekentips</h3><p class="muted">Elke week een nieuwe aanbeveling. Een titel komt pas na minimaal zes kalendermaanden opnieuw aan bod.</p><div id="bookoftheday"></div><h4>Eerdere aanbevelingen</h4><div id="bookhistory"></div></div></section>
+<section id="podcasts" hidden><div class="panel"><h3>Podcasts · luisteren via Spotify</h3><p class="muted">Dagelijks één bestaande aflevering, met een link naar de uitgever en een Spotify-zoeklink. Een rechtstreekse Spotify-afleveringslink verschijnt alleen als deze bevestigd is. De laatste zeven dagen blijven zichtbaar.</p><div id="episodeoftheday"></div></div></section><section id="books" hidden><div class="panel"><h3>Boekentips</h3><p class="muted">Dagelijks één geverifieerde boekentip. De laatste zeven dagen blijven zichtbaar; een titel komt pas na zes kalendermaanden opnieuw aan bod.</p><div id="bookoftheday"></div><h4>Eerdere aanbevelingen</h4><div id="bookhistory"></div></div></section>
 
 <section id="backlog" hidden><div class="panel"><h3>Ideeën voor later</h3><p class="muted">Een overzicht van mogelijke uitbreidingen. Dit is een ideeënlijst, geen planning. De twee vaste ideeën staan in het dashboard; ideeën die je zelf toevoegt worden alleen lokaal op dit apparaat bewaard.</p><div class="article" style="min-height:auto;margin:12px 0"><span class="tag">Later onderzoeken</span><h3>Nieuwsvideo</h3><p>Een korte dagelijkse nieuwsupdate in videoformaat, passend bij de selectie in Mijn Dashboard. Eerst bekijken of dit praktisch en gratis kan.</p></div><div class="article" style="min-height:auto;margin:12px 0"><span class="tag">Later onderzoeken</span><h3>Stappenteller · Apple Gezondheid</h3><p>Dagelijkse stappen automatisch in het dashboard tonen, zonder handmatig kopiëren. Alleen oppakken als een betrouwbare, gratis koppeling mogelijk is die ook werkt via het iPhone-beginscherm.</p></div><h3>Eigen ideeën</h3><form id="backlogform" style="display:flex;gap:8px;flex-wrap:wrap"><input id="backlogtext" class="search" style="flex:1;min-width:180px" maxlength="220" placeholder="Nieuw idee voor later…" aria-label="Nieuw backlogidee" required><button type="submit">Idee toevoegen</button></form><div id="backloglist"></div></div></section>
 <p class="footer">Persoonlijk dashboard · taken worden lokaal op dit apparaat opgeslagen; er is geen accountbeveiliging of synchronisatie.</p></main>
@@ -34,77 +34,28 @@ async function load(){try{let res=await fetch('./daily-selection.json?v='+Date.n
 ['M&A due diligence','Ask three questions about working capital, tax exposure and recurring revenue in an acquisition discussion.','due diligence = boekenonderzoek; exposure = risico'],
 ['Audit committee update','Describe an internal control deficiency, its potential impact and a remediation plan in one minute.','remediation plan = verbeterplan']
 ];
-const books=[
-['The Goal','Eliyahu M. Goldratt','Operational bottlenecks and performance improvement'],
-['The Phoenix Project','Gene Kim, Kevin Behr and George Spafford','IT operations and business flow'],
-['Thinking, Fast and Slow','Daniel Kahneman','Decision-making and cognitive bias'],
-['Good Strategy Bad Strategy','Richard Rumelt','Clear choices and strategic focus'],
-['Measure What Matters','John Doerr','Objectives, key results and execution'],
-['The Psychology of Money','Morgan Housel','Behavioural perspectives on investing'],
-['Financial Intelligence','Karen Berman and Joe Knight','Financial statements and business decisions']
-];
 const localDay=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 const dayIndex=Math.floor(Date.parse(localDay+'T00:00:00Z')/86400000);
 const ex=englishExercises[dayIndex%englishExercises.length];
 $('#dailyenglish').innerHTML='<h4>'+esc(ex[0])+'</h4><p><strong>Speaking exercise (B2+):</strong> '+esc(ex[1])+'</p><p><strong>Vocabulary:</strong> '+esc(ex[2])+'</p><p class="muted">Speak aloud for 2–3 minutes; focus on clarity, natural phrasing and accurate financial vocabulary.</p>';
-// One new book per week; 27 titles ensure a title cannot recur within six calendar months.
-const extraBooks=[
-['The Effective Executive','Peter F. Drucker','Effectiveness, priorities and management'],
-['High Output Management','Andrew S. Grove','Managing teams and operating performance'],
-['The Hard Thing About Hard Things','Ben Horowitz','Leadership under uncertainty'],
-['The Innovator’s Dilemma','Clayton M. Christensen','Disruption and strategic decisions'],
-['The Lean Startup','Eric Ries','Experimentation and measurable learning'],
-['The Five Dysfunctions of a Team','Patrick Lencioni','Teamwork and accountability'],
-['Deep Work','Cal Newport','Focus and knowledge work'],
-['Atomic Habits','James Clear','Habits and sustainable improvement'],
-['The Checklist Manifesto','Atul Gawande','Process reliability and controls'],
-['The Outsiders','William N. Thorndike','Capital allocation and CEO decisions'],
-['The Intelligent Investor','Benjamin Graham','Long-term investing and risk'],
-['A Random Walk Down Wall Street','Burton G. Malkiel','Diversification and market efficiency'],
-['The Little Book of Common Sense Investing','John C. Bogle','Index investing and costs'],
-['Same as Ever','Morgan Housel','Unchanging patterns in risk and behaviour'],
-['The Most Important Thing','Howard Marks','Investment risk and market cycles'],
-['Principles','Ray Dalio','Decision frameworks and organizational principles'],
-['The Culture Map','Erin Meyer','Cross-cultural communication'],
-['Never Split the Difference','Chris Voss with Tahl Raz','Negotiation and communication'],
-['Competing in the Age of AI','Marco Iansiti and Karim R. Lakhani','AI strategy and operating models'],
-['Co-Intelligence','Ethan Mollick','Practical collaboration with AI']
-];
-const allBooks=[...books,...extraBooks];
-const bookDetails=["Een managementroman over knelpunten, procesverbetering en het verschil tussen lokale efficiëntie en bedrijfsresultaat.","Een verhaal over de samenwerking tussen IT, Finance en Operations bij het verbeteren van vastgelopen processen.","Over denkfouten, risico-inschatting en de invloed van intuïtie op financiële beslissingen.","Over het verschil tussen echte strategie, losse doelstellingen en samenhangende acties.","Over het vertalen van strategische doelen naar meetbare resultaten met OKRs.","Over gedrag, verwachtingen en de psychologie achter langetermijnbeleggen.","Over financiële overzichten, winstgevendheid, werkkapitaal en financiële communicatie."];
-const bookDescriptions=[...bookDetails,
-'Een klassieker over prioriteiten stellen, beslissingen nemen en effectief leidinggeven.',
-'Praktische inzichten in operationele sturing, management en teamresultaten.',
-'Leiderschapslessen over moeilijke beslissingen en onzekere situaties.',
-'Over hoe nieuwe technologie bestaande bedrijfsmodellen kan ontwrichten.',
-'Over kleine experimenten, aannames toetsen en leren van resultaten.',
-'Over vertrouwen, conflicten, betrokkenheid en verantwoordelijkheid in teams.',
-'Over geconcentreerd werken in een wereld vol afleiding.',
-'Over het ontwikkelen van kleine, duurzame gewoonten.',
-'Over het belang van checklists en betrouwbare uitvoering van complexe processen.',
-'Over bestuurders die uitblinken in kapitaalallocatie en waardecreatie.',
-'Een klassieke introductie tot waardebeleggen, veiligheidsmarges en risico.',
-'Over financiële markten, beleggen en de waarde van brede spreiding.',
-'Over indexfondsen, langetermijnrendement en het effect van kosten.',
-'Over patronen in menselijk gedrag die bij financiële beslissingen terugkeren.',
-'Over risicobeheer, marktcycli en verstandig beleggen.',
-'Over systematisch beslissen en het expliciet maken van uitgangspunten.',
-'Over samenwerking en communicatie tussen verschillende nationale culturen.',
-'Over luisteren, vragen stellen en onderhandelen onder druk.',
-'Over hoe AI organisaties, processen en concurrentie kan veranderen.',
-'Over het praktisch inzetten van AI als collega, coach en hulpmiddel.'
-];
-const firstBookDay=Math.floor(Date.parse('2026-11-15T00:00:00Z')/86400000);
-const bookWeek=Math.max(0,Math.floor((dayIndex-firstBookDay)/7));
-function bookDate(week){return new Date((firstBookDay+week*7)*86400000).toISOString().slice(0,10)}
-function renderBook(week,latest){
- const idx=((week%allBooks.length)+allBooks.length)%allBooks.length;
- const item=allBooks[idx],desc=bookDescriptions[idx];
- const url='https://www.google.com/search?q='+encodeURIComponent(item[0]+' '+item[1]+' book');
- return '<article class="article" style="min-height:auto;margin:12px 0"><span class="tag">'+(latest?'Nieuwste tip · ':'')+esc(bookDate(week))+'</span><h3>'+esc(item[0])+'</h3><p><strong>'+esc(item[1])+'</strong> · Engels</p><p>'+esc(desc)+'</p><p><strong>Onderwerp:</strong> '+esc(item[2])+'</p><a href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Meer informatie over dit boek ↗</a></article>';
+async function loadBooks(){
+ const current=$('#bookoftheday'),older=$('#bookhistory');
+ try{
+  const response=await fetch('./book-tips.json?v='+Date.now(),{cache:'no-store'});
+  if(!response.ok)throw Error('Book tips unavailable');
+  const data=await response.json();
+  const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Amsterdam',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+  const tips=(Array.isArray(data.tips)?data.tips:[]).filter(b=>{
+   if(!b.date)return false;
+   const days=(Date.parse(today+'T12:00:00Z')-Date.parse(b.date+'T12:00:00Z'))/86400000;
+   return days>=0&&days<7;
+  }).sort((a,b)=>b.date.localeCompare(a.date));
+  const display=(b)=>'<article class="article" style="min-height:auto;margin:12px 0"><span class="tag">'+esc(b.date)+'</span><h3>'+esc(b.title)+'</h3><p><strong>'+esc(b.author)+'</strong> · '+esc(b.year||'Jaar onbekend')+'</p><p>'+esc(b.description||'')+'</p><p><strong>Waarom interessant:</strong> '+esc(b.relevance||'')+'</p><p><a href="'+esc(safeUrl(b.url))+'" target="_blank" rel="noopener noreferrer">Bekijk het boek bij de bron ↗</a></p></article>';
+  current.innerHTML=tips.length?display(tips[0]):'<p class="muted">Nog geen geverifieerde boekentip beschikbaar. De dagelijkse selectie wordt automatisch bijgewerkt.</p>';
+  older.innerHTML=tips.slice(1).map(display).join('')||'<p class="muted">Nog geen eerdere boekentips in de afgelopen zes dagen.</p>';
+ }catch(e){current.innerHTML='<p class="muted">Boekentips zijn tijdelijk niet beschikbaar.</p>';older.innerHTML=''}
 }
-$('#bookoftheday').innerHTML=renderBook(bookWeek,true);
-$('#bookhistory').innerHTML=bookWeek===0?'<p class="muted">Nog geen eerdere boekentips in deze reeks.</p>':Array.from({length:Math.min(7,bookWeek)},(_,i)=>renderBook(bookWeek-i-1,false)).join('');
+loadBooks();
 async function loadAudio(){
   const status=$('#audiostatus'),player=$('#briefingaudio');
   try{
