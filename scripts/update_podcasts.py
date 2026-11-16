@@ -80,14 +80,13 @@ def main():
             pass
     history = [x for x in history if isinstance(x, dict) and x.get("date") and
                0 <= (today - dt.date.fromisoformat(x["date"])).days < 7]
-    seen = [x for x in seen if isinstance(x, dict) and x.get("id") and x.get("date") and
-            0 <= (today - dt.date.fromisoformat(x["date"])).days < 60]
+    seen = [x for x in seen if isinstance(x, dict) and x.get("id") and x.get("date")]
     for x in history:
         if x.get("episode_id") and not any(s["id"] == x["episode_id"] for s in seen):
             seen.append({"id": x["episode_id"], "date": x["date"]})
     # Reject stale recommendations, including an existing recommendation for today.
     history = [x for x in history if x.get("date") != today.isoformat() or
-               (x.get("published") and (lambda age: -1 <= age <= 3)(
+               (x.get("published") and (lambda age: -0.1 <= age <= 3)(
                 (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(x["published"])).total_seconds() / 86400))]
     if any(x["date"] == today.isoformat() for x in history):
         print("Today's recommendation already exists; preserving the daily choice.")
@@ -105,7 +104,7 @@ def main():
         ranked = []
         for x in candidates:
             age = (now - dt.datetime.fromisoformat(x["published"])).total_seconds() / 86400
-            if age < -1 or age > 3:
+            if age < -0.1 or age > 3:
                 continue
             episode_id = x["podcast"] + "|" + x["title"].casefold()
             if episode_id in used:
