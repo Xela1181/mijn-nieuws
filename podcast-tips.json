@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-16T05:33:16.370958+00:00",
+  "updated": "2026-11-17T04:14:34.152749+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Three influencer types and how they generate money",
+      "description": "Influencers are a pervasive aspect of the creator economy and one of the most desired career paths for young Americans today. But how are these creators making their money? Today, we talk to Stanford researcher, Angèle Christin, about three common archetypes that explain why infl",
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6040377/three-influencer-types-and-how-they-generate-money",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Three%20influencer%20types%20and%20how%20they%20generate%20money",
+      "published": "2026-11-16T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|three influencer types and how they generate money",
+      "date": "2026-11-17"
+    },
     {
       "podcast": "Hard Fork",
       "title": "Jensen Huang Is Out at Nvidia",
@@ -55,17 +66,6 @@
       "published": "2026-11-10T11:00:00+00:00",
       "episode_id": "Hard Fork|the jensen huang affair",
       "date": "2026-11-11"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Why data centers and Musk lost but billionaires won the midterms",
-      "description": "After last week's midterm elections, there are quite a few economic indicators to watch – from data centers to California billionaires. Who won, who lost, and why it matters. Fact checking by Leyla Doss. Your Next Listen – How taxing the wealthy could work –Over 2,000 episodes in",
-      "url": "https://www.npr.org/2026/11/09/nx-s1-6032779/why-data-centers-and-musk-lost-but-billionaires-won-the-midterms",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Why%20data%20centers%20and%20Musk%20lost%20but%20billionaires%20won%20the%20midterms",
-      "published": "2026-11-09T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|why data centers and musk lost but billionaires won the midterms",
-      "date": "2026-11-10"
     }
   ],
   "seen": [
@@ -124,6 +124,10 @@
     {
       "id": "Hard Fork|jensen huang is out at nvidia",
       "date": "2026-11-15"
+    },
+    {
+      "id": "The Indicator from Planet Money|three influencer types and how they generate money",
+      "date": "2026-11-17"
     }
   ]
 }
