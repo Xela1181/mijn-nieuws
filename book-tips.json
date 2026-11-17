@@ -1,21 +1,26 @@
 {
-  "updated": "2026-11-17T06:23:05.984850+00:00",
+  "updated": "2026-11-17T17:35:10.788Z",
   "tips": [
     {
+      "id": "the-coming-wave",
+      "title": "The Coming Wave",
+      "author": "Mustafa Suleyman",
+      "year": 2023,
+      "topic": "AI",
+      "description": "Onderzoekt hoe AI en biotechnologie macht, veiligheid en economie veranderen, en waarom beheersing van deze technologieën lastig is.",
+      "relevance": "Relevant voor strategische keuzes rond AI-governance en risico's.",
+      "url": "https://openlibrary.org/search?q=The%20Coming%20Wave%20Mustafa%20Suleyman",
       "date": "2026-11-17",
-      "book_id": "financialmanagement|raymondbrooks",
-      "title": "Financial Management",
-      "author": "Raymond Brooks",
-      "year": 2009,
-      "topic": "financial management",
-      "description": "Een boek over financial management. Bekijk de bron voor een volledige beschrijving en recensies.",
-      "relevance": "Geselecteerd voor verdieping in Finance, technologie, strategie of persoonlijke ontwikkeling.",
-      "url": "https://openlibrary.org/works/OL20443856W"
+      "book_id": "thecomingwave|mustafasuleyman"
     }
   ],
   "seen": [
     {
       "id": "financialmanagement|raymondbrooks",
+      "date": "2026-11-17"
+    },
+    {
+      "id": "thecomingwave|mustafasuleyman",
       "date": "2026-11-17"
     }
   ]
