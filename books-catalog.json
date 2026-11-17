@@ -1,0 +1,526 @@
+{
+  "version": 1,
+  "curation": "handmatig geselecteerde boeken; Open Library-zoeklink per titel",
+  "books": [
+    {
+      "id": "the-coming-wave",
+      "title": "The Coming Wave",
+      "author": "Mustafa Suleyman",
+      "year": 2023,
+      "topic": "AI",
+      "description": "Onderzoekt hoe AI en biotechnologie macht, veiligheid en economie veranderen, en waarom beheersing van deze technologieën lastig is.",
+      "relevance": "Relevant voor strategische keuzes rond AI-governance en risico's.",
+      "url": "https://openlibrary.org/search?q=The%20Coming%20Wave%20Mustafa%20Suleyman"
+    },
+    {
+      "id": "power-and-prediction",
+      "title": "Power and Prediction",
+      "author": "Ajay Agrawal, Joshua Gans en Avi Goldfarb",
+      "year": 2022,
+      "topic": "AI",
+      "description": "Laat zien dat AI pas grote economische waarde creëert wanneer organisaties processen en besluitvorming opnieuw ontwerpen.",
+      "relevance": "Helpt AI-initiatieven in Finance voorbij losse productiviteitstips te brengen.",
+      "url": "https://openlibrary.org/search?q=Power%20and%20Prediction%20Ajay%20Agrawal%2C%20Joshua%20Gans%20en%20Avi%20Goldfarb"
+    },
+    {
+      "id": "prediction-machines",
+      "title": "Prediction Machines",
+      "author": "Ajay Agrawal, Joshua Gans en Avi Goldfarb",
+      "year": 2018,
+      "topic": "AI",
+      "description": "Verklaart AI vanuit de dalende kosten van voorspellen en de gevolgen daarvan voor bedrijfsprocessen.",
+      "relevance": "Geeft een helder kader voor forecasting en beslisondersteuning.",
+      "url": "https://openlibrary.org/search?q=Prediction%20Machines%20Ajay%20Agrawal%2C%20Joshua%20Gans%20en%20Avi%20Goldfarb"
+    },
+    {
+      "id": "competing-in-the-age-of-ai",
+      "title": "Competing in the Age of AI",
+      "author": "Marco Iansiti en Karim R. Lakhani",
+      "year": 2020,
+      "topic": "AI",
+      "description": "Beschrijft hoe digitale platformen, data en algoritmen de structuur van ondernemingen veranderen.",
+      "relevance": "Interessant voor het opschalen van automatisering en governance.",
+      "url": "https://openlibrary.org/search?q=Competing%20in%20the%20Age%20of%20AI%20Marco%20Iansiti%20en%20Karim%20R.%20Lakhani"
+    },
+    {
+      "id": "the-ai-savvy-leader",
+      "title": "The AI-Savvy Leader",
+      "author": "David De Cremer",
+      "year": 2024,
+      "topic": "AI",
+      "description": "Praktische reflectie op leiderschap, menselijke verantwoordelijkheid en organisatieverandering bij AI.",
+      "relevance": "Helpt bij het verantwoord invoeren van AI binnen teams.",
+      "url": "https://openlibrary.org/search?q=The%20AI-Savvy%20Leader%20David%20De%20Cremer"
+    },
+    {
+      "id": "human-machine",
+      "title": "Human + Machine",
+      "author": "Paul R. Daugherty en H. James Wilson",
+      "year": 2018,
+      "topic": "AI",
+      "description": "Beschrijft hoe medewerkers en intelligente systemen elkaar kunnen versterken in dagelijkse processen.",
+      "relevance": "Biedt inspiratie voor de inrichting van AI-ondersteunde Finance-workflows.",
+      "url": "https://openlibrary.org/search?q=Human%20%2B%20Machine%20Paul%20R.%20Daugherty%20en%20H.%20James%20Wilson"
+    },
+    {
+      "id": "the-alignment-problem",
+      "title": "The Alignment Problem",
+      "author": "Brian Christian",
+      "year": 2020,
+      "topic": "AI",
+      "description": "Onderzoekt waarom AI-systemen niet vanzelf handelen naar menselijke doelen en hoe dat te verbeteren.",
+      "relevance": "Geeft achtergrond voor modelrisico en controles.",
+      "url": "https://openlibrary.org/search?q=The%20Alignment%20Problem%20Brian%20Christian"
+    },
+    {
+      "id": "ai-2041",
+      "title": "AI 2041",
+      "author": "Kai-Fu Lee en Chen Qiufan",
+      "year": 2021,
+      "topic": "AI",
+      "description": "Combineert toekomstverhalen met analyses van mogelijke toepassingen en gevolgen van AI.",
+      "relevance": "Verbreedt het perspectief op technologie buiten de eigen organisatie.",
+      "url": "https://openlibrary.org/search?q=AI%202041%20Kai-Fu%20Lee%20en%20Chen%20Qiufan"
+    },
+    {
+      "id": "the-age-of-ai",
+      "title": "The Age of AI",
+      "author": "Henry Kissinger, Eric Schmidt en Daniel Huttenlocher",
+      "year": 2021,
+      "topic": "AI",
+      "description": "Bespreekt de gevolgen van AI voor kennis, bestuur, veiligheid en menselijke besluitvorming.",
+      "relevance": "Sterk voor het strategische en maatschappelijke AI-perspectief.",
+      "url": "https://openlibrary.org/search?q=The%20Age%20of%20AI%20Henry%20Kissinger%2C%20Eric%20Schmidt%20en%20Daniel%20Huttenlocher"
+    },
+    {
+      "id": "the-master-algorithm",
+      "title": "The Master Algorithm",
+      "author": "Pedro Domingos",
+      "year": 2015,
+      "topic": "AI",
+      "description": "Maakt verschillende stromingen binnen machine learning begrijpelijk voor niet-specialisten.",
+      "relevance": "Nuttig om AI-oplossingen kritischer te beoordelen.",
+      "url": "https://openlibrary.org/search?q=The%20Master%20Algorithm%20Pedro%20Domingos"
+    },
+    {
+      "id": "artificial-intelligence-a-guide-for-thinking-humans",
+      "title": "Artificial Intelligence: A Guide for Thinking Humans",
+      "author": "Melanie Mitchell",
+      "year": 2019,
+      "topic": "AI",
+      "description": "Legt uit wat moderne AI goed kan, waar zij tekortschiet en waarom menselijke intelligentie lastig na te bootsen is.",
+      "relevance": "Biedt een nuchtere basis bij AI-investeringen.",
+      "url": "https://openlibrary.org/search?q=Artificial%20Intelligence%3A%20A%20Guide%20for%20Thinking%20Humans%20Melanie%20Mitchell"
+    },
+    {
+      "id": "the-innovator-s-dilemma",
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton M. Christensen",
+      "year": 1997,
+      "topic": "Strategie",
+      "description": "Verklaart waarom succesvolle bedrijven nieuwe technologieën en marktmodellen vaak te laat omarmen.",
+      "relevance": "Relevant bij strategische transformatie en nieuwe diensten.",
+      "url": "https://openlibrary.org/search?q=The%20Innovator's%20Dilemma%20Clayton%20M.%20Christensen"
+    },
+    {
+      "id": "good-strategy-bad-strategy",
+      "title": "Good Strategy Bad Strategy",
+      "author": "Richard Rumelt",
+      "year": 2011,
+      "topic": "Strategie",
+      "description": "Laat zien hoe een scherpe diagnose, richtinggevende keuze en samenhangende acties een echte strategie vormen.",
+      "relevance": "Bruikbaar voor MT- en Board-besluitvorming.",
+      "url": "https://openlibrary.org/search?q=Good%20Strategy%20Bad%20Strategy%20Richard%20Rumelt"
+    },
+    {
+      "id": "playing-to-win",
+      "title": "Playing to Win",
+      "author": "A.G. Lafley en Roger L. Martin",
+      "year": 2013,
+      "topic": "Strategie",
+      "description": "Biedt een praktisch raamwerk voor waar een organisatie speelt en hoe zij daar wil winnen.",
+      "relevance": "Helpt bij strategische prioritering.",
+      "url": "https://openlibrary.org/search?q=Playing%20to%20Win%20A.G.%20Lafley%20en%20Roger%20L.%20Martin"
+    },
+    {
+      "id": "the-crux",
+      "title": "The Crux",
+      "author": "Richard Rumelt",
+      "year": 2022,
+      "topic": "Strategie",
+      "description": "Benadrukt dat strategie begint bij het identificeren van de belangrijkste oplosbare uitdaging.",
+      "relevance": "Handig voor focus in complexe veranderprogramma's.",
+      "url": "https://openlibrary.org/search?q=The%20Crux%20Richard%20Rumelt"
+    },
+    {
+      "id": "the-strategy-book",
+      "title": "The Strategy Book",
+      "author": "Max McKeown",
+      "year": 2011,
+      "topic": "Strategie",
+      "description": "Introduceert strategie-instrumenten en manieren om keuzes om te zetten in uitvoering.",
+      "relevance": "Praktische inspiratie voor planning en governance.",
+      "url": "https://openlibrary.org/search?q=The%20Strategy%20Book%20Max%20McKeown"
+    },
+    {
+      "id": "measure-what-matters",
+      "title": "Measure What Matters",
+      "author": "John Doerr",
+      "year": 2018,
+      "topic": "Leiderschap",
+      "description": "Beschrijft het gebruik van objectives en key results om doelen meetbaar te maken.",
+      "relevance": "Relevant voor KPI-frameworks en teamdoelstellingen.",
+      "url": "https://openlibrary.org/search?q=Measure%20What%20Matters%20John%20Doerr"
+    },
+    {
+      "id": "high-output-management",
+      "title": "High Output Management",
+      "author": "Andrew S. Grove",
+      "year": 1983,
+      "topic": "Leiderschap",
+      "description": "Behandelt management als een systeem van processen, beslissingen en feedback.",
+      "relevance": "Geeft handvatten voor het organiseren van een effectief Finance-team.",
+      "url": "https://openlibrary.org/search?q=High%20Output%20Management%20Andrew%20S.%20Grove"
+    },
+    {
+      "id": "the-effective-executive",
+      "title": "The Effective Executive",
+      "author": "Peter F. Drucker",
+      "year": 1967,
+      "topic": "Leiderschap",
+      "description": "Richt zich op tijd, prioriteiten, besluitvorming en het leveren van resultaten.",
+      "relevance": "Sterk voor persoonlijke effectiviteit in een brede managementrol.",
+      "url": "https://openlibrary.org/search?q=The%20Effective%20Executive%20Peter%20F.%20Drucker"
+    },
+    {
+      "id": "turn-the-ship-around",
+      "title": "Turn the Ship Around!",
+      "author": "L. David Marquet",
+      "year": 2012,
+      "topic": "Leiderschap",
+      "description": "Laat zien hoe verantwoordelijkheid en besluitvorming lager in een organisatie kunnen worden gelegd.",
+      "relevance": "Interessant voor eigenaarschap en teamontwikkeling.",
+      "url": "https://openlibrary.org/search?q=Turn%20the%20Ship%20Around!%20L.%20David%20Marquet"
+    },
+    {
+      "id": "the-culture-map",
+      "title": "The Culture Map",
+      "author": "Erin Meyer",
+      "year": 2014,
+      "topic": "Leiderschap",
+      "description": "Verklaart verschillen in communicatie, feedback en besluitvorming tussen culturen.",
+      "relevance": "Direct toepasbaar bij samenwerking tussen internationale entiteiten.",
+      "url": "https://openlibrary.org/search?q=The%20Culture%20Map%20Erin%20Meyer"
+    },
+    {
+      "id": "the-five-dysfunctions-of-a-team",
+      "title": "The Five Dysfunctions of a Team",
+      "author": "Patrick Lencioni",
+      "year": 2002,
+      "topic": "Leiderschap",
+      "description": "Beschrijft hoe vertrouwen, conflict, betrokkenheid en aanspreekbaarheid teamresultaten beïnvloeden.",
+      "relevance": "Bruikbaar voor samenwerking in Finance en met lokale teams.",
+      "url": "https://openlibrary.org/search?q=The%20Five%20Dysfunctions%20of%20a%20Team%20Patrick%20Lencioni"
+    },
+    {
+      "id": "thinking-fast-and-slow",
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "year": 2011,
+      "topic": "Besluitvorming",
+      "description": "Legt cognitieve biases en de wisselwerking tussen snelle intuïtie en langzame analyse uit.",
+      "relevance": "Relevant voor forecasts, investeringsbesluiten en risico-inschattingen.",
+      "url": "https://openlibrary.org/search?q=Thinking%2C%20Fast%20and%20Slow%20Daniel%20Kahneman"
+    },
+    {
+      "id": "noise",
+      "title": "Noise",
+      "author": "Daniel Kahneman, Olivier Sibony en Cass R. Sunstein",
+      "year": 2021,
+      "topic": "Besluitvorming",
+      "description": "Onderzoekt ongewenste variatie in beoordelingen en hoe organisaties die kunnen verminderen.",
+      "relevance": "Geeft ideeën voor consistente financiële besluitvorming.",
+      "url": "https://openlibrary.org/search?q=Noise%20Daniel%20Kahneman%2C%20Olivier%20Sibony%20en%20Cass%20R.%20Sunstein"
+    },
+    {
+      "id": "decisive",
+      "title": "Decisive",
+      "author": "Chip Heath en Dan Heath",
+      "year": 2013,
+      "topic": "Besluitvorming",
+      "description": "Biedt technieken om denkfouten te vermijden en betere keuzes te maken.",
+      "relevance": "Nuttig bij scenarioanalyse en investeringsafwegingen.",
+      "url": "https://openlibrary.org/search?q=Decisive%20Chip%20Heath%20en%20Dan%20Heath"
+    },
+    {
+      "id": "superforecasting",
+      "title": "Superforecasting",
+      "author": "Philip E. Tetlock en Dan Gardner",
+      "year": 2015,
+      "topic": "Finance",
+      "description": "Onderzoekt welke gewoonten mensen helpen om nauwkeuriger voorspellingen te maken.",
+      "relevance": "Direct relevant voor rolling forecasts en forecast accuracy.",
+      "url": "https://openlibrary.org/search?q=Superforecasting%20Philip%20E.%20Tetlock%20en%20Dan%20Gardner"
+    },
+    {
+      "id": "financial-intelligence",
+      "title": "Financial Intelligence",
+      "author": "Karen Berman en Joe Knight",
+      "year": 2006,
+      "topic": "Finance",
+      "description": "Maakt financiële verslaggeving, ratio's en de economische betekenis van cijfers toegankelijk.",
+      "relevance": "Interessant als communicatiemiddel richting niet-financiële managers.",
+      "url": "https://openlibrary.org/search?q=Financial%20Intelligence%20Karen%20Berman%20en%20Joe%20Knight"
+    },
+    {
+      "id": "the-outsiders",
+      "title": "The Outsiders",
+      "author": "William N. Thorndike",
+      "year": 2012,
+      "topic": "Finance",
+      "description": "Analyseert CEO's die uitzonderlijke waarde creëerden via kapitaalallocatie en discipline.",
+      "relevance": "Relevant voor CFO-perspectief en kapitaalbeslissingen.",
+      "url": "https://openlibrary.org/search?q=The%20Outsiders%20William%20N.%20Thorndike"
+    },
+    {
+      "id": "the-goal",
+      "title": "The Goal",
+      "author": "Eliyahu M. Goldratt en Jeff Cox",
+      "year": 1984,
+      "topic": "Operations",
+      "description": "Gebruikt een bedrijfsroman om bottlenecks, doorlooptijd en procesverbetering uit te leggen.",
+      "relevance": "Helpt bij het verkorten van afsluit- en rapportageprocessen.",
+      "url": "https://openlibrary.org/search?q=The%20Goal%20Eliyahu%20M.%20Goldratt%20en%20Jeff%20Cox"
+    },
+    {
+      "id": "the-phoenix-project",
+      "title": "The Phoenix Project",
+      "author": "Gene Kim, Kevin Behr en George Spafford",
+      "year": 2013,
+      "topic": "Technologie",
+      "description": "Laat via een verhaal zien hoe IT-werkstromen, samenwerking en beheersing kunnen verbeteren.",
+      "relevance": "Sluit aan op IT-dienstverlening en procesautomatisering.",
+      "url": "https://openlibrary.org/search?q=The%20Phoenix%20Project%20Gene%20Kim%2C%20Kevin%20Behr%20en%20George%20Spafford"
+    },
+    {
+      "id": "the-devops-handbook",
+      "title": "The DevOps Handbook",
+      "author": "Gene Kim, Jez Humble, Patrick Debois en John Willis",
+      "year": 2016,
+      "topic": "Technologie",
+      "description": "Beschrijft hoe automatisering, feedback en continue verbetering betrouwbare IT-processen ondersteunen.",
+      "relevance": "Geeft ideeën voor beheerste automatisering.",
+      "url": "https://openlibrary.org/search?q=The%20DevOps%20Handbook%20Gene%20Kim%2C%20Jez%20Humble%2C%20Patrick%20Debois%20en%20John%20Willis"
+    },
+    {
+      "id": "accelerate",
+      "title": "Accelerate",
+      "author": "Nicole Forsgren, Jez Humble en Gene Kim",
+      "year": 2018,
+      "topic": "Technologie",
+      "description": "Verbindt softwareleveringsprestaties met meetbare organisatie- en teampraktijken.",
+      "relevance": "Relevant voor KPI's en verbetering van IT-dienstverlening.",
+      "url": "https://openlibrary.org/search?q=Accelerate%20Nicole%20Forsgren%2C%20Jez%20Humble%20en%20Gene%20Kim"
+    },
+    {
+      "id": "team-topologies",
+      "title": "Team Topologies",
+      "author": "Matthew Skelton en Manuel Pais",
+      "year": 2019,
+      "topic": "Technologie",
+      "description": "Biedt een model om teams en interacties te ontwerpen voor snelle, beheersbare levering.",
+      "relevance": "Interessant voor centrale versus lokale verantwoordelijkheden.",
+      "url": "https://openlibrary.org/search?q=Team%20Topologies%20Matthew%20Skelton%20en%20Manuel%20Pais"
+    },
+    {
+      "id": "working-backwards",
+      "title": "Working Backwards",
+      "author": "Colin Bryar en Bill Carr",
+      "year": 2021,
+      "topic": "Strategie",
+      "description": "Beschrijft management- en innovatieprincipes uit de praktijk van Amazon.",
+      "relevance": "Bruikbaar voor klantgerichte procesverbetering.",
+      "url": "https://openlibrary.org/search?q=Working%20Backwards%20Colin%20Bryar%20en%20Bill%20Carr"
+    },
+    {
+      "id": "the-lean-startup",
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "year": 2011,
+      "topic": "Innovatie",
+      "description": "Legt uit hoe experimenten en meetbare feedback productontwikkeling kunnen versnellen.",
+      "relevance": "Relevant voor het testen van AI-usecases zonder grote voorinvesteringen.",
+      "url": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries"
+    },
+    {
+      "id": "the-mom-test",
+      "title": "The Mom Test",
+      "author": "Rob Fitzpatrick",
+      "year": 2013,
+      "topic": "Innovatie",
+      "description": "Laat zien hoe je betere klant- en gebruikersgesprekken voert zonder bevestigingsbias.",
+      "relevance": "Handig bij het toetsen van dashboard- en automatiseringswensen.",
+      "url": "https://openlibrary.org/search?q=The%20Mom%20Test%20Rob%20Fitzpatrick"
+    },
+    {
+      "id": "atomic-habits",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "year": 2018,
+      "topic": "Persoonlijke ontwikkeling",
+      "description": "Legt uit hoe kleine gedragsveranderingen via systemen en gewoonten blijvend resultaat kunnen geven.",
+      "relevance": "Praktisch voor persoonlijke ontwikkeling en consistente routines.",
+      "url": "https://openlibrary.org/search?q=Atomic%20Habits%20James%20Clear"
+    },
+    {
+      "id": "deep-work",
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "year": 2016,
+      "topic": "Productiviteit",
+      "description": "Bespreekt hoe ononderbroken concentratie helpt bij complex kenniswerk.",
+      "relevance": "Relevant voor analyses en strategische Finance-projecten.",
+      "url": "https://openlibrary.org/search?q=Deep%20Work%20Cal%20Newport"
+    },
+    {
+      "id": "slow-productivity",
+      "title": "Slow Productivity",
+      "author": "Cal Newport",
+      "year": 2024,
+      "topic": "Productiviteit",
+      "description": "Pleidooi voor minder gelijktijdige taken, natuurlijke werkritmes en hogere kwaliteit.",
+      "relevance": "Interessant bij het balanceren van operationeel werk en projecten.",
+      "url": "https://openlibrary.org/search?q=Slow%20Productivity%20Cal%20Newport"
+    },
+    {
+      "id": "essentialism",
+      "title": "Essentialism",
+      "author": "Greg McKeown",
+      "year": 2014,
+      "topic": "Productiviteit",
+      "description": "Biedt een aanpak om bewust minder te doen en energie op het belangrijkste te richten.",
+      "relevance": "Helpt bij het stellen van prioriteiten in een brede rol.",
+      "url": "https://openlibrary.org/search?q=Essentialism%20Greg%20McKeown"
+    },
+    {
+      "id": "getting-things-done",
+      "title": "Getting Things Done",
+      "author": "David Allen",
+      "year": 2001,
+      "topic": "Productiviteit",
+      "description": "Een systeem voor het vastleggen, ordenen en opvolgen van acties en verplichtingen.",
+      "relevance": "Toepasbaar op Planner, teamtaken en governance-cycli.",
+      "url": "https://openlibrary.org/search?q=Getting%20Things%20Done%20David%20Allen"
+    },
+    {
+      "id": "the-psychology-of-money",
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "year": 2020,
+      "topic": "Beleggen",
+      "description": "Laat zien hoe gedrag, verwachtingen en risico-inschatting financiële uitkomsten bepalen.",
+      "relevance": "Relevant voor langetermijnbeleggen en financiële keuzes.",
+      "url": "https://openlibrary.org/search?q=The%20Psychology%20of%20Money%20Morgan%20Housel"
+    },
+    {
+      "id": "same-as-ever",
+      "title": "Same as Ever",
+      "author": "Morgan Housel",
+      "year": 2023,
+      "topic": "Beleggen",
+      "description": "Bespreekt patronen in menselijk gedrag die ondanks economische veranderingen terugkeren.",
+      "relevance": "Biedt perspectief op onzekerheid en risico.",
+      "url": "https://openlibrary.org/search?q=Same%20as%20Ever%20Morgan%20Housel"
+    },
+    {
+      "id": "a-random-walk-down-wall-street",
+      "title": "A Random Walk Down Wall Street",
+      "author": "Burton G. Malkiel",
+      "year": 1973,
+      "topic": "Beleggen",
+      "description": "Legt marktwerking, spreiding en de argumenten voor passief beleggen uit.",
+      "relevance": "Past bij de combinatie van ETF's en individuele aandelen.",
+      "url": "https://openlibrary.org/search?q=A%20Random%20Walk%20Down%20Wall%20Street%20Burton%20G.%20Malkiel"
+    },
+    {
+      "id": "the-little-book-of-common-sense-investing",
+      "title": "The Little Book of Common Sense Investing",
+      "author": "John C. Bogle",
+      "year": 2007,
+      "topic": "Beleggen",
+      "description": "Beargumenteert waarom lage kosten en brede indexspreiding op lange termijn belangrijk zijn.",
+      "relevance": "Bruikbaar bij het beoordelen van ETF-allocatie.",
+      "url": "https://openlibrary.org/search?q=The%20Little%20Book%20of%20Common%20Sense%20Investing%20John%20C.%20Bogle"
+    },
+    {
+      "id": "the-intelligent-investor",
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "year": 1949,
+      "topic": "Beleggen",
+      "description": "Introduceert veiligheidsmarge, waardering en het onderscheid tussen beleggen en speculeren.",
+      "relevance": "Klassieke achtergrond voor directe aandeleninvesteringen.",
+      "url": "https://openlibrary.org/search?q=The%20Intelligent%20Investor%20Benjamin%20Graham"
+    },
+    {
+      "id": "one-up-on-wall-street",
+      "title": "One Up On Wall Street",
+      "author": "Peter Lynch",
+      "year": 1989,
+      "topic": "Beleggen",
+      "description": "Beschrijft hoe particuliere beleggers bedrijven en hun groeiverhaal kritisch kunnen analyseren.",
+      "relevance": "Relevant voor individuele aandelen naast ETF's.",
+      "url": "https://openlibrary.org/search?q=One%20Up%20On%20Wall%20Street%20Peter%20Lynch"
+    },
+    {
+      "id": "the-most-important-thing",
+      "title": "The Most Important Thing",
+      "author": "Howard Marks",
+      "year": 2011,
+      "topic": "Beleggen",
+      "description": "Bundelt inzichten over risicobeheersing, marktcycli en tweede-orde-denken.",
+      "relevance": "Helpt bij het beoordelen van waardering en neerwaarts risico.",
+      "url": "https://openlibrary.org/search?q=The%20Most%20Important%20Thing%20Howard%20Marks"
+    },
+    {
+      "id": "the-checklist-manifesto",
+      "title": "The Checklist Manifesto",
+      "author": "Atul Gawande",
+      "year": 2009,
+      "topic": "Governance",
+      "description": "Toont hoe eenvoudige checklists fouten verminderen in complexe omgevingen.",
+      "relevance": "Direct toepasbaar op maandafsluiting en interne controles.",
+      "url": "https://openlibrary.org/search?q=The%20Checklist%20Manifesto%20Atul%20Gawande"
+    },
+    {
+      "id": "the-black-swan",
+      "title": "The Black Swan",
+      "author": "Nassim Nicholas Taleb",
+      "year": 2007,
+      "topic": "Risico",
+      "description": "Onderzoekt de impact van zeldzame gebeurtenissen en de beperkingen van voorspellingen.",
+      "relevance": "Relevant voor stresstests en risicomanagement.",
+      "url": "https://openlibrary.org/search?q=The%20Black%20Swan%20Nassim%20Nicholas%20Taleb"
+    },
+    {
+      "id": "antifragile",
+      "title": "Antifragile",
+      "author": "Nassim Nicholas Taleb",
+      "year": 2012,
+      "topic": "Risico",
+      "description": "Verkent hoe systemen niet alleen bestand kunnen zijn tegen schokken, maar er soms sterker door worden.",
+      "relevance": "Inspireert robuuste scenario's en governance.",
+      "url": "https://openlibrary.org/search?q=Antifragile%20Nassim%20Nicholas%20Taleb"
+    },
+    {
+      "id": "the-art-of-statistics",
+      "title": "The Art of Statistics",
+      "author": "David Spiegelhalter",
+      "year": 2019,
+      "topic": "Data",
+      "description": "Legt uit hoe statistische redenering helpt om gegevens en onzekerheid te begrijpen.",
+      "relevance": "Handig voor dashboards, KPI's en AI-analyses.",
+      "url": "https://openlibrary.org/search?q=The%20Art%20of%20Statistics%20David%20Spiegelhalter"
+    }
+  ]
+}
