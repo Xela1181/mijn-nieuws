@@ -1,5 +1,22 @@
 {
-  "updated": null,
-  "tips": [],
-  "seen": []
+  "updated": "2026-11-17T06:23:05.984850+00:00",
+  "tips": [
+    {
+      "date": "2026-11-17",
+      "book_id": "financialmanagement|raymondbrooks",
+      "title": "Financial Management",
+      "author": "Raymond Brooks",
+      "year": 2009,
+      "topic": "financial management",
+      "description": "Een boek over financial management. Bekijk de bron voor een volledige beschrijving en recensies.",
+      "relevance": "Geselecteerd voor verdieping in Finance, technologie, strategie of persoonlijke ontwikkeling.",
+      "url": "https://openlibrary.org/works/OL20443856W"
+    }
+  ],
+  "seen": [
+    {
+      "id": "financialmanagement|raymondbrooks",
+      "date": "2026-11-17"
+    }
+  ]
 }
