@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-17T05:59:51.620294+00:00",
+  "updated": "2026-11-18T04:15:58.659795+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "How a tribal water deal could put a price tag on the Colorado River",
+      "description": "What’s stopping a pipeline that would bring running water from the Colorado River to tribal lands who’ve long gone without it? Today on the show, the multi-billion dollar project to bring clean water to three tribes in the Four Corners, and the complicated economics behind why so",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6042565/how-a-tribal-water-deal-could-put-a-price-tag-on-the-colorado-river",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20How%20a%20tribal%20water%20deal%20could%20put%20a%20price%20tag%20on%20the%20Colorado%20River",
+      "published": "2026-11-17T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|how a tribal water deal could put a price tag on the colorado river",
+      "date": "2026-11-18"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Three influencer types and how they generate money",
@@ -55,17 +66,6 @@
       "published": "2026-11-11T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|so … is the stock market the economy now?",
       "date": "2026-11-12"
-    },
-    {
-      "podcast": "Hard Fork",
-      "title": "The Jensen Huang Affair",
-      "description": "Jensen Huang, the chief executive of Nvidia, has admitted to an affair with a top executive at the data center company Megaspeed — a woman going by the name of Alice Huang who the U.S. government alleges is a Chinese spy. In this special midweek episode of “Hard Fork,” we sit dow",
-      "url": "https://www.nytimes.com/column/hard-fork",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20The%20Jensen%20Huang%20Affair",
-      "published": "2026-11-10T11:00:00+00:00",
-      "episode_id": "Hard Fork|the jensen huang affair",
-      "date": "2026-11-11"
     }
   ],
   "seen": [
@@ -128,6 +128,10 @@
     {
       "id": "The Indicator from Planet Money|three influencer types and how they generate money",
       "date": "2026-11-17"
+    },
+    {
+      "id": "The Indicator from Planet Money|how a tribal water deal could put a price tag on the colorado river",
+      "date": "2026-11-18"
     }
   ]
 }
