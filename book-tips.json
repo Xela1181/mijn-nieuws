@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-17T17:35:10.788Z",
+  "updated": "2026-11-18T06:25:07.319746+00:00",
   "tips": [
+    {
+      "id": "the-lean-startup",
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "year": 2011,
+      "topic": "Innovatie",
+      "description": "Legt uit hoe experimenten en meetbare feedback productontwikkeling kunnen versnellen.",
+      "relevance": "Relevant voor het testen van AI-usecases zonder grote voorinvesteringen.",
+      "url": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
+      "date": "2026-11-18",
+      "book_id": "theleanstartup|ericries"
+    },
     {
       "id": "the-coming-wave",
       "title": "The Coming Wave",
@@ -22,6 +34,10 @@
     {
       "id": "thecomingwave|mustafasuleyman",
       "date": "2026-11-17"
+    },
+    {
+      "id": "theleanstartup|ericries",
+      "date": "2026-11-18"
     }
   ]
 }
