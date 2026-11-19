@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-18T06:25:07.319746+00:00",
+  "updated": "2026-11-19T06:23:18.789386+00:00",
   "tips": [
+    {
+      "id": "the-alignment-problem",
+      "title": "The Alignment Problem",
+      "author": "Brian Christian",
+      "year": 2020,
+      "topic": "AI",
+      "description": "Onderzoekt waarom AI-systemen niet vanzelf handelen naar menselijke doelen en hoe dat te verbeteren.",
+      "relevance": "Geeft achtergrond voor modelrisico en controles.",
+      "url": "https://openlibrary.org/search?q=The%20Alignment%20Problem%20Brian%20Christian",
+      "date": "2026-11-19",
+      "book_id": "thealignmentproblem|brianchristian"
+    },
     {
       "id": "the-lean-startup",
       "title": "The Lean Startup",
@@ -38,6 +50,10 @@
     {
       "id": "theleanstartup|ericries",
       "date": "2026-11-18"
+    },
+    {
+      "id": "thealignmentproblem|brianchristian",
+      "date": "2026-11-19"
     }
   ]
 }
