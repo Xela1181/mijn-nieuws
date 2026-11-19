@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-18T05:00:24.231338+00:00",
+  "updated": "2026-11-19T04:19:48.830490+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "We got this economics podcast before GTA VI",
+      "description": "GTA VI is poised to become one of the biggest entertainment launches of all time when it’s released on November 19. Today, we dig into why this game is such a global phenomenon and how the developers plan to make money from it for years to come. Fact checking by Sierra Juarez . Y",
+      "url": "https://www.npr.org/2026/11/18/nx-s1-6044776/we-got-this-economics-podcast-before-gta-vi",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20We%20got%20this%20economics%20podcast%20before%20GTA%20VI",
+      "published": "2026-11-18T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|we got this economics podcast before gta vi",
+      "date": "2026-11-19"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "How a tribal water deal could put a price tag on the Colorado River",
@@ -55,17 +66,6 @@
       "published": "2026-11-12T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|should personal finance be part of the liberal arts?",
       "date": "2026-11-13"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "So … is the stock market the economy now?",
-      "description": "The old adage “the stock market is not the economy” used to hold more weight, but lately, financial markets are reflecting the overall economy a lot more. Today, we look at what Walmart’s stock and AI companies might be telling us about weaknesses in the economy. Read Jim Paulsen",
-      "url": "https://www.npr.org/2026/11/11/nx-s1-6035794/so-is-the-stock-market-the-economy-now",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20So%20%E2%80%A6%20is%20the%20stock%20market%20the%20economy%20now%3F",
-      "published": "2026-11-11T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|so … is the stock market the economy now?",
-      "date": "2026-11-12"
     }
   ],
   "seen": [
@@ -132,6 +132,10 @@
     {
       "id": "The Indicator from Planet Money|how a tribal water deal could put a price tag on the colorado river",
       "date": "2026-11-18"
+    },
+    {
+      "id": "The Indicator from Planet Money|we got this economics podcast before gta vi",
+      "date": "2026-11-19"
     }
   ]
 }
