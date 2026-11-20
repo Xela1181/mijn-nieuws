@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-19T05:05:59.475756+00:00",
+  "updated": "2026-11-20T04:14:27.131496+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Why the 'good old days' of American manufacturing are long gone",
+      "description": "Harvard professor Willy Shih tells us why the manufacturing renaissance President Trump envisioned has not come to pass and how a different type of resurgence may still be possible. Willy Shih’s book is Where Does My Stuff Come From?: The Powerful Economics Behind Global Supply C",
+      "url": "https://www.npr.org/2026/11/19/nx-s1-6045922/why-the-good-old-days-of-american-manufacturing-are-long-gone",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Why%20the%20%27good%20old%20days%27%20of%20American%20manufacturing%20are%20long%20gone",
+      "published": "2026-11-19T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|why the 'good old days' of american manufacturing are long gone",
+      "date": "2026-11-20"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "We got this economics podcast before GTA VI",
@@ -55,17 +66,6 @@
       "published": "2026-11-13T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|an inflation scare, workers get their fair share, and nvidia’s billion-dollar affairs",
       "date": "2026-11-14"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Should personal finance be part of the liberal arts?",
-      "description": "We take you inside an AP personal finance class in Alabama where students are learning about Roth IRAs and compound interest. As states add personal finance classes, should business be more woven into the liberal arts? Fact checking by Sierra Juarez . Your Next Listen – New colle",
-      "url": "https://www.npr.org/2026/11/12/nx-s1-6037729/should-personal-finance-be-part-of-the-liberal-arts",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Should%20personal%20finance%20be%20part%20of%20the%20liberal%20arts%3F",
-      "published": "2026-11-12T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|should personal finance be part of the liberal arts?",
-      "date": "2026-11-13"
     }
   ],
   "seen": [
@@ -136,6 +136,10 @@
     {
       "id": "The Indicator from Planet Money|we got this economics podcast before gta vi",
       "date": "2026-11-19"
+    },
+    {
+      "id": "The Indicator from Planet Money|why the 'good old days' of american manufacturing are long gone",
+      "date": "2026-11-20"
     }
   ]
 }
