@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-19T06:23:18.789386+00:00",
+  "updated": "2026-11-20T06:24:58.035712+00:00",
   "tips": [
+    {
+      "id": "the-crux",
+      "title": "The Crux",
+      "author": "Richard Rumelt",
+      "year": 2022,
+      "topic": "Strategie",
+      "description": "Benadrukt dat strategie begint bij het identificeren van de belangrijkste oplosbare uitdaging.",
+      "relevance": "Handig voor focus in complexe veranderprogramma's.",
+      "url": "https://openlibrary.org/search?q=The%20Crux%20Richard%20Rumelt",
+      "date": "2026-11-20",
+      "book_id": "thecrux|richardrumelt"
+    },
     {
       "id": "the-alignment-problem",
       "title": "The Alignment Problem",
@@ -54,6 +66,10 @@
     {
       "id": "thealignmentproblem|brianchristian",
       "date": "2026-11-19"
+    },
+    {
+      "id": "thecrux|richardrumelt",
+      "date": "2026-11-20"
     }
   ]
 }
