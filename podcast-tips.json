@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-20T05:01:14.500510+00:00",
+  "updated": "2026-11-21T04:12:17.370666+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Tech blackouts, Black Friday fake-outs, and C-suite tariff cash-outs",
+      "description": "This week’s indicators: Software outages are piling up, Black Friday deals might not actually be Black Friday deals, and companies are cashing in on tariff refund payouts. Fact-checking by Leyla Doss. Your Next Listen – How to get your tariff cash back –Over 2,000 episodes in our",
+      "url": "https://www.npr.org/2026/11/20/nx-s1-6047743/tech-blackouts-black-friday-fake-outs-and-c-suite-tariff-cash-outs",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Tech%20blackouts%2C%20Black%20Friday%20fake-outs%2C%20and%20C-suite%20tariff%20cash-outs",
+      "published": "2026-11-20T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|tech blackouts, black friday fake-outs, and c-suite tariff cash-outs",
+      "date": "2026-11-21"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Why the 'good old days' of American manufacturing are long gone",
@@ -55,17 +66,6 @@
       "published": "2026-11-12T23:02:01+00:00",
       "episode_id": "Hard Fork|jensen huang is out at nvidia",
       "date": "2026-11-15"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "An inflation scare, workers get their fair share, and Nvidia’s billion-dollar affairs",
-      "description": "This week’s indicators: Inflation is disturbing, workers are getting their stolen wages back, and NVIDIA ex-CEO’s alleged affairs become a $465 billion business expense. (Woof!) Fact-checking by Tyler Jones. Your Next Listen – The tower of NVIDIA –Over 2,000 episodes in our archi",
-      "url": "https://www.npr.org/2026/11/13/nx-s1-6039338/an-inflation-scare-workers-get-their-fair-share-and-nvidias-billion-dollar-affairs",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20An%20inflation%20scare%2C%20workers%20get%20their%20fair%20share%2C%20and%20Nvidia%E2%80%99s%20billion-dollar%20affairs",
-      "published": "2026-11-13T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|an inflation scare, workers get their fair share, and nvidia’s billion-dollar affairs",
-      "date": "2026-11-14"
     }
   ],
   "seen": [
@@ -140,6 +140,10 @@
     {
       "id": "The Indicator from Planet Money|why the 'good old days' of american manufacturing are long gone",
       "date": "2026-11-20"
+    },
+    {
+      "id": "The Indicator from Planet Money|tech blackouts, black friday fake-outs, and c-suite tariff cash-outs",
+      "date": "2026-11-21"
     }
   ]
 }
