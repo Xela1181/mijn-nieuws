@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-20T06:24:58.035712+00:00",
+  "updated": "2026-11-21T06:17:54.482064+00:00",
   "tips": [
+    {
+      "id": "the-innovator-s-dilemma",
+      "title": "The Innovator's Dilemma",
+      "author": "Clayton M. Christensen",
+      "year": 1997,
+      "topic": "Strategie",
+      "description": "Verklaart waarom succesvolle bedrijven nieuwe technologieën en marktmodellen vaak te laat omarmen.",
+      "relevance": "Relevant bij strategische transformatie en nieuwe diensten.",
+      "url": "https://openlibrary.org/search?q=The%20Innovator's%20Dilemma%20Clayton%20M.%20Christensen",
+      "date": "2026-11-21",
+      "book_id": "theinnovatorsdilemma|claytonmchristensen"
+    },
     {
       "id": "the-crux",
       "title": "The Crux",
@@ -70,6 +82,10 @@
     {
       "id": "thecrux|richardrumelt",
       "date": "2026-11-20"
+    },
+    {
+      "id": "theinnovatorsdilemma|claytonmchristensen",
+      "date": "2026-11-21"
     }
   ]
 }
