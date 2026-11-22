@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-21T06:17:54.482064+00:00",
+  "updated": "2026-11-22T06:18:07.936695+00:00",
   "tips": [
+    {
+      "id": "the-ai-savvy-leader",
+      "title": "The AI-Savvy Leader",
+      "author": "David De Cremer",
+      "year": 2024,
+      "topic": "AI",
+      "description": "Praktische reflectie op leiderschap, menselijke verantwoordelijkheid en organisatieverandering bij AI.",
+      "relevance": "Helpt bij het verantwoord invoeren van AI binnen teams.",
+      "url": "https://openlibrary.org/search?q=The%20AI-Savvy%20Leader%20David%20De%20Cremer",
+      "date": "2026-11-22",
+      "book_id": "theaisavvyleader|daviddecremer"
+    },
     {
       "id": "the-innovator-s-dilemma",
       "title": "The Innovator's Dilemma",
@@ -86,6 +98,10 @@
     {
       "id": "theinnovatorsdilemma|claytonmchristensen",
       "date": "2026-11-21"
+    },
+    {
+      "id": "theaisavvyleader|daviddecremer",
+      "date": "2026-11-22"
     }
   ]
 }
