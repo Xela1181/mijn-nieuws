@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-21T05:56:27.124668+00:00",
+  "updated": "2026-11-22T04:14:32.553565+00:00",
   "tips": [
+    {
+      "podcast": "Hard Fork",
+      "title": "G.T.A. VI Is a Monumental Human Achievement",
+      "description": "This week, Max is joined by Erin Griffith and Mike Isaac to talk with the reporter Joseph Bernstein about the blockbuster new Grand Theft Auto release. The group breaks down what Joe saw during his early access to the game, what the game says about the current tech moment and why",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20G.T.A.%20VI%20Is%20a%20Monumental%20Human%20Achievement",
+      "published": "2026-11-20T11:00:00+00:00",
+      "episode_id": "Hard Fork|g.t.a. vi is a monumental human achievement",
+      "date": "2026-11-22"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Tech blackouts, Black Friday fake-outs, and C-suite tariff cash-outs",
@@ -55,17 +66,6 @@
       "published": "2026-11-16T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|three influencer types and how they generate money",
       "date": "2026-11-17"
-    },
-    {
-      "podcast": "Hard Fork",
-      "title": "Jensen Huang Is Out at Nvidia",
-      "description": "Jensen Huang is out as chief executive of Nvidia. It’s a stunning fall for one the most powerful figures of the A.I. boom. To make sense of it all, we’re joined by two of the reporters who’ve been leading the coverage for The New York Times, Ana Swanson and Ryan Mac, alongside St",
-      "url": "https://www.nytimes.com/column/hard-fork",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20Jensen%20Huang%20Is%20Out%20at%20Nvidia",
-      "published": "2026-11-12T23:02:01+00:00",
-      "episode_id": "Hard Fork|jensen huang is out at nvidia",
-      "date": "2026-11-15"
     }
   ],
   "seen": [
@@ -144,6 +144,10 @@
     {
       "id": "The Indicator from Planet Money|tech blackouts, black friday fake-outs, and c-suite tariff cash-outs",
       "date": "2026-11-21"
+    },
+    {
+      "id": "Hard Fork|g.t.a. vi is a monumental human achievement",
+      "date": "2026-11-22"
     }
   ]
 }
