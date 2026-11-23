@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-22T06:18:07.936695+00:00",
+  "updated": "2026-11-23T06:31:58.506553+00:00",
   "tips": [
+    {
+      "id": "antifragile",
+      "title": "Antifragile",
+      "author": "Nassim Nicholas Taleb",
+      "year": 2012,
+      "topic": "Risico",
+      "description": "Verkent hoe systemen niet alleen bestand kunnen zijn tegen schokken, maar er soms sterker door worden.",
+      "relevance": "Inspireert robuuste scenario's en governance.",
+      "url": "https://openlibrary.org/search?q=Antifragile%20Nassim%20Nicholas%20Taleb",
+      "date": "2026-11-23",
+      "book_id": "antifragile|nassimnicholastaleb"
+    },
     {
       "id": "the-ai-savvy-leader",
       "title": "The AI-Savvy Leader",
@@ -102,6 +114,10 @@
     {
       "id": "theaisavvyleader|daviddecremer",
       "date": "2026-11-22"
+    },
+    {
+      "id": "antifragile|nassimnicholastaleb",
+      "date": "2026-11-23"
     }
   ]
 }
