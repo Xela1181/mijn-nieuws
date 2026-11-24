@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-23T06:31:58.506553+00:00",
+  "updated": "2026-11-24T06:20:05.525452+00:00",
   "tips": [
+    {
+      "id": "prediction-machines",
+      "title": "Prediction Machines",
+      "author": "Ajay Agrawal, Joshua Gans en Avi Goldfarb",
+      "year": 2018,
+      "topic": "AI",
+      "description": "Verklaart AI vanuit de dalende kosten van voorspellen en de gevolgen daarvan voor bedrijfsprocessen.",
+      "relevance": "Geeft een helder kader voor forecasting en beslisondersteuning.",
+      "url": "https://openlibrary.org/search?q=Prediction%20Machines%20Ajay%20Agrawal%2C%20Joshua%20Gans%20en%20Avi%20Goldfarb",
+      "date": "2026-11-24",
+      "book_id": "predictionmachines|ajayagrawaljoshuagansenavigoldfarb"
+    },
     {
       "id": "antifragile",
       "title": "Antifragile",
@@ -72,18 +84,6 @@
       "url": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
       "date": "2026-11-18",
       "book_id": "theleanstartup|ericries"
-    },
-    {
-      "id": "the-coming-wave",
-      "title": "The Coming Wave",
-      "author": "Mustafa Suleyman",
-      "year": 2023,
-      "topic": "AI",
-      "description": "Onderzoekt hoe AI en biotechnologie macht, veiligheid en economie veranderen, en waarom beheersing van deze technologieën lastig is.",
-      "relevance": "Relevant voor strategische keuzes rond AI-governance en risico's.",
-      "url": "https://openlibrary.org/search?q=The%20Coming%20Wave%20Mustafa%20Suleyman",
-      "date": "2026-11-17",
-      "book_id": "thecomingwave|mustafasuleyman"
     }
   ],
   "seen": [
@@ -118,6 +118,10 @@
     {
       "id": "antifragile|nassimnicholastaleb",
       "date": "2026-11-23"
+    },
+    {
+      "id": "predictionmachines|ajayagrawaljoshuagansenavigoldfarb",
+      "date": "2026-11-24"
     }
   ]
 }
