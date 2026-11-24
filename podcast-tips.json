@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-23T05:18:30.057152+00:00",
+  "updated": "2026-11-24T04:21:25.560033+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "How American money is changing Europe's defense strategy",
+      "description": "European Union countries are boosting their defense spending while billions of dollars in private American investment pour in. But does all this cash lead to a stronger, better defended Europe? Fact checking by Sierra Juarez . Your Next Listen – Why the US is losing the drone war",
+      "url": "https://www.npr.org/2026/11/23/nx-s1-6048592/how-american-money-is-changing-europes-defense-strategy",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20How%20American%20money%20is%20changing%20Europe%27s%20defense%20strategy",
+      "published": "2026-11-23T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|how american money is changing europe's defense strategy",
+      "date": "2026-11-24"
+    },
     {
       "podcast": "Hard Fork",
       "title": "G.T.A. VI Is a Monumental Human Achievement",
@@ -55,17 +66,6 @@
       "published": "2026-11-17T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|how a tribal water deal could put a price tag on the colorado river",
       "date": "2026-11-18"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Three influencer types and how they generate money",
-      "description": "Influencers are a pervasive aspect of the creator economy and one of the most desired career paths for young Americans today. But how are these creators making their money? Today, we talk to Stanford researcher, Angèle Christin, about three common archetypes that explain why infl",
-      "url": "https://www.npr.org/2026/11/16/nx-s1-6040377/three-influencer-types-and-how-they-generate-money",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Three%20influencer%20types%20and%20how%20they%20generate%20money",
-      "published": "2026-11-16T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|three influencer types and how they generate money",
-      "date": "2026-11-17"
     }
   ],
   "seen": [
@@ -148,6 +148,10 @@
     {
       "id": "Hard Fork|g.t.a. vi is a monumental human achievement",
       "date": "2026-11-22"
+    },
+    {
+      "id": "The Indicator from Planet Money|how american money is changing europe's defense strategy",
+      "date": "2026-11-24"
     }
   ]
 }
