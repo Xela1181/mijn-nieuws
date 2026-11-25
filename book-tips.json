@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-24T06:20:05.525452+00:00",
+  "updated": "2026-11-25T06:21:18.707590+00:00",
   "tips": [
+    {
+      "id": "decisive",
+      "title": "Decisive",
+      "author": "Chip Heath en Dan Heath",
+      "year": 2013,
+      "topic": "Besluitvorming",
+      "description": "Biedt technieken om denkfouten te vermijden en betere keuzes te maken.",
+      "relevance": "Nuttig bij scenarioanalyse en investeringsafwegingen.",
+      "url": "https://openlibrary.org/search?q=Decisive%20Chip%20Heath%20en%20Dan%20Heath",
+      "date": "2026-11-25",
+      "book_id": "decisive|chipheathendanheath"
+    },
     {
       "id": "prediction-machines",
       "title": "Prediction Machines",
@@ -72,18 +84,6 @@
       "url": "https://openlibrary.org/search?q=The%20Alignment%20Problem%20Brian%20Christian",
       "date": "2026-11-19",
       "book_id": "thealignmentproblem|brianchristian"
-    },
-    {
-      "id": "the-lean-startup",
-      "title": "The Lean Startup",
-      "author": "Eric Ries",
-      "year": 2011,
-      "topic": "Innovatie",
-      "description": "Legt uit hoe experimenten en meetbare feedback productontwikkeling kunnen versnellen.",
-      "relevance": "Relevant voor het testen van AI-usecases zonder grote voorinvesteringen.",
-      "url": "https://openlibrary.org/search?q=The%20Lean%20Startup%20Eric%20Ries",
-      "date": "2026-11-18",
-      "book_id": "theleanstartup|ericries"
     }
   ],
   "seen": [
@@ -122,6 +122,10 @@
     {
       "id": "predictionmachines|ajayagrawaljoshuagansenavigoldfarb",
       "date": "2026-11-24"
+    },
+    {
+      "id": "decisive|chipheathendanheath",
+      "date": "2026-11-25"
     }
   ]
 }
