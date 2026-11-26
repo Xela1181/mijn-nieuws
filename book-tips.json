@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-25T06:21:18.707590+00:00",
+  "updated": "2026-11-26T06:21:09.774188+00:00",
   "tips": [
+    {
+      "id": "the-effective-executive",
+      "title": "The Effective Executive",
+      "author": "Peter F. Drucker",
+      "year": 1967,
+      "topic": "Leiderschap",
+      "description": "Richt zich op tijd, prioriteiten, besluitvorming en het leveren van resultaten.",
+      "relevance": "Sterk voor persoonlijke effectiviteit in een brede managementrol.",
+      "url": "https://openlibrary.org/search?q=The%20Effective%20Executive%20Peter%20F.%20Drucker",
+      "date": "2026-11-26",
+      "book_id": "theeffectiveexecutive|peterfdrucker"
+    },
     {
       "id": "decisive",
       "title": "Decisive",
@@ -72,18 +84,6 @@
       "url": "https://openlibrary.org/search?q=The%20Crux%20Richard%20Rumelt",
       "date": "2026-11-20",
       "book_id": "thecrux|richardrumelt"
-    },
-    {
-      "id": "the-alignment-problem",
-      "title": "The Alignment Problem",
-      "author": "Brian Christian",
-      "year": 2020,
-      "topic": "AI",
-      "description": "Onderzoekt waarom AI-systemen niet vanzelf handelen naar menselijke doelen en hoe dat te verbeteren.",
-      "relevance": "Geeft achtergrond voor modelrisico en controles.",
-      "url": "https://openlibrary.org/search?q=The%20Alignment%20Problem%20Brian%20Christian",
-      "date": "2026-11-19",
-      "book_id": "thealignmentproblem|brianchristian"
     }
   ],
   "seen": [
@@ -126,6 +126,10 @@
     {
       "id": "decisive|chipheathendanheath",
       "date": "2026-11-25"
+    },
+    {
+      "id": "theeffectiveexecutive|peterfdrucker",
+      "date": "2026-11-26"
     }
   ]
 }
