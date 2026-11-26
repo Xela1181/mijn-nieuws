@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-25T05:10:18.814823+00:00",
+  "updated": "2026-11-26T04:24:21.542159+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Sorry, even store brands are expensive now",
+      "description": "Why have prices for budget groceries risen faster than name brands? Meet cheapflation. Fact checking by Sierra Juarez . Your Next Listen – Go ask ALICE about grocery prices –Over 2,000 episodes in our archive on the NPR App Connect with The Indicator from Planet Money – The Indic",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6053235/sorry-even-store-brands-are-expensive-now",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Sorry%2C%20even%20store%20brands%20are%20expensive%20now",
+      "published": "2026-11-25T08:00:00+00:00",
+      "episode_id": "The Indicator from Planet Money|sorry, even store brands are expensive now",
+      "date": "2026-11-26"
+    },
     {
       "podcast": "Hard Fork",
       "title": "Trump's Mission to Get Jensen Huang Back at Nvidia",
@@ -55,17 +66,6 @@
       "published": "2026-11-19T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|why the 'good old days' of american manufacturing are long gone",
       "date": "2026-11-20"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "We got this economics podcast before GTA VI",
-      "description": "GTA VI is poised to become one of the biggest entertainment launches of all time when it’s released on November 19. Today, we dig into why this game is such a global phenomenon and how the developers plan to make money from it for years to come. Fact checking by Sierra Juarez . Y",
-      "url": "https://www.npr.org/2026/11/18/nx-s1-6044776/we-got-this-economics-podcast-before-gta-vi",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20We%20got%20this%20economics%20podcast%20before%20GTA%20VI",
-      "published": "2026-11-18T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|we got this economics podcast before gta vi",
-      "date": "2026-11-19"
     }
   ],
   "seen": [
@@ -156,6 +156,10 @@
     {
       "id": "Hard Fork|trump's mission to get jensen huang back at nvidia",
       "date": "2026-11-25"
+    },
+    {
+      "id": "The Indicator from Planet Money|sorry, even store brands are expensive now",
+      "date": "2026-11-26"
     }
   ]
 }
