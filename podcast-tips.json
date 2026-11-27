@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-26T05:10:46.130898+00:00",
+  "updated": "2026-11-27T04:27:40.519476+00:00",
   "tips": [
+    {
+      "podcast": "The Indicator from Planet Money",
+      "title": "Is Jensen Huang too big to fail?",
+      "description": "A couple of weeks ago, Jensen Huang resigned as CEO of Nvidia due to a flurry of scandals. Now, Huang is back at the helm. So… what happened? Today on the show, what you need to know about the drama. Fact checking by Sierra Juarez . Your Next Listen – An inflation scare, workers ",
+      "url": "https://www.npr.org/2026/11/24/nx-s1-6051562/is-nvidias-jensen-huang-too-big-to-fail",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Is%20Jensen%20Huang%20too%20big%20to%20fail%3F",
+      "published": "2026-11-24T08:00:07+00:00",
+      "episode_id": "The Indicator from Planet Money|is jensen huang too big to fail?",
+      "date": "2026-11-27"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Sorry, even store brands are expensive now",
@@ -55,17 +66,6 @@
       "published": "2026-11-20T08:00:00+00:00",
       "episode_id": "The Indicator from Planet Money|tech blackouts, black friday fake-outs, and c-suite tariff cash-outs",
       "date": "2026-11-21"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Why the 'good old days' of American manufacturing are long gone",
-      "description": "Harvard professor Willy Shih tells us why the manufacturing renaissance President Trump envisioned has not come to pass and how a different type of resurgence may still be possible. Willy Shih’s book is Where Does My Stuff Come From?: The Powerful Economics Behind Global Supply C",
-      "url": "https://www.npr.org/2026/11/19/nx-s1-6045922/why-the-good-old-days-of-american-manufacturing-are-long-gone",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Why%20the%20%27good%20old%20days%27%20of%20American%20manufacturing%20are%20long%20gone",
-      "published": "2026-11-19T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|why the 'good old days' of american manufacturing are long gone",
-      "date": "2026-11-20"
     }
   ],
   "seen": [
@@ -160,6 +160,10 @@
     {
       "id": "The Indicator from Planet Money|sorry, even store brands are expensive now",
       "date": "2026-11-26"
+    },
+    {
+      "id": "The Indicator from Planet Money|is jensen huang too big to fail?",
+      "date": "2026-11-27"
     }
   ]
 }
