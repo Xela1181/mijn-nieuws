@@ -1,6 +1,17 @@
 {
-  "updated": "2026-11-27T05:09:55.819682+00:00",
+  "updated": "2026-11-28T04:18:57.553469+00:00",
   "tips": [
+    {
+      "podcast": "Hard Fork",
+      "title": "How A.I. Is Transforming Mathematics",
+      "description": "Terence Tao is one of the world’s leading mathematicians, and is watching — along with the rest of us — as artificial intelligence transforms his field. He joins Max this week to explain what he’s been seeing. An interview with the mathematician Terence Tao, a Fields Medal winner",
+      "url": "https://www.nytimes.com/column/hard-fork",
+      "spotify_url": "",
+      "spotify_search": "https://open.spotify.com/search/Hard%20Fork%20How%20A.I.%20Is%20Transforming%20Mathematics",
+      "published": "2026-11-27T11:00:00+00:00",
+      "episode_id": "Hard Fork|how a.i. is transforming mathematics",
+      "date": "2026-11-28"
+    },
     {
       "podcast": "The Indicator from Planet Money",
       "title": "Is Jensen Huang too big to fail?",
@@ -55,17 +66,6 @@
       "published": "2026-11-20T11:00:00+00:00",
       "episode_id": "Hard Fork|g.t.a. vi is a monumental human achievement",
       "date": "2026-11-22"
-    },
-    {
-      "podcast": "The Indicator from Planet Money",
-      "title": "Tech blackouts, Black Friday fake-outs, and C-suite tariff cash-outs",
-      "description": "This week’s indicators: Software outages are piling up, Black Friday deals might not actually be Black Friday deals, and companies are cashing in on tariff refund payouts. Fact-checking by Leyla Doss. Your Next Listen – How to get your tariff cash back –Over 2,000 episodes in our",
-      "url": "https://www.npr.org/2026/11/20/nx-s1-6047743/tech-blackouts-black-friday-fake-outs-and-c-suite-tariff-cash-outs",
-      "spotify_url": "",
-      "spotify_search": "https://open.spotify.com/search/The%20Indicator%20from%20Planet%20Money%20Tech%20blackouts%2C%20Black%20Friday%20fake-outs%2C%20and%20C-suite%20tariff%20cash-outs",
-      "published": "2026-11-20T08:00:00+00:00",
-      "episode_id": "The Indicator from Planet Money|tech blackouts, black friday fake-outs, and c-suite tariff cash-outs",
-      "date": "2026-11-21"
     }
   ],
   "seen": [
@@ -164,6 +164,10 @@
     {
       "id": "The Indicator from Planet Money|is jensen huang too big to fail?",
       "date": "2026-11-27"
+    },
+    {
+      "id": "Hard Fork|how a.i. is transforming mathematics",
+      "date": "2026-11-28"
     }
   ]
 }
