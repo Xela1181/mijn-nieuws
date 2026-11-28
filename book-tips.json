@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-27T06:24:03.665089+00:00",
+  "updated": "2026-11-28T06:21:32.380243+00:00",
   "tips": [
+    {
+      "id": "playing-to-win",
+      "title": "Playing to Win",
+      "author": "A.G. Lafley en Roger L. Martin",
+      "year": 2013,
+      "topic": "Strategie",
+      "description": "Biedt een praktisch raamwerk voor waar een organisatie speelt en hoe zij daar wil winnen.",
+      "relevance": "Helpt bij strategische prioritering.",
+      "url": "https://openlibrary.org/search?q=Playing%20to%20Win%20A.G.%20Lafley%20en%20Roger%20L.%20Martin",
+      "date": "2026-11-28",
+      "book_id": "playingtowin|aglafleyenrogerlmartin"
+    },
     {
       "id": "a-random-walk-down-wall-street",
       "title": "A Random Walk Down Wall Street",
@@ -72,18 +84,6 @@
       "url": "https://openlibrary.org/search?q=The%20AI-Savvy%20Leader%20David%20De%20Cremer",
       "date": "2026-11-22",
       "book_id": "theaisavvyleader|daviddecremer"
-    },
-    {
-      "id": "the-innovator-s-dilemma",
-      "title": "The Innovator's Dilemma",
-      "author": "Clayton M. Christensen",
-      "year": 1997,
-      "topic": "Strategie",
-      "description": "Verklaart waarom succesvolle bedrijven nieuwe technologieën en marktmodellen vaak te laat omarmen.",
-      "relevance": "Relevant bij strategische transformatie en nieuwe diensten.",
-      "url": "https://openlibrary.org/search?q=The%20Innovator's%20Dilemma%20Clayton%20M.%20Christensen",
-      "date": "2026-11-21",
-      "book_id": "theinnovatorsdilemma|claytonmchristensen"
     }
   ],
   "seen": [
@@ -134,6 +134,10 @@
     {
       "id": "arandomwalkdownwallstreet|burtongmalkiel",
       "date": "2026-11-27"
+    },
+    {
+      "id": "playingtowin|aglafleyenrogerlmartin",
+      "date": "2026-11-28"
     }
   ]
 }
